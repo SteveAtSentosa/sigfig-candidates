@@ -49,7 +49,8 @@ I really enjoyed speaking with Robin.  His answers for my React questions were s
 `Work Samples`
 * [Eletive Portal](https://eletive.com/) (analyze and optimzing company culture)
 * [Alpha Homora](https://homora.alphafinance.io/) (leveraged crypto yield farming platform)
-* [Code Samples]()
+* [Code Samples](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/robin-chen/Eletive/source/components)
+
 `Resume`
 * [LinkedIn](https://www.linkedin.com/in/robin-chen-390528216/)
 * [Resume]()
