@@ -203,3 +203,5 @@ Gabe is looking for an architectural role, where he can help develop new project
  * english was pretty difficult to understand (Native Chinese speaker I think)
  * $95/hr (negotiable)
 
+# What can we do next to be helpful?
+
