@@ -85,9 +85,9 @@ Gabe is looking for an architectural role, where he can help develop new project
 * I am bit hesitant, especially if not in the correct role
 
 `Work Samples`
-[Expressive MVC](https://github.com/gabeklein/expressive-mvc) React app frameworks
-[Expressive JSX](https://github.com/gabeklein/expressive-jsx) React styling library
-[Meal Mentor](https://apps.apple.com/us/app/meal-mentor-vegan-meal-plan/id1439825363) Meal planning app
+* [Expressive MVC](https://github.com/gabeklein/expressive-mvc) React app frameworks
+* [Expressive JSX](https://github.com/gabeklein/expressive-jsx) React styling library
+* [Meal Mentor](https://apps.apple.com/us/app/meal-mentor-vegan-meal-plan/id1439825363) Meal planning app
 
 `CV`
 * [Github](https://github.com/gabeklein)
