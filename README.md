@@ -23,7 +23,7 @@ Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my Reac
 
 `CV`
 * [LinkedIn](https://www.linkedin.com/in/pedro-manfroi/)
-* [Resume]()
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/pedro-manfroi/sentosa-resume-pedro-manfroi.pdf)
 
 # Robin Chen
 
