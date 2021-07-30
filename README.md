@@ -91,7 +91,7 @@ Gabe is looking for an architectural role, where he can help develop new project
 
 `CV`
 * [Github](https://github.com/gabeklein)
-* [Resume]
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/gabe-klein/sentosa-resume-gabe-klein.pdf)
 
 
 
