@@ -1,6 +1,3 @@
-## TODO:
-add education
-add contact info
 
 **The Sentosa Way**
 ```
@@ -11,10 +8,13 @@ Developers that are
 
 # Pedro Manfroi
 
+pedrometal@gmail.com
+
 Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my React and front end development questions clearly and correctly.  He has plenty of backend Java development experience as well.
 
 `Summary`
-* Senior full stack developer: Java/PostgresSQ: 15 years, React: 6 years
+* Senior full stack developer: Java/PostgresSQL: 15 years, React: 6 years
+* BS Information Systems, Sun certified Java progreammer
 * Application domains: ERP, Digital Fund Raising
 * Very pleasant personality
 * Location: Brazil (4 hours ahead of Pacific Time, flexible on working hours)
@@ -26,7 +26,7 @@ Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my Reac
 * One of my favorite candidates
 * Both front end and backend experience
 * I think Pedro would be a great addition to your team
-* I recommend moving forward quickly with Pedro
+* I recommend moving forward with an interview with Pedro
 
 `Work Samples`
 * [Story Teller](https://www.youtube.com/watch?v=SURIcIwmS48) (crowdfunding)
@@ -39,10 +39,13 @@ Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my Reac
 
 # Robin Chen
 
+snowind122@gmail.com
+
 I really enjoyed speaking with Robin.  His answers for my React questions were spot on, and he also has experience with financial management platform development (cryptocurrency)
 
 `Summary`
 * Senior front end developer: Front end dev: 8 years, React: 6 years
+* BS Computer and Information Sciences
 * Application domains: crypto currency portfolio management, company culture optimization
 * Very pleasant personality
 * Location: Dallas
@@ -54,7 +57,7 @@ I really enjoyed speaking with Robin.  His answers for my React questions were s
 * Also a great candidate
 * Very relevant financial portfolio management experience
 * I think Robin would be a great addition to your team
-* I recommend moving forward quickly with Robin
+* I recommend moving forward with an interview with Robin
 
 
 `Work Samples`
@@ -68,10 +71,13 @@ I really enjoyed speaking with Robin.  His answers for my React questions were s
 
 # Wayne Liu
 
+wayne.liu.work@gmail.com
+
 Wayne was very pleasant to speak with, and answered My React questions quite well.  He has both front end and back end development experience, working in a variety of application domains
 
 `Summary`
 * Senior full stack developer: Backend Java/nodejs/Laravel: 6 years, React 6 years
+* BS Computer Science
 * Application domains: various: dentistry, online instruction, it management, etc
 * Pleasant personality
 * Location: San Diego
@@ -83,12 +89,12 @@ Wayne was very pleasant to speak with, and answered My React questions quite wel
 * A very pleasant gentlemen with strong React knowledge.
 * His sample portfolio looks great
 * Also backend experience including Java/Laravel
-* I recommend moving forward quickly with Wayne
+* I recommend moving forward with an interview with Wayne
 
 `Work Samples`
 * [Teledentistry](https://www.mouthwatch.com/)
 * [On Line Yoga Classes](https://omstars.com)
-* [Task Managment](https://hitask.com/)
+* [Task Management](https://hitask.com/)
 * [Code Samples](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/wayne-liu/mouthwatch-web/src/components)
 
 `CV`
@@ -97,12 +103,15 @@ Wayne was very pleasant to speak with, and answered My React questions quite wel
 
 # David Jake
 
+luckybrand521@gmail.com
+
 David was very pleasant to speak with, and he did well on the React questions, although his english is a bit rough.
 
 Experience with cross border payment platforms.
 
 `Summary`
 * Senior full stack developer: 7 years experience PHP/mysql/Laravel/React/Vue
+* BA Computer Science (3.7 GPA)
 * Project management experience
 * Application domains: payment, health coaching app, IOT apps, etc
 * Very Pleasant
@@ -115,13 +124,13 @@ Experience with cross border payment platforms.
 * A pleasant personality, but his english is a bit rough
 * His sample work looks great
 * Very reasonable rate
-* Given his rate, and experience I reccomend moving forward with David
+* Given his rate, and experience I recommend moving forward with David
 
 
 `Work Samples`
-[Bisu](https://www.bisu.bio/) health coaching app
-[Andean Wide](https://andeanwide.com/) cross border payment platform
-[Code Sample] (https://github.com/LuckyBrand521/andeanwide-react-native/blob/master/src/navigation/Navigation.js) React Native
+* [Bisu](https://www.bisu.bio/) health coaching app
+* [Andean Wide](https://andeanwide.com/) cross border payment platform
+* [Code Sample](https://github.com/LuckyBrand521/andeanwide-react-native/blob/master/src/navigation/Navigation.js) React Native
 
 `CV`
 * [Github](https://github.com/LuckyBrand521)
@@ -129,12 +138,15 @@ Experience with cross border payment platforms.
 
 # Gabe Klein
 
-Gabe is an extraordinarily passionate React architect and developer.  He has spent the last 4 months working on a React MVC/Styling frameworks, and he is just oozing with enthusiam when he talks about it.
+hi@gabeklein.dev
+
+Gabe is an extraordinarily passionate React architect and developer.  He has spent the last 4 months working on a React MVC/Styling frameworks, and he is just oozing with enthusiasm when he talks about it.
 
 Gabe is looking for an architectural role, where he can help develop new project infrastructure, and bring innovative approaches and tools to the task.
 
 `Summary`
 * Senior front end developer: Front end dev: 11 years, React: 7 years
+* Self taught
 * Application domains: cable, aviation, React Frameworks
 * Very energetic
 * Location: Denver
@@ -158,17 +170,20 @@ Gabe is looking for an architectural role, where he can help develop new project
 
 
 # Others to consider
+
+`Me` :)
+* I love web dev, my favorite kind of development
+* Lots of full stack dev experience (nodejs/mysql/mongo/react)
+* Lots of project management / team lead experience
+* May be free in October
+
 `Siva Mani`
 * Good friend of mine, he worked for me for several years
+* Completely easy to work with, and always gets the job done
 * Architect / Senior Developer very experienced with Scala/mysql
-* Working at Comcat data collection and analysis
-* He wants to work for me again, but he is highly compensated to Comcast
+* Currently Working at Comcat doing data mass collection and analysis
+* He wants to work for me again, he is highly compensated at Comcast
 * Cost: $150 hour (not much room for negotiation)
-
-`Dustin Henning`
- * 6 Years React experience, 3 years Java backend
- * english was pretty difficult to understand (Native Chinese speaker I think)
- * $95/hr (negotiable)
 
 `Benjamin Xu`
  * 6 Years React experience, 3 years Java backend
@@ -182,4 +197,9 @@ Gabe is looking for an architectural role, where he can help develop new project
  * Here answers answers to my react questions were OK, but not great
  * Low cost, might be good candidate if you are looking for entry level
  * $55/hr (negotiable)
+
+`Dustin Henning`
+ * 6 Years React experience, 3 years Java backend
+ * english was pretty difficult to understand (Native Chinese speaker I think)
+ * $95/hr (negotiable)
 
