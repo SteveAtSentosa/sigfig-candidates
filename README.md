@@ -171,7 +171,7 @@ Gabe is looking for an architectural role, where he can help develop new project
 
 # Others to consider
 
-`Me` :)
+`Me` (Steve) :)
 * I love web dev, my favorite kind of development
 * Lots of full stack dev experience (nodejs/mysql/mongo/react)
 * Lots of project management / team lead experience
