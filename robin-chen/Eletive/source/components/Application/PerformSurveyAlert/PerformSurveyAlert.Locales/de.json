@@ -1,0 +1,9 @@
+{
+  "name": "Application/PerformSurveyAlert",
+  "translations": {
+    "Content": "Gute Nachrichten, es ist Zeit, ein paar einfache Fragen zu beantworten",
+    "ConfirmButton": {
+      "Text": "Lass uns gehen"
+    }
+  }
+}

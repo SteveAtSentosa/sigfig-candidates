@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Rozwiń wszystko / Zwiń wszystko"
+      },
+      "AttributeFilter": {
+        "Label": "Atrybut",
+        "Values": {
+          "All": "Wszystkie"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "Mieć cel",
+        "Values": {
+          "All": "Wszystkie",
+          "Yes": "Tak",
+          "No": "Nr"
+        }
+      },
+      "SortBy": {
+        "Label": "Sortuj wg",
+        "Values": {
+          "ObjectivesMost": "Cele: Większość",
+          "ObjectivesLeast": "Cele: Najmniej"
+        }
+      }
+    }
+  }
+}

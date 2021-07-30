@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "ยุบทั้งหมด"
+      },
+      "AttributeFilter": {
+        "Label": "คุณลักษณะ",
+        "Values": {
+          "All": "ทั้งหมด"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "มีวัตถุประสงค์",
+        "Values": {
+          "All": "ทั้งหมด",
+          "Yes": "ใช่",
+          "No": "ไม่มี"
+        }
+      },
+      "SortBy": {
+        "Label": "จัดเรียงตาม",
+        "Values": {
+          "ObjectivesMost": "วัตถุประสงค์: ส่วนใหญ่",
+          "ObjectivesLeast": "วัตถุประสงค์: อย่างน้อย"
+        }
+      }
+    }
+  }
+}

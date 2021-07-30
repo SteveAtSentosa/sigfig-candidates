@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "ทางเลือก",
+      "Dates": "วันที่",
+      "Numbers": "เบอร์"
+    },
+    "Descriptions": {
+      "Choices": "รายการค่าเช่นประเทศ",
+      "Dates": "วันที่เช่นวันที่จ้างหรือวันเดือนปีเกิด",
+      "Numbers": "ตัวเลขเช่นเงินเดือนหรือคะแนน"
+    },
+    "Placeholders": {
+      "Prefix": "ชื่อเช่น",
+      "Choices": "ประเทศ",
+      "Dates": "วันเกิด",
+      "Numbers": "เงินเดือน"
+    },
+    "SubmitButton": {
+      "Text": "สร้าง"
+    },
+    "Warnings": {
+      "SameNameAttribute": "มีชื่อแอตทริบิวต์อยู่แล้วสำหรับแอตทริบิวต์อื่นโปรดเลือกชื่ออื่น"
+    }
+  }
+}

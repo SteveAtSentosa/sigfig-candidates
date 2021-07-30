@@ -1,0 +1,35 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "添加新用户"
+    },
+    "BatchButton": {
+      "Text": "大量编辑"
+    },
+    "DeleteButton": {
+      "Text": "删除"
+    },
+    "Filter": {
+      "Placeholder": "搜索用户",
+      "Options": {
+        "Default": "过滤...",
+        "BounceEmails": "电子邮件退回"
+      }
+    },
+    "UserCount": "%{totalUserCount} ${totalUserCount:用户:使用者}（显示了%{loadedUserCount} ）",
+    "EmptyList": {
+      "Text": "用户列表为空",
+      "CreateLink": {
+        "Text": "创建一个新的"
+      }
+    },
+    "Columns": {
+      "Name": "名称",
+      "Last survey finished": "上次调查完成",
+      "Last sign in": "上一次登录",
+      "Role": "角色"
+    },
+    "EmptyDate": "决不"
+  }
+}

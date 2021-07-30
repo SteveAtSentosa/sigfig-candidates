@@ -1,0 +1,29 @@
+{
+  "name": "SegmentSelector",
+  "translations": {
+    "Filter": {
+      "Placeholder": "קטעי חיפוש"
+    },
+    "SidePanel": {
+      "Title": "בחר קטעים"
+    },
+    "TargetButton": {
+      "DefaultText": "בחר קטעים",
+      "DefaultTextInSingleSelectionMode": "בחר קטע"
+    },
+    "CancelButton": {
+      "Text": "בטל"
+    },
+    "DeselectAllButton": {
+      "Text": "הסר סימון מהכל"
+    },
+    "AttributeSelectedSegmentCountLabel": "%{segmentCount} נבחרה",
+    "AttributeNoResultsSegmentLabel": "אין תוצאות",
+    "SelectAllAttributeSegmentsButton": {
+      "Text": "בחר הכל %{segmentCount}"
+    },
+    "DeselectAllAttributeSegmentsButton": {
+      "Text": "בטל את הבחירה בכל %{segmentCount}"
+    }
+  }
+}

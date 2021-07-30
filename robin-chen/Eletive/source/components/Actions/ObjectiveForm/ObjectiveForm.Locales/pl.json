@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Publicznego",
+      "Description": {
+        "Organization": "Użyj tego, jeśli segmenty i pracownicy powinni mieć możliwość dostosowania się do tego celu.",
+        "Segment": "Użyj tego, jeśli pracownicy i podsegmenty powinny być w stanie dostosować się do tego celu.",
+        "User": "Użyj tego, jeśli chcesz wyrównać cel z celami zespołu lub organizacji. Może być również używany do dzielenia się swoimi celami z menedżerem."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Prywatne",
+      "Description": {
+        "Organization": "Jeśli cel powinien być prywatny i dostępny tylko dla osób macyjnie z dostępem do organizacji, użyj tego.",
+        "Segment": "Jeśli cel powinien być prywatny i dostępny tylko dla osób macyjnych z dostępem do segmentu, użyj go.",
+        "User": "Jeśli cel powinien być prywatny i dostępny tylko dla siebie, użyj go."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Wpisz swój cel tutaj",
+      "Label": "Jaki jest cel?"
+    },
+    "TextArea": {
+      "Placeholder": "Wpisz swój cel tutaj",
+      "Label": "Opis"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Rodzic do wyrównania z"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Nadrzędny cel, aby dostosować się do"
+    },
+    "SelectDriver": {
+      "Label": "Połączenie sterownika"
+    },
+    "SelectQuarter": {
+      "Label": "Obiektywny początek i koniec"
+    },
+    "AddKeyResultButton": {
+      "Text": "Dodawanie kolejnego wyniku klucza"
+    },
+    "KeyResults": {
+      "Tittle": "Kluczowe wyniki"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Usuń"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Anuluj"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Utworzyć"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Zapisz"
+    },
+    "CreateObjectiveTitle": "Tworzenie nowego celu",
+    "EditObjectiveTitle": "Cel edytowania"
+  }
+}

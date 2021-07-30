@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "登入",
+    "Fields": {
+      "Email": {
+        "Label": "电子邮件"
+      },
+      "Password": {
+        "Label": "密码"
+      },
+      "AuthToken": {
+        "Label": "代码第二因素"
+      }
+    },
+    "SigninButton": {
+      "Text": "登入"
+    },
+    "ForgotPasswordLink": {
+      "Text": "忘记密码？"
+    },
+    "ShowPasswordButton": {
+      "Text": "节目"
+    },
+    "HidePasswordButton": {
+      "Text": "隐藏"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "电子邮件不存在'",
+      "EmailWrongFormat": "电邮无效",
+      "PasswordsNotMatch": "密码不匹配",
+      "PasswordTooShort": "密码长度至少为6个字符",
+      "WrongEmailPassword": "用户不存在'或密码错误",
+      "WrongAuthToken": "第二个因素不正确，请重试。如果需要禁用两因素身份验证，请与组织管理员签约"
+    }
+  }
+}

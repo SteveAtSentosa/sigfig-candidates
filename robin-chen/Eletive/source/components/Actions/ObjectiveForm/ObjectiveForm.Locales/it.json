@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Pubblico",
+      "Description": {
+        "Organization": "Utilizzalo se segmenti e dipendenti devono essere in grado di allinearsi con questo obiettivo.",
+        "Segment": "Utilizzare questa opzione se dipendenti e sottosegmenti devono essere in grado di allinearsi con questo obiettivo.",
+        "User": "Utilizzare questo se si desidera allineare l'obiettivo con gli obiettivi del team o dell'organizzazione. Può anche essere usato per condividere i tuoi obiettivi con il tuo manager."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Privato",
+      "Description": {
+        "Organization": "Se l'obiettivo deve essere privato e accessibile solo alle persone con accesso all'organizzazione, utilizzare questo.",
+        "Segment": "Se l'obiettivo deve essere privato e accessibile solo alle persone con accesso al segmento, utilizzare questo.",
+        "User": "Se l'obiettivo deve essere privato e accessibile solo da solo, utilizzare questo."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Inserisci qui il tuo obiettivo",
+      "Label": "Qual è l'obiettivo?"
+    },
+    "TextArea": {
+      "Placeholder": "Inserisci qui il tuo obiettivo",
+      "Label": "Descrizione"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Genitore con cui allinearsi"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Obiettivo principale con cui allinearsi"
+    },
+    "SelectDriver": {
+      "Label": "Connessione driver"
+    },
+    "SelectQuarter": {
+      "Label": "Inizio e fine dell'obiettivo"
+    },
+    "AddKeyResultButton": {
+      "Text": "Aggiungi un altro risultato chiave"
+    },
+    "KeyResults": {
+      "Tittle": "Risultati chiave"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Cancellare"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Annullare"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Creare"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Salva"
+    },
+    "CreateObjectiveTitle": "Crea un nuovo obiettivo",
+    "EditObjectiveTitle": "Modifica obiettivo"
+  }
+}

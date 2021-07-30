@@ -1,0 +1,80 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Massredigering av användare",
+      "Intro": "Den här funktionen används för att massredigera användare genom att ladda upp data. Den kan användas för att skapa nya användare och även att uppdatera nuvarande användardata och information. Datan kan skapas manuellt eller kan exporteras från andra system, till exempel HR-system.",
+      "InstructionsTitle": "Instruktioner",
+      "InstructionsIntro": "Ändra inte mallarnas rubriker. Det är viktigt att dataformatet är korrekt. Om nya användare ska skapas kan du se ett exempel i mallen. Om befintliga användare ska redigeras, se det aktuella dataformatet innan du ändrar datan. Fält som inte är obligatoriska kan lämnas tomma.",
+      "EmailTitle": "Epost",
+      "EmailText": "Epost är alltid obligatoriskt, det identifierar användaren.",
+      "NamesText": "Förnamn och efternamn. Obligatoriskt om användare skapas men inte om användare redigeras.",
+      "LanguageText": "Språk. Inte obligatoriskt. Om ej angiven kommer engelska att användas. Observera att språkkortkod ska användas, en för engelska och sv för svenska.",
+      "AttributesText": "Attribut. Inte obligatoriskt. Alla attribut måste skapas innan uppladdningen kan börja."
+    },
+    "Templates": {
+      "Title1": "1. Ladda ner mall",
+      "SubTitleA": "a. Skapa användare",
+      "TextA": "Ladda ner den här mallen om du vill skapa nya användare.",
+      "ButtonA": "Ladda ner mall - Skapa användare",
+      "SubTitleB": "b. Redigera användare",
+      "TextB": "Ladda ner den här mallen om du vill redigera befintliga användare.",
+      "ButtonB": "Ladda ner mall - Redigera användare",
+      "Title2": "2. Ladda upp mall"
+    },
+    "Dropzone": {
+      "InviteText": "Släpp .csv-filen här eller klicka för att ladda upp",
+      "HelperText": "Släpp filen här..."
+    },
+    "PreImportDialog": {
+      "Title": "Importanalys",
+      "CancelButton": {
+        "Text": "Avbryt"
+      },
+      "ContinueButton": {
+        "Text": "Fortsätt"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Importerar...",
+      "Text": "Vänligen stäng inte webbläsarfönstret innan importen är klar."
+    },
+    "ResultsDialog": {
+      "Title": "Importen slutfördes",
+      "SuccessText": "Importen slutfördes utan fel!",
+      "SuccessSubText": "Detta meddelande kan stängas.",
+      "CloseButton": {
+        "Text": "Stäng"
+      },
+      "DownloadButton": {
+        "Text": "Ladda ner felloggen"
+      },
+      "WarningText": "Importen slutfördes med fel!",
+      "WarningSubText": "Ytterligare åtgärder behövs.",
+      "WarningHelpText": "Importen slutfördes men **%{rows}  rad(er) har hoppats över** på grund av fel i dessa rader. Vänligen ladda ner loggfilen och granska vilka rader som har hoppats över. Dessa rader kan fixas och laddas upp igen eller de kan läggas till manuellt."
+    },
+    "ErrorAlert": {
+      "CloseButton": "Stäng"
+    },
+    "Errors": {
+      "USER_DUPLICATE": "Mer än en användare med denna epost i den importerade filen",
+      "FIRST_NAME_REQUIRED": "Fel [Förnamn]: Obligatoriskt när användare skapas",
+      "LAST_NAME_REQUIRED": "Fel [Efternamn]: Obligatoriskt när användare skapas",
+      "WRONG_LANGUAGE": "Fel [Språk]: Språket stöds inte eller är i fel format",
+      "USER_IN_OTHER_ORGANIZATION": "Den här användaren finns redan i en annan organisation",
+      "WRONG_EMAIL": "Fel [Epost]: Epost är i fel format eller saknas",
+      "NEED_ADD_SEGMENTS": "Följande segment läggs till i attributet: ",
+      "UNKNOWN_COLUMNS": "Okända kolumner: '%{columns}'. För att importera dem, lägg först till dem som attribut.",
+      "DUPLICATE_COLUMN": "Dubblett kolumn(er): ",
+      "EMPTY_ROW": "Tom rad",
+      "CONVERTING_DATA": "Fel vid datakonvertering",
+      "NO_DATA_IN_FILE": "Filen innehåller ingen data eller har fel format.",
+      "NOTHING_TO_IMPORT": "Filen innehåller ingen data för import.",
+      "UNNAMED_COLUMN": "Namnlösa kolumn: ",
+      "EXAMPLE_EMAIL": "Exempel epost",
+      "NOT_A_NUMBER": "Inte ett nummer",
+      "NOT_A_DATE": "Inte ett datum (använd format YYYY-MM-DD)",
+      "MAX_USER_COUNT": "Maximalt antal användare har redan lagts till organisationen för demoändamål. Vänligen kontakta Eletive för att lägga till fler."
+    }
+  }
+}

@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "ציבורי",
+      "Description": {
+        "Organization": "השתמש בזה אם מגזרים ועובדים צריכים להיות מסוגלים להתיישר עם מטרה זו.",
+        "Segment": "השתמש בזה אם עובדים ותתי מגזרים צריכים להיות מסוגלים להתיישר עם מטרה זו.",
+        "User": "השתמש בזה אם ברצונך ליישר את המטרה ליעדי הצוות או הארגון. זה יכול לשמש גם כדי לשתף את המטרות שלך עם המנהל שלך."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "פרטי",
+      "Description": {
+        "Organization": "אם המטרה צריכה להיות פרטית ונגישה רק לאנשים עם גישה לארגון, השתמש בזה.",
+        "Segment": "אם המטרה צריכה להיות פרטית ונגישה רק לאנשים עם גישה לפלח, השתמש בזה.",
+        "User": "אם המטרה צריכה להיות פרטית ונגישה רק בעצמך, השתמש בזה."
+      }
+    },
+    "InputName": {
+      "Placeholder": "הזן את המטרה שלך כאן",
+      "Label": "מה המטרה?"
+    },
+    "TextArea": {
+      "Placeholder": "הזן את המטרה שלך כאן",
+      "Label": "תיאור"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "הורה ליישר קו עם"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "יעד הורה ליישור קו עם"
+    },
+    "SelectDriver": {
+      "Label": "חיבור נהג"
+    },
+    "SelectQuarter": {
+      "Label": "התחלה וסוף אובייקטיביים"
+    },
+    "AddKeyResultButton": {
+      "Text": "הוסף תוצאת מפתח נוספת"
+    },
+    "KeyResults": {
+      "Tittle": "תוצאות מפתח"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "מחק"
+    },
+    "CancelObjectiveButton": {
+      "Text": "בטל"
+    },
+    "CreateObjectiveButton": {
+      "Text": "צור"
+    },
+    "SaveObjectiveButton": {
+      "Text": "להציל"
+    },
+    "CreateObjectiveTitle": "צור יעד חדש",
+    "EditObjectiveTitle": "ערוך מטרה"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "שם"
+      },
+      "SegmentReportMembers": {
+        "Label": "חברי דוח פלחים",
+        "Tooltip": "הפעל פונקציה זו אם העובדים בסגמנטים של תכונה זו אמורים להיות מסוגלים לראות את דוח המגזר שהם חברים בו."
+      },
+      "AllowFilter": {
+        "Label": "אפשר פילטר",
+        "Tooltip": "מאפשר למשתמשים לסנן את התכונה הזו"
+      }
+    },
+    "SaveButton": {
+      "Text": "להציל"
+    },
+    "DeleteButton": {
+      "Text": "מחק"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "למחוק את התכונה %{attributeName} ?",
+      "Content": "פעולה זו תמחק לצמיתות את התכונה <strong>%{attributeName}</strong> וכל הקטעים בזה. אי אפשר לבטל את זה.",
+      "ActionText": "אנא, הקלד <strong>DELETE</strong> בתיבת הקלט למטה כדי לבטל את נעילת לחצן המחיקה"
+    }
+  }
+}

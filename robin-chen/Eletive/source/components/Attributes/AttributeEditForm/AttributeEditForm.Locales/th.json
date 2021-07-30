@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "ชื่อ"
+      },
+      "SegmentReportMembers": {
+        "Label": "สมาชิกรายงานแบ่งกลุ่ม",
+        "Tooltip": "เปิดใช้งานฟังก์ชั่นนี้หากพนักงานในกลุ่มสำหรับแอททริบิวนี้ควรจะสามารถดูรายงานกลุ่มที่พวกเขาเป็นสมาชิก"
+      },
+      "AllowFilter": {
+        "Label": "อนุญาตการกรอง",
+        "Tooltip": "อนุญาตให้ผู้ใช้กรองคุณลักษณะนี้"
+      }
+    },
+    "SaveButton": {
+      "Text": "ประหยัด"
+    },
+    "DeleteButton": {
+      "Text": "ลบ"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "ลบแอตทริบิวต์ %{attributeName} หรือไม่",
+      "Content": "นี่จะเป็นการลบแอตทริบิวต์อย่างถาวร <strong>%{attributeName}</strong> และทุกส่วนในนั้น ไม่สามารถยกเลิกได้",
+      "ActionText": "กรุณาพิมพ์ใน <strong>DELETE</strong> ในช่องใส่ด้านล่างเพื่อปลดล็อคปุ่มลบ"
+    }
+  }
+}

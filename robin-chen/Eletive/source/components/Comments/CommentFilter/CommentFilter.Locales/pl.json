@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "Filtry",
+    "Buttons": {
+      "Apply": "Zastosować"
+    },
+    "DateRange": {
+      "Title": "Zakres dat"
+    },
+    "Acknowledge": {
+      "Title": "Filtr potwierdzenia",
+      "Values": {
+        "Yes": "Tak",
+        "No": "Nr",
+        "All": "Wszystkie"
+      }
+    },
+    "Reply": {
+      "Title": "Odpowiedź",
+      "Values": {
+        "All": "Wszystkie",
+        "Replied": "Odpowiedział",
+        "RepliedByMe": "Odpowiedział przeze mnie",
+        "Unreplied": "Bez odpowiedzi"
+      }
+    },
+    "Read": {
+      "Title": "Odczytu",
+      "Values": {
+        "All": "Wszystkie",
+        "Read": "Odczytu",
+        "Unread": "Nieprzeczytane"
+      }
+    },
+    "Labels": {
+      "Title": "Etykiety",
+      "Values": {
+        "All": "Wszystkie",
+        "Important": "Ważne",
+        "FollowUp": "Kontynuacja",
+        "Idea": "Pomysł",
+        "NoLabel": "Brak etykiety"
+      }
+    }
+  }
+}

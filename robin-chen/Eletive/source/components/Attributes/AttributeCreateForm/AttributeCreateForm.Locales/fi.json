@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "valintoja",
+      "Dates": "päivämäärät",
+      "Numbers": "numerot"
+    },
+    "Descriptions": {
+      "Choices": "Luettelo arvoista, kuten maista",
+      "Dates": "Päivämäärät, kuten vuokrauspäivä tai syntymäaika",
+      "Numbers": "Numerot, kuten palkka tai tulokset"
+    },
+    "Placeholders": {
+      "Prefix": "Nimi esimerkiksi",
+      "Choices": "Maa",
+      "Dates": "Syntymäaika",
+      "Numbers": "palkkaus"
+    },
+    "SubmitButton": {
+      "Text": "Luoda"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Toisen määritteen ominaisuuden nimi on jo olemassa, valitse toinen nimi"
+    }
+  }
+}

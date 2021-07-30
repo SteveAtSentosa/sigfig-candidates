@@ -1,0 +1,23 @@
+{
+  "name": "Comments",
+  "translations": {
+    "PageTitle": "Kommentit",
+    "Breadcrumbs": {
+      "Individual": "Minä",
+      "Segments": "segmentit",
+      "Organization": "organisaatio"
+    },
+    "NoComment": "Ei kommentteja",
+    "MatchingComment": "%{commentCount} vastaa ${commentCount:kommentti:kommentit}",
+    "Search": "Etsi",
+    "SortBy": {
+      "Label": "Järjestä",
+      "Options": {
+        "Unread": "Lukemattomat",
+        "Newest": "Uusin",
+        "Oldest": "Vanhin"
+      }
+    },
+    "AcknowledgedMessage": "myönsi"
+  }
+}

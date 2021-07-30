@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Start din undersøgelse",
+      "Immediate": "Umiddelbar lancering",
+      "Scheduled": "Planlagt lancering",
+      "Separator": "eller"
+    },
+    "Launched": {
+      "Title": "Undersøgelse planlagt",
+      "Description": "Din undersøgelse er planlagt og vil blive lanceret den"
+    },
+    "ScheduleForm": {
+      "Title": "Planlagt lancering",
+      "LaunchButton": {
+        "Text": "Launch"
+      }
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "Estado objetivo",
+      "EmployeesWithObjectives": "Empleados con objetivos",
+      "ObjectAlignment": "Alineamiento objetivo",
+      "SegmentsWithObjectives": "Segmentos con objetivos"
+    },
+    "Legend": {
+      "OnTrack": "A tiempo",
+      "Behind": "Detrás",
+      "AtRisk": "En riesgo",
+      "NoStatus": "Sin Estado",
+      "With": "Con",
+      "Without": "Sin",
+      "Aligned": "Alineado",
+      "NotAligned": "No alineado"
+    },
+    "NoObjectives": "Sin objetivos",
+    "NoEmployees": "No empleados con objetivos",
+    "NoSegments": "No hay segmentos con objetivos."
+  }
+}

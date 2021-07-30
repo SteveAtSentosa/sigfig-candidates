@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Sveiki!",
+    "Button": {
+      "Text": "Sutinku"
+    },
+    "Content": "Norėdami toliau naudoti „Eletive“, turite sutikti su mūsų <a href=\"/privacy\" target=\"_blank\">Privatumo politika</a>. Spustelėję \"Sutinku\" patvirtinate, kad sutinkate"
+  }
+}

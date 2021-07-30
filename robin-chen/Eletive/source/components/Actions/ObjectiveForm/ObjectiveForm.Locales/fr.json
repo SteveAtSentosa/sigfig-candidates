@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Public",
+      "Description": {
+        "Organization": "Utilisez cette option si les segments et les employés doivent être en mesure de s'aligner sur cet objectif.",
+        "Segment": "Utilisez cette option si les employés et les sous-segments doivent être en mesure de s'aligner sur cet objectif.",
+        "User": "Utilisez-le si vous souhaitez aligner l'objectif avec les objectifs de l'équipe ou de l'organisation. Il peut également être utilisé pour partager vos objectifs avec votre manager."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Privé",
+      "Description": {
+        "Organization": "Si l'objectif doit être privé et accessible uniquement aux personnes ayant accès à l'organisation, utilisez-le.",
+        "Segment": "Si l'objectif doit être privé et accessible uniquement aux personnes ayant accès au segment, utilisez-le.",
+        "User": "Si l'objectif doit être privé et accessible uniquement par vous-même, utilisez-le."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Entrez votre objectif ici",
+      "Label": "Quel est l'objectif?"
+    },
+    "TextArea": {
+      "Placeholder": "Entrez votre objectif ici",
+      "Label": "Description"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Parent avec lequel s'aligner"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Objectif du parent à aligner avec"
+    },
+    "SelectDriver": {
+      "Label": "Connexion du pilote"
+    },
+    "SelectQuarter": {
+      "Label": "Début et fin objectifs"
+    },
+    "AddKeyResultButton": {
+      "Text": "Ajouter un autre résultat clé"
+    },
+    "KeyResults": {
+      "Tittle": "Résultats clés"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Supprimer"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Annuler"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Créer"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Sauver"
+    },
+    "CreateObjectiveTitle": "Créer un nouvel objectif",
+    "EditObjectiveTitle": "Modifier l'objectif"
+  }
+}

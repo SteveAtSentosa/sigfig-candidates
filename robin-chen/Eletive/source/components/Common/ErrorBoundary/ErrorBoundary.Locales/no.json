@@ -1,0 +1,7 @@
+{
+  "name": "ErrorBoundary",
+  "translations": {
+    "Title": "Oops! Noe gikk galt",
+    "ContactText": "Logg ut, last inn siden på nytt og prøv igjen. Hvis problemet vedvarer, kan du kontakte Eletive."
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "env": {
+    "test": {
+      "plugins": [
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-syntax-dynamic-import",
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["@babel/plugin-proposal-class-properties", { "loose": true }],
+        "@babel/plugin-transform-destructuring",
+        "@babel/plugin-proposal-optional-chaining",
+        "babel-plugin-transform-require-context",
+        "babel-plugin-dynamic-import-node",
+      ]
+    },
+    "development": {
+      "plugins": [
+        ["babel-plugin-styled-components", {
+          "minify": false,
+          "fileName": false,
+        }],
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-optional-chaining",
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["@babel/plugin-proposal-class-properties", { "loose": true }],
+        "@babel/plugin-transform-destructuring",
+        "react-hot-loader/babel"
+      ]
+    },
+    "production": {
+      "plugins": [
+        ["babel-plugin-styled-components", {
+          "fileName": false,
+          "displayName": false,
+        }],
+        "@babel/plugin-proposal-export-default-from",
+        "@babel/plugin-syntax-dynamic-import",
+        "@babel/plugin-proposal-optional-chaining",
+        ["@babel/plugin-proposal-decorators", { "legacy": true }],
+        ["@babel/plugin-proposal-class-properties", { "loose": true }],
+        "@babel/plugin-transform-destructuring",
+      ]
+    }
+  }
+}

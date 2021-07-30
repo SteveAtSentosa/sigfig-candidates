@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "歡迎！",
+    "Button": {
+      "Text": "我同意"
+    },
+    "Content": "要繼續使用 Eletive，您必須同意我們的<a href=\"/privacy\" target=\"_blank\">隱私政策</a>。按下「我同意」即代表您同意"
+  }
+}

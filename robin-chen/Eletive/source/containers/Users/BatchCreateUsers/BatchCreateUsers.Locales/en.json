@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Mass edit of users",
+      "Intro": "This function is used to mass edit users by uploading data. It can be used to create new users and also to update current user data and information. The data can be created manually or it could be exported from other systems, for example, HR systems.",
+      "InstructionsTitle": "Instructions",
+      "InstructionsIntro": "Do not change the headers of the templates. It is important that the data format is correct. If creating new users, please see the example in the template. If editing existing users, please see the current data format before changing the data. Fields that are not mandatory can be left empty.",
+      "EmailTitle": "Email",
+      "EmailText": "Email is always mandatory, it identifies the user.",
+      "NamesText": "Mandatory if creating a user but not if editing existing users.",
+      "LanguageText": "Not mandatory. If not defined, English will be used. Please note that language short code should be used, en for English and sv for Swedish.",
+      "AttributesText": "Not mandatory. All attributes need to be created before the upload can begin."
+    },
+    "Templates": {
+      "Title1": "1. Download template",
+      "SubTitleA": "a. Create users",
+      "TextA": "Download this template if you want to create new users.",
+      "ButtonA": "Download template - Create users",
+      "SubTitleB": "b. Edit users",
+      "TextB": "Download this template if you want to edit existing users.",
+      "ButtonB": "Download template - Edit users",
+      "Title2": "2. Upload template"
+    },
+    "Dropzone": {
+      "InviteText": "Drop .csv file here or click to upload",
+      "HelperText": "Drop file here..."
+    },
+    "PreImportDialog": {
+      "Title": "Import analysis",
+      "CancelButton": {
+        "Text": "Cancel"
+      },
+      "ContinueButton": {
+        "Text": "Continue"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Importing...",
+      "Text": "Please do not close the browser window until the import is finished."
+    },
+    "ResultsDialog": {
+      "Title": "Import finished",
+      "SuccessText": "The import finished without errors!",
+      "SuccessSubText": "This message can be closed.",
+      "CloseButton": {
+        "Text": "Close"
+      },
+      "DownloadButton": {
+        "Text": "Download error log"
+      },
+      "WarningText": "The import finished with errors!",
+      "WarningSubText": "Further action needed.",
+      "WarningHelpText": "The import finished but **%{rows} row(s) has been skipped** due to errors in these rows. Please download the log file and review which rows has been skipped. These rows can be fixed and uploaded again or they can be added manually."
+    },
+    "Errors": {
+      "USER_DUPLICATE": "More then one user with this email in the imported file",
+      "FIRST_NAME_REQUIRED": "Error [First name]: Mandatory when creating a user",
+      "LAST_NAME_REQUIRED": "Error [Last name]: Mandatory when creating a user",
+      "WRONG_LANGUAGE": "Error [Language]: Language not supported or in the wrong format",
+      "USER_IN_OTHER_ORGANIZATION": "This user already exists in another organization",
+      "WRONG_EMAIL": "Error [Email]: Email is in the wrong format or missing",
+      "NEED_ADD_SEGMENTS": "The following segment(s) will be added to the attribute: ",
+      "UNKNOWN_COLUMNS": "Unknown columns: '%{columns}'. To import them, first add them as attributes.",
+      "DUPLICATE_COLUMN": "Duplicate column(s): ",
+      "EMPTY_ROW": "Empty row",
+      "CONVERTING_DATA": "Error on data converting",
+      "NO_DATA_IN_FILE": "The file does not contain data or have the wrong format.",
+      "NOTHING_TO_IMPORT": "The file does not contain any data for import.",
+      "UNNAMED_COLUMN": "Unnamed column: ",
+      "EXAMPLE_EMAIL": "Example email",
+      "NOT_A_NUMBER": "Not a number",
+      "NOT_A_DATE": "Not a date (use format YYYY-MM-DD)",
+      "MAX_USER_COUNT": "Maximum number of users is already added to the organization for demo purposes. Please contact Eletive to add more."
+    }
+  }
+}

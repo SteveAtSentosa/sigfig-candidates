@@ -1,0 +1,56 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Custom Surveys",
+    "StartMessage": "Start Adding Questions to Your Survey",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Add Question",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "Regular 1-5 question from “1: Strongly disagree” to “5: Strongly agree”."
+          },
+          "MultipleChoice": {
+            "Title": "Multiple Choice",
+            "Description": "Multiple choice question with freedom to collect different types of information."
+          },
+          "Text": {
+            "Title": "Text",
+            "Description": "Collect free text answers with open ended questions with this question type."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "Questions with Net Promoter Score answer and result"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Save as Draft"
+      },
+      "CreateButton": {
+        "Text": "Continue"
+      },
+      "CancelButton": {
+        "Text": "Cancel"
+      },
+      "BackButton": {
+        "Text": "Back"
+      },
+      "LaunchButton": {
+        "Text": "Launch"
+      }
+    },
+    "Breadcrumbs": {
+      "Organization": "Organization",
+      "Segments": "Segments",
+      "CustomSurvey": "Custom surveys",
+      "AddNewSurvey": "Add New Survey",
+      "EditSurvey": "Edit",
+      "Launch": "Launch"
+    },
+    "ScheduleDate": {
+      "TimeLabel": "Time"
+    }
+  }
+}

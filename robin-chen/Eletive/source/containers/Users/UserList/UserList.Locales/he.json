@@ -1,0 +1,34 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "הוסף משתמש חדש"
+    },
+    "BatchButton": {
+      "Text": "עריכה המונית"
+    },
+    "DeleteButton": {
+      "Text": "מחק"
+    },
+    "Filter": {
+      "Placeholder": "חפש משתמשים",
+      "Options": {
+        "Default": "סנן ...",
+        "BounceEmails": "הקפצת דוא\"ל"
+      }
+    },
+    "EmptyList": {
+      "Text": "רשימת המשתמשים ריקה",
+      "CreateLink": {
+        "Text": "צור אחד חדש"
+      }
+    },
+    "Columns": {
+      "Name": "שם",
+      "Last survey finished": "הסקר האחרון הסתיים",
+      "Last sign in": "כניסה אחרונה",
+      "Role": "תפקיד"
+    },
+    "EmptyDate": "לעולם לא"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "DemoModeHeader",
+  "translations": {
+    "Label": "Wyświetlanie pulpitu nawigacyjnego demonstracyjnego",
+    "BackToOrganizationButton": {
+      "Text": "Do organizacji"
+    }
+  }
+}

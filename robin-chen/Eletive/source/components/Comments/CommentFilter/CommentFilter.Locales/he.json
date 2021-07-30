@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "מסננים",
+    "Buttons": {
+      "Apply": "להגיש מועמדות"
+    },
+    "DateRange": {
+      "Title": "טווח תאריכים"
+    },
+    "Acknowledge": {
+      "Title": "הכיר את מסנן",
+      "Values": {
+        "Yes": "כן",
+        "No": "לא",
+        "All": "את כל"
+      }
+    },
+    "Reply": {
+      "Title": "תשובה",
+      "Values": {
+        "All": "את כל",
+        "Replied": "השיב",
+        "RepliedByMe": "השיב על ידי",
+        "Unreplied": "לא ממומש"
+      }
+    },
+    "Read": {
+      "Title": "לקרוא",
+      "Values": {
+        "All": "את כל",
+        "Read": "לקרוא",
+        "Unread": "לא נקרא"
+      }
+    },
+    "Labels": {
+      "Title": "תוויות",
+      "Values": {
+        "All": "את כל",
+        "Important": "חשוב",
+        "FollowUp": "תתעדכן",
+        "Idea": "רעיון",
+        "NoLabel": "אין תווית"
+      }
+    }
+  }
+}

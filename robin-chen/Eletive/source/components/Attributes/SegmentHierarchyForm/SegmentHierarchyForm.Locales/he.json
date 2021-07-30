@@ -1,0 +1,32 @@
+{
+  "name": "Attributes/SegmentHierarchyForm",
+  "translations": {
+    "AddHierarchyButton": {
+      "Text": "הוסף היררכיה חדשה"
+    },
+    "DeleteChildSegmentButton": {
+      "Text": "מחק"
+    },
+    "AddMoreChildSegmentsButton": {
+      "Text": "הוסף עוד"
+    },
+    "AddHierarchyDialog": {
+      "Title": {
+        "Prefix": "צור היררכיה עבור",
+        "AttributeLabel": "תכונה:"
+      },
+      "ParentSelector": {
+        "Title": "בחר בקטע האב"
+      },
+      "ChildSelector": {
+        "Title": "בחר פלחי ילדים"
+      },
+      "CreateButton": {
+        "Text": "צור"
+      },
+      "CancelButton": {
+        "Text": "בטל"
+      }
+    }
+  }
+}

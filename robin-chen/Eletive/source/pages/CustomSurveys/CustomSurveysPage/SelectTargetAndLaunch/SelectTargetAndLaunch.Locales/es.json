@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Lanza tu encuesta",
+      "Immediate": "Lanzamiento inmediato",
+      "Scheduled": "Lanzamiento programado",
+      "Separator": "o"
+    },
+    "Launched": {
+      "Title": "Encuesta programada",
+      "Description": "Su encuesta está programada y se lanzará el"
+    },
+    "ScheduleForm": {
+      "Title": "Lanzamiento programado",
+      "LaunchButton": {
+        "Text": "Lanzamiento"
+      }
+    }
+  }
+}

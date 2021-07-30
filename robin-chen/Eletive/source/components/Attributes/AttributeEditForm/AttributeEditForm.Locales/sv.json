@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Namn"
+      },
+      "SegmentReportMembers": {
+        "Label": "Segmentrapportmedlemmar",
+        "Tooltip": "Aktivera den här funktionen om de anställda i segmenten för det här attributet ska kunna se segmentrapporten som de är medlemmar av."
+      },
+      "AllowFilter": {
+        "Label": "Tillåt filter",
+        "Tooltip": "Tillåt användare att filtrera på detta attribut"
+      }
+    },
+    "SaveButton": {
+      "Text": "Spara"
+    },
+    "DeleteButton": {
+      "Text": "Radera"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "Radera attributet %{attributeName}?",
+      "Content": "Detta kommer permanent radera attributet <strong>%{attributeName}</strong> och alla segmenten i det. Detta KAN INTE göras ogjort.",
+      "ActionText": "Vänligen skriv <strong>DELETE</strong> i inmatningsrutan nedan för att låsa upp radera knappen"
+    }
+  }
+}

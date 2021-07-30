@@ -1,0 +1,34 @@
+{
+  "name": "SegmentSelector",
+  "translations": {
+    "Filter": {
+      "Placeholder": "ค้นหากลุ่ม"
+    },
+    "SidePanel": {
+      "Title": "เลือกกลุ่ม"
+    },
+    "TargetButton": {
+      "Text": "%{segmentCount} ${SegmentCount:เซ็ก เมนต์:เซ็ก เมนต์}",
+      "DefaultText": "เลือกกลุ่ม",
+      "DefaultTextInSingleSelectionMode": "เลือกกลุ่ม"
+    },
+    "CancelButton": {
+      "Text": "ยกเลิก"
+    },
+    "ConfirmButton": {
+      "Text": "เลือก %{segmentCount} ${segmentCount:ซ็ก เมนต์:เซกเมนต์}"
+    },
+    "DeselectAllButton": {
+      "Text": "ยกเลิกการเลือกทั้งหมด"
+    },
+    "AttributeSegmentCountLabel": "%{segmentCount} ${segmentCount:เซกเมนต์:เซกเมนต์}",
+    "AttributeSelectedSegmentCountLabel": "%{segmentCount} เลือก",
+    "AttributeNoResultsSegmentLabel": "ไม่มีผลลัพธ์",
+    "SelectAllAttributeSegmentsButton": {
+      "Text": "เลือก %{segmentCount}"
+    },
+    "DeselectAllAttributeSegmentsButton": {
+      "Text": "ยกเลิกการเลือก %{segmentCount}"
+    }
+  }
+}

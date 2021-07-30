@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Ripristina password",
+    "Fields": {
+      "Email": {
+        "Label": "E-mail"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Ripristina password"
+    },
+    "SigninPageLink": {
+      "Text": "Ritorna a Accedi"
+    },
+    "SuccessMessage": {
+      "Title": "Fatto!",
+      "Description": "Ti abbiamo inviato un'e-mail con le istruzioni. Per favore, controlla la tua casella di posta. Se non riesci a trovarlo dopo aver atteso qualche minuto, controlla la tua cartella spam."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Non ha funzionato",
+      "EmailWrongFormat": "L'email non è valida"
+    }
+  }
+}

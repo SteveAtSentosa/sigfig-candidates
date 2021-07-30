@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Name"
+      },
+      "SegmentReportMembers": {
+        "Label": "Segmentbericht Mitglieder",
+        "Tooltip": "Aktivieren Sie diese Funktion, wenn die Mitarbeiter in den Segmenten für dieses Attribut den Segmentbericht sehen sollen, in dem sie Mitglied sind."
+      },
+      "AllowFilter": {
+        "Label": "Filter zulassen",
+        "Tooltip": "Ermöglicht Benutzern das Filtern nach diesem Attribut"
+      }
+    },
+    "SaveButton": {
+      "Text": "Speichern"
+    },
+    "DeleteButton": {
+      "Text": "Löschen"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "Löschen Sie das Attribut %{attributeName}?",
+      "Content": "Dadurch wird das Attribut dauerhaft gelöscht <strong>%{attributeName}</strong> und alle Segmente darin. Das kann nicht rückgängig gemacht werden.",
+      "ActionText": "Bitte geben Sie <strong>LÖSCHEN</strong> in das Eingabefeld unten ein, um die Löschtaste zu entsperren"
+    }
+  }
+}

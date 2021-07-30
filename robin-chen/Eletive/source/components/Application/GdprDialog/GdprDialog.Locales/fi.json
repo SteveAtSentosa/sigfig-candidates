@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Tervetuloa",
+    "Button": {
+      "Text": "Hyväksyn"
+    },
+    "Content": "Sinun tarvitsee hyväksyä <a href=\"/privacy\" target=\"_blank\">yksityisyyskäytäntömme</a> voidaksesi jatkaa Eletiven käyttöä. Hyväksyt ne napsauttamalla Hyväksyn-painiketta"
+  }
+}

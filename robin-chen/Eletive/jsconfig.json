@@ -1,0 +1,65 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2015",
+    "jsx": "preserve",
+    "paths": {
+      "Containers": [
+        "./source/containers/index"
+      ],
+      "Containers/*": [
+        "./source/containers/*"
+      ],
+      "Components": [
+        "./source/components/index"
+      ],
+      "Components/*": [
+        "./source/components/*"
+      ],
+      "Pages": [
+        "./source/pages/index"
+      ],
+      "Pages/*": [
+        "./source/pages/*"
+      ],
+      "api": [
+        "./source/api/index"
+      ],
+      "api/*": [
+        "./source/api/*"
+      ],
+      "store": [
+        "./source/store/index"
+      ],
+      "store/*": [
+        "./source/store/*"
+      ],
+      "services": [
+        "./source/services/index"
+      ],
+      "services/*": [
+        "./source/services/*"
+      ],
+      "utilities": [
+        "./source/utilities/index"
+      ],
+      "utilities/*": [
+        "./source/utilities/*"
+      ],
+      "Models": [
+        "./source/models/index"
+      ],
+      "Models/*": [
+        "./source/models/*"
+      ],
+      "Constants": [
+        "./source/constants/index"
+      ],
+      "Constants/*": [
+        "./source/constants/*"
+      ]
+    },
+    "baseUrl": ".",
+    "experimentalDecorators": true
+  }
+}

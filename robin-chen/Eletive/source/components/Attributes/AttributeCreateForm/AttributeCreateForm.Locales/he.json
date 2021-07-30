@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "אפשרויות",
+      "Dates": "תאריכים",
+      "Numbers": "מספרים"
+    },
+    "Descriptions": {
+      "Choices": "רשימת ערכים כמו מדינות",
+      "Dates": "תאריכים כמו תאריך שכירות או תאריך לידה",
+      "Numbers": "מספרים כמו שכר או ציונים"
+    },
+    "Placeholders": {
+      "Prefix": "שם למשל",
+      "Choices": "מדינה",
+      "Dates": "תאריך לידה",
+      "Numbers": "שכר"
+    },
+    "SubmitButton": {
+      "Text": "צור"
+    },
+    "Warnings": {
+      "SameNameAttribute": "שם תכונה כבר קיים עבור תכונה אחרת, אנא בחר שם אחר"
+    }
+  }
+}

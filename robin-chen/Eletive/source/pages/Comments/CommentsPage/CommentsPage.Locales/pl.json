@@ -1,0 +1,23 @@
+{
+  "name": "Comments",
+  "translations": {
+    "PageTitle": "Komentarze",
+    "Breadcrumbs": {
+      "Individual": "Me",
+      "Segments": "Segmenty",
+      "Organization": "Organizacji"
+    },
+    "NoComment": "Brak komentarzy",
+    "MatchingComment": "%{commentCount} dopasowanie ${commentCount:komentarz:komentarze}",
+    "Search": "Szukaj",
+    "SortBy": {
+      "Label": "Sortuj wg",
+      "Options": {
+        "Unread": "Nieprzeczytane",
+        "Newest": "Najnowsze opinie o obiekcie",
+        "Oldest": "Najstarszych"
+      }
+    },
+    "AcknowledgedMessage": "Potwierdzone"
+  }
+}

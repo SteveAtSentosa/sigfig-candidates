@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "स्वागत है!",
+    "Button": {
+      "Text": "मैं सहमत हूँ"
+    },
+    "Content": "Eletive का उपयोग जारी रखने के लिए आपको हमारी <a href=\"/privacy\" target=\"_blank\">गोपनीयता नीति</a> से सहमत होना आवश्यक है। आप \"मै सहमत हूँ\" पर क्लिक करके सहमती देते हैं"
+  }
+}

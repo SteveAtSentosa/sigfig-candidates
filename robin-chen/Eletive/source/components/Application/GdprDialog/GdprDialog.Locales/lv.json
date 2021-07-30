@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Laipni lūdzam!",
+    "Button": {
+      "Text": "Es piekrītu"
+    },
+    "Content": "Lai turpinātu izmantot Eletive, ir jāpiekrīt <a href=\"/privacy\" target=\"_blank\">Konfidencialitātes politikai</a>. Piekrīt, noklikšķinot uz \"Es piekrītu\""
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "Attributes/ChoicesSubform",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Segmenty wyszukiwania"
+    },
+    "Fields": {
+      "Name": {
+        "Placeholder": "Segmentu"
+      }
+    },
+    "CreateButton": {
+      "Text": "Dodaj %{attributeName}"
+    }
+  }
+}

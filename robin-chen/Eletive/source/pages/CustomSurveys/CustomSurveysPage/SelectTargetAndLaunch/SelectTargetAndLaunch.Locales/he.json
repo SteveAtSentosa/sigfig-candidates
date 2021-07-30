@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "התחל את הסקר שלך",
+      "Immediate": "השקה מיידית",
+      "Scheduled": "שיגור מתוזמן",
+      "Separator": "או"
+    },
+    "Launched": {
+      "Title": "סקר מתוזמן",
+      "Description": "הסקר שלך מתוזמן ויושק בתאריך"
+    },
+    "ScheduleForm": {
+      "Title": "שיגור מתוזמן",
+      "LaunchButton": {
+        "Text": "השקה"
+      }
+    }
+  }
+}

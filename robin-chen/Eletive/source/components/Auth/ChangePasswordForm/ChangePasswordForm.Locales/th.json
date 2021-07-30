@@ -1,0 +1,37 @@
+{
+  "name": "Auth/ChangePasswordForm",
+  "translations": {
+    "Fields": {
+      "CurrentPassword": {
+        "Label": "รหัสผ่านปัจจุบัน"
+      },
+      "Password": {
+        "Label": "รหัสผ่านใหม่"
+      },
+      "RepeatPassword": {
+        "Label": "ทำซ้ำรหัสผ่าน"
+      }
+    },
+    "ShowPasswordButton": {
+      "Text": "แสดง"
+    },
+    "HidePasswordButton": {
+      "Text": "ปิดบัง"
+    },
+    "PasswordStrength": {
+      "NoPassword": "ไม่มีรหัสผ่าน",
+      "VeryWeak": "อ่อนแอมาก",
+      "Weak": "อ่อนแอ",
+      "Medium": "กลาง",
+      "Strong": "แข็งแรง",
+      "VeryStrong": "แข็งแรงมาก"
+    },
+    "SubmitButton": {
+      "Text": "เปลี่ยนรหัสผ่าน"
+    },
+    "ErrorMessages": {
+      "PasswordsNotMatch": "รหัสผ่านไม่ตรงกัน",
+      "PasswordTooShort": "รหัสผ่านจะต้องมีความยาวอย่างน้อย 6 ตัวอักษร"
+    }
+  }
+}

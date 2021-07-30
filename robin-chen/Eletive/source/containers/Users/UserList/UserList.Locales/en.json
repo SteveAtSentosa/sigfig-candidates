@@ -1,0 +1,43 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "Add new user"
+    },
+    "BatchButton": {
+      "Text": "Mass edit"
+    },
+    "DeleteButton": {
+      "Text": "Delete"
+    },
+    "EditButton": {
+      "Text": "Edit"
+    },
+    "Filter": {
+      "Label": "Filter",
+      "Placeholder": "Search users",
+      "Options": {
+        "Default": "Filter...",
+        "BounceEmails": "Email bounce"
+      }
+    },
+    "UserCount": "%{totalUserCount} ${totalUserCount:user:users}",
+    "IntroMessages": {
+      "AddNewUser": "Add New User"
+    },
+    "EmptyList": {
+      "Text": "User list is empty",
+      "CreateLink": {
+        "Text": "Create a new one"
+      }
+    },
+    "Columns": {
+      "Name": "Name",
+      "Last survey finished": "Last survey finished",
+      "Last sign in": "Last sign in",
+      "Role": "Role",
+      "Action": "Action"
+    },
+    "EmptyDate": "Never"
+  }
+}

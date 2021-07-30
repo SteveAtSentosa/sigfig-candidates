@@ -1,0 +1,24 @@
+{
+  "name": "AttributeSegmentList",
+  "translations": {
+    "Columns": {
+      "Name": "Name",
+      "Employees": "Employees",
+      "Managers": "Managers",
+      "Actions": "Actions"
+    },
+    "Actions": {
+      "Edit": "Edit",
+      "Delete": "Delete",
+      "Employees": "Employees",
+      "Managers": "Managers"
+    },
+    "EditSegmentHeaderText": "Edit “%{name}” segment",
+    "EmployeeList": {
+      "Header": "%{segmentName} (%{employeeCount} ${employeeCount:employee:employees})"
+    },
+    "ManagerList": {
+      "Header": "Managers"
+    }
+  }
+}

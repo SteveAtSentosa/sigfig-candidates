@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "Wyborów",
+      "Dates": "Daty",
+      "Numbers": "Numery"
+    },
+    "Descriptions": {
+      "Choices": "Lista wartości, takich jak kraje",
+      "Dates": "Daty, takie jak data zatrudnienia lub data urodzenia",
+      "Numbers": "Liczby takie jak wynagrodzenie lub wyniki"
+    },
+    "Placeholders": {
+      "Prefix": "Nazwa np.",
+      "Choices": "Kraju",
+      "Dates": "Data urodzenia",
+      "Numbers": "Wynagrodzenia"
+    },
+    "SubmitButton": {
+      "Text": "Utworzyć"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Nazwa atrybutu istnieje już dla innego atrybutu, wybierz inną nazwę"
+    }
+  }
+}

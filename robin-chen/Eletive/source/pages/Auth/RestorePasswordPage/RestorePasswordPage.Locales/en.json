@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Restore password",
+    "Fields": {
+      "Email": {
+        "Label": "Email"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Restore password"
+    },
+    "SigninPageLink": {
+      "Text": "Return to Sign in"
+    },
+    "SuccessMessage": {
+      "Title": "Done!",
+      "Description": "We have sent you an email with the instructions. Please, check your inbox. If you cannot find it after waiting a few minutes, please check your spam folder."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Did not work",
+      "EmailWrongFormat": "Email is not valid"
+    }
+  }
+}

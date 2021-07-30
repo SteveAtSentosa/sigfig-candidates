@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "ようこそ！",
+    "Button": {
+      "Text": "同意する"
+    },
+    "Content": "Eletiveの使用を続けるには、当社の<a href=\"/privacy\" target=\"_blank\">プライバシーポリシー</a>に同意していただく必要があります。「同意する」をクリックすると同意したことになります。"
+  }
+}

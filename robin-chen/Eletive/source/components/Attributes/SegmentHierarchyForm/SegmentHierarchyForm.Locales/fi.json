@@ -1,0 +1,33 @@
+{
+  "name": "Attributes/SegmentHierarchyForm",
+  "translations": {
+    "AddHierarchyButton": {
+      "Text": "Lisää uusi hierarkia"
+    },
+    "DeleteChildSegmentButton": {
+      "Text": "Poistaa"
+    },
+    "AddMoreChildSegmentsButton": {
+      "Text": "Lisää enemmän"
+    },
+    "ChildSegmentsCountLabel": "%{segmentCount} lasten ${segmentCount:segmentti:segmentit}",
+    "AddHierarchyDialog": {
+      "Title": {
+        "Prefix": "Luo hierarkia",
+        "AttributeLabel": "määrite:"
+      },
+      "ParentSelector": {
+        "Title": "Valitse yläsegmentti"
+      },
+      "ChildSelector": {
+        "Title": "Valitse alasegmentit"
+      },
+      "CreateButton": {
+        "Text": "Luoda"
+      },
+      "CancelButton": {
+        "Text": "Peruuttaa"
+      }
+    }
+  }
+}

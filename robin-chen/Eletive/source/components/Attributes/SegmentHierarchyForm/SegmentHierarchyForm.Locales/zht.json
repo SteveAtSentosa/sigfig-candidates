@@ -1,0 +1,33 @@
+{
+  "name": "Attributes/SegmentHierarchyForm",
+  "translations": {
+    "AddHierarchyButton": {
+      "Text": "添加新的层次结构"
+    },
+    "DeleteChildSegmentButton": {
+      "Text": "删除"
+    },
+    "AddMoreChildSegmentsButton": {
+      "Text": "添加更多"
+    },
+    "ChildSegmentsCountLabel": "%{segmentCount}孩子 ${segmentCount:分割:段}",
+    "AddHierarchyDialog": {
+      "Title": {
+        "Prefix": "为创建一个层次结构",
+        "AttributeLabel": "属性："
+      },
+      "ParentSelector": {
+        "Title": "选择父段"
+      },
+      "ChildSelector": {
+        "Title": "选择子段"
+      },
+      "CreateButton": {
+        "Text": "创建"
+      },
+      "CancelButton": {
+        "Text": "取消"
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "เปิดการสำรวจของคุณ",
+      "Immediate": "เปิดตัวทันที",
+      "Scheduled": "กำหนดการเปิดตัว",
+      "Separator": "หรือ"
+    },
+    "Launched": {
+      "Title": "กำหนดการสำรวจ",
+      "Description": "แบบสำรวจของคุณมีกำหนดและจะเปิดตัวใน"
+    },
+    "ScheduleForm": {
+      "Title": "กำหนดการเปิดตัว",
+      "LaunchButton": {
+        "Text": "เปิด"
+      }
+    }
+  }
+}

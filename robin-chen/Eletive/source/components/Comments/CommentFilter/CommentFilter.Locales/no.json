@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "filtre",
+    "Buttons": {
+      "Apply": "Søke om"
+    },
+    "DateRange": {
+      "Title": "Datointervall"
+    },
+    "Acknowledge": {
+      "Title": "Anerkjennelsesfilter",
+      "Values": {
+        "Yes": "Ja",
+        "No": "Nei",
+        "All": "Alle"
+      }
+    },
+    "Reply": {
+      "Title": "Svare",
+      "Values": {
+        "All": "Alle",
+        "Replied": "svarte",
+        "RepliedByMe": "Besvart av meg",
+        "Unreplied": "Ubesvarte"
+      }
+    },
+    "Read": {
+      "Title": "Lese",
+      "Values": {
+        "All": "Alle",
+        "Read": "Lese",
+        "Unread": "ulest"
+      }
+    },
+    "Labels": {
+      "Title": "etiketter",
+      "Values": {
+        "All": "Alle",
+        "Important": "Viktig",
+        "FollowUp": "Følge opp",
+        "Idea": "Idé",
+        "NoLabel": "Ingen etikett"
+      }
+    }
+  }
+}

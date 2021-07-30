@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "Stan obiektywu",
+      "EmployeesWithObjectives": "Pracownicy z celami",
+      "ObjectAlignment": "Wyrównanie celu",
+      "SegmentsWithObjectives": "Segmenty z celami"
+    },
+    "Legend": {
+      "OnTrack": "Na dobrej drodze",
+      "Behind": "Za",
+      "AtRisk": "Zagrożone",
+      "NoStatus": "Brak stanu",
+      "With": "Z",
+      "Without": "Bez",
+      "Aligned": "Wyrównane",
+      "NotAligned": "Nie wyrównane"
+    },
+    "NoObjectives": "Brak celów",
+    "NoEmployees": "Brak pracowników z celami",
+    "NoSegments": "Brak segmentów z celami"
+  }
+}

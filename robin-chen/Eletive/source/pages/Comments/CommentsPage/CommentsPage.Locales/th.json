@@ -1,0 +1,23 @@
+{
+  "name": "Comments",
+  "translations": {
+    "PageTitle": "ความคิดเห็น",
+    "Breadcrumbs": {
+      "Individual": "ฉัน",
+      "Segments": "กลุ่ม",
+      "Organization": "องค์กร"
+    },
+    "NoComment": "ไม่มีความคิดเห็น",
+    "MatchingComment": "%{commentCount} จับคู่ $ {commentCount:ความคิดเห็น:ความคิดเห็น}",
+    "Search": "ค้นหา",
+    "SortBy": {
+      "Label": "จัดเรียงตาม",
+      "Options": {
+        "Unread": "ไม่ได้อ่าน",
+        "Newest": "ใหม่ล่าสุด",
+        "Oldest": "เก่าแก่ที่สุด"
+      }
+    },
+    "AcknowledgedMessage": "ที่ยอมรับ"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Navn"
+      },
+      "SegmentReportMembers": {
+        "Label": "Medlemmer af segmentrapporten",
+        "Tooltip": "Aktivér denne funktion, hvis medarbejderne i segmenterne for denne attribut skulle være i stand til at se den segmentrapport, som de er medlem af."
+      },
+      "AllowFilter": {
+        "Label": "Tillad filter",
+        "Tooltip": "Tillader brugere at filtrere på denne attribut"
+      }
+    },
+    "SaveButton": {
+      "Text": "Gem"
+    },
+    "DeleteButton": {
+      "Text": "Slet"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "Slet attributten %{attributeName}?",
+      "Content": "Dette vil slette attributten permanent <strong>%{attributeName}</strong> og alle segmenterne deri. Dette kan ikke fortrydes.",
+      "ActionText": "Skriv <strong>DELETE</strong> i inputfeltet nedenfor for at låse sletningsknappen op"
+    }
+  }
+}

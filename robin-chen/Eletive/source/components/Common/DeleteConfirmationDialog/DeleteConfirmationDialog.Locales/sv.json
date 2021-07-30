@@ -1,0 +1,13 @@
+{
+  "name": "Common/DeleteConfirmationDialog",
+  "translations": {
+    "CancelButton": {
+      "Text": "Nej"
+    },
+    "ConfirmButton": {
+      "Text": "Ja"
+    },
+    "Description": "Vänligen skriv ** %{checkWord} ** i inmatningsrutan nedan för att låsa upp radera knappen",
+    "CheckWord": "RADERA"
+  }
+}

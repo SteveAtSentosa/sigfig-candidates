@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Registrarse",
+    "Fields": {
+      "Email": {
+        "Label": "Email"
+      },
+      "Password": {
+        "Label": "Contraseña"
+      },
+      "AuthToken": {
+        "Label": "Código segundo factor"
+      }
+    },
+    "SigninButton": {
+      "Text": "Registrarse"
+    },
+    "ForgotPasswordLink": {
+      "Text": "¿Se te olvidó tu contraseña?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Mostrar"
+    },
+    "HidePasswordButton": {
+      "Text": "Ocultar"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "El correo electrónico no existe '",
+      "EmailWrongFormat": "El correo no es válido",
+      "PasswordsNotMatch": "Las contraseñas no coinciden",
+      "PasswordTooShort": "La contraseña debe tener al menos 6 caracteres.",
+      "WrongEmailPassword": "El usuario no existe ' t o contraseña incorrecta",
+      "WrongAuthToken": "El segundo factor es incorrecto, intente nuevamente. Si necesita deshabilitar la autenticación de dos factores, contrate al administrador de su organización"
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Auth/ChangePasswordPage",
+  "translations": {
+    "Title": "Kennwort ändern",
+    "SigninPageLink": {
+      "Text": "Zurück zu Anmelden"
+    }
+  }
+}

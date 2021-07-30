@@ -1,0 +1,12 @@
+{
+  "name": "SegmentDeleteConfirmationAlert",
+  "translations": {
+    "Text": "Sei sicuro di voler eliminare il segmento <b>%{segmentName}</b>? Non può essere annullato",
+    "ConfirmButton": {
+      "Text": "Sì"
+    },
+    "CancelButton": {
+      "Text": "No"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "OrganizationActions",
+  "translations": {
+    "PageTitle": "动作",
+    "StartMessage": "创建新目标到您的列表",
+    "ActionButtons": {
+      "CreateObjective": "建立新目标"
+    },
+    "Breadcrumbs": {
+      "Individual": "我",
+      "Segments": "区隔",
+      "Organization": "组织",
+      "Actions": "动作"
+    },
+    "Tabs": {
+      "Objectives": "目标",
+      "Segments": "区隔",
+      "Employees": "雇员",
+      "Statistics": "统计"
+    },
+    "Filter": {
+      "ObjectiveDate": {
+        "Label": "活动目标"
+      },
+      "Status": {
+        "Label": "状态"
+      },
+      "Statuses": {
+        "all": "显示所有",
+        "NoStatus": "无状态",
+        "onTrack": "步入正轨",
+        "Behind": "背后",
+        "AtRisk": "有一定风险"
+      }
+    }
+  }
+}

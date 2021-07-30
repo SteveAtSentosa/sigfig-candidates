@@ -1,0 +1,12 @@
+{
+  "name": "SegmentDeleteConfirmationAlert",
+  "translations": {
+    "Text": "您确定要删除细分 <b>%{segmentName}</b>？无法撤消",
+    "ConfirmButton": {
+      "Text": "是"
+    },
+    "CancelButton": {
+      "Text": "没有"
+    }
+  }
+}

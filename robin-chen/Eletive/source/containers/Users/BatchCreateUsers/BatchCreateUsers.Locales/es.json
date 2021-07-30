@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Edición masiva de usuarios",
+      "Intro": "Esta función se utiliza para editar usuarios en masa cargando datos. Se puede usar para crear nuevos usuarios y también para actualizar los datos e información del usuario actual. Los datos se pueden crear manualmente o se pueden exportar desde otros sistemas, por ejemplo, sistemas de recursos humanos.",
+      "InstructionsTitle": "Instrucciones",
+      "InstructionsIntro": "No cambie los encabezados de las plantillas. Es importante que el formato de datos sea correcto. Si crea nuevos usuarios, consulte el ejemplo en la plantilla. Si edita usuarios existentes, consulte el formato de datos actual antes de cambiar los datos. Los campos que no son obligatorios pueden dejarse vacíos.",
+      "EmailTitle": "Email",
+      "EmailText": "El correo electrónico siempre es obligatorio, identifica al usuario.",
+      "NamesText": "Obligatorio si se crea un usuario pero no si se editan usuarios existentes.",
+      "LanguageText": "No es obligatorio. Si no se define, se utilizará el inglés. Tenga en cuenta que se debe usar el código corto de idioma, en para inglés y sv para sueco.",
+      "AttributesText": "No es obligatorio. Todos los atributos deben crearse antes de que pueda comenzar la carga."
+    },
+    "Templates": {
+      "Title1": "1. Descargar plantilla",
+      "SubTitleA": "a. Crear usuarios",
+      "TextA": "Descargue esta plantilla si desea crear nuevos usuarios.",
+      "ButtonA": "Descargar plantilla - Crear usuarios",
+      "SubTitleB": "si. Editar usuarios",
+      "TextB": "Descargue esta plantilla si desea editar usuarios existentes.",
+      "ButtonB": "Descargar plantilla - Editar usuarios",
+      "Title2": "2. Subir plantilla"
+    },
+    "Dropzone": {
+      "InviteText": "Suelte el archivo .csv aquí o haga clic para cargar",
+      "HelperText": "Suelta el archivo aquí ..."
+    },
+    "PreImportDialog": {
+      "Title": "Análisis de importación",
+      "CancelButton": {
+        "Text": "Cancelar"
+      },
+      "ContinueButton": {
+        "Text": "Continuar"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Importador...",
+      "Text": "No cierre la ventana del navegador hasta que finalice la importación."
+    },
+    "ResultsDialog": {
+      "Title": "Importación terminada",
+      "SuccessText": "¡La importación finalizó sin errores!",
+      "SuccessSubText": "Este mensaje puede ser cerrado.",
+      "CloseButton": {
+        "Text": "Cerca"
+      },
+      "DownloadButton": {
+        "Text": "Descargar registro de errores"
+      },
+      "WarningText": "¡La importación terminó con errores!",
+      "WarningSubText": "Se necesitan más acciones.",
+      "WarningHelpText": "La importación terminó pero <strong>%{rows} fila(s) se ha omitido</strong> debido a errores en estas filas. Descargue el archivo de registro y revise qué filas se han omitido. Estas filas pueden repararse y cargarse nuevamente o pueden agregarse manualmente."
+    },
+    "Errors": {
+      "USER_DUPLICATE": "Más de un usuario con este correo electrónico en el archivo importado",
+      "FIRST_NAME_REQUIRED": "Error [Nombre]: obligatorio al crear un usuario",
+      "LAST_NAME_REQUIRED": "Error [Apellido]: obligatorio al crear un usuario",
+      "WRONG_LANGUAGE": "Error [Idioma]: idioma no compatible o en el formato incorrecto",
+      "USER_IN_OTHER_ORGANIZATION": "Este usuario ya existe en otra organización.",
+      "WRONG_EMAIL": "Error [Correo electrónico]: el correo electrónico tiene el formato incorrecto o falta",
+      "NEED_ADD_SEGMENTS": "Los siguientes segmentos se agregarán al atributo:",
+      "UNKNOWN_COLUMNS": "Columnas desconocidas: '%{columns}' . Para importarlos, primero agréguelos como atributos.",
+      "DUPLICATE_COLUMN": "Duplicar columna (s):",
+      "EMPTY_ROW": "Fila vacía",
+      "CONVERTING_DATA": "Error en la conversión de datos",
+      "NO_DATA_IN_FILE": "El archivo no contiene datos o tiene el formato incorrecto.",
+      "NOTHING_TO_IMPORT": "El archivo no contiene ningún dato para importar.",
+      "UNNAMED_COLUMN": "Columna sin nombre:",
+      "EXAMPLE_EMAIL": "Ejemplo de correo electrónico",
+      "NOT_A_NUMBER": "No un número",
+      "NOT_A_DATE": "No es una fecha (use el formato AAAA-MM-DD)",
+      "MAX_USER_COUNT": "El número máximo de usuarios ya se ha agregado a la organización con fines de demostración. Póngase en contacto con Eletive para agregar más."
+    }
+  }
+}

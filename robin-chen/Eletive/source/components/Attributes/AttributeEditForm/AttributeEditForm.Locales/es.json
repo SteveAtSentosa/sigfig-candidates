@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Nombre"
+      },
+      "SegmentReportMembers": {
+        "Label": "Segmentar miembros del informe",
+        "Tooltip": "Active esta función si los empleados en los segmentos de este atributo deberían poder ver el informe del segmento del que son miembros."
+      },
+      "AllowFilter": {
+        "Label": "Permitir filtro",
+        "Tooltip": "Permite a los usuarios filtrar en este atributo"
+      }
+    },
+    "SaveButton": {
+      "Text": "Guardar"
+    },
+    "DeleteButton": {
+      "Text": "Borrar"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "¿Eliminar el atributo %{attributeName} ?",
+      "Content": "Esto eliminará permanentemente el atributo <strong>%{attributeName}</strong> y todos los segmentos en el mismo. Esto no se puede deshacer.",
+      "ActionText": "Escriba <strong>DELETE</strong> en el cuadro de entrada a continuación para desbloquear el botón Eliminar"
+    }
+  }
+}

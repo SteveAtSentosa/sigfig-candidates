@@ -1,0 +1,9 @@
+{
+  "name": "DemoModeHeader",
+  "translations": {
+    "Label": "Mostrando el panel de demostración",
+    "BackToOrganizationButton": {
+      "Text": "A la organización"
+    }
+  }
+}

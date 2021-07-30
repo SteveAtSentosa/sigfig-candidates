@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Ankiety niestandardowe",
+    "StartMessage": "Zacznij dodawać pytania do ankiety",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Dodawanie pytania",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "Regularne pytanie 1-5 z \"1: Zdecydowanie się nie zgadzam\" do \"5: Zdecydowanie się zgadzam\"."
+          },
+          "MultipleChoice": {
+            "Title": "Wielokrotny wybór",
+            "Description": "Pytanie wielokrotnego wyboru ze swobodą zbierania różnych rodzajów informacji."
+          },
+          "Text": {
+            "Title": "Tekst",
+            "Description": "Zbieraj odpowiedzi na wolny tekst z otwartymi pytaniami z tym typem pytania."
+          },
+          "NPS": {
+            "Title": "Serwera nps",
+            "Description": "Pytania z odpowiedzią na wynik i wynik net promoter score"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Zapisz jako wersję roboczą"
+      },
+      "CreateButton": {
+        "Text": "Kontynuuj"
+      },
+      "CancelButton": {
+        "Text": "Anuluj"
+      },
+      "BackButton": {
+        "Text": "Wstecz"
+      },
+      "LaunchButton": {
+        "Text": "Uruchom"
+      }
+    }
+  }
+}

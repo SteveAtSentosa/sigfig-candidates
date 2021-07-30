@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Logga in",
+    "Fields": {
+      "Email": {
+        "Label": "Epost"
+      },
+      "Password": {
+        "Label": "Lösenord"
+      },
+      "AuthToken": {
+        "Label": "Kod andra faktor"
+      }
+    },
+    "SigninButton": {
+      "Text": "Logga in"
+    },
+    "ForgotPasswordLink": {
+      "Text": "Glömt ditt lösenord?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Visa"
+    },
+    "HidePasswordButton": {
+      "Text": "Dölj"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "E-post existerar inte",
+      "EmailWrongFormat": "E-post är inte giltig",
+      "PasswordsNotMatch": "Lösenorden matchar inte",
+      "PasswordTooShort": "Lösenordet måste vara minst 6 tecken långt",
+      "WrongEmailPassword": "Användaren existerar inte eller fel lösenord",
+      "WrongAuthToken": "Den andra faktorn är felaktig, vänligen försök igen. Om du behöver inaktivera tvåfaktorsautentisering, kontakta din organisationsadministratör"
+    }
+  }
+}

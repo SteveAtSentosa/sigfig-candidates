@@ -1,0 +1,37 @@
+{
+  "name": "OrganizationActions",
+  "translations": {
+    "PageTitle": "Działania",
+    "StartMessage": "Utwórz nowy cel na swojej liście",
+    "ActionButtons": {
+      "CreateObjective": "Utwórz nowy cel"
+    },
+    "Breadcrumbs": {
+      "Individual": "Me",
+      "Segments": "Segmenty",
+      "Organization": "Organizacji",
+      "Actions": "Działania"
+    },
+    "Tabs": {
+      "Objectives": "Cele",
+      "Segments": "Segmenty",
+      "Employees": "Pracowników",
+      "Statistics": "Statystyki"
+    },
+    "Filter": {
+      "ObjectiveDate": {
+        "Label": "Cel aktywny w"
+      },
+      "Status": {
+        "Label": "Stan"
+      },
+      "Statuses": {
+        "all": "Pokaż wszystkie",
+        "NoStatus": "Brak stanu",
+        "onTrack": "Na dobrej drodze",
+        "Behind": "Za",
+        "AtRisk": "Zagrożone"
+      }
+    }
+  }
+}

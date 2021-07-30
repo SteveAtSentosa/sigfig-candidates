@@ -1,0 +1,9 @@
+{
+  "name": "DemoModeHeader",
+  "translations": {
+    "Label": "Showing demo dashboard",
+    "BackToOrganizationButton": {
+      "Text": "To organization"
+    }
+  }
+}

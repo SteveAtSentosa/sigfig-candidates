@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "Filter",
+    "Buttons": {
+      "Apply": "Anwenden"
+    },
+    "DateRange": {
+      "Title": "Datumsbereich"
+    },
+    "Acknowledge": {
+      "Title": "Filter bestätigen",
+      "Values": {
+        "Yes": "Ja",
+        "No": "Keine",
+        "All": "Alles"
+      }
+    },
+    "Reply": {
+      "Title": "Antworten",
+      "Values": {
+        "All": "Alles",
+        "Replied": "Antwortete",
+        "RepliedByMe": "Von mir geantwortet",
+        "Unreplied": "Unbeantwortet"
+      }
+    },
+    "Read": {
+      "Title": "Lesen",
+      "Values": {
+        "All": "Alles",
+        "Read": "Lesen",
+        "Unread": "Ungelesen"
+      }
+    },
+    "Labels": {
+      "Title": "Etiketten",
+      "Values": {
+        "All": "Alles",
+        "Important": "Wichtige",
+        "FollowUp": "Nachverfolgen",
+        "Idea": "Idee",
+        "NoLabel": "Kein Label"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Attributes/SegmentHierarchyForm",
+  "translations": {
+    "AddHierarchyButton": {
+      "Text": "Tilføj nyt hierarki"
+    },
+    "DeleteChildSegmentButton": {
+      "Text": "Slet"
+    },
+    "AddMoreChildSegmentsButton": {
+      "Text": "Tilføj mere"
+    },
+    "ChildSegmentsCountLabel": "%{segmentCount} underordnet ${segmentCount:segment:segmenter}",
+    "AddHierarchyDialog": {
+      "Title": {
+        "Prefix": "Opret et hierarki til",
+        "AttributeLabel": "Egenskab:"
+      },
+      "ParentSelector": {
+        "Title": "Vælg overordnet segment"
+      },
+      "ChildSelector": {
+        "Title": "Vælg underordnede segmenter"
+      },
+      "CreateButton": {
+        "Text": "Opret"
+      },
+      "CancelButton": {
+        "Text": "Annuller"
+      }
+    }
+  }
+}

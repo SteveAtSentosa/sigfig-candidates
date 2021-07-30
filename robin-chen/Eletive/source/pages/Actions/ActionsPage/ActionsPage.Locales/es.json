@@ -1,0 +1,37 @@
+{
+  "name": "OrganizationActions",
+  "translations": {
+    "PageTitle": "Acciones",
+    "StartMessage": "Crea un nuevo objetivo para tu lista",
+    "ActionButtons": {
+      "CreateObjective": "Crear nuevo objetivo"
+    },
+    "Breadcrumbs": {
+      "Individual": "Me",
+      "Segments": "Segmentos",
+      "Organization": "Organización",
+      "Actions": "Acciones"
+    },
+    "Tabs": {
+      "Objectives": "objetivos",
+      "Segments": "Segmentos",
+      "Employees": "Empleados",
+      "Statistics": "Estadística"
+    },
+    "Filter": {
+      "ObjectiveDate": {
+        "Label": "Objetivo activo en"
+      },
+      "Status": {
+        "Label": "Estado"
+      },
+      "Statuses": {
+        "all": "Mostrar todo",
+        "NoStatus": "Sin Estado",
+        "onTrack": "A tiempo",
+        "Behind": "Detrás",
+        "AtRisk": "En riesgo"
+      }
+    }
+  }
+}

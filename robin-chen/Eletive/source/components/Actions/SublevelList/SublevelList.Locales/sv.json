@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Expandera alla / Dölj alla"
+      },
+      "AttributeFilter": {
+        "Label": "Attribut",
+        "Values": {
+          "All": "Alla"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "Har mål",
+        "Values": {
+          "All": "Alla",
+          "Yes": "Ja",
+          "No": "Nej"
+        }
+      },
+      "SortBy": {
+        "Label": "Sortera efter",
+        "Values": {
+          "ObjectivesMost": "Mål: Flest",
+          "ObjectivesLeast": "Mål: Minst"
+        }
+      }
+    }
+  }
+}

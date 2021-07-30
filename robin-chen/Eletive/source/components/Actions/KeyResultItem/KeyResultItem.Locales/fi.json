@@ -1,0 +1,16 @@
+{
+  "name": "KeyResultItem",
+  "translations": {
+    "KeyResultNameInput": {
+      "Placeholder": "Nimi"
+    },
+    "StartValue": "Aloita",
+    "TargetValue": "Kohde",
+    "KeyResultTypes": {
+      "Percent": "prosentti",
+      "Currency": "valuutta",
+      "Number": "Numero",
+      "Complete": "Valmis / ei valmis"
+    }
+  }
+}

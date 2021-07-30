@@ -1,0 +1,14 @@
+{
+  "name": "SelectList",
+  "translations": {
+    "NoResults": {
+      "Text": "אין תוצאות"
+    },
+    "NoActive": {
+      "Text": "בחר"
+    },
+    "RemoveActive": {
+      "Text": "- אל תבחר באף אחת מהאפשרויות -"
+    }
+  }
+}

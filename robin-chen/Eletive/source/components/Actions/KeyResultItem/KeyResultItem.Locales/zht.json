@@ -1,0 +1,16 @@
+{
+  "name": "KeyResultItem",
+  "translations": {
+    "KeyResultNameInput": {
+      "Placeholder": "名称"
+    },
+    "StartValue": "開始",
+    "TargetValue": "目标",
+    "KeyResultTypes": {
+      "Percent": "百分",
+      "Currency": "货币",
+      "Number": "数",
+      "Complete": "已完成/未完成"
+    }
+  }
+}

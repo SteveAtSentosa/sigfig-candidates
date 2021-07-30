@@ -1,0 +1,9 @@
+{
+  "name": "Auth/ChangePasswordPage",
+  "translations": {
+    "Title": "Skift adgangskode",
+    "SigninPageLink": {
+      "Text": "Tilbage til Log ind"
+    }
+  }
+}

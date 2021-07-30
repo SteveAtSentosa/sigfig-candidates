@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "שחזר סיסמא",
+    "Fields": {
+      "Email": {
+        "Label": "אימייל"
+      }
+    },
+    "SubmitButton": {
+      "Text": "שחזר סיסמא"
+    },
+    "SigninPageLink": {
+      "Text": "חזור לכניסה"
+    },
+    "SuccessMessage": {
+      "Title": "בוצע!",
+      "Description": "שלחנו לך דוא\"ל עם ההוראות. בבקשה, בדוק את תיבת הדואר הנכנס שלך. אם אינך מצליח למצוא אותה לאחר המתנה של מספר דקות, אנא בדוק את תיקיית הספאם שלך."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "לא עבד",
+      "EmailWrongFormat": "הדוא\"ל אינו תקף"
+    }
+  }
+}

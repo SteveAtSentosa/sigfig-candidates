@@ -1,0 +1,6 @@
+{
+  "name": "CommentTitle",
+  "translations": {
+    "Managers": "%{managerCount} ${managerCount:Chef:Chefer}"
+  }
+}

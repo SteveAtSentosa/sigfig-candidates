@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Masowa etacie użytkowników",
+      "Intro": "Ta funkcja służy do masowej edytowania użytkowników przez przesyłanie danych. Może służyć do tworzenia nowych użytkowników, a także do aktualizowania bieżących danych użytkownika i informacji. Dane mogą być tworzone ręcznie lub mogą być eksportowane z innych systemów, na przykład systemów HR.",
+      "InstructionsTitle": "Instrukcje",
+      "InstructionsIntro": "Nie należy zmieniać nagłówków szablonów. Ważne jest, aby format danych był poprawny. Jeśli tworzysz nowych użytkowników, zapoznaj się z przykładem w szablonie. Jeśli edytuje już istniejących użytkowników, przed zmianą danych zapoznaj się z bieżącym formatem danych. Pola, które nie są obowiązkowe, można pozostawić puste.",
+      "EmailTitle": "Adres e-mail",
+      "EmailText": "Poczta e-mail jest zawsze obowiązkowa, identyfikuje użytkownika.",
+      "NamesText": "Obowiązkowe, jeśli tworzy użytkownika, ale nie, jeśli edytowanie istniejących użytkowników.",
+      "LanguageText": "Nie obowiązkowe. Jeśli nie zostanie zdefiniowany, zostanie użyty angielski. Należy pamiętać, że język krótki kod powinien być używany, pl dla języka angielskiego i sv dla języka szwedzkiego.",
+      "AttributesText": "Nie obowiązkowe. Wszystkie atrybuty muszą zostać utworzone przed rozpoczęciem przekazywania."
+    },
+    "Templates": {
+      "Title1": "1. Pobierz szablon",
+      "SubTitleA": "a. Tworzenie użytkowników",
+      "TextA": "Pobierz ten szablon, jeśli chcesz utworzyć nowych użytkowników.",
+      "ButtonA": "Pobierz szablon — tworzenie użytkowników",
+      "SubTitleB": "b. Edytowanie użytkowników",
+      "TextB": "Pobierz ten szablon, jeśli chcesz edytować istniejących użytkowników.",
+      "ButtonB": "Pobierz szablon — edytowanie użytkowników",
+      "Title2": "2. Szablon przesyłania"
+    },
+    "Dropzone": {
+      "InviteText": "Upuść plik csv tutaj lub kliknij, aby przesłać",
+      "HelperText": "Plik upuszczenia tutaj..."
+    },
+    "PreImportDialog": {
+      "Title": "Analiza importu",
+      "CancelButton": {
+        "Text": "Anuluj"
+      },
+      "ContinueButton": {
+        "Text": "Kontynuuj"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Importowanie...",
+      "Text": "Nie zamykaj okna przeglądarki, dopóki import nie zostanie zakończony."
+    },
+    "ResultsDialog": {
+      "Title": "Importowanie zakończone",
+      "SuccessText": "Import zakończył się bez błędów!",
+      "SuccessSubText": "Ten komunikat można zamknąć.",
+      "CloseButton": {
+        "Text": "Zamknij"
+      },
+      "DownloadButton": {
+        "Text": "Pobierz dziennik błędów"
+      },
+      "WarningText": "Import zakończył się błędami!",
+      "WarningSubText": "Potrzebne są dalsze działania.",
+      "WarningHelpText": "Import zakończył się, ale <strong>%{rows} wiersze zostały pominięte</strong> z powodu błędów w tych wierszach. Pobierz plik dziennika i sprawdź, które wiersze zostały pominięte. Te wiersze można naprawić i przesłać ponownie lub można je dodać ręcznie."
+    },
+    "Errors": {
+      "USER_DUPLICATE": "Więcej niż jeden użytkownik z tej wiadomości e-mail w zaimportowanym pliku",
+      "FIRST_NAME_REQUIRED": "Błąd [Imię]: Obowiązkowe podczas tworzenia użytkownika",
+      "LAST_NAME_REQUIRED": "Błąd [Nazwisko]: Obowiązkowe podczas tworzenia użytkownika",
+      "WRONG_LANGUAGE": "Błąd [Język]: Język nie jest obsługiwany lub w niewłaściwym formacie",
+      "USER_IN_OTHER_ORGANIZATION": "Ten użytkownik istnieje już w innej organizacji",
+      "WRONG_EMAIL": "Błąd [E-mail]: Wiadomość e-mail jest w niewłaściwym formacie lub jej brak",
+      "NEED_ADD_SEGMENTS": "Do atrybutu zostaną dodane następujące segmenty:",
+      "UNKNOWN_COLUMNS": "Nieznane kolumny: '%{columns}'. Aby je zaimportować, najpierw dodaj je jako atrybuty.",
+      "DUPLICATE_COLUMN": "Zduplikowane kolumny:",
+      "EMPTY_ROW": "Pusty wiersz",
+      "CONVERTING_DATA": "Błąd podczas konwertowania danych",
+      "NO_DATA_IN_FILE": "Plik nie zawiera danych ani nie ma niewłaściwego formatu.",
+      "NOTHING_TO_IMPORT": "Plik nie zawiera żadnych danych do zaimportowania.",
+      "UNNAMED_COLUMN": "Kolumna bez nazwy:",
+      "EXAMPLE_EMAIL": "Przykładowa wiadomość e-mail",
+      "NOT_A_NUMBER": "Nie liczba",
+      "NOT_A_DATE": "Nie data (użyj formatu YYYY-MM-DD)",
+      "MAX_USER_COUNT": "Maksymalna liczba użytkowników jest już dodawana do organizacji w celach demonstracyjnych. Skontaktuj się z Eletive, aby dodać więcej."
+    }
+  }
+}

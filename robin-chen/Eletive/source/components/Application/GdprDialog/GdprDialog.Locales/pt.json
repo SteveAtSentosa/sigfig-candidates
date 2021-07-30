@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Bem-vindo!",
+    "Button": {
+      "Text": "Concordo"
+    },
+    "Content": "Para continuar a usar o Eletive precisa de concordar com as nossas <a href=\"/privacy\" target=\"_blank\">Políticas de Privacidade</a>. Pode fazê-lo ao clicar em \"Concordo\""
+  }
+}

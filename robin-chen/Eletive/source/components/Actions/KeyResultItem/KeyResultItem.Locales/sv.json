@@ -1,0 +1,19 @@
+{
+  "name": "KeyResultItem",
+  "translations": {
+    "KeyResultNameInput": {
+      "Placeholder": "Namn"
+    },
+    "StartValue": "Start",
+    "TargetValue": "Målvärde",
+    "KeyResultTypes": {
+      "Percent": "Procent",
+      "Currency": "Valuta",
+      "Number": "Nummer",
+      "Complete": "Slutförd / Ej slutförd"
+    },
+    "ErrorMessages": {
+      "EmptyKeyName": "Ange ett namn för att fortsätta"
+    }
+  }
+}

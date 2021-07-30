@@ -1,0 +1,37 @@
+{
+  "name": "OrganizationActions",
+  "translations": {
+    "PageTitle": "Toiminnot",
+    "StartMessage": "Luo uusi tavoite luetteloosi",
+    "ActionButtons": {
+      "CreateObjective": "Luo uusi tavoite"
+    },
+    "Breadcrumbs": {
+      "Individual": "Minä",
+      "Segments": "segmentit",
+      "Organization": "organisaatio",
+      "Actions": "Toiminnot"
+    },
+    "Tabs": {
+      "Objectives": "tavoitteet",
+      "Segments": "segmentit",
+      "Employees": "Työntekijät",
+      "Statistics": "tilasto"
+    },
+    "Filter": {
+      "ObjectiveDate": {
+        "Label": "Objektiivi aktiivinen"
+      },
+      "Status": {
+        "Label": "Tila"
+      },
+      "Statuses": {
+        "all": "Näytä kaikki",
+        "NoStatus": "Ei statusta",
+        "onTrack": "Radalla",
+        "Behind": "Takana",
+        "AtRisk": "Vaarassa"
+      }
+    }
+  }
+}

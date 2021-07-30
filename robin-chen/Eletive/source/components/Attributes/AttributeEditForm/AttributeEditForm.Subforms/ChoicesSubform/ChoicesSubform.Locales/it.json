@@ -1,0 +1,16 @@
+{
+  "name": "Attributes/ChoicesSubform",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Cerca segmenti"
+    },
+    "Fields": {
+      "Name": {
+        "Placeholder": "Segmento"
+      }
+    },
+    "CreateButton": {
+      "Text": "Aggiungi %{attributeName}"
+    }
+  }
+}

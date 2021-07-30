@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Expand All / Collapse All"
+      },
+      "AttributeFilter": {
+        "Label": "Attribute",
+        "Values": {
+          "All": "All"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "Have Objective",
+        "Values": {
+          "All": "All",
+          "Yes": "Yes",
+          "No": "No"
+        }
+      },
+      "SortBy": {
+        "Label": "Sort by",
+        "Values": {
+          "ObjectivesMost": "Objectives: Most",
+          "ObjectivesLeast": "Objectives: Least"
+        }
+      }
+    }
+  }
+}

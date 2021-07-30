@@ -1,0 +1,20 @@
+{
+  "name": "CommentHeader",
+  "translations": {
+    "MessageCount": {
+      "InThisChat": "i den här chatten",
+      "Unread": "Olästa",
+      "TotalCount": "%{totalCount} ${totalCount:Meddelande:Meddelanden}"
+    },
+    "Buttons": {
+      "Chat": "Chatt",
+      "Acknowledge": "Bekräfta"
+    },
+    "Labels": {
+      "Important": "Viktig",
+      "FollowUp": "Uppföljning",
+      "Idea": "Ide",
+      "No": "Ingen etikett"
+    }
+  }
+}

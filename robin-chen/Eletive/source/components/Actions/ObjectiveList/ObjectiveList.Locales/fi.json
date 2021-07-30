@@ -1,0 +1,27 @@
+{
+  "name": "ObjectiveList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Laajenna kaikki / Kutista kaikki"
+      },
+      "SortBy": {
+        "Label": "Järjestä",
+        "Values": {
+          "AZ": "A-Z",
+          "DueDateAscending": "Eräpäivä: Nouseva",
+          "DueDateDescending": "Eräpäivä: laskeva",
+          "ProgressMost": "Edistys: Eniten",
+          "ProgressLeast": "Edistys: vähiten",
+          "CreateDateNewest": "Luo päivämäärä: Uusin",
+          "CreateDateOldest": "Luo päivämäärä: Vanhin"
+        }
+      }
+    },
+    "Statuses": {
+      "OnTrack": "Radalla",
+      "Behind": "Takana",
+      "AtRisk": "Vaarassa"
+    }
+  }
+}

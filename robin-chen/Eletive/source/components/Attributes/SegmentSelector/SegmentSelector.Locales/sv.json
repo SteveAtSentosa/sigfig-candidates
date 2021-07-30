@@ -1,0 +1,34 @@
+{
+  "name": "SegmentSelector",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Sök segment"
+    },
+    "SidePanel": {
+      "Title": "Välj segment"
+    },
+    "TargetButton": {
+      "Text": "%{segmentCount} segment valda",
+      "DefaultText": "Välj segment",
+      "DefaultTextInSingleSelectionMode": "Välj segment"
+    },
+    "CancelButton": {
+      "Text": "Avbryt"
+    },
+    "ConfirmButton": {
+      "Text": "Välj %{segmentCount} segment"
+    },
+    "DeselectAllButton": {
+      "Text": "Avmarkera alla"
+    },
+    "AttributeSegmentCountLabel": "%{segmentCount} ${segmentCount:segment:segment}",
+    "AttributeSelectedSegmentCountLabel": "%{segmentCount} valda",
+    "AttributeNoResultsSegmentLabel": "Inga resultat",
+    "SelectAllAttributeSegmentsButton": {
+      "Text": "Välj alla %{segmentCount}"
+    },
+    "DeselectAllAttributeSegmentsButton": {
+      "Text": "Avmarkera alla %{segmentCount}"
+    }
+  }
+}

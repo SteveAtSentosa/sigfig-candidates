@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "הרחב הכל / כווץ הכל"
+      },
+      "AttributeFilter": {
+        "Label": "תכונה",
+        "Values": {
+          "All": "את כל"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "שיהיה לך מטרה",
+        "Values": {
+          "All": "את כל",
+          "Yes": "כן",
+          "No": "לא"
+        }
+      },
+      "SortBy": {
+        "Label": "מיין לפי",
+        "Values": {
+          "ObjectivesMost": "יעדים: רוב",
+          "ObjectivesLeast": "יעדים: הכי פחות"
+        }
+      }
+    }
+  }
+}

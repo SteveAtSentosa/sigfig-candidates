@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "Tavoitetila",
+      "EmployeesWithObjectives": "Työntekijät, joilla on tavoitteita",
+      "ObjectAlignment": "Objektiivinen yhdenmukaistaminen",
+      "SegmentsWithObjectives": "Segmentit, joilla on tavoitteet"
+    },
+    "Legend": {
+      "OnTrack": "Radalla",
+      "Behind": "Takana",
+      "AtRisk": "Vaarassa",
+      "NoStatus": "Ei statusta",
+      "With": "Kanssa",
+      "Without": "Ilman",
+      "Aligned": "tasattu",
+      "NotAligned": "Ei kohdistettu"
+    },
+    "NoObjectives": "Ei tavoitteita",
+    "NoEmployees": "Ei työntekijöitä, joilla on tavoitteita",
+    "NoSegments": "Ei segmenttejä, joilla on tavoitteita"
+  }
+}

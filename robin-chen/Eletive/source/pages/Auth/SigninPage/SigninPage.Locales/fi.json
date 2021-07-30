@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Kirjaudu sisään",
+    "Fields": {
+      "Email": {
+        "Label": "Sähköposti"
+      },
+      "Password": {
+        "Label": "Salasana"
+      },
+      "AuthToken": {
+        "Label": "Koodi toinen tekijä"
+      }
+    },
+    "SigninButton": {
+      "Text": "Kirjaudu sisään"
+    },
+    "ForgotPasswordLink": {
+      "Text": "Unohtuiko salasana?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Show"
+    },
+    "HidePasswordButton": {
+      "Text": "Piilottaa"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Sähköposti ei ole ' t",
+      "EmailWrongFormat": "Sähköposti ei kelpaa",
+      "PasswordsNotMatch": "Salasanat eivät täsmää",
+      "PasswordTooShort": "Salasanan on oltava vähintään 6 merkkiä pitkä",
+      "WrongEmailPassword": "Käyttäjällä ei ole ' t tai väärä salasana",
+      "WrongAuthToken": "Toinen tekijä on väärä, yritä uudelleen. Jos joudut poistamaan kaksifaktorisen todennuksen käytöstä, tee organisaation järjestelmänvalvojalta sopimus"
+    }
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "name": "CommentHeader",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "",
+      "InThisChat": "בצ'אט הזה",
+      "Unread": "לא נקרא"
+    },
+    "Buttons": {
+      "Chat": "צ'אט",
+      "Acknowledge": "הכרה"
+    },
+    "Labels": {
+      "Important": "חשוב",
+      "FollowUp": "תתעדכן",
+      "Idea": "רעיון",
+      "No": "אין תווית"
+    }
+  }
+}

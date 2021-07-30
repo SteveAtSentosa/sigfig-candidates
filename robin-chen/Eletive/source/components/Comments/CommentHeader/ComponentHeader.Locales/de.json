@@ -1,0 +1,20 @@
+{
+  "name": "CommentHeader",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:Botschaft:Botschaft}",
+      "InThisChat": "in diesem Chat",
+      "Unread": "Ungelesen"
+    },
+    "Buttons": {
+      "Chat": "Plaudern",
+      "Acknowledge": "Bestätigen"
+    },
+    "Labels": {
+      "Important": "Wichtige",
+      "FollowUp": "Nachverfolgen",
+      "Idea": "Idee",
+      "No": "Kein Label"
+    }
+  }
+}

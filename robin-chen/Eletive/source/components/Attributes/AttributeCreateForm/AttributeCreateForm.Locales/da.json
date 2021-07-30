@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "Choices",
+      "Dates": "Datoer",
+      "Numbers": "numre"
+    },
+    "Descriptions": {
+      "Choices": "Liste over værdier såsom lande",
+      "Dates": "Datoer som lejedato eller fødselsdato",
+      "Numbers": "Tal som løn eller score"
+    },
+    "Placeholders": {
+      "Prefix": "Navn f.eks.",
+      "Choices": "Land",
+      "Dates": "Fødselsdato",
+      "Numbers": "Løn"
+    },
+    "SubmitButton": {
+      "Text": "Opret"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Attributnavn findes allerede for en anden attribut. Vælg et andet navn"
+    }
+  }
+}

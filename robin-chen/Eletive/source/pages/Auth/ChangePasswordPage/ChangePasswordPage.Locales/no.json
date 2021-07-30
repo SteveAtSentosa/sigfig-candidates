@@ -1,0 +1,9 @@
+{
+  "name": "Auth/ChangePasswordPage",
+  "translations": {
+    "Title": "Bytt passord",
+    "SigninPageLink": {
+      "Text": "Gå tilbake til Logg på"
+    }
+  }
+}

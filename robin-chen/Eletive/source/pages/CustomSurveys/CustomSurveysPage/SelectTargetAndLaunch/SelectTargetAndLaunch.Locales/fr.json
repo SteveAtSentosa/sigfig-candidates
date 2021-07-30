@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Lancez votre enquête",
+      "Immediate": "Lancement immédiat",
+      "Scheduled": "Lancement planifié",
+      "Separator": "ou"
+    },
+    "Launched": {
+      "Title": "Enquête prévue",
+      "Description": "Votre enquête est planifiée et sera lancée le"
+    },
+    "ScheduleForm": {
+      "Title": "Lancement planifié",
+      "LaunchButton": {
+        "Text": "Lancer"
+      }
+    }
+  }
+}

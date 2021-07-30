@@ -1,0 +1,11 @@
+{
+  "name": "ManagerListView",
+  "translations": {
+    "UserSelector": {
+      "NoResults": {
+        "Text": "Ingen matchende brugere"
+      },
+      "Placeholder": "Søg..."
+    }
+  }
+}

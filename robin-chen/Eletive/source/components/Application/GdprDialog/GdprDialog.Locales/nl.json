@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Welkom!",
+    "Button": {
+      "Text": "Ik ga akkoord"
+    },
+    "Content": "Om Eletive te blijven gebruiken moet u akkoord gaan met ons <a href=\"/privacy\" target=\"_blank\">privacybeleid</a>. U gaat akkoord door op 'Ik ga akkoord' te klikken."
+  }
+}

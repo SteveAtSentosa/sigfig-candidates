@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Återställ lösenord",
+    "Fields": {
+      "Email": {
+        "Label": "Epost"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Återställ lösenord"
+    },
+    "SigninPageLink": {
+      "Text": "Återvänd till inloggning"
+    },
+    "SuccessMessage": {
+      "Title": "Klart!",
+      "Description": "Vi har skickat epost med till dig med instruktioner. Vänligen kontrollera din inkorg. Om du inte kan hitta det efter några minuter, vänligen kontrollera din mapp för skräppost."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Fungerade ej",
+      "EmailWrongFormat": "E-post är inte giltig"
+    }
+  }
+}

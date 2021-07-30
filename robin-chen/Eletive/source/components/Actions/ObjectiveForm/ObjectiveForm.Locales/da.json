@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Offentlig",
+      "Description": {
+        "Organization": "Brug dette hvis segmenter og medarbejdere skal være i stand til at tilpasse sig dette mål.",
+        "Segment": "Brug dette, hvis medarbejdere og undersegmenter skulle være i stand til at tilpasse sig dette mål.",
+        "User": "Brug dette, hvis du vil tilpasse målet med team- eller organisationsmål. Det kan også bruges til at dele dine mål med din manager."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Privat",
+      "Description": {
+        "Organization": "Hvis målet skal være privat og kun tilgængeligt for personer med adgang til organisationen, skal du bruge dette.",
+        "Segment": "Hvis målet skal være privat og kun tilgængeligt for personer med adgang til segmentet, skal du bruge dette.",
+        "User": "Hvis målet skal være privat og kun tilgængeligt af dig selv, skal du bruge dette."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Indtast dit mål her",
+      "Label": "Hvad er målet?"
+    },
+    "TextArea": {
+      "Placeholder": "Indtast dit mål her",
+      "Label": "Beskrivelse"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Forælder, der skal tilpasses"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Overordnet mål at tilpasse sig til"
+    },
+    "SelectDriver": {
+      "Label": "Driverforbindelse"
+    },
+    "SelectQuarter": {
+      "Label": "Objektiv start og slut"
+    },
+    "AddKeyResultButton": {
+      "Text": "Tilføj et andet nøgleresultat"
+    },
+    "KeyResults": {
+      "Tittle": "Nøgleresultater"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Slet"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Annuller"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Opret"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Gem"
+    },
+    "CreateObjectiveTitle": "Opret et nyt mål",
+    "EditObjectiveTitle": "Rediger mål"
+  }
+}

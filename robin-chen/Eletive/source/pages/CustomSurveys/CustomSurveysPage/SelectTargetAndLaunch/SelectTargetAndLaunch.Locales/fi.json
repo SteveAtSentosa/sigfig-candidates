@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Käynnistä kyselysi",
+      "Immediate": "Välitön käynnistys",
+      "Scheduled": "Ajoitettu käynnistys",
+      "Separator": "tai"
+    },
+    "Launched": {
+      "Title": "Kysely on suunniteltu",
+      "Description": "Kyselysi on ajoitettu ja se käynnistetään"
+    },
+    "ScheduleForm": {
+      "Title": "Ajoitettu käynnistys",
+      "LaunchButton": {
+        "Text": "Tuoda markkinoille"
+      }
+    }
+  }
+}

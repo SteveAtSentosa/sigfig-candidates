@@ -1,0 +1,9 @@
+{
+  "name": "Attributes/AttributeOverviewForm",
+  "translations": {
+    "Menu": {
+      "Segments": "Segmenty",
+      "Hierarchies": "Hierarchie"
+    }
+  }
+}

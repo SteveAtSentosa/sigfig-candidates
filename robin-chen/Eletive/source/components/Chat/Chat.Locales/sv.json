@@ -1,0 +1,14 @@
+{
+  "name": "Chat",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:Meddelande:Meddelanden}",
+      "InThisChat": "i denna chatt ",
+      "Unread": "Olästa"
+    },
+    "AnonymousUser": {
+      "Anonymous": "Anonym",
+      "You": "Du"
+    }
+  }
+}

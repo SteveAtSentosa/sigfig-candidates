@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Palauta salasana",
+    "Fields": {
+      "Email": {
+        "Label": "Sähköposti"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Palauta salasana"
+    },
+    "SigninPageLink": {
+      "Text": "Palaa kirjautumiseen"
+    },
+    "SuccessMessage": {
+      "Title": "Tehty!",
+      "Description": "Olemme lähettäneet sinulle ohjeen sisältävän sähköpostin. Tarkista postilaatikkosi. Jos et löydä sitä muutaman minuutin odottamisen jälkeen, tarkista roskapostikansio."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Ei toiminut",
+      "EmailWrongFormat": "Sähköposti ei kelpaa"
+    }
+  }
+}

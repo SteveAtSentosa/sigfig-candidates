@@ -1,0 +1,14 @@
+{
+  "name": "Chat",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:Melding:Meldinger}",
+      "InThisChat": "i denne chatten",
+      "Unread": "ulest"
+    },
+    "AnonymousUser": {
+      "Anonymous": "Anonym",
+      "You": "Du"
+    }
+  }
+}

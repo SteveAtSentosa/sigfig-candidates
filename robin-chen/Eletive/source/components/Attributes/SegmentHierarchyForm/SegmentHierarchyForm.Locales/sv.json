@@ -1,0 +1,33 @@
+{
+  "name": "Attributes/SegmentHierarchyForm",
+  "translations": {
+    "AddHierarchyButton": {
+      "Text": "Lägg till ny hierarki"
+    },
+    "DeleteChildSegmentButton": {
+      "Text": "Radera"
+    },
+    "AddMoreChildSegmentsButton": {
+      "Text": "Lägga till fler"
+    },
+    "ChildSegmentsCountLabel": "%{segmentCount} barnsegment",
+    "AddHierarchyDialog": {
+      "Title": {
+        "Prefix": "Skapa en hierarki för",
+        "AttributeLabel": "Attribut:"
+      },
+      "ParentSelector": {
+        "Title": "Välj överordnade segment"
+      },
+      "ChildSelector": {
+        "Title": "Välj barnsegment"
+      },
+      "CreateButton": {
+        "Text": "Skapa"
+      },
+      "CancelButton": {
+        "Text": "Avbryt"
+      }
+    }
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Attributes/AttributeOverviewForm",
+  "translations": {
+    "Menu": {
+      "Segments": "区隔",
+      "Hierarchies": "层次结构"
+    }
+  }
+}

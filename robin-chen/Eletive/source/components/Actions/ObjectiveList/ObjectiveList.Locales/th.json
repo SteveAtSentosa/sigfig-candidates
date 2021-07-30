@@ -1,0 +1,27 @@
+{
+  "name": "ObjectiveList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "ยุบทั้งหมด"
+      },
+      "SortBy": {
+        "Label": "จัดเรียงตาม",
+        "Values": {
+          "AZ": "A-Z",
+          "DueDateAscending": "วันที่ครบกำหนด: จากน้อยไปมาก",
+          "DueDateDescending": "วันที่ครบกำหนด: มากไปน้อย",
+          "ProgressMost": "ความคืบหน้า: ส่วนใหญ่",
+          "ProgressLeast": "ความคืบหน้า: อย่างน้อย",
+          "CreateDateNewest": "สร้างวันที่: ใหม่ที่สุด",
+          "CreateDateOldest": "สร้างวันที่: เก่าที่สุด"
+        }
+      }
+    },
+    "Statuses": {
+      "OnTrack": "ในการติดตาม",
+      "Behind": "หลัง",
+      "AtRisk": "มีความเสี่ยง"
+    }
+  }
+}

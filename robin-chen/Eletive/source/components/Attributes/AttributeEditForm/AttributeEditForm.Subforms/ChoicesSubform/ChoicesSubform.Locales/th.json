@@ -1,0 +1,16 @@
+{
+  "name": "Attributes/ChoicesSubform",
+  "translations": {
+    "Filter": {
+      "Placeholder": "ค้นหากลุ่ม"
+    },
+    "Fields": {
+      "Name": {
+        "Placeholder": "ส่วน"
+      }
+    },
+    "CreateButton": {
+      "Text": "เพิ่ม %{attributeName}"
+    }
+  }
+}

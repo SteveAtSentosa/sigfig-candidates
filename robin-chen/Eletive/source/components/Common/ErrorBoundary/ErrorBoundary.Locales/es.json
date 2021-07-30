@@ -1,0 +1,7 @@
+{
+  "name": "ErrorBoundary",
+  "translations": {
+    "Title": "¡Uy! Algo salió mal",
+    "ContactText": "Cierre sesión, vuelva a cargar la página e intente nuevamente. Si el problema persiste, comuníquese con Eletive."
+  }
+}

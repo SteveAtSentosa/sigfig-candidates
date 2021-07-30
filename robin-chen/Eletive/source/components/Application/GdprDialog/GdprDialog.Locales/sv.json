@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Välkommen!",
+    "Button": {
+      "Text": "Jag godkänner"
+    },
+    "Content": "För att fortsätta använda Eletive måste du godkänna vår <a href=\"/privacy\" target=\"_blank\">Privacy Policy</a>. Gör det genom att trycka på \"Jag godkänner\""
+  }
+}

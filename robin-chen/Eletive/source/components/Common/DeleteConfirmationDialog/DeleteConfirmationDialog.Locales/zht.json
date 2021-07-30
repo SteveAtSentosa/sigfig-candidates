@@ -1,0 +1,11 @@
+{
+  "name": "Common/DeleteConfirmationDialog",
+  "translations": {
+    "CancelButton": {
+      "Text": "取消"
+    },
+    "ConfirmButton": {
+      "Text": "删除"
+    }
+  }
+}

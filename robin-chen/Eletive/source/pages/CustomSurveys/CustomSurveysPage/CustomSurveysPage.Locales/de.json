@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Benutzerdefinierte Umfragen",
+    "StartMessage": "Beginnen Sie, Fragen zu Ihrer Umfrage hinzuzufügen",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Frage hinzufügen",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "Regelmäßige 1-5-Frage von \"1: Stimme überhaupt nicht zu\" bis \"5: Stimme voll zu\"."
+          },
+          "MultipleChoice": {
+            "Title": "Mehrfachauswahl",
+            "Description": "Multiple-Choice-Frage mit der Freiheit, verschiedene Arten von Informationen zu sammeln."
+          },
+          "Text": {
+            "Title": "Text",
+            "Description": "Sammeln Sie mit diesem Fragetyp Freitextantworten mit offenen Fragen."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "Fragen mit Net Promoter Score beantworten und führen"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Als Entwurf speichern"
+      },
+      "CreateButton": {
+        "Text": "Weiter"
+      },
+      "CancelButton": {
+        "Text": "Kündigen"
+      },
+      "BackButton": {
+        "Text": "Zurück"
+      },
+      "LaunchButton": {
+        "Text": "Einführung"
+      }
+    }
+  }
+}

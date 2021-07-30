@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "Objective Status",
+      "EmployeesWithObjectives": "Employees with Objectives",
+      "ObjectAlignment": "Objective Alignment",
+      "SegmentsWithObjectives": "Segments with Objectives"
+    },
+    "Legend": {
+      "OnTrack": "On Track",
+      "Behind": "Behind",
+      "AtRisk": "At Risk",
+      "NoStatus": "No Status",
+      "With": "With",
+      "Without": "Without",
+      "Aligned": "Aligned",
+      "NotAligned": "Not Aligned"
+    },
+    "NoObjectives": "No objectives",
+    "NoEmployees": "No employees with objectives",
+    "NoSegments": "No segments with objectives"
+  }
+}

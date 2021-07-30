@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Passwort wiederherstellen",
+    "Fields": {
+      "Email": {
+        "Label": "Email"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Passwort wiederherstellen"
+    },
+    "SigninPageLink": {
+      "Text": "Zurück zu Anmelden"
+    },
+    "SuccessMessage": {
+      "Title": "Fix Und Fertig!",
+      "Description": "Wir haben Ihnen eine E-Mail mit den Anweisungen gesendet. Bitte überprüfen Sie Ihren Posteingang. Wenn Sie es nach ein paar Minuten nicht finden, überprüfen Sie bitte Ihren Spam-Ordner."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Funktioniert nicht",
+      "EmailWrongFormat": "Email ist ungültig"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "name": "Auth/ChangePasswordForm",
+  "translations": {
+    "Fields": {
+      "CurrentPassword": {
+        "Label": "Password attuale"
+      },
+      "Password": {
+        "Label": "Nuova password"
+      },
+      "RepeatPassword": {
+        "Label": "Ripetere la password"
+      }
+    },
+    "ShowPasswordButton": {
+      "Text": "Spettacolo"
+    },
+    "HidePasswordButton": {
+      "Text": "Nascondere"
+    },
+    "PasswordStrength": {
+      "NoPassword": "No Password",
+      "VeryWeak": "Molto debole",
+      "Weak": "Debole",
+      "Medium": "medio",
+      "Strong": "Forte",
+      "VeryStrong": "Molto forte"
+    },
+    "SubmitButton": {
+      "Text": "Modificare la password"
+    },
+    "ErrorMessages": {
+      "PasswordsNotMatch": "le passwords non corrispondono",
+      "PasswordTooShort": "La password deve contenere almeno 6 caratteri"
+    }
+  }
+}

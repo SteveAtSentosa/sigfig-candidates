@@ -1,0 +1,7 @@
+{
+  "name": "ErrorBoundary",
+  "translations": {
+    "Title": "Hoppla! Etwas ist schief gelaufen",
+    "ContactText": "Bitte melden Sie sich ab, laden Sie die Seite neu und versuchen Sie es erneut. Wenn das Problem weiterhin besteht, wenden Sie sich bitte an Eletive."
+  }
+}

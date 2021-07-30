@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "启动调查",
+      "Immediate": "立即启动",
+      "Scheduled": "预定发射",
+      "Separator": "要么"
+    },
+    "Launched": {
+      "Title": "计划调查",
+      "Description": "您的调查已排定，并将于"
+    },
+    "ScheduleForm": {
+      "Title": "预定发射",
+      "LaunchButton": {
+        "Text": "发射"
+      }
+    }
+  }
+}

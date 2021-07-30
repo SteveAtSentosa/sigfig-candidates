@@ -1,0 +1,20 @@
+{
+  "name": "CommentHeader",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:Meddelelse:Meddelelser}",
+      "InThisChat": "i denne chat",
+      "Unread": "Ulæst"
+    },
+    "Buttons": {
+      "Chat": "Snak",
+      "Acknowledge": "Anerkende"
+    },
+    "Labels": {
+      "Important": "Vigtig",
+      "FollowUp": "Opfølgning",
+      "Idea": "Ide",
+      "No": "Ingen etiket"
+    }
+  }
+}

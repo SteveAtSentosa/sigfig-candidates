@@ -1,0 +1,37 @@
+{
+  "name": "Auth/ChangePasswordForm",
+  "translations": {
+    "Fields": {
+      "CurrentPassword": {
+        "Label": "סיסמה נוכחית"
+      },
+      "Password": {
+        "Label": "סיסמה חדשה"
+      },
+      "RepeatPassword": {
+        "Label": "חזור על הסיסמה"
+      }
+    },
+    "ShowPasswordButton": {
+      "Text": "הופעה"
+    },
+    "HidePasswordButton": {
+      "Text": "להתחבא"
+    },
+    "PasswordStrength": {
+      "NoPassword": "אין סיסמא",
+      "VeryWeak": "חלש מאוד",
+      "Weak": "חלש",
+      "Medium": "בינוני",
+      "Strong": "חזק",
+      "VeryStrong": "חזק מאוד"
+    },
+    "SubmitButton": {
+      "Text": "שנה סיסמא"
+    },
+    "ErrorMessages": {
+      "PasswordsNotMatch": "סיסמאות לא תואמות",
+      "PasswordTooShort": "סיסמא צריכה להיות לפחות 6 תווים"
+    }
+  }
+}

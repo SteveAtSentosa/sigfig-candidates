@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Nome"
+      },
+      "SegmentReportMembers": {
+        "Label": "Membri del report di segmento",
+        "Tooltip": "Attivare questa funzione se i dipendenti nei segmenti per questo attributo dovrebbero essere in grado di vedere il report del segmento di cui sono membri."
+      },
+      "AllowFilter": {
+        "Label": "Consenti filtro",
+        "Tooltip": "Consente agli utenti di filtrare su questo attributo"
+      }
+    },
+    "SaveButton": {
+      "Text": "Salva"
+    },
+    "DeleteButton": {
+      "Text": "Cancellare"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "Elimina l'attributo %{attributeName}?",
+      "Content": "Ciò eliminerà definitivamente l'attributo <strong>%{attributeName}</strong> e tutti i segmenti in esso. Questo NON PU be essere annullato.",
+      "ActionText": "Digita <strong>DELETE</strong> nella casella di input in basso per sbloccare il pulsante Elimina"
+    }
+  }
+}

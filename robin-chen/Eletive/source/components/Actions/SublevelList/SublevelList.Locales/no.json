@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Utvid alle / Skjul alt"
+      },
+      "AttributeFilter": {
+        "Label": "Egenskap",
+        "Values": {
+          "All": "Alle"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "Ha mål",
+        "Values": {
+          "All": "Alle",
+          "Yes": "Ja",
+          "No": "Nei"
+        }
+      },
+      "SortBy": {
+        "Label": "Sorter etter",
+        "Values": {
+          "ObjectivesMost": "Mål: De fleste",
+          "ObjectivesLeast": "Mål: Minst"
+        }
+      }
+    }
+  }
+}

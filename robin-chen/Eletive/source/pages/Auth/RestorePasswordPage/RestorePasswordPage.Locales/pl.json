@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Przywracanie hasła",
+    "Fields": {
+      "Email": {
+        "Label": "Adres e-mail"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Przywracanie hasła"
+    },
+    "SigninPageLink": {
+      "Text": "Powrót do logowania"
+    },
+    "SuccessMessage": {
+      "Title": "Zrobić!",
+      "Description": "Wysłaliśmy Ci wiadomość e-mail z instrukcjami. Sprawdź swoją skrzynkę odbiorczą. Jeśli nie możesz go znaleźć po odczekaniu kilku minut, sprawdź folder spamu."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Nie działa",
+      "EmailWrongFormat": "Wiadomość e-mail jest nieprawidłowa"
+    }
+  }
+}

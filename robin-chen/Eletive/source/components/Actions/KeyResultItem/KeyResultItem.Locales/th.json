@@ -1,0 +1,16 @@
+{
+  "name": "KeyResultItem",
+  "translations": {
+    "KeyResultNameInput": {
+      "Placeholder": "ชื่อ"
+    },
+    "StartValue": "เริ่ม",
+    "TargetValue": "เป้า",
+    "KeyResultTypes": {
+      "Percent": "เปอร์เซ็นต์",
+      "Currency": "เงินตรา",
+      "Number": "จำนวน",
+      "Complete": "เสร็จสมบูรณ์ / ไม่เสร็จสมบูรณ์"
+    }
+  }
+}

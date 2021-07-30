@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Bun venit!",
+    "Button": {
+      "Text": "Accept"
+    },
+    "Content": "Pentru a continua să folosiți Eletive, trebuie să acceptați <a href=\"/privacy\" target=\"_blank\">Politica de confidențialitate</a>. Acceptați apăsând pe „Accept”"
+  }
+}

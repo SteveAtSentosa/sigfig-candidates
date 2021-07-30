@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Julkinen",
+      "Description": {
+        "Organization": "Käytä tätä, jos segmenttien ja työntekijöiden pitäisi pystyä vastaamaan tätä tavoitetta.",
+        "Segment": "Käytä tätä, jos työntekijöiden ja alasegmenttien pitäisi pystyä vastaamaan tätä tavoitetta.",
+        "User": "Käytä tätä, jos haluat kohdistaa tavoitteen joukkueen tai organisaation tavoitteisiin. Sitä voidaan käyttää myös jakamaan tavoitteesi päälliköllesi."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Yksityinen",
+      "Description": {
+        "Organization": "Jos tavoitteen tulisi olla yksityinen ja päästä vain ihmisille, joilla on pääsy organisaatioon, käytä tätä.",
+        "Segment": "Jos tavoitteen pitäisi olla yksityinen ja päästä vain ihmisille, joilla on pääsy segmenttiin, käytä tätä.",
+        "User": "Jos tavoitteen pitäisi olla yksityinen ja vain itse päästä siihen, käytä tätä."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Kirjoita tavoitteesi tähän",
+      "Label": "Mikä on tavoite?"
+    },
+    "TextArea": {
+      "Placeholder": "Kirjoita tavoitteesi tähän",
+      "Label": "Kuvaus"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Vanhempi yhdenmukaistaa"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Vanhempi tavoite yhdenmukaistaa"
+    },
+    "SelectDriver": {
+      "Label": "Kuljettajan yhteys"
+    },
+    "SelectQuarter": {
+      "Label": "Objektiivinen alku ja loppu"
+    },
+    "AddKeyResultButton": {
+      "Text": "Lisää toinen avaintulos"
+    },
+    "KeyResults": {
+      "Tittle": "Keskeiset tulokset"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Poistaa"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Peruuttaa"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Luoda"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Säästää"
+    },
+    "CreateObjectiveTitle": "Luo uusi tavoite",
+    "EditObjectiveTitle": "Muokkaa tavoitetta"
+  }
+}

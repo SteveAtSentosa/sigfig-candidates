@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Käyttäjien joukkoeditointi",
+      "Intro": "Tätä toimintoa käytetään käyttäjien massamuokkaamiseen lähettämällä tietoja. Sitä voidaan käyttää uusien käyttäjien luomiseen sekä nykyisten käyttäjätietojen päivittämiseen. Tiedot voidaan luoda manuaalisesti tai viedä muista järjestelmistä, esimerkiksi HR-järjestelmistä.",
+      "InstructionsTitle": "Ohjeet",
+      "InstructionsIntro": "Älä muuta mallien otsikoita. On tärkeää, että tietomuoto on oikea. Jos luot uusia käyttäjiä, katso malli esimerkkiä. Jos muokkaat olemassa olevia käyttäjiä, katso nykyinen tietomuoto ennen tietojen muuttamista. Kentät, jotka eivät ole pakollisia, voidaan jättää tyhjiksi.",
+      "EmailTitle": "Sähköposti",
+      "EmailText": "Sähköposti on aina pakollinen, se tunnistaa käyttäjän.",
+      "NamesText": "Pakollinen, jos luodaan käyttäjä, mutta ei jos muokkataan olemassa olevia käyttäjiä.",
+      "LanguageText": "Ei pakollinen. Ellei määritelmää, käytetään englantia. Huomaa, että kielen lyhytkoodia tulisi käyttää, en englanniksi ja sv ruotsiksi.",
+      "AttributesText": "Ei pakollinen. Kaikki määritteet on luotava, ennen kuin lähetys voi alkaa."
+    },
+    "Templates": {
+      "Title1": "1. Lataa malli",
+      "SubTitleA": "a. Luo käyttäjiä",
+      "TextA": "Lataa tämä malli, jos haluat luoda uusia käyttäjiä.",
+      "ButtonA": "Lataa malli - Luo käyttäjiä",
+      "SubTitleB": "b. Muokkaa käyttäjiä",
+      "TextB": "Lataa tämä malli, jos haluat muokata nykyisiä käyttäjiä.",
+      "ButtonB": "Lataa malli - Muokkaa käyttäjiä",
+      "Title2": "2. Lataa malli"
+    },
+    "Dropzone": {
+      "InviteText": "Pudota .csv-tiedosto tähän tai napsauta ladataksesi",
+      "HelperText": "Pudota tiedosto tähän ..."
+    },
+    "PreImportDialog": {
+      "Title": "Tuo analyysi",
+      "CancelButton": {
+        "Text": "Peruuttaa"
+      },
+      "ContinueButton": {
+        "Text": "Jatka"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Tuodaan ...",
+      "Text": "Älä sulje selainikkunaa, ennen kuin tuonti on valmis."
+    },
+    "ResultsDialog": {
+      "Title": "Tuonti valmis",
+      "SuccessText": "Tuonti päättyi ilman virheitä!",
+      "SuccessSubText": "Tämä viesti voidaan sulkea.",
+      "CloseButton": {
+        "Text": "Lähellä"
+      },
+      "DownloadButton": {
+        "Text": "Lataa virheloki"
+      },
+      "WarningText": "Tuonti päättyi virheisiin!",
+      "WarningSubText": "Lisätoimia tarvitaan.",
+      "WarningHelpText": "Tuonti valmis, mutta <strong>%{rows} riviä on ohitettu</strong> näiden rivien virheiden vuoksi. Lataa lokitiedosto ja tarkista, mitkä rivit on ohitettu. Nämä rivit voidaan korjata ja ladata uudelleen tai ne voidaan lisätä manuaalisesti."
+    },
+    "Errors": {
+      "USER_DUPLICATE": "Yli yksi käyttäjä, jolla on tämä sähköposti tuodussa tiedostossa",
+      "FIRST_NAME_REQUIRED": "Virhe [Etunimi]: Pakollinen käyttäjän luomisessa",
+      "LAST_NAME_REQUIRED": "Virhe [Sukunimi]: Pakollinen käyttäjän luomisessa",
+      "WRONG_LANGUAGE": "Virhe [Kieli]: Kieltä ei tueta tai se on väärässä muodossa",
+      "USER_IN_OTHER_ORGANIZATION": "Tämä käyttäjä on jo olemassa toisessa organisaatiossa",
+      "WRONG_EMAIL": "Virhe [sähköposti]: Sähköposti on väärässä muodossa tai puuttuu",
+      "NEED_ADD_SEGMENTS": "Seuraavat segmentit lisätään määritteeseen:",
+      "UNKNOWN_COLUMNS": "Tuntematon sarake: '%{columns}' . Lisää ne ensin määritteiksi, jotta voit tuoda ne.",
+      "DUPLICATE_COLUMN": "Päällekkäiset sarakkeet:",
+      "EMPTY_ROW": "Tyhjä rivi",
+      "CONVERTING_DATA": "Virhe tietojen muuntamisessa",
+      "NO_DATA_IN_FILE": "Tiedosto ei sisällä tietoja tai sen muoto on väärä.",
+      "NOTHING_TO_IMPORT": "Tiedosto ei sisällä tuotavia tietoja.",
+      "UNNAMED_COLUMN": "Nimeämätön sarake:",
+      "EXAMPLE_EMAIL": "Esimerkki sähköposti",
+      "NOT_A_NUMBER": "Ei numero",
+      "NOT_A_DATE": "Ei päiväystä (käytä muotoa VVVV-KK-PP)",
+      "MAX_USER_COUNT": "Organisaatioon on jo lisätty käyttäjien enimmäismäärä demoa varten. Ota yhteyttä Eletiveen lisätäksesi lisää."
+    }
+  }
+}

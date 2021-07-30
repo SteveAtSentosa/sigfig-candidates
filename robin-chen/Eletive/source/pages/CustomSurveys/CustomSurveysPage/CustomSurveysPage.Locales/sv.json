@@ -1,0 +1,56 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Egna undersökningar",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Lägg till fråga",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "Vanlig 1-5 fråga från ”1: Instämmer inte alls” till ”5: Instämmer helt”."
+          },
+          "MultipleChoice": {
+            "Title": "Flerval",
+            "Description": "Flervalsfråga med frihet att samla in olika typer av information."
+          },
+          "Text": {
+            "Title": "Text",
+            "Description": "Formulera en öppen fråga så att användarna kan skriva text som svar."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "Fråga med Net Promoter Score och tillhörande resultat."
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Spara som utkast"
+      },
+      "CreateButton": {
+        "Text": "Fortsätt"
+      },
+      "CancelButton": {
+        "Text": "Avbryt"
+      },
+      "BackButton": {
+        "Text": "Tillbaka"
+      },
+      "LaunchButton": {
+        "Text": "Starta"
+      }
+    },
+    "StartMessage": "Börja lägga till frågor till din undersökning",
+    "Breadcrumbs": {
+      "Organization": "Organisation",
+      "Segments": "Segment",
+      "CustomSurvey": "Egna undersökningar",
+      "AddNewSurvey": "Lägg till ny undersökning",
+      "EditSurvey": "Redigera",
+      "Launch": "Skicka"
+    },
+    "ScheduleDate": {
+      "TimeLabel": "Tid"
+    }
+  }
+}

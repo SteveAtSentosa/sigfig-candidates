@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Üdv!",
+    "Button": {
+      "Text": "Elfogadom"
+    },
+    "Content": "Az Eletive használatának folytatásához el kell fogadnia <a href=\"/privacy\" target=\"_blank\">Adatvédelmi irányelveinket</a>. Az elfogadást az \"Elfogadom\" lehetőségre való kattintással végezheti el"
+  }
+}

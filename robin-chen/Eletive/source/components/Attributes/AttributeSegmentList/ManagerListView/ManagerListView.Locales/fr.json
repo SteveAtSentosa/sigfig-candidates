@@ -1,0 +1,11 @@
+{
+  "name": "ManagerListView",
+  "translations": {
+    "UserSelector": {
+      "NoResults": {
+        "Text": "Aucun utilisateur correspondant"
+      },
+      "Placeholder": "Chercher..."
+    }
+  }
+}

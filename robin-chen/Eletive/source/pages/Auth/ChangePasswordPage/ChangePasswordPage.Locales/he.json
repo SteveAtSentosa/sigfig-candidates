@@ -1,0 +1,9 @@
+{
+  "name": "Auth/ChangePasswordPage",
+  "translations": {
+    "Title": "שנה סיסמא",
+    "SigninPageLink": {
+      "Text": "חזור לכניסה"
+    }
+  }
+}

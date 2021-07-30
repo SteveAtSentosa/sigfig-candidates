@@ -1,0 +1,65 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Offentlig",
+      "Description": {
+        "Organization": "Använd detta om segment och medarbetare ska kunna anpassa sig till detta mål.",
+        "Segment": "Använd detta om medarbetare och undersegment ska kunna koppla sig till detta mål.",
+        "User": "Använd detta om du vill anpassa målet med team- eller organisationsmål. Det kan också användas för att dela dina mål med din chef."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Privat",
+      "Description": {
+        "Organization": "Om målet ska vara privat och endast tillgängligt för personer med tillgång till organisationen, använd detta.",
+        "Segment": "Om målet ska vara privat och endast tillgängligt för personer med tillgång till segmentet, använd detta.",
+        "User": "Om målet ska vara privat och endast tillgängligt för dig själv, använd detta."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Ange ditt mål här",
+      "Label": "Vad är målet?"
+    },
+    "TextArea": {
+      "Placeholder": "Ange ditt mål här",
+      "Label": "Beskrivning"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Överordnad att koppla till"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Överordnads mål att koppla till"
+    },
+    "SelectDriver": {
+      "Label": "Drivkraftskoppling"
+    },
+    "SelectQuarter": {
+      "Label": "Mål start och slut"
+    },
+    "AddKeyResultButton": {
+      "Text": "Lägg till ett nyckelresultat"
+    },
+    "KeyResults": {
+      "Tittle": "Nyckelresultat"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Avbryt"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Skapa"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Spara"
+    },
+    "CreateObjectiveTitle": "Skapa ett nytt mål",
+    "DeleteObjectiveButton": {
+      "Text": "Radera"
+    },
+    "EditObjectiveTitle": "Redigera mål",
+    "ErrorMessages": {
+      "EmptyObjectiveName": "Ange ett målnamn för att fortsätta",
+      "EmptyParentObjective": "Välj överordnat mål för att fortsätta"
+    }
+  }
+}

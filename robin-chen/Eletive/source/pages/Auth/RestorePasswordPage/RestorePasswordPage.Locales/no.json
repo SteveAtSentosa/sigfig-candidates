@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Gjenopprett passord",
+    "Fields": {
+      "Email": {
+        "Label": "E-post"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Gjenopprett passord"
+    },
+    "SigninPageLink": {
+      "Text": "Gå tilbake til Logg på"
+    },
+    "SuccessMessage": {
+      "Title": "Ferdig!",
+      "Description": "Vi har sendt deg en e-post med instruksjonene. Vennligst sjekk innboksen. Hvis du ikke finner den etter å ha ventet noen minutter, kan du sjekke spam-mappen."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Virket ikke",
+      "EmailWrongFormat": "E-postadressen er ikke gyldig"
+    }
+  }
+}

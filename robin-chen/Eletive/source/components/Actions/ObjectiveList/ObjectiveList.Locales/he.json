@@ -1,0 +1,27 @@
+{
+  "name": "ObjectiveList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "הרחב הכל / כווץ הכל"
+      },
+      "SortBy": {
+        "Label": "מיין לפי",
+        "Values": {
+          "AZ": "א-ת",
+          "DueDateAscending": "תאריך יעד: עולה",
+          "DueDateDescending": "תאריך יעד: יורד",
+          "ProgressMost": "התקדמות: רוב",
+          "ProgressLeast": "התקדמות: הכי פחות",
+          "CreateDateNewest": "צור תאריך: הכי חדש",
+          "CreateDateOldest": "צור תאריך: הכי ישן"
+        }
+      }
+    },
+    "Statuses": {
+      "OnTrack": "במעקב",
+      "Behind": "מאחור",
+      "AtRisk": "בסיכון"
+    }
+  }
+}

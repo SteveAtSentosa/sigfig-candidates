@@ -1,0 +1,9 @@
+{
+  "name": "Application/PerformSurveyAlert",
+  "translations": {
+    "Content": "好消息，是时候回答几个简单的问题了",
+    "ConfirmButton": {
+      "Text": "放开'"
+    }
+  }
+}

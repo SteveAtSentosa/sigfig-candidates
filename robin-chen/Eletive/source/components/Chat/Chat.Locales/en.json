@@ -1,0 +1,14 @@
+{
+  "name": "Chat",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:Message:Messages}",
+      "InThisChat": "in this chat",
+      "Unread": "Unread"
+    },
+    "AnonymousUser": {
+      "Anonymous": "Anonymous",
+      "You": "You"
+    }
+  }
+}

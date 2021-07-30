@@ -1,0 +1,35 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "Lägg till ny användare"
+    },
+    "BatchButton": {
+      "Text": "Massredigering"
+    },
+    "DeleteButton": {
+      "Text": "Radera"
+    },
+    "Filter": {
+      "Placeholder": "Sök användare",
+      "Options": {
+        "Default": "Filtrera...",
+        "BounceEmails": "Epost studs"
+      }
+    },
+    "UserCount": "%{totalUserCount} ${totalUserCount:användare:användare} (%{loadedUserCount} visade)",
+    "EmptyList": {
+      "Text": "Användarlistan är tom",
+      "CreateLink": {
+        "Text": "Skapa en ny"
+      }
+    },
+    "Columns": {
+      "Name": "Namn",
+      "Last survey finished": "Senast genomförda kartläggning",
+      "Last sign in": "Senaste inloggning",
+      "Role": "Roll"
+    },
+    "EmptyDate": "Aldrig"
+  }
+}

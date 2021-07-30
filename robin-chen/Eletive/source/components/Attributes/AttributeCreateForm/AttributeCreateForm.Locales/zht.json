@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "选择项",
+      "Dates": "日期",
+      "Numbers": "号码"
+    },
+    "Descriptions": {
+      "Choices": "值列表，例如国家",
+      "Dates": "雇用日期或出生日期等日期",
+      "Numbers": "薪水或分数等数字"
+    },
+    "Placeholders": {
+      "Prefix": "名称，例如",
+      "Choices": "国家",
+      "Dates": "出生日期",
+      "Numbers": "薪水"
+    },
+    "SubmitButton": {
+      "Text": "创建"
+    },
+    "Warnings": {
+      "SameNameAttribute": "其他属性已存在属性名称，请选择其他名称"
+    }
+  }
+}

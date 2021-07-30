@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Anmeldung",
+    "Fields": {
+      "Email": {
+        "Label": "Email"
+      },
+      "Password": {
+        "Label": "Kennwort"
+      },
+      "AuthToken": {
+        "Label": "Code zweiter Faktor"
+      }
+    },
+    "SigninButton": {
+      "Text": "Einloggen"
+    },
+    "ForgotPasswordLink": {
+      "Text": "Passwort vergessen?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Zeigen"
+    },
+    "HidePasswordButton": {
+      "Text": "Ausblenden"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "E - Mail doesn ' t exist",
+      "EmailWrongFormat": "Email ist ungültig",
+      "PasswordsNotMatch": "Passwörter stimmen nicht überein",
+      "PasswordTooShort": "Das Passwort muss mindestens 6 Zeichen lang sein",
+      "WrongEmailPassword": "Benutzer existiert nicht ' oder falsches Passwort",
+      "WrongAuthToken": "Der zweite Faktor ist falsch. Bitte versuchen Sie es erneut. Wenn Sie die Zwei-Faktor-Authentifizierung deaktivieren müssen, wenden Sie sich an Ihren Organisationsadministrator"
+    }
+  }
+}

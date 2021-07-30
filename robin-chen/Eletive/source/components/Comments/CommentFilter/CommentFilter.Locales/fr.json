@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "Filtres",
+    "Buttons": {
+      "Apply": "Appliquer"
+    },
+    "DateRange": {
+      "Title": "Date de Gamme"
+    },
+    "Acknowledge": {
+      "Title": "Filtre de reconnaissance",
+      "Values": {
+        "Yes": "Oui",
+        "No": "Non",
+        "All": "Tous"
+      }
+    },
+    "Reply": {
+      "Title": "Répondre",
+      "Values": {
+        "All": "Tous",
+        "Replied": "Répondu",
+        "RepliedByMe": "Répondu par moi",
+        "Unreplied": "Non répondu"
+      }
+    },
+    "Read": {
+      "Title": "Lire",
+      "Values": {
+        "All": "Tous",
+        "Read": "Lire",
+        "Unread": "Non lu"
+      }
+    },
+    "Labels": {
+      "Title": "Étiquettes",
+      "Values": {
+        "All": "Tous",
+        "Important": "Important",
+        "FollowUp": "Suivre",
+        "Idea": "Idée",
+        "NoLabel": "Pas de label"
+      }
+    }
+  }
+}

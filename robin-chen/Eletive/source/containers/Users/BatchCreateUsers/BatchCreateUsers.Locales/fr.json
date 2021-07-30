@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Modification en masse des utilisateurs",
+      "Intro": "Cette fonction est utilisée pour modifier en masse les utilisateurs en téléchargeant des données. Il peut être utilisé pour créer de nouveaux utilisateurs et également pour mettre à jour les données et informations utilisateur actuelles. Les données peuvent être créées manuellement ou exportées à partir d'autres systèmes, par exemple des systèmes RH.",
+      "InstructionsTitle": "Instructions",
+      "InstructionsIntro": "Ne modifiez pas les en-têtes des modèles. Il est important que le format des données soit correct. Si vous créez de nouveaux utilisateurs, veuillez voir l'exemple dans le modèle. Si vous modifiez des utilisateurs existants, veuillez consulter le format de données actuel avant de modifier les données. Les champs non obligatoires peuvent être laissés vides.",
+      "EmailTitle": "Email",
+      "EmailText": "L'email est toujours obligatoire, il identifie l'utilisateur.",
+      "NamesText": "Obligatoire si vous créez un utilisateur mais pas si vous modifiez des utilisateurs existants.",
+      "LanguageText": "Pas obligatoire. S'il n'est pas défini, l'anglais sera utilisé. Veuillez noter que le code de langue court doit être utilisé, en pour l'anglais et sv pour le suédois.",
+      "AttributesText": "Pas obligatoire. Tous les attributs doivent être créés avant que le téléchargement ne puisse commencer."
+    },
+    "Templates": {
+      "Title1": "1. Téléchargez le modèle",
+      "SubTitleA": "une. Créer des utilisateurs",
+      "TextA": "Téléchargez ce modèle si vous souhaitez créer de nouveaux utilisateurs.",
+      "ButtonA": "Télécharger le modèle - Créer des utilisateurs",
+      "SubTitleB": "b. Modifier les utilisateurs",
+      "TextB": "Téléchargez ce modèle si vous souhaitez modifier des utilisateurs existants.",
+      "ButtonB": "Télécharger le modèle - Modifier les utilisateurs",
+      "Title2": "2. Téléchargez le modèle"
+    },
+    "Dropzone": {
+      "InviteText": "Déposez le fichier .csv ici ou cliquez pour télécharger",
+      "HelperText": "Déposer le fichier ici ..."
+    },
+    "PreImportDialog": {
+      "Title": "Analyse d'importation",
+      "CancelButton": {
+        "Text": "Annuler"
+      },
+      "ContinueButton": {
+        "Text": "Continuer"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Importation ...",
+      "Text": "Veuillez ne pas fermer la fenêtre du navigateur tant que l'importation n'est pas terminée."
+    },
+    "ResultsDialog": {
+      "Title": "Importation terminée",
+      "SuccessText": "L'importation s'est terminée sans erreur!",
+      "SuccessSubText": "Ce message peut être fermé.",
+      "CloseButton": {
+        "Text": "Fermer"
+      },
+      "DownloadButton": {
+        "Text": "Télécharger le journal des erreurs"
+      },
+      "WarningText": "L'importation s'est terminée avec des erreurs!",
+      "WarningSubText": "Action supplémentaire nécessaire.",
+      "WarningHelpText": "L'importation est terminée mais <strong>%{rows} ligne(s) a été ignoré </strong> en raison d'erreurs dans ces lignes. Veuillez télécharger le fichier journal et vérifier quelles lignes ont été ignorées. Ces lignes peuvent être corrigées et téléchargées à nouveau ou elles peuvent être ajoutées manuellement."
+    },
+    "Errors": {
+      "USER_DUPLICATE": "Plus d'un utilisateur avec cet e-mail dans le fichier importé",
+      "FIRST_NAME_REQUIRED": "Erreur [Prénom]: Obligatoire lors de la création d'un utilisateur",
+      "LAST_NAME_REQUIRED": "Erreur [Nom]: obligatoire lors de la création d'un utilisateur",
+      "WRONG_LANGUAGE": "Erreur [Langue]: langue non prise en charge ou au mauvais format",
+      "USER_IN_OTHER_ORGANIZATION": "Cet utilisateur existe déjà dans une autre organisation",
+      "WRONG_EMAIL": "Erreur [e-mail]: l'e-mail est au mauvais format ou manquant",
+      "NEED_ADD_SEGMENTS": "Le ou les segments suivants seront ajoutés à l'attribut:",
+      "UNKNOWN_COLUMNS": "Colonnes inconnues: '%{columns}'. Pour les importer, ajoutez-les d'abord en tant qu'attributs.",
+      "DUPLICATE_COLUMN": "Colonne (s) en double:",
+      "EMPTY_ROW": "Ligne vide",
+      "CONVERTING_DATA": "Erreur lors de la conversion des données",
+      "NO_DATA_IN_FILE": "Le fichier ne contient pas de données ou a le mauvais format.",
+      "NOTHING_TO_IMPORT": "Le fichier ne contient aucune donnée à importer.",
+      "UNNAMED_COLUMN": "Colonne sans nom:",
+      "EXAMPLE_EMAIL": "Exemple d'email",
+      "NOT_A_NUMBER": "Pas un nombre",
+      "NOT_A_DATE": "Pas une date (utilisez le format AAAA-MM-JJ)",
+      "MAX_USER_COUNT": "Le nombre maximum d'utilisateurs est déjà ajouté à l'organisation à des fins de démonstration. Veuillez contacter Eletive pour en ajouter plus."
+    }
+  }
+}

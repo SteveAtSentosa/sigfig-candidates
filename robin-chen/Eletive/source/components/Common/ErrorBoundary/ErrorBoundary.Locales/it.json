@@ -1,0 +1,7 @@
+{
+  "name": "ErrorBoundary",
+  "translations": {
+    "Title": "Oops! Qualcosa è andato storto",
+    "ContactText": "Esci, ricarica la pagina e riprova. Se il problema persiste, contattare Eletive."
+  }
+}

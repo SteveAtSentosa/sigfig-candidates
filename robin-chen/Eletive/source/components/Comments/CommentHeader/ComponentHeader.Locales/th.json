@@ -1,0 +1,20 @@
+{
+  "name": "CommentHeader",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:ข้อความ:ข้อความ}",
+      "InThisChat": "ในการแชทนี้",
+      "Unread": "ไม่ได้อ่าน"
+    },
+    "Buttons": {
+      "Chat": "พูดคุย",
+      "Acknowledge": "รับทราบ"
+    },
+    "Labels": {
+      "Important": "สิ่งสำคัญ",
+      "FollowUp": "ติดตาม",
+      "Idea": "ความคิด",
+      "No": "ไม่มีฉลาก"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ObjectiveList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "全部展开全部折叠"
+      },
+      "SortBy": {
+        "Label": "排序方式",
+        "Values": {
+          "AZ": "A-Z",
+          "DueDateAscending": "截止日期：升序",
+          "DueDateDescending": "截止日期：降序",
+          "ProgressMost": "进展：大多数",
+          "ProgressLeast": "进展：最少",
+          "CreateDateNewest": "创建日期：最新",
+          "CreateDateOldest": "建立日期：最旧的"
+        }
+      }
+    },
+    "Statuses": {
+      "OnTrack": "步入正轨",
+      "Behind": "背后",
+      "AtRisk": "有一定风险"
+    }
+  }
+}

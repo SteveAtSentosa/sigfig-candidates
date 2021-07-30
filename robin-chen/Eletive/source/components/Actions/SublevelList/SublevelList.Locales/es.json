@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Expandir todo Contraer todo"
+      },
+      "AttributeFilter": {
+        "Label": "Atributo",
+        "Values": {
+          "All": "Todo"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "Tener objetivo",
+        "Values": {
+          "All": "Todo",
+          "Yes": "Sí",
+          "No": "No"
+        }
+      },
+      "SortBy": {
+        "Label": "Ordenar por",
+        "Values": {
+          "ObjectivesMost": "Objetivos: la mayoría",
+          "ObjectivesLeast": "Objetivos: menos"
+        }
+      }
+    }
+  }
+}

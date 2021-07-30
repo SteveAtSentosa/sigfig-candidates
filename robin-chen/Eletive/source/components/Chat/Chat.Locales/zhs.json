@@ -1,0 +1,14 @@
+{
+  "name": "Chat",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:信息:留言内容}",
+      "InThisChat": "在这个聊天中",
+      "Unread": "未读"
+    },
+    "AnonymousUser": {
+      "Anonymous": "匿名",
+      "You": "您"
+    }
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "定制调查",
+    "StartMessage": "开始向调查中添加问题",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "添加问题",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "常规1-5问题从“ 1：强烈不同意”到“ 5：强烈同意”。"
+          },
+          "MultipleChoice": {
+            "Title": "多项选择",
+            "Description": "自由选择题，可以自由收集不同类型的信息。"
+          },
+          "Text": {
+            "Title": "文本",
+            "Description": "使用此问题类型收集带有开放式问题的自由文本答案。"
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "净发起人分数答案和结果的问题"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "保存为草稿"
+      },
+      "CreateButton": {
+        "Text": "继续"
+      },
+      "CancelButton": {
+        "Text": "取消"
+      },
+      "BackButton": {
+        "Text": "返回"
+      },
+      "LaunchButton": {
+        "Text": "发射"
+      }
+    }
+  }
+}

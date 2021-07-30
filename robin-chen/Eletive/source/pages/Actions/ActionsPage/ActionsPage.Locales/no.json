@@ -1,0 +1,37 @@
+{
+  "name": "OrganizationActions",
+  "translations": {
+    "PageTitle": "handlinger",
+    "StartMessage": "Lag nytt mål på listen din",
+    "ActionButtons": {
+      "CreateObjective": "Lag nytt mål"
+    },
+    "Breadcrumbs": {
+      "Individual": "Meg",
+      "Segments": "segmenter",
+      "Organization": "Organisasjon",
+      "Actions": "handlinger"
+    },
+    "Tabs": {
+      "Objectives": "Mål",
+      "Segments": "segmenter",
+      "Employees": "medarbeidere",
+      "Statistics": "Statistikk"
+    },
+    "Filter": {
+      "ObjectiveDate": {
+        "Label": "Mål aktiv i"
+      },
+      "Status": {
+        "Label": "Status"
+      },
+      "Statuses": {
+        "all": "Vis alle",
+        "NoStatus": "Ingen status",
+        "onTrack": "På sporet",
+        "Behind": "Bak",
+        "AtRisk": "I fare"
+      }
+    }
+  }
+}

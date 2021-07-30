@@ -1,0 +1,7 @@
+{
+  "name": "NewChatMessage",
+  "translations": {
+    "Placeholder": "Schreiben Sie Ihren Kommentar hier",
+    "Send": "Senden"
+  }
+}

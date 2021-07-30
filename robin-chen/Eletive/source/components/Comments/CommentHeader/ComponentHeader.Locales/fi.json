@@ -1,0 +1,20 @@
+{
+  "name": "CommentHeader",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:Viesti:Viestit}",
+      "InThisChat": "tässä chatissa",
+      "Unread": "Lukemattomat"
+    },
+    "Buttons": {
+      "Chat": "jutella",
+      "Acknowledge": "Tunnustaa"
+    },
+    "Labels": {
+      "Important": "Tärkeä",
+      "FollowUp": "Seuranta",
+      "Idea": "idea",
+      "No": "Ei etikettiä"
+    }
+  }
+}

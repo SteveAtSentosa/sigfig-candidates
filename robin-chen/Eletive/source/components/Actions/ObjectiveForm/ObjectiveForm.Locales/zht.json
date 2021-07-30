@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "上市",
+      "Description": {
+        "Organization": "如果细分受众群和员工应该能够与此目标保持一致，请使用此选项。",
+        "Segment": "如果员工和子部门应该能够实现此目标，请使用此选项。",
+        "User": "如果要将目标与团队或组织目标保持一致，请使用此选项。它也可以用于与经理共享您的目标。"
+      }
+    },
+    "ActionPrivate": {
+      "Text": "私人的",
+      "Description": {
+        "Organization": "如果目标应该是私有的，并且只有具有组织访问权限的人员才能访问，请使用此目标。",
+        "Segment": "如果目标应该是私有的，并且只有对细分受众群有访问权限的人才能访问，请使用此目标。",
+        "User": "如果目标应该是私有的并且只能由您自己访问，则使用此目标。"
+      }
+    },
+    "InputName": {
+      "Placeholder": "在这里输入您的目标",
+      "Label": "目的是什么？"
+    },
+    "TextArea": {
+      "Placeholder": "在这里输入您的目标",
+      "Label": "描述"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "家长要配合"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "符合的父目标"
+    },
+    "SelectDriver": {
+      "Label": "驱动程序连接"
+    },
+    "SelectQuarter": {
+      "Label": "目标开始和结束"
+    },
+    "AddKeyResultButton": {
+      "Text": "添加另一个关键结果"
+    },
+    "KeyResults": {
+      "Tittle": "关键结果"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "删除"
+    },
+    "CancelObjectiveButton": {
+      "Text": "取消"
+    },
+    "CreateObjectiveButton": {
+      "Text": "创建"
+    },
+    "SaveObjectiveButton": {
+      "Text": "保存"
+    },
+    "CreateObjectiveTitle": "创建一个新目标",
+    "EditObjectiveTitle": "编辑目标"
+  }
+}

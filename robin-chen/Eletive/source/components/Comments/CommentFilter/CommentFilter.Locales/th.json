@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "ฟิลเตอร์",
+    "Buttons": {
+      "Apply": "ใช้"
+    },
+    "DateRange": {
+      "Title": "ช่วงวันที่"
+    },
+    "Acknowledge": {
+      "Title": "รับทราบตัวกรอง",
+      "Values": {
+        "Yes": "ใช่",
+        "No": "ไม่มี",
+        "All": "ทั้งหมด"
+      }
+    },
+    "Reply": {
+      "Title": "ตอบ",
+      "Values": {
+        "All": "ทั้งหมด",
+        "Replied": "ตอบ",
+        "RepliedByMe": "ตอบโดยฉัน",
+        "Unreplied": "ยังไม่มีการตอบ"
+      }
+    },
+    "Read": {
+      "Title": "อ่าน",
+      "Values": {
+        "All": "ทั้งหมด",
+        "Read": "อ่าน",
+        "Unread": "ไม่ได้อ่าน"
+      }
+    },
+    "Labels": {
+      "Title": "ป้ายกำกับ",
+      "Values": {
+        "All": "ทั้งหมด",
+        "Important": "สิ่งสำคัญ",
+        "FollowUp": "ติดตาม",
+        "Idea": "ความคิด",
+        "NoLabel": "ไม่มีฉลาก"
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "name": "Attributes/SegmentHierarchyForm",
+  "translations": {
+    "AddHierarchyButton": {
+      "Text": "Neue Hierarchie hinzufügen"
+    },
+    "DeleteChildSegmentButton": {
+      "Text": "Löschen"
+    },
+    "AddMoreChildSegmentsButton": {
+      "Text": "Fügen Sie mehr"
+    },
+    "ChildSegmentsCountLabel": "%{segmentCount} Kind ${segmentCount:Segment:Segmente}",
+    "AddHierarchyDialog": {
+      "Title": {
+        "Prefix": "Erstellen Sie eine Hierarchie für",
+        "AttributeLabel": "Attribut:"
+      },
+      "ParentSelector": {
+        "Title": "Übergeordnetes Segment auswählen"
+      },
+      "ChildSelector": {
+        "Title": "Wählen Sie untergeordnete Segmente aus"
+      },
+      "CreateButton": {
+        "Text": "Schaffen"
+      },
+      "CancelButton": {
+        "Text": "Kündigen"
+      }
+    }
+  }
+}

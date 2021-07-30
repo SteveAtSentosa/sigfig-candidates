@@ -1,0 +1,79 @@
+image: naughtldy/circleci-node-awscli
+
+definitions:
+  installAndTest: &InstallAndTest
+    name: Install and unit test
+    caches:
+      - node
+      - cypress
+    script:
+      - npm install
+      - npm run test:ci
+    artifacts:
+      - node_modules/**
+  testE2E: &TestE2E
+    name: Test end to end
+    caches:
+      - node
+      - cypress
+    script:
+      - npm run cypress:run
+  buildDev: &BuildDev
+    name: Build for dev
+    caches:
+      - node
+    script:
+      - npm run buildDev
+    artifacts:
+      - dist/**
+  e2eTests: &E2ETests
+    name: E2E tests
+    image: cypress/browsers:node12.6.0-chrome77
+    caches:
+      - node
+      - cypress
+    script:
+      - npm install
+      - npm run startCI &
+      - npm run e2e:ci
+    artifacts:
+      - cypress/screenshots/**
+      - cypress/videos/**
+  caches:
+    cypress: $HOME/.cache/Cypress
+
+pipelines:
+  pull-requests:
+    '**':
+      - step: *InstallAndTest
+
+  branches:
+    development:
+      - step: *InstallAndTest
+      - step: *BuildDev
+      - step:
+          name: Deploy development
+          deployment: staging
+          script:
+            - aws s3 rm s3://dev.eletive.com/ --recursive
+            - aws s3 cp ./dist s3://dev.eletive.com/ --recursive
+      - step:
+          name: Export new keys to PhraseApp
+          script:
+            - npx ./scripts/translations.js --toPhraseApp
+
+    master:
+      - step: *InstallAndTest
+      - step:
+          name: Build
+          script:
+            - npm run build
+          artifacts:
+            - dist/**
+      - step:
+          name: Deploy production
+          deployment: production
+          script:
+            - aws s3 sync ./dist s3://prod.eletive.com/ --size-only --exclude "index.html"
+            - aws s3 sync ./dist s3://prod.eletive.com/ --delete
+            - aws cloudfront create-invalidation --distribution-id E134C2B0267U3L --paths '/*'

@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "Choices",
+      "Dates": "Termine",
+      "Numbers": "Nummern"
+    },
+    "Descriptions": {
+      "Choices": "Liste von Werten wie Ländern",
+      "Dates": "Daten wie Mietdatum oder Geburtsdatum",
+      "Numbers": "Zahlen wie Gehalt oder Punktzahl"
+    },
+    "Placeholders": {
+      "Prefix": "Name z.",
+      "Choices": "Land",
+      "Dates": "Geburtsdatum",
+      "Numbers": "Gehalt"
+    },
+    "SubmitButton": {
+      "Text": "Schaffen"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Attributname existiert bereits für ein anderes Attribut, bitte wählen Sie einen anderen Namen"
+    }
+  }
+}

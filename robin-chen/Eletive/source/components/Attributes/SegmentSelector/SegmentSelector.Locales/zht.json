@@ -1,0 +1,34 @@
+{
+  "name": "SegmentSelector",
+  "translations": {
+    "Filter": {
+      "Placeholder": "搜索细分"
+    },
+    "SidePanel": {
+      "Title": "选择细分"
+    },
+    "TargetButton": {
+      "Text": "%{segmentCount} $ {segmentCount:分割:段}",
+      "DefaultText": "选择细分",
+      "DefaultTextInSingleSelectionMode": "选择细分"
+    },
+    "CancelButton": {
+      "Text": "取消"
+    },
+    "ConfirmButton": {
+      "Text": "选择%{segmentCount} ${segmentCount:分割:段}"
+    },
+    "DeselectAllButton": {
+      "Text": "全部取消选择"
+    },
+    "AttributeSegmentCountLabel": "%{segmentCount} ${segmentCount:分割:段}",
+    "AttributeSelectedSegmentCountLabel": "%{segmentCount}选择",
+    "AttributeNoResultsSegmentLabel": "没有结果",
+    "SelectAllAttributeSegmentsButton": {
+      "Text": "选择所有 %{segmentCount}"
+    },
+    "DeselectAllAttributeSegmentsButton": {
+      "Text": "取消选择所有 %{segmentCount}"
+    }
+  }
+}

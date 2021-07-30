@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Espandi tutto Comprimi tutto"
+      },
+      "AttributeFilter": {
+        "Label": "Attributo",
+        "Values": {
+          "All": "Tutti"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "Avere obiettivo",
+        "Values": {
+          "All": "Tutti",
+          "Yes": "Sì",
+          "No": "No"
+        }
+      },
+      "SortBy": {
+        "Label": "Ordina per",
+        "Values": {
+          "ObjectivesMost": "Obiettivi: Most",
+          "ObjectivesLeast": "Obiettivi: almeno"
+        }
+      }
+    }
+  }
+}

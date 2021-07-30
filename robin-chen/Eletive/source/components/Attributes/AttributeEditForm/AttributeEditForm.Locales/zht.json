@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "名称"
+      },
+      "SegmentReportMembers": {
+        "Label": "细分报表成员",
+        "Tooltip": "如果此属性的细分受众群中的员工应该能够查看其所属细分受众群报告，则激活此功能。"
+      },
+      "AllowFilter": {
+        "Label": "允许过滤",
+        "Tooltip": "允许用户对此属性进行过滤"
+      }
+    },
+    "SaveButton": {
+      "Text": "保存"
+    },
+    "DeleteButton": {
+      "Text": "删除"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "删除属性 %{attributeName} 吗？",
+      "Content": "这将永久删除该属性 <strong>%{attributeName}</strong> 以及其中的所有细分这不能被撤消。",
+      "ActionText": "请在下面的输入框中输入 <strong>DELETE</strong> 以解锁删除按钮"
+    }
+  }
+}

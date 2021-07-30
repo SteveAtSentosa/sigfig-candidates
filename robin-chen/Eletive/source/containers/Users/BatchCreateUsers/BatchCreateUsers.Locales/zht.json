@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "大量编辑用户",
+      "Intro": "此功能用于通过上传数据来批量编辑用户。它可以用来创建新用户，也可以更新当前用户的数据和信息。数据可以手动创建，也可以从其他系统（例如HR系统）导出。",
+      "InstructionsTitle": "使用说明",
+      "InstructionsIntro": "不要更改模板的标题。数据格式正确很重要。如果创建新用户，请参阅模板中的示例。如果要编辑现有用户，请在更改数据之前查看当前数据格式。非必填字段可以保留为空。",
+      "EmailTitle": "电子邮件",
+      "EmailText": "电子邮件始终是必填项，它标识用户。",
+      "NamesText": "如果创建用户，则为必需，但如果编辑现有用户，则不为。",
+      "LanguageText": "不是强制性的。如果未定义，将使用英语。请注意，应使用语言短代码，en表示英语，sv表示瑞典语。",
+      "AttributesText": "不是强制性的。必须先创建所有属性，然后才能开始上传。"
+    },
+    "Templates": {
+      "Title1": "1.下载模板",
+      "SubTitleA": "一种。建立使用者",
+      "TextA": "如果要创建新用户，请下载此模板。",
+      "ButtonA": "下载模板-创建用户",
+      "SubTitleB": "b。编辑使用者",
+      "TextB": "如果要编辑现有用户，请下载此模板。",
+      "ButtonB": "下载模板-编辑用户",
+      "Title2": "2.上传模板"
+    },
+    "Dropzone": {
+      "InviteText": "将.csv文件拖放到此处或单击以上传",
+      "HelperText": "将档案放在这里..."
+    },
+    "PreImportDialog": {
+      "Title": "导入分析",
+      "CancelButton": {
+        "Text": "取消"
+      },
+      "ContinueButton": {
+        "Text": "繼續"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "输入...",
+      "Text": "在导入完成之前，请不要关闭浏览器窗口。"
+    },
+    "ResultsDialog": {
+      "Title": "导入完成",
+      "SuccessText": "导入完成，没有错误！",
+      "SuccessSubText": "该消息可以关闭。",
+      "CloseButton": {
+        "Text": "关"
+      },
+      "DownloadButton": {
+        "Text": "下载错误日志"
+      },
+      "WarningText": "导入完成，有错误！",
+      "WarningSubText": "需要采取进一步行动。",
+      "WarningHelpText": "导入完成但 <strong>%{rows}行已被跳过</strong> 由于这些行中的错误。请下载日志文件，并查看已跳过的行。这些行可以固定并重新上传，也可以手动添加。"
+    },
+    "Errors": {
+      "USER_DUPLICATE": "在导入的文件中，有更多的用户与此电子邮件相关",
+      "FIRST_NAME_REQUIRED": "错误[名字]：创建用户时必须提供",
+      "LAST_NAME_REQUIRED": "错误[姓氏]：创建用户时必须",
+      "WRONG_LANGUAGE": "错误[语言]：不支持的语言或格式错误",
+      "USER_IN_OTHER_ORGANIZATION": "该用户已经存在于另一个组织中",
+      "WRONG_EMAIL": "错误[电子邮件]：电子邮件格式错误或丢失",
+      "NEED_ADD_SEGMENTS": "以下细分将添加到属性中：",
+      "UNKNOWN_COLUMNS": "未知列： '%{columns}' 。要导入它们，首先将它们添加为属性。",
+      "DUPLICATE_COLUMN": "列重复：",
+      "EMPTY_ROW": "空行",
+      "CONVERTING_DATA": "数据转换时出错",
+      "NO_DATA_IN_FILE": "该文件不包含数据或格式错误。",
+      "NOTHING_TO_IMPORT": "该文件不包含任何要导入的数据。",
+      "UNNAMED_COLUMN": "未命名的列：",
+      "EXAMPLE_EMAIL": "电子邮件示例",
+      "NOT_A_NUMBER": "没有数字",
+      "NOT_A_DATE": "不是日期（使用格式YYYY-MM-DD）",
+      "MAX_USER_COUNT": "为了演示目的，已经将最大数量的用户添加到组织中。请联系Eletive以添加更多信息。"
+    }
+  }
+}

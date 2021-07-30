@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "להתחבר",
+    "Fields": {
+      "Email": {
+        "Label": "אימייל"
+      },
+      "Password": {
+        "Label": "סיסמה"
+      },
+      "AuthToken": {
+        "Label": "קוד גורם שני"
+      }
+    },
+    "SigninButton": {
+      "Text": "להתחבר"
+    },
+    "ForgotPasswordLink": {
+      "Text": "שכחת את הסיסמא?"
+    },
+    "ShowPasswordButton": {
+      "Text": "הופעה"
+    },
+    "HidePasswordButton": {
+      "Text": "להתחבא"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "אימייל לא קיים '",
+      "EmailWrongFormat": "הדוא\"ל אינו תקף",
+      "PasswordsNotMatch": "סיסמאות לא תואמות",
+      "PasswordTooShort": "סיסמא צריכה להיות לפחות 6 תווים",
+      "WrongEmailPassword": "המשתמש אינו ' אינו קיים או סיסמה שגויה",
+      "WrongAuthToken": "הגורם השני אינו נכון, נסה שוב. אם עליך להשבית אימות דו-גורמי, התקשר למנהל הארגון שלך"
+    }
+  }
+}

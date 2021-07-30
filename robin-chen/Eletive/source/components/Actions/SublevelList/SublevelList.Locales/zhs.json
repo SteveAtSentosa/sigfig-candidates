@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "全部展开全部折叠"
+      },
+      "AttributeFilter": {
+        "Label": "属性",
+        "Values": {
+          "All": "所有"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "有目标",
+        "Values": {
+          "All": "所有",
+          "Yes": "是",
+          "No": "没有"
+        }
+      },
+      "SortBy": {
+        "Label": "排序方式",
+        "Values": {
+          "ObjectivesMost": "目标：大多数",
+          "ObjectivesLeast": "目标：最少"
+        }
+      }
+    }
+  }
+}

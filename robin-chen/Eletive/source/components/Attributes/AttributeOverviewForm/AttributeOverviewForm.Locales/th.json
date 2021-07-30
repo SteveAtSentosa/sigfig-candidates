@@ -1,0 +1,9 @@
+{
+  "name": "Attributes/AttributeOverviewForm",
+  "translations": {
+    "Menu": {
+      "Segments": "กลุ่ม",
+      "Hierarchies": "ลำดับชั้น"
+    }
+  }
+}

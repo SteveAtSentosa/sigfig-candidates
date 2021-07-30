@@ -1,0 +1,14 @@
+{
+  "name": "Chat",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "",
+      "InThisChat": "בצ'אט הזה",
+      "Unread": "לא נקרא"
+    },
+    "AnonymousUser": {
+      "Anonymous": "בעילום שם",
+      "You": "אתה"
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "InlineRangeLabel",
+  "translations": {
+    "Complete": {
+      "Text": "Compléter"
+    },
+    "NotComplete": {
+      "Text": "Incomplet"
+    }
+  }
+}

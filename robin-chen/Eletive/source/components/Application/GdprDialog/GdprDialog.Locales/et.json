@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Tere tulemast!",
+    "Button": {
+      "Text": "Nõustun"
+    },
+    "Content": "Rakenduse Eletive kasutamise jätkamiseks peate nõustuma meie <a href=\"/privacy\" target=\"_blank\">privaatsuspoliitikaga</a>. Nõustumiseks vajutage nuppu \"Nõustun\""
+  }
+}

@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Massedigering av brukere",
+      "Intro": "Denne funksjonen brukes til å redigere brukere masse ved å laste opp data. Det kan brukes til å opprette nye brukere og også for å oppdatere gjeldende brukerdata og informasjon. Dataene kan opprettes manuelt, eller de kan eksporteres fra andre systemer, for eksempel HR-systemer.",
+      "InstructionsTitle": "Bruksanvisning",
+      "InstructionsIntro": "Ikke endre overskriftene på malene. Det er viktig at dataformatet er riktig. Hvis du oppretter nye brukere, kan du se eksemplet i malen. Hvis du redigerer eksisterende brukere, kan du se det gjeldende dataformatet før du endrer dataene. Felter som ikke er obligatoriske, kan stå tomme.",
+      "EmailTitle": "E-post",
+      "EmailText": "E-post er alltid obligatorisk, den identifiserer brukeren.",
+      "NamesText": "Obligatorisk hvis du oppretter en bruker, men ikke hvis du redigerer eksisterende brukere.",
+      "LanguageText": "Ikke obligatorisk. Hvis ikke definert, blir engelsk brukt. Vær oppmerksom på at kortkode for språk skal brukes, en for engelsk og sv for svensk.",
+      "AttributesText": "Ikke obligatorisk. Alle attributter må opprettes før opplastingen kan begynne."
+    },
+    "Templates": {
+      "Title1": "1. Last ned mal",
+      "SubTitleA": "en. Lag brukere",
+      "TextA": "Last ned denne malen hvis du vil opprette nye brukere.",
+      "ButtonA": "Last ned mal - Lag brukere",
+      "SubTitleB": "b. Rediger brukere",
+      "TextB": "Last ned denne malen hvis du vil redigere eksisterende brukere.",
+      "ButtonB": "Last ned mal - Rediger brukere",
+      "Title2": "2. Last opp mal"
+    },
+    "Dropzone": {
+      "InviteText": "Slipp .csv-filen her eller klikk for å laste opp",
+      "HelperText": "Slipp filen her ..."
+    },
+    "PreImportDialog": {
+      "Title": "Importanalyse",
+      "CancelButton": {
+        "Text": "Avbryt"
+      },
+      "ContinueButton": {
+        "Text": "Fortsett"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Importerer ...",
+      "Text": "Ikke lukk nettleservinduet før importen er fullført."
+    },
+    "ResultsDialog": {
+      "Title": "Importen er ferdig",
+      "SuccessText": "Importen ble ferdig uten feil!",
+      "SuccessSubText": "Denne meldingen kan lukkes.",
+      "CloseButton": {
+        "Text": "Lukke"
+      },
+      "DownloadButton": {
+        "Text": "Last ned feillogg"
+      },
+      "WarningText": "Importen avsluttet med feil!",
+      "WarningSubText": "Ytterligere tiltak er nødvendig.",
+      "WarningHelpText": "Importen er ferdig, men <strong>%{rows} rad(er) har blitt hoppet over</strong> på grunn av feil i disse radene. Last ned loggfilen og se hvilke rader som er hoppet over. Disse radene kan fikses og lastes opp igjen, eller de kan legges til manuelt."
+    },
+    "Errors": {
+      "USER_DUPLICATE": "Mer enn én bruker med denne e-posten i den importerte filen",
+      "FIRST_NAME_REQUIRED": "Feil [Fornavn]: Obligatorisk når du oppretter en bruker",
+      "LAST_NAME_REQUIRED": "Feil [Etternavn]: Obligatorisk når du oppretter en bruker",
+      "WRONG_LANGUAGE": "Feil [Språk]: Språk støttes ikke eller i feil format",
+      "USER_IN_OTHER_ORGANIZATION": "Denne brukeren eksisterer allerede i en annen organisasjon",
+      "WRONG_EMAIL": "Feil [E-post]: E-postadressen er i feil format eller mangler",
+      "NEED_ADD_SEGMENTS": "Følgende segment (er) vil bli lagt til attributtet:",
+      "UNKNOWN_COLUMNS": "Ukjente kolonner: '%{columns}' . For å importere dem, må du først legge dem til som attributter.",
+      "DUPLICATE_COLUMN": "Dupliser kolonne (r):",
+      "EMPTY_ROW": "Tom rad",
+      "CONVERTING_DATA": "Feil ved datakonvertering",
+      "NO_DATA_IN_FILE": "Filen inneholder ikke data eller har feil format.",
+      "NOTHING_TO_IMPORT": "Filen inneholder ingen data for import.",
+      "UNNAMED_COLUMN": "Ukjent kolonne:",
+      "EXAMPLE_EMAIL": "Eksempel på e-post",
+      "NOT_A_NUMBER": "Ikke et tall",
+      "NOT_A_DATE": "Ikke en dato (bruk format YYYY-MM-DD)",
+      "MAX_USER_COUNT": "Maksimalt antall brukere er allerede lagt til organisasjonen for demo-formål. Ta kontakt med Eletive for å legge til mer."
+    }
+  }
+}

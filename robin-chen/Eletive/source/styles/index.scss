@@ -1,0 +1,90 @@
+@import '~normalize.css';
+@import '~@blueprintjs/icons/lib/css/blueprint-icons.css';
+
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700|Roboto:400,500,600,700&display=swap');
+
+body {
+  height: 100vh;
+  overflow: hidden;
+}
+
+* {
+  font-family: Poppins, Roboto;
+}
+
+#application {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  &.survey {
+    background-color: #ffffff;
+
+    .bp3-navbar {
+
+      @media screen and (max-width: 768px) {
+        margin-top: 0;
+      }
+    }
+  }
+}
+
+.scrollable {
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+$blue1: #16498b;
+$blue2: #1A57A6;
+$blue3: #1E64BF;
+$blue4: #2272D9;
+$blue5: #267FF2;
+$orange1: #8b6d01;
+$orange2: #a68201;
+$orange3: #bf9602;
+$orange4: #d9aa02;
+$orange5: #f2be02;
+$red1: #8b1701;
+$red2: #a61c01;
+$red3: #bf2002;
+$red4: #d92402;
+$red5: #f22902;
+
+
+@import '@blueprintjs/core/src/blueprint.scss';
+@import '@blueprintjs/datetime/src/blueprint-datetime.scss';
+
+.bp3-popover {
+  background-color: #f4f6fa;
+}
+
+.bp3-control.bp3-checkbox input:checked ~ .bp3-control-indicator::before {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M12 5c-.28 0-.53.11-.71.29L7 9.59l-2.29-2.3a1.003 1.003 0 0 0-1.42 1.42l3 3c.18.18.43.29.71.29s.53-.11.71-.29l5-5A1.003 1.003 0 0 0 12 5z' fill='white'/%3e%3c/svg%3e");
+}
+
+.bp3-breadcrumbs {
+  > li::after {
+    background: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3e%3cpath fill-rule='evenodd' clip-rule='evenodd' d='M10.71 7.29l-4-4a1.003 1.003 0 0 0-1.42 1.42L8.59 8 5.3 11.29c-.19.18-.3.43-.3.71a1.003 1.003 0 0 0 1.71.71l4-4c.18-.18.29-.43.29-.71 0-.28-.11-.53-.29-.71z' fill='%235C7080'/%3e%3c/svg%3e");
+  }
+}
+
+.bp3-dialog, .bp3-drawer {
+  background: #f9f9f9;
+}
+
+.bp3-button:not(.bp3-minimal) {
+  box-shadow: inset 0 -1px 1px 1px rgba(0, 0, 0, .15) !important;
+}
+
+.bp3-button-group.bp3-minimal {
+  .bp3-button {
+    box-shadow: none !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .bp3-input {
+    line-height: normal;
+    -webkit-appearance: none;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "name": "Attributes/NumbersSubform",
+  "translations": {
+    "Labels": {
+      "Under": "Unter",
+      "Over": "Zu Ende"
+    }
+  }
+}

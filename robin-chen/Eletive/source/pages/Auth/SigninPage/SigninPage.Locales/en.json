@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Sign in",
+    "Fields": {
+      "Email": {
+        "Label": "Email"
+      },
+      "Password": {
+        "Label": "Password"
+      },
+      "AuthToken": {
+        "Label": "Code second factor"
+      }
+    },
+    "SigninButton": {
+      "Text": "Sign In"
+    },
+    "ForgotPasswordLink": {
+      "Text": "Forgot password?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Show"
+    },
+    "HidePasswordButton": {
+      "Text": "Hide"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Email doesn't exist",
+      "EmailWrongFormat": "Email is not valid",
+      "PasswordsNotMatch": "Passwords do not match",
+      "PasswordTooShort": "Password needs to be at least 6 characters long",
+      "WrongEmailPassword": "User doesn't exist or wrong password",
+      "WrongAuthToken": "The second factor is incorrect, please try again. If you need to disable two-factor authentication, contract your organization administrator"
+    }
+  }
+}

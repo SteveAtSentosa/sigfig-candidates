@@ -1,0 +1,34 @@
+{
+  "name": "SegmentSelector",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Cerca segmenti"
+    },
+    "SidePanel": {
+      "Title": "Seleziona segmenti"
+    },
+    "TargetButton": {
+      "Text": "%{segmentCount} ${segmentCount:segmento:segmenti} selezionato",
+      "DefaultText": "Seleziona segmenti",
+      "DefaultTextInSingleSelectionMode": "Seleziona il segmento"
+    },
+    "CancelButton": {
+      "Text": "Annullare"
+    },
+    "ConfirmButton": {
+      "Text": "Seleziona %{segmentCount} ${segmentCount:segmento:segmenti}"
+    },
+    "DeselectAllButton": {
+      "Text": "Deseleziona tutto"
+    },
+    "AttributeSegmentCountLabel": "%{segmentCount} ${segmentCount:segmento:segmenti}",
+    "AttributeSelectedSegmentCountLabel": "%{segmentCount} selezionato",
+    "AttributeNoResultsSegmentLabel": "Nessun risultato",
+    "SelectAllAttributeSegmentsButton": {
+      "Text": "Seleziona tutto %{segmentCount}"
+    },
+    "DeselectAllAttributeSegmentsButton": {
+      "Text": "Deseleziona tutto %{segmentCount}"
+    }
+  }
+}

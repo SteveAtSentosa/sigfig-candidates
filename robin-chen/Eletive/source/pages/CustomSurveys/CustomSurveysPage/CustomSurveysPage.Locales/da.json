@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Tilpassede undersøgelser",
+    "StartMessage": "Begynd at tilføje spørgsmål til din undersøgelse",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Tilføj spørgsmål",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "Regelmæssigt 1-5 spørgsmål fra “1: Er meget uenig” til “5: Er meget enig”."
+          },
+          "MultipleChoice": {
+            "Title": "Flere valg",
+            "Description": "Flervalgsspørgsmål med frihed til at indsamle forskellige typer information."
+          },
+          "Text": {
+            "Title": "Tekst",
+            "Description": "Saml fritekstbesvar med åbne spørgsmål med denne spørgsmålstype."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "Spørgsmål med Net Promoter Score svar og resultat"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Gem som kladde"
+      },
+      "CreateButton": {
+        "Text": "Fortsæt"
+      },
+      "CancelButton": {
+        "Text": "Annuller"
+      },
+      "BackButton": {
+        "Text": "Tilbage"
+      },
+      "LaunchButton": {
+        "Text": "Launch"
+      }
+    }
+  }
+}

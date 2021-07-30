@@ -1,0 +1,10 @@
+{
+  "name": "Application/PerformSurveyAlert",
+  "translations": {
+    "Content": "Goda nyheter, det är dags att svara på några enkla frågor",
+    "ConfirmButton": {
+      "Text": "Kör igång"
+    },
+    "Title": "Goda nyheter"
+  }
+}

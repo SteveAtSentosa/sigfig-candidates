@@ -1,0 +1,33 @@
+{
+  "name": "Attributes/SegmentHierarchyForm",
+  "translations": {
+    "AddHierarchyButton": {
+      "Text": "เพิ่มลำดับชั้นใหม่"
+    },
+    "DeleteChildSegmentButton": {
+      "Text": "ลบ"
+    },
+    "AddMoreChildSegmentsButton": {
+      "Text": "เพิ่มมากขึ้น"
+    },
+    "ChildSegmentsCountLabel": "%{segmentCount} เด็ก ${segmentCount:เซ็ก เมนต์:เซ็ก เมนต์}",
+    "AddHierarchyDialog": {
+      "Title": {
+        "Prefix": "สร้างลำดับชั้นสำหรับ",
+        "AttributeLabel": "แอตทริบิวต์:"
+      },
+      "ParentSelector": {
+        "Title": "เลือกกลุ่มผู้ปกครอง"
+      },
+      "ChildSelector": {
+        "Title": "เลือกกลุ่มย่อย"
+      },
+      "CreateButton": {
+        "Text": "สร้าง"
+      },
+      "CancelButton": {
+        "Text": "ยกเลิก"
+      }
+    }
+  }
+}

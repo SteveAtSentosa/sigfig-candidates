@@ -1,0 +1,35 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "Legg til ny bruker"
+    },
+    "BatchButton": {
+      "Text": "Massedigering"
+    },
+    "DeleteButton": {
+      "Text": "Slett"
+    },
+    "Filter": {
+      "Placeholder": "Søk etter brukere",
+      "Options": {
+        "Default": "Filter...",
+        "BounceEmails": "E-post-sprett"
+      }
+    },
+    "UserCount": "%{totalUserCount} ${totalUserCount:bruker:brukere} ( %{loadedUserCount} vist)",
+    "EmptyList": {
+      "Text": "Brukerlisten er tom",
+      "CreateLink": {
+        "Text": "Lag en ny"
+      }
+    },
+    "Columns": {
+      "Name": "Navn",
+      "Last survey finished": "Siste undersøkelse var ferdig",
+      "Last sign in": "Siste pålogging",
+      "Role": "rolle"
+    },
+    "EmptyDate": "Aldri"
+  }
+}

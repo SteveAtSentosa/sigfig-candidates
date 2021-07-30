@@ -1,0 +1,9 @@
+{
+  "name": "DemoModeHeader",
+  "translations": {
+    "Label": "Näytetään demon kojetaulu",
+    "BackToOrganizationButton": {
+      "Text": "Organisaatioon"
+    }
+  }
+}

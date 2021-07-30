@@ -1,0 +1,7 @@
+{
+  "name": "NewChatMessage",
+  "translations": {
+    "Placeholder": "在这里写下您的评论",
+    "Send": "发送"
+  }
+}

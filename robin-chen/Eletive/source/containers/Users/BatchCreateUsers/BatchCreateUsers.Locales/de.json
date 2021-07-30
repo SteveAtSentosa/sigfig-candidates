@@ -1,0 +1,77 @@
+{
+  "name": "BatchCreateUsers",
+  "translations": {
+    "Instruction": {
+      "Title": "Massenbearbeitung von Benutzern",
+      "Intro": "Diese Funktion wird zum Massenbearbeiten von Benutzern durch Hochladen von Daten verwendet. Es kann verwendet werden, um neue Benutzer zu erstellen und aktuelle Benutzerdaten und -informationen zu aktualisieren. Die Daten können manuell erstellt oder aus anderen Systemen, z. B. HR-Systemen, exportiert werden.",
+      "InstructionsTitle": "Anleitung",
+      "InstructionsIntro": "Ändern Sie nicht die Überschriften der Vorlagen. Es ist wichtig, dass das Datenformat korrekt ist. Wenn Sie neue Benutzer anlegen, beachten Sie bitte das Beispiel in der Vorlage. Wenn Sie vorhandene Benutzer bearbeiten, überprüfen Sie das aktuelle Datenformat, bevor Sie die Daten ändern. Felder, die nicht obligatorisch sind, können leer gelassen werden.",
+      "EmailTitle": "Email",
+      "EmailText": "E-Mail ist immer obligatorisch, es identifiziert den Benutzer.",
+      "NamesText": "Obligatorisch, wenn Sie einen Benutzer erstellen, nicht jedoch, wenn Sie vorhandene Benutzer bearbeiten.",
+      "LanguageText": "Nicht verpflichtend. Wenn nicht definiert, wird Englisch verwendet. Bitte beachten Sie, dass ein Sprachkürzel verwendet werden sollte, en für Englisch und sv für Schwedisch.",
+      "AttributesText": "Nicht verpflichtend. Alle Attribute müssen erstellt werden, bevor der Upload beginnen kann."
+    },
+    "Templates": {
+      "Title1": "1. Vorlage herunterladen",
+      "SubTitleA": "ein. Erstellen Sie Benutzer",
+      "TextA": "Laden Sie diese Vorlage herunter, wenn Sie neue Benutzer erstellen möchten.",
+      "ButtonA": "Vorlage herunterladen - Benutzer erstellen",
+      "SubTitleB": "b. Benutzer bearbeiten",
+      "TextB": "Laden Sie diese Vorlage herunter, wenn Sie vorhandene Benutzer bearbeiten möchten.",
+      "ButtonB": "Vorlage herunterladen - Benutzer bearbeiten",
+      "Title2": "2. Vorlage hochladen"
+    },
+    "Dropzone": {
+      "InviteText": "Legen Sie die CSV-Datei hier ab oder klicken Sie, um sie hochzuladen",
+      "HelperText": "Datei hier ablegen ..."
+    },
+    "PreImportDialog": {
+      "Title": "Analyse importieren",
+      "CancelButton": {
+        "Text": "Kündigen"
+      },
+      "ContinueButton": {
+        "Text": "Weiter"
+      }
+    },
+    "ProccessDialog": {
+      "Title": "Importieren ...",
+      "Text": "Bitte schließen Sie das Browserfenster erst, wenn der Import abgeschlossen ist."
+    },
+    "ResultsDialog": {
+      "Title": "Import beendet",
+      "SuccessText": "Der Import wurde ohne Fehler beendet!",
+      "SuccessSubText": "Diese Nachricht kann geschlossen werden.",
+      "CloseButton": {
+        "Text": "Schließen"
+      },
+      "DownloadButton": {
+        "Text": "Fehlerprotokoll herunterladen"
+      },
+      "WarningText": "Der Import wurde mit Fehlern beendet!",
+      "WarningSubText": "Weitere Maßnahmen erforderlich.",
+      "WarningHelpText": "Der Import ist aber beendet <strong>%{rows} Reihe(n) wurde übersprungen</strong> aufgrund von Fehlern in diesen Zeilen. Laden Sie die Protokolldatei herunter und überprüfen Sie, welche Zeilen übersprungen wurden. Diese Zeilen können repariert und erneut hochgeladen oder manuell hinzugefügt werden."
+    },
+    "Errors": {
+      "USER_DUPLICATE": "Mehr als ein Benutzer mit dieser E-Mail in der importierten Datei",
+      "FIRST_NAME_REQUIRED": "Fehler [Vorname]: Obligatorisch beim Anlegen eines Benutzers",
+      "LAST_NAME_REQUIRED": "Fehler [Nachname]: Obligatorisch beim Anlegen eines Benutzers",
+      "WRONG_LANGUAGE": "Fehler [Sprache]: Sprache nicht unterstützt oder im falschen Format",
+      "USER_IN_OTHER_ORGANIZATION": "Dieser Benutzer ist bereits in einer anderen Organisation vorhanden",
+      "WRONG_EMAIL": "Fehler [E-Mail]: E-Mail hat das falsche Format oder fehlt",
+      "NEED_ADD_SEGMENTS": "Die folgenden Segmente werden dem Attribut hinzugefügt:",
+      "UNKNOWN_COLUMNS": "Unbekannte Spalten: '%{columns}'. Um sie zu importieren, fügen Sie sie zuerst als Attribute hinzu.",
+      "DUPLICATE_COLUMN": "Doppelte Spalte (n):",
+      "EMPTY_ROW": "Leere Reihe",
+      "CONVERTING_DATA": "Fehler bei der Datenkonvertierung",
+      "NO_DATA_IN_FILE": "Die Datei enthält keine Daten oder hat das falsche Format.",
+      "NOTHING_TO_IMPORT": "Die Datei enthält keine Daten für den Import.",
+      "UNNAMED_COLUMN": "Unbenannte Spalte:",
+      "EXAMPLE_EMAIL": "Beispiel E-Mail",
+      "NOT_A_NUMBER": "Keine Nummer",
+      "NOT_A_DATE": "Kein Datum (Format JJJJ-MM-TT verwenden)",
+      "MAX_USER_COUNT": "Die maximale Benutzeranzahl wurde der Organisation bereits zu Demonstrationszwecken hinzugefügt. Bitte kontaktieren Sie Eletive, um weitere hinzuzufügen."
+    }
+  }
+}

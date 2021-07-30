@@ -1,0 +1,27 @@
+{
+  "name": "ObjectiveList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Udvid alle / Skjul alle"
+      },
+      "SortBy": {
+        "Label": "Sorter efter",
+        "Values": {
+          "AZ": "A-Z",
+          "DueDateAscending": "Forfaldsdato: Stigende",
+          "DueDateDescending": "Forfaldsdato: Faldende",
+          "ProgressMost": "Fremskridt: Mest",
+          "ProgressLeast": "Fremskridt: Mindst",
+          "CreateDateNewest": "Opret dato: Nyeste",
+          "CreateDateOldest": "Opret dato: Ældste"
+        }
+      }
+    },
+    "Statuses": {
+      "OnTrack": "På sporet",
+      "Behind": "Bag",
+      "AtRisk": "I fare"
+    }
+  }
+}

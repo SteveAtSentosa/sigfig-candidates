@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Nazwa"
+      },
+      "SegmentReportMembers": {
+        "Label": "Członkowie raportu segmentu",
+        "Tooltip": "Aktywuj tę funkcję, jeśli pracownicy w segmentach dla tego atrybutu powinni być w stanie zobaczyć raport segmentu, którego są członkami."
+      },
+      "AllowFilter": {
+        "Label": "Zezwalaj na filtr",
+        "Tooltip": "Umożliwia użytkownikom filtrowanie tego atrybutu"
+      }
+    },
+    "SaveButton": {
+      "Text": "Zapisz"
+    },
+    "DeleteButton": {
+      "Text": "Usuń"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "Usuwanie atrybutu %{attributeName}?",
+      "Content": "Spowoduje to trwałe usunięcie atrybutu <strong>%{attributeName}</strong> i wszystkich segmentów w nim. Nie można tego cofnąć.",
+      "ActionText": "Wpisz <strong>DELETE</strong> w polu wejściowym poniżej, aby odblokować przycisk usuwania"
+    }
+  }
+}

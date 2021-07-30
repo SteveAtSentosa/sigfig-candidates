@@ -1,0 +1,9 @@
+{
+  "name": "DemoModeHeader",
+  "translations": {
+    "Label": "แสดงแดชบอร์ดสาธิต",
+    "BackToOrganizationButton": {
+      "Text": "เพื่อองค์กร"
+    }
+  }
+}

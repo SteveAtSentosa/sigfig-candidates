@@ -1,0 +1,34 @@
+{
+  "name": "SegmentSelector",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Etsi segmenttejä"
+    },
+    "SidePanel": {
+      "Title": "Valitse segmentit"
+    },
+    "TargetButton": {
+      "Text": "%{segmentCount} ${segmentCount:segmentti:segmentit} valittu",
+      "DefaultText": "Valitse segmentit",
+      "DefaultTextInSingleSelectionMode": "Valitse segmentti"
+    },
+    "CancelButton": {
+      "Text": "Peruuttaa"
+    },
+    "ConfirmButton": {
+      "Text": "Valitse %{segmentCount} ${segmentCount:segmentti:segmentit}"
+    },
+    "DeselectAllButton": {
+      "Text": "Poista kaikkien valinnat"
+    },
+    "AttributeSegmentCountLabel": "%{segmentCount} ${segmentCount:segmentti:segmentit}",
+    "AttributeSelectedSegmentCountLabel": "%{segmentCount} valittu",
+    "AttributeNoResultsSegmentLabel": "Ei tuloksia",
+    "SelectAllAttributeSegmentsButton": {
+      "Text": "Valitse kaikki %{segmentCount}"
+    },
+    "DeselectAllAttributeSegmentsButton": {
+      "Text": "Poista kaikkien %{segmentCount}"
+    }
+  }
+}

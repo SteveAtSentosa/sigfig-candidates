@@ -1,0 +1,8 @@
+{
+  "name": "Common/TranslationSelector",
+  "translations": {
+    "AddTranslationButton": {
+      "Text": "添加翻译"
+    }
+  }
+}

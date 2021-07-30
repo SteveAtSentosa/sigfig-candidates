@@ -1,0 +1,16 @@
+{
+  "name": "KeyResultItem",
+  "translations": {
+    "KeyResultNameInput": {
+      "Placeholder": "Nome"
+    },
+    "StartValue": "Inizia",
+    "TargetValue": "Obiettivo",
+    "KeyResultTypes": {
+      "Percent": "Per cento",
+      "Currency": "Valuta",
+      "Number": "Numero",
+      "Complete": "Completato / Non completato"
+    }
+  }
+}

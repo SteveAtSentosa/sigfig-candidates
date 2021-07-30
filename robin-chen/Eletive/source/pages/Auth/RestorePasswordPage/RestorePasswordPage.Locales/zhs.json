@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "恢复密码",
+    "Fields": {
+      "Email": {
+        "Label": "电子邮件"
+      }
+    },
+    "SubmitButton": {
+      "Text": "恢复密码"
+    },
+    "SigninPageLink": {
+      "Text": "返回登录"
+    },
+    "SuccessMessage": {
+      "Title": "做完了！",
+      "Description": "我们已向您发送了一封包含说明的电子邮件。请检查您的收件箱。如果几分钟后仍找不到，请检查您的垃圾邮件文件夹。"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "不工作",
+      "EmailWrongFormat": "电邮无效"
+    }
+  }
+}

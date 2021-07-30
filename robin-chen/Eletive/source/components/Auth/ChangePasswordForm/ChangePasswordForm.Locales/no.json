@@ -1,0 +1,37 @@
+{
+  "name": "Auth/ChangePasswordForm",
+  "translations": {
+    "Fields": {
+      "CurrentPassword": {
+        "Label": "Nåværende passord"
+      },
+      "Password": {
+        "Label": "Nytt passord"
+      },
+      "RepeatPassword": {
+        "Label": "Gjenta passord"
+      }
+    },
+    "ShowPasswordButton": {
+      "Text": "Vise fram"
+    },
+    "HidePasswordButton": {
+      "Text": "Gjemme seg"
+    },
+    "PasswordStrength": {
+      "NoPassword": "Ingen passord",
+      "VeryWeak": "Meget svak",
+      "Weak": "Svak",
+      "Medium": "Medium",
+      "Strong": "Sterk",
+      "VeryStrong": "Veldig sterk"
+    },
+    "SubmitButton": {
+      "Text": "Bytt passord"
+    },
+    "ErrorMessages": {
+      "PasswordsNotMatch": "passordene er ikke like",
+      "PasswordTooShort": "Passordet må være minst 6 tegn langt"
+    }
+  }
+}

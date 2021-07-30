@@ -1,0 +1,12 @@
+{
+  "name": "SegmentDeleteConfirmationAlert",
+  "translations": {
+    "Text": "คุณแน่ใจหรือว่าต้องการลบกลุ่ม <b>%{segmentName}</b> หรือไม่ ไม่สามารถยกเลิกได้",
+    "ConfirmButton": {
+      "Text": "ใช่"
+    },
+    "CancelButton": {
+      "Text": "ไม่มี"
+    }
+  }
+}

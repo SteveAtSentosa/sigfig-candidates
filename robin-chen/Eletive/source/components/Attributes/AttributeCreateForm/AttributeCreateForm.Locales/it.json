@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "scelte",
+      "Dates": "Date",
+      "Numbers": "Numeri"
+    },
+    "Descriptions": {
+      "Choices": "Elenco di valori come i paesi",
+      "Dates": "Date come la data di assunzione o la data di nascita",
+      "Numbers": "Numeri come stipendio o punteggi"
+    },
+    "Placeholders": {
+      "Prefix": "Nome ad es.",
+      "Choices": "Paese",
+      "Dates": "Data di nascita",
+      "Numbers": "Stipendio"
+    },
+    "SubmitButton": {
+      "Text": "Creare"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Il nome dell'attributo esiste già per un altro attributo, scegli un altro nome"
+    }
+  }
+}

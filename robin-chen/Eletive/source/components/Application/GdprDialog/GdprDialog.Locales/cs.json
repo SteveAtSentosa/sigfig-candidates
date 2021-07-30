@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Vítejte!",
+    "Button": {
+      "Text": "Souhlasím"
+    },
+    "Content": "K tomu, abyste mohli Eletive dále používat, je třeba vyjádřit souhlas s naší <a href=\"/privacy\" target=\"_blank\">Ochranou soukromí</a>. Souhlas dáte najevo kliknutím na „Souhlasím“"
+  }
+}

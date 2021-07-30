@@ -1,0 +1,27 @@
+{
+  "name": "ObjectiveList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Espandi tutto Comprimi tutto"
+      },
+      "SortBy": {
+        "Label": "Ordina per",
+        "Values": {
+          "AZ": "A-Z",
+          "DueDateAscending": "Scadenza: crescente",
+          "DueDateDescending": "Scadenza: decrescente",
+          "ProgressMost": "Progresso: la maggior parte",
+          "ProgressLeast": "Progresso: almeno",
+          "CreateDateNewest": "Data di creazione: più recente",
+          "CreateDateOldest": "Data di creazione: la più vecchia"
+        }
+      }
+    },
+    "Statuses": {
+      "OnTrack": "In pista",
+      "Behind": "Dietro a",
+      "AtRisk": "A rischio"
+    }
+  }
+}

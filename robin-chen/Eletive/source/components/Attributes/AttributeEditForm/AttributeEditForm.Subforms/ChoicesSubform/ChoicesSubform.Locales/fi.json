@@ -1,0 +1,16 @@
+{
+  "name": "Attributes/ChoicesSubform",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Etsi segmenttejä"
+    },
+    "Fields": {
+      "Name": {
+        "Placeholder": "segmentti"
+      }
+    },
+    "CreateButton": {
+      "Text": "Lisää %{attributeName}"
+    }
+  }
+}

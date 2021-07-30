@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "סטטוס אובייקטיבי",
+      "EmployeesWithObjectives": "עובדים עם יעדים",
+      "ObjectAlignment": "יישור אובייקטיבי",
+      "SegmentsWithObjectives": "פלחים עם יעדים"
+    },
+    "Legend": {
+      "OnTrack": "במעקב",
+      "Behind": "מאחור",
+      "AtRisk": "בסיכון",
+      "NoStatus": "ללא סטטוס",
+      "With": "עם",
+      "Without": "בלי",
+      "Aligned": "מיושר",
+      "NotAligned": "לא מיושר"
+    },
+    "NoObjectives": "אין יעדים",
+    "NoEmployees": "אין עובדים עם יעדים",
+    "NoSegments": "אין פלחים עם יעדים"
+  }
+}

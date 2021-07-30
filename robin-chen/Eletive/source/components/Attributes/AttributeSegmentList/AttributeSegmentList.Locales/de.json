@@ -1,0 +1,10 @@
+{
+  "name": "AttributeSegmentList",
+  "translations": {
+    "Columns": {
+      "Name": "Name",
+      "Employees": "Mitarbeiter",
+      "Managers": "Manager"
+    }
+  }
+}

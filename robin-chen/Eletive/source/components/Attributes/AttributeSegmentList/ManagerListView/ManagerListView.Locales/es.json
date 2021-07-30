@@ -1,0 +1,11 @@
+{
+  "name": "ManagerListView",
+  "translations": {
+    "UserSelector": {
+      "NoResults": {
+        "Text": "No hay usuarios coincidentes"
+      },
+      "Placeholder": "Buscar..."
+    }
+  }
+}

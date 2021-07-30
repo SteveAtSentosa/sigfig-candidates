@@ -1,0 +1,20 @@
+{
+  "name": "CommentHeader",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:信息:留言内容}",
+      "InThisChat": "在这个聊天中",
+      "Unread": "未读"
+    },
+    "Buttons": {
+      "Chat": "聊",
+      "Acknowledge": "确认"
+    },
+    "Labels": {
+      "Important": "重要",
+      "FollowUp": "跟进",
+      "Idea": "理念",
+      "No": "无标签"
+    }
+  }
+}

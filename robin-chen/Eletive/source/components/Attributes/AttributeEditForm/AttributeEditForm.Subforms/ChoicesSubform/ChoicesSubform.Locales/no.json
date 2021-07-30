@@ -1,0 +1,16 @@
+{
+  "name": "Attributes/ChoicesSubform",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Søk i segmenter"
+    },
+    "Fields": {
+      "Name": {
+        "Placeholder": "Segmentet"
+      }
+    },
+    "CreateButton": {
+      "Text": "Legg til %{attributeName}"
+    }
+  }
+}

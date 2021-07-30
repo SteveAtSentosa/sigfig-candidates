@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Uruchom ankietę",
+      "Immediate": "Natychmiastowe uruchomienie",
+      "Scheduled": "Zaplanowane uruchomienie",
+      "Separator": "Lub"
+    },
+    "Launched": {
+      "Title": "Zaplanowano ankietę",
+      "Description": "Ankieta jest zaplanowana i zostanie uruchomiona na"
+    },
+    "ScheduleForm": {
+      "Title": "Zaplanowane uruchomienie",
+      "LaunchButton": {
+        "Text": "Uruchom"
+      }
+    }
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "name": "ErrorBoundary",
+  "translations": {
+    "Title": "Oups! Quelque chose a mal tourné",
+    "ContactText": "Veuillez vous déconnecter, recharger la page et réessayer. Si le problème persiste, veuillez contacter Eletive."
+  }
+}

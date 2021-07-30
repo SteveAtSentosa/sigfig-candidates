@@ -1,0 +1,7 @@
+{
+  "name": "ErrorBoundary",
+  "translations": {
+    "Title": "אופס! משהו השתבש",
+    "ContactText": "אנא התנתק, טען מחדש את הדף ונסה שוב. אם הבעיה נמשכת, אנא צור קשר עם Eletive."
+  }
+}

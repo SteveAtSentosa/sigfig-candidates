@@ -1,0 +1,23 @@
+{
+  "name": "Comments",
+  "translations": {
+    "PageTitle": "注释",
+    "Breadcrumbs": {
+      "Individual": "我",
+      "Segments": "区隔",
+      "Organization": "组织"
+    },
+    "NoComment": "没有评论",
+    "MatchingComment": "%{commentCount} 匹配 ${commentCount:评论:注释}",
+    "Search": "搜索",
+    "SortBy": {
+      "Label": "排序方式",
+      "Options": {
+        "Unread": "未读",
+        "Newest": "最新",
+        "Oldest": "最老的"
+      }
+    },
+    "AcknowledgedMessage": "已确认"
+  }
+}

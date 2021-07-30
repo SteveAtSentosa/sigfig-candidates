@@ -1,0 +1,35 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "Lisää uusi käyttäjä"
+    },
+    "BatchButton": {
+      "Text": "Joukkotiedosto"
+    },
+    "DeleteButton": {
+      "Text": "Poistaa"
+    },
+    "Filter": {
+      "Placeholder": "Etsi käyttäjiä",
+      "Options": {
+        "Default": "Suodattaa...",
+        "BounceEmails": "Sähköposti pomppii"
+      }
+    },
+    "UserCount": "%{totalUserCount} ${totalUserCount:käyttäjä:käyttäjät} ( %{loadedUserCount} näkyy)",
+    "EmptyList": {
+      "Text": "Käyttäjäluettelo on tyhjä",
+      "CreateLink": {
+        "Text": "Luo uusi"
+      }
+    },
+    "Columns": {
+      "Name": "Nimi",
+      "Last survey finished": "Viimeisin kysely valmis",
+      "Last sign in": "Viimeinen sisäänkirjautuminen",
+      "Role": "Rooli"
+    },
+    "EmptyDate": "Ei koskaan"
+  }
+}

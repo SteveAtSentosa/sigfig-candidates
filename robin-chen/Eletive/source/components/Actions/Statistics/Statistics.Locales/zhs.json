@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "客观状态",
+      "EmployeesWithObjectives": "有目标的员工",
+      "ObjectAlignment": "客观对准",
+      "SegmentsWithObjectives": "目标细分"
+    },
+    "Legend": {
+      "OnTrack": "步入正轨",
+      "Behind": "背后",
+      "AtRisk": "有风险",
+      "NoStatus": "无状态",
+      "With": "用",
+      "Without": "不带",
+      "Aligned": "对齐",
+      "NotAligned": "不对齐"
+    },
+    "NoObjectives": "没有目标",
+    "NoEmployees": "没有目标的员工",
+    "NoSegments": "没有目标细分"
+  }
+}

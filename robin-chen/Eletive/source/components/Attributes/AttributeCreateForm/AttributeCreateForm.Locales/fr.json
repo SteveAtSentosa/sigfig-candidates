@@ -1,0 +1,27 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "Les choix",
+      "Dates": "Rendez-vous",
+      "Numbers": "Nombres"
+    },
+    "Descriptions": {
+      "Choices": "Liste de valeurs telles que les pays",
+      "Dates": "Dates telles que la date d'embauche ou la date de naissance",
+      "Numbers": "Des chiffres tels que le salaire ou les scores"
+    },
+    "Placeholders": {
+      "Prefix": "Nom par ex.",
+      "Choices": "Pays",
+      "Dates": "Date de naissance",
+      "Numbers": "Un salaire"
+    },
+    "SubmitButton": {
+      "Text": "Créer"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Le nom d'attribut existe déjà pour un autre attribut, veuillez choisir un autre nom"
+    }
+  }
+}

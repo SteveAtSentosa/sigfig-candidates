@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Restaurar contraseña",
+    "Fields": {
+      "Email": {
+        "Label": "Email"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Restaurar contraseña"
+    },
+    "SigninPageLink": {
+      "Text": "Regresar a Iniciar sesión"
+    },
+    "SuccessMessage": {
+      "Title": "Hecho!",
+      "Description": "Le hemos enviado un correo electrónico con las instrucciones. Por favor, revise su bandeja de entrada. Si no puede encontrarlo después de esperar unos minutos, verifique su carpeta de correo no deseado."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "No funcionó",
+      "EmailWrongFormat": "El correo no es válido"
+    }
+  }
+}

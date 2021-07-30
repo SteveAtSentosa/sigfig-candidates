@@ -1,0 +1,34 @@
+{
+  "name": "SegmentSelector",
+  "translations": {
+    "Filter": {
+      "Placeholder": "Søk i segmenter"
+    },
+    "SidePanel": {
+      "Title": "Velg segmenter"
+    },
+    "TargetButton": {
+      "Text": "%{segmentCount} ${segmentCount:segmentet:segmenter} valgt",
+      "DefaultText": "Velg segmenter",
+      "DefaultTextInSingleSelectionMode": "Velg segment"
+    },
+    "CancelButton": {
+      "Text": "Avbryt"
+    },
+    "ConfirmButton": {
+      "Text": "Velg %{segmentCount} ${segmentCount:segmentet:segmenter}"
+    },
+    "DeselectAllButton": {
+      "Text": "Opphev alle"
+    },
+    "AttributeSegmentCountLabel": "%{segmentCount} ${segmentCount:segmentet:segmenter}",
+    "AttributeSelectedSegmentCountLabel": "%{segmentCount} valgt",
+    "AttributeNoResultsSegmentLabel": "Ingen resultater",
+    "SelectAllAttributeSegmentsButton": {
+      "Text": "Velg alle %{segmentCount}"
+    },
+    "DeselectAllAttributeSegmentsButton": {
+      "Text": "Fjern markering av alle %{segmentCount}"
+    }
+  }
+}

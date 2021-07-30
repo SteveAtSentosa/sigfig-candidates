@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Mukautetut kyselyt",
+    "StartMessage": "Aloita kysymysten lisääminen kyselyyn",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Lisää kysymys",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "Säännöllinen 1-5 kysymys kohdasta \"1: Täysin eri mieltä\" - \"5: Olen täysin samaa mieltä\"."
+          },
+          "MultipleChoice": {
+            "Title": "Monivalinta",
+            "Description": "Monivalintakysymys ja vapaus kerätä erityyppisiä tietoja."
+          },
+          "Text": {
+            "Title": "Teksti",
+            "Description": "Kerää ilmaisia vastauksia avoimilla kysymyksillä tämän tyyppisellä kysymyksellä."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "Kysymykset netto-järjestäjän pisteet -vastaus ja tulos"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Tallenna luonnoksena"
+      },
+      "CreateButton": {
+        "Text": "Jatka"
+      },
+      "CancelButton": {
+        "Text": "Peruuttaa"
+      },
+      "BackButton": {
+        "Text": "Takaisin"
+      },
+      "LaunchButton": {
+        "Text": "Tuoda markkinoille"
+      }
+    }
+  }
+}

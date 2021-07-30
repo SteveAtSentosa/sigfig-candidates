@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "Suodattimet",
+    "Buttons": {
+      "Apply": "Käyttää"
+    },
+    "DateRange": {
+      "Title": "Ajanjakso"
+    },
+    "Acknowledge": {
+      "Title": "Kuittaa suodatin",
+      "Values": {
+        "Yes": "Kyllä",
+        "No": "Ei",
+        "All": "Kaikki"
+      }
+    },
+    "Reply": {
+      "Title": "Vastaa",
+      "Values": {
+        "All": "Kaikki",
+        "Replied": "vastasi",
+        "RepliedByMe": "Vastannut minulta",
+        "Unreplied": "Vastaamattomat"
+      }
+    },
+    "Read": {
+      "Title": "Lukea",
+      "Values": {
+        "All": "Kaikki",
+        "Read": "Lukea",
+        "Unread": "Lukemattomat"
+      }
+    },
+    "Labels": {
+      "Title": "tarrat",
+      "Values": {
+        "All": "Kaikki",
+        "Important": "Tärkeä",
+        "FollowUp": "Seuranta",
+        "Idea": "idea",
+        "NoLabel": "Ei etikettiä"
+      }
+    }
+  }
+}

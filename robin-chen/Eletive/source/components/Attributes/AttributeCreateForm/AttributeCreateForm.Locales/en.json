@@ -1,0 +1,34 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "Choices",
+      "Dates": "Dates",
+      "Numbers": "Numbers"
+    },
+    "Descriptions": {
+      "Choices": "List of values such as countries",
+      "Dates": "Dates such as hire date or date of birth",
+      "Numbers": "Numbers such as salary or scores"
+    },
+    "InputName": {
+      "Label": "Name"
+    },
+    "Placeholders": {
+      "Prefix": "Name e.g.",
+      "Choices": "Country",
+      "Dates": "Date of birth",
+      "Numbers": "Salary"
+    },
+    "SubmitButton": {
+      "Text": "Create"
+    },
+    "CancelButton": {
+      "Text": "Cancel"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Attribute name already exist for another attribute, please choose another name",
+      "SameNameAttributeTitle": "Duplicate Error"
+    }
+  }
+}

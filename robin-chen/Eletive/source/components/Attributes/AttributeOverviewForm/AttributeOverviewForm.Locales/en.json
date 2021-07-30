@@ -1,0 +1,37 @@
+{
+  "name": "Attributes/AttributeOverviewForm",
+  "translations": {
+    "Menu": {
+      "Segments": "Segments",
+      "Hierarchies": "Hierarchies"
+    },
+    "EditButton": {
+      "Text": "Edit"
+    },
+    "DeleteButton": {
+      "Text": "Delete"
+    },
+    "Flags": {
+      "SegmentReportMembers": {
+        "On": "Segment report members is on",
+        "Off": "Segment report members is off"
+      },
+      "AllowFilter": {
+        "On": "Allow filter is on",
+        "Off": "Allow filter is off"
+      }
+    },
+    "SegmentListPanel": {
+      "AddChoice": "Add %{attributeName}",
+      "EditNumber": "Edit numbers",
+      "EditDates": "Edit dates"
+    },
+    "NewChoiceSegment": {
+      "NameLabel": "Name",
+      "AddButton": "Add"
+    },
+    "EditAttribute": {
+      "Header": "Edit “%{attributeName}” attribute"
+    }
+  }
+}

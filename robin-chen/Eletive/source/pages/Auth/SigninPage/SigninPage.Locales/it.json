@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Accedi",
+    "Fields": {
+      "Email": {
+        "Label": "E-mail"
+      },
+      "Password": {
+        "Label": "Password"
+      },
+      "AuthToken": {
+        "Label": "Codice secondo fattore"
+      }
+    },
+    "SigninButton": {
+      "Text": "Registrati"
+    },
+    "ForgotPasswordLink": {
+      "Text": "Hai dimenticato la password?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Spettacolo"
+    },
+    "HidePasswordButton": {
+      "Text": "Nascondere"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "L'email non esiste",
+      "EmailWrongFormat": "L'email non è valida",
+      "PasswordsNotMatch": "le passwords non corrispondono",
+      "PasswordTooShort": "La password deve contenere almeno 6 caratteri",
+      "WrongEmailPassword": "L'utente non esiste ' t password o password errata",
+      "WrongAuthToken": "Il secondo fattore non è corretto, riprovare. Se è necessario disabilitare l'autenticazione a due fattori, contattare l'amministratore dell'organizzazione"
+    }
+  }
+}

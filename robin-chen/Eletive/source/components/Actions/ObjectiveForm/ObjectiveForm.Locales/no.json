@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Offentlig",
+      "Description": {
+        "Organization": "Bruk dette hvis segmenter og ansatte skal kunne tilpasse seg dette målet.",
+        "Segment": "Bruk dette hvis ansatte og undersegmenter skal kunne innrette seg etter dette målet.",
+        "User": "Bruk dette hvis du vil tilpasse målet med team- eller organisasjonsmål. Det kan også brukes til å dele dine mål med manageren din."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Privat",
+      "Description": {
+        "Organization": "Hvis målet skal være privat og bare tilgjengelig for personer med tilgang til organisasjonen, bruk dette.",
+        "Segment": "Hvis målet skal være privat og bare tilgjengelig for personer med tilgang til segmentet, bruk dette.",
+        "User": "Hvis målet skal være privat og kun tilgjengelig av deg selv, bruk dette."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Skriv inn målet ditt her",
+      "Label": "Hva er målet?"
+    },
+    "TextArea": {
+      "Placeholder": "Skriv inn målet ditt her",
+      "Label": "Beskrivelse"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Foreldre å innrette seg etter"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Overordnet mål å samkjøre med"
+    },
+    "SelectDriver": {
+      "Label": "Drivertilkobling"
+    },
+    "SelectQuarter": {
+      "Label": "Objektiv start og slutt"
+    },
+    "AddKeyResultButton": {
+      "Text": "Legg til et nytt nøkkelresultat"
+    },
+    "KeyResults": {
+      "Tittle": "Sentrale resultater"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Slett"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Avbryt"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Skape"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Spare"
+    },
+    "CreateObjectiveTitle": "Lag et nytt mål",
+    "EditObjectiveTitle": "Rediger mål"
+  }
+}

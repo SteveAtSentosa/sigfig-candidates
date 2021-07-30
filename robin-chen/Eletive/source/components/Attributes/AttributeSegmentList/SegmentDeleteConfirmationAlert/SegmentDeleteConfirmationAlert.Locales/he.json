@@ -1,0 +1,12 @@
+{
+  "name": "SegmentDeleteConfirmationAlert",
+  "translations": {
+    "Text": "האם אתה בטוח שברצונך למחוק את הקטע <b>%{segmentName}</b> ? לא ניתן לבטל את זה",
+    "ConfirmButton": {
+      "Text": "כן"
+    },
+    "CancelButton": {
+      "Text": "לא"
+    }
+  }
+}

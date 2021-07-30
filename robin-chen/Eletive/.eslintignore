@@ -1,0 +1,5 @@
+dist/
+node_modules/
+aws-exports.js
+aws-exports_dev.js
+aws-exports_prod.js

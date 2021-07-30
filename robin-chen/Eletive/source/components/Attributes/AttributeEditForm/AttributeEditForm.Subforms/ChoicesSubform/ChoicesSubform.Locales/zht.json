@@ -1,0 +1,16 @@
+{
+  "name": "Attributes/ChoicesSubform",
+  "translations": {
+    "Filter": {
+      "Placeholder": "搜索细分"
+    },
+    "Fields": {
+      "Name": {
+        "Placeholder": "分割"
+      }
+    },
+    "CreateButton": {
+      "Text": "添加 %{attributeName}"
+    }
+  }
+}

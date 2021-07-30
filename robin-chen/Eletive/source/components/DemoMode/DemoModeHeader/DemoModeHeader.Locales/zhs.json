@@ -1,0 +1,9 @@
+{
+  "name": "DemoModeHeader",
+  "translations": {
+    "Label": "显示演示仪表板",
+    "BackToOrganizationButton": {
+      "Text": "对组织"
+    }
+  }
+}

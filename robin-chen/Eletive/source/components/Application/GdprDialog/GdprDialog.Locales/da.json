@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Velkommen!",
+    "Button": {
+      "Text": "Jeg er enig"
+    },
+    "Content": "For at fortsætte med at bruge Eletive, skal du erklære dig enig i vores <a href=\"/privacy\" target=\"_blank\">Privatlivspolitik</a>. Du erklærer dig enig ved at trykke på \"Jeg er enig\""
+  }
+}

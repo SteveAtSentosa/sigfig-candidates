@@ -1,0 +1,37 @@
+{
+  "name": "OrganizationActions",
+  "translations": {
+    "PageTitle": "การปฏิบัติ",
+    "StartMessage": "สร้างวัตถุประสงค์ใหม่ในรายการของคุณ",
+    "ActionButtons": {
+      "CreateObjective": "สร้างวัตถุประสงค์ใหม่"
+    },
+    "Breadcrumbs": {
+      "Individual": "ฉัน",
+      "Segments": "กลุ่ม",
+      "Organization": "องค์กร",
+      "Actions": "การปฏิบัติ"
+    },
+    "Tabs": {
+      "Objectives": "วัตถุประสงค์",
+      "Segments": "กลุ่ม",
+      "Employees": "พนักงาน",
+      "Statistics": "สถิติ"
+    },
+    "Filter": {
+      "ObjectiveDate": {
+        "Label": "วัตถุประสงค์มีการใช้งานใน"
+      },
+      "Status": {
+        "Label": "สถานะ"
+      },
+      "Statuses": {
+        "all": "แสดงทั้งหมด",
+        "NoStatus": "ไม่มีสถานะ",
+        "onTrack": "ในการติดตาม",
+        "Behind": "หลัง",
+        "AtRisk": "มีความเสี่ยง"
+      }
+    }
+  }
+}

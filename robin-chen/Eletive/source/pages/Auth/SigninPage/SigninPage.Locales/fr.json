@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Se connecter",
+    "Fields": {
+      "Email": {
+        "Label": "Email"
+      },
+      "Password": {
+        "Label": "Mot de passe"
+      },
+      "AuthToken": {
+        "Label": "Code deuxième facteur"
+      }
+    },
+    "SigninButton": {
+      "Text": "Se connecter"
+    },
+    "ForgotPasswordLink": {
+      "Text": "mot de passe oublié?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Montrer"
+    },
+    "HidePasswordButton": {
+      "Text": "Hide"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Le courrier n'existe pas",
+      "EmailWrongFormat": "L'email n'est pas valide",
+      "PasswordsNotMatch": "Les mots de passe ne correspondent pas",
+      "PasswordTooShort": "Le mot de passe doit comporter au moins 6 caractères",
+      "WrongEmailPassword": "L'utilisateur ' ou le mot de passe est incorrect",
+      "WrongAuthToken": "Le deuxième facteur est incorrect, veuillez réessayer. Si vous devez désactiver l'authentification à deux facteurs, contactez l'administrateur de votre organisation"
+    }
+  }
+}

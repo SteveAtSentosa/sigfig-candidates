@@ -1,0 +1,7 @@
+{
+  "name": "ErrorBoundary",
+  "translations": {
+    "Title": "糟糕！有些不对劲",
+    "ContactText": "请退出，重新加载页面，然后重试。如果问题仍然存在，请联系Eletive。"
+  }
+}

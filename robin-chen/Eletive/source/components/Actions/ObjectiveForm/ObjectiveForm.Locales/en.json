@@ -1,0 +1,65 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Public",
+      "Description": {
+        "Organization": "Use this if segments and employees should be able to align with this objective.",
+        "Segment": "Use this if employees and sub-segments should be able to align with this objective.",
+        "User": "Use this if you want to align the objective with team or organization objectives. It can also be used to share your objectives with your manager."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Private",
+      "Description": {
+        "Organization": "If the objective should be private and only accessible to people with access to the organization, use this.",
+        "Segment": "If the objective should be private and only accessible to people with access to the segment, use this.",
+        "User": "If the objective should be private and only accessible by yourself, use this."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Enter your objective here",
+      "Label": "What is the objective ?"
+    },
+    "TextArea": {
+      "Placeholder": "Enter your objective here",
+      "Label": "Description"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Parent to align with"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Parent objective to align with"
+    },
+    "SelectDriver": {
+      "Label": "Driver Connection"
+    },
+    "SelectQuarter": {
+      "Label": "Objective start and end"
+    },
+    "AddKeyResultButton": {
+      "Text": "Add another key result"
+    },
+    "KeyResults": {
+      "Tittle": "Key Results"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Delete"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Cancel"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Create"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Save"
+    },
+    "CreateObjectiveTitle": "Create a new objective",
+    "EditObjectiveTitle": "Edit objective",
+    "ErrorMessages": {
+      "EmptyObjectiveName": "Please enter a objective name to continue",
+      "EmptyParentObjective": "Please select Parent objective to continue"
+    }
+  }
+}

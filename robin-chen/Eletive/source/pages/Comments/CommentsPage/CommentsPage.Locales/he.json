@@ -1,0 +1,22 @@
+{
+  "name": "Comments",
+  "translations": {
+    "PageTitle": "הערות",
+    "Breadcrumbs": {
+      "Individual": "אני",
+      "Segments": "פלחים",
+      "Organization": "ארגון"
+    },
+    "NoComment": "אין תגובות",
+    "Search": "לחפש",
+    "SortBy": {
+      "Label": "מיין לפי",
+      "Options": {
+        "Unread": "לא נקרא",
+        "Newest": "החדש ביותר",
+        "Oldest": "הוותיק ביותר"
+      }
+    },
+    "AcknowledgedMessage": "הודה"
+  }
+}

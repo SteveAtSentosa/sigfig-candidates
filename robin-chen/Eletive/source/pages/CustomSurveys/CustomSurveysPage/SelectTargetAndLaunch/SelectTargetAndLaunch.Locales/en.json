@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Launch your Survey",
+      "Immediate": "Immediate launch",
+      "Scheduled": "Scheduled launch",
+      "Separator": "or"
+    },
+    "Launched": {
+      "Title": "Survey scheduled",
+      "Description": "Your survey is scheduled and will be launched on"
+    },
+    "ScheduleForm": {
+      "Title": "Scheduled launch",
+      "LaunchButton": {
+        "Text": "Launch"
+      }
+    }
+  }
+}

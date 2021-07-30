@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Encuestas personalizadas",
+    "StartMessage": "Comience a agregar preguntas a su encuesta",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Añadir pregunta",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "Pregunta regular 1-5 de \"1: Muy en desacuerdo\" a \"5: Muy de acuerdo\"."
+          },
+          "MultipleChoice": {
+            "Title": "Opción multiple",
+            "Description": "Pregunta de opción múltiple con libertad para recopilar diferentes tipos de información."
+          },
+          "Text": {
+            "Title": "Texto",
+            "Description": "Recopile respuestas de texto libre con preguntas abiertas con este tipo de pregunta."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "Preguntas con Net Promoter Score respuesta y resultado"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Guardar como borrador"
+      },
+      "CreateButton": {
+        "Text": "Continuar"
+      },
+      "CancelButton": {
+        "Text": "Cancelar"
+      },
+      "BackButton": {
+        "Text": "Volver"
+      },
+      "LaunchButton": {
+        "Text": "Lanzamiento"
+      }
+    }
+  }
+}

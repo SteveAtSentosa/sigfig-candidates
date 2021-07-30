@@ -1,0 +1,14 @@
+{
+  "name": "Chat",
+  "translations": {
+    "MessageCount": {
+      "TotalCount": "%{totalCount} ${totalCount:Viesti:Viestit}",
+      "InThisChat": "tässä chatissa",
+      "Unread": "Lukemattomat"
+    },
+    "AnonymousUser": {
+      "Anonymous": "Anonyymi",
+      "You": "Sinä"
+    }
+  }
+}

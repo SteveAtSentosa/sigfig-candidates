@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Logg inn",
+    "Fields": {
+      "Email": {
+        "Label": "E-post"
+      },
+      "Password": {
+        "Label": "Passord"
+      },
+      "AuthToken": {
+        "Label": "Koden andre faktor"
+      }
+    },
+    "SigninButton": {
+      "Text": "Logg inn"
+    },
+    "ForgotPasswordLink": {
+      "Text": "Glemt passord?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Vise fram"
+    },
+    "HidePasswordButton": {
+      "Text": "Gjemme seg"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "E-post eksisterer ikke '",
+      "EmailWrongFormat": "E-postadressen er ikke gyldig",
+      "PasswordsNotMatch": "passordene er ikke like",
+      "PasswordTooShort": "Passordet må være minst 6 tegn langt",
+      "WrongEmailPassword": "Bruker eksisterer ikke ' eller feil passord",
+      "WrongAuthToken": "Den andre faktoren er feil. Prøv igjen. Hvis du trenger å deaktivere tofaktorautentisering, kontakter du organisasjonsadministratoren"
+    }
+  }
+}

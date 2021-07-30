@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "Objektiv status",
+      "EmployeesWithObjectives": "Ansatte med mål",
+      "ObjectAlignment": "Objektiv justering",
+      "SegmentsWithObjectives": "Segmenter med mål"
+    },
+    "Legend": {
+      "OnTrack": "På sporet",
+      "Behind": "Bak",
+      "AtRisk": "I fare",
+      "NoStatus": "Ingen status",
+      "With": "Med",
+      "Without": "Uten",
+      "Aligned": "Justert",
+      "NotAligned": "Ikke justert"
+    },
+    "NoObjectives": "Ingen mål",
+    "NoEmployees": "Ingen ansatte med mål",
+    "NoSegments": "Ingen segmenter med mål"
+  }
+}

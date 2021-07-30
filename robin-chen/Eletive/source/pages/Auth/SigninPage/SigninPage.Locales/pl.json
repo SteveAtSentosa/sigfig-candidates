@@ -1,0 +1,37 @@
+{
+  "name": "Auth/SigninPage",
+  "translations": {
+    "Title": "Rejestrowanie",
+    "Fields": {
+      "Email": {
+        "Label": "Adres e-mail"
+      },
+      "Password": {
+        "Label": "Hasło"
+      },
+      "AuthToken": {
+        "Label": "Kod drugi współczynnik"
+      }
+    },
+    "SigninButton": {
+      "Text": "Rejestrowanie"
+    },
+    "ForgotPasswordLink": {
+      "Text": "Nie pamiętasz hasła?"
+    },
+    "ShowPasswordButton": {
+      "Text": "Pokaż"
+    },
+    "HidePasswordButton": {
+      "Text": "Ukryć"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "E-mail nie istnieje",
+      "EmailWrongFormat": "Wiadomość e-mail jest nieprawidłowa",
+      "PasswordsNotMatch": "Hasła nie są zgodne",
+      "PasswordTooShort": "Hasło musi mieć co najmniej 6 znaków",
+      "WrongEmailPassword": "Użytkownik nie istnieje lub złe hasło",
+      "WrongAuthToken": "Drugi czynnik jest nieprawidłowy, spróbuj ponownie. Jeśli chcesz wyłączyć uwierzytelnianie dwuskładnikowe, umów z administratorem organizacji"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "AttributeCreateForm",
+  "translations": {
+    "Titles": {
+      "Choices": "Val",
+      "Dates": "Datum",
+      "Numbers": "Siffror"
+    },
+    "Descriptions": {
+      "Choices": "Lista av värden så som länder",
+      "Dates": "Datum så som anställningsdatum eller födelsedatum",
+      "Numbers": "Siffror så som lön eller poäng"
+    },
+    "Placeholders": {
+      "Prefix": "Namn t.ex.",
+      "Choices": "Land",
+      "Dates": "Födelsedatum",
+      "Numbers": "Lön"
+    },
+    "SubmitButton": {
+      "Text": "Skapa"
+    },
+    "Warnings": {
+      "SameNameAttribute": "Attributnamn finns redan för ett annat attribut, vänligen välj ett annat",
+      "SameNameAttributeTitle": "Dubblett fel"
+    }
+  }
+}

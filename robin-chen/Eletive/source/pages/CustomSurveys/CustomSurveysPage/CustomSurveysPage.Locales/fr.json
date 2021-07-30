@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "Enquêtes personnalisées",
+    "StartMessage": "Commencez à ajouter des questions à votre enquête",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "Ajouter une question",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "1-5 questions régulières de «1: Tout à fait en désaccord» à «5: Tout à fait d'accord»."
+          },
+          "MultipleChoice": {
+            "Title": "Choix multiple",
+            "Description": "Question à choix multiples avec la liberté de collecter différents types d'informations."
+          },
+          "Text": {
+            "Title": "Texte",
+            "Description": "Collectez des réponses en texte libre avec des questions ouvertes avec ce type de question."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "Questions avec résultat et résultat Net Promoter Score"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "Enregistrer comme brouillon"
+      },
+      "CreateButton": {
+        "Text": "Continuer"
+      },
+      "CancelButton": {
+        "Text": "Annuler"
+      },
+      "BackButton": {
+        "Text": "Précédent"
+      },
+      "LaunchButton": {
+        "Text": "Lancer"
+      }
+    }
+  }
+}

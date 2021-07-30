@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Nimi"
+      },
+      "SegmentReportMembers": {
+        "Label": "Segmenttiraportin jäsenet",
+        "Tooltip": "Aktivoi tämä toiminto, jos tämän ominaisuuden segmenttien työntekijöiden pitäisi nähdä segmenttiraportti, johon he ovat jäseninä."
+      },
+      "AllowFilter": {
+        "Label": "Salli suodatin",
+        "Tooltip": "Antaa käyttäjille suodattaa tämän määritteen"
+      }
+    },
+    "SaveButton": {
+      "Text": "Säästää"
+    },
+    "DeleteButton": {
+      "Text": "Poistaa"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "Poistetaanko attribuutti %{attributeName}?",
+      "Content": "Tämä poistaa määritteen pysyvästi <strong>%{attributeName}</strong> ja kaikki segmentit siinä. Tätä ei voi peruuttaa.",
+      "ActionText": "Kirjoita <strong>DELETE</strong> alla olevaan syöttökenttään avataksesi poistopainikkeen lukituksen"
+    }
+  }
+}

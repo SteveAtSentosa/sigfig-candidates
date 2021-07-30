@@ -1,0 +1,35 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "เพิ่มผู้ใช้ใหม่"
+    },
+    "BatchButton": {
+      "Text": "แก้ไขมวล"
+    },
+    "DeleteButton": {
+      "Text": "ลบ"
+    },
+    "Filter": {
+      "Placeholder": "ค้นหาผู้ใช้",
+      "Options": {
+        "Default": "กรอง...",
+        "BounceEmails": "อีเมลเด้ง"
+      }
+    },
+    "UserCount": "%{totalUserCount} ${totalUserCount:ผู้ใช้:คน} ( %{loadedUserCount} แสดง)",
+    "EmptyList": {
+      "Text": "รายชื่อผู้ใช้ว่างเปล่า",
+      "CreateLink": {
+        "Text": "สร้างใหม่"
+      }
+    },
+    "Columns": {
+      "Name": "ชื่อ",
+      "Last survey finished": "การสำรวจครั้งสุดท้ายเสร็จสิ้น",
+      "Last sign in": "ลงชื่อเข้าใช้ล่าสุด",
+      "Role": "บทบาท"
+    },
+    "EmptyDate": "ไม่เคย"
+  }
+}

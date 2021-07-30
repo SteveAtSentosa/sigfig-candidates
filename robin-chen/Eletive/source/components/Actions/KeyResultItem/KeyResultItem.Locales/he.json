@@ -1,0 +1,16 @@
+{
+  "name": "KeyResultItem",
+  "translations": {
+    "KeyResultNameInput": {
+      "Placeholder": "שם"
+    },
+    "StartValue": "התחל/י",
+    "TargetValue": "יעד",
+    "KeyResultTypes": {
+      "Percent": "אחוז",
+      "Currency": "מטבע",
+      "Number": "מספר",
+      "Complete": "הושלם / לא הושלם"
+    }
+  }
+}

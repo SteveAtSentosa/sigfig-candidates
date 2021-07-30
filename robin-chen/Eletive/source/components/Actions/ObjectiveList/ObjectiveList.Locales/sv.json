@@ -1,0 +1,27 @@
+{
+  "name": "ObjectiveList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Expandera alla / Dölj alla"
+      },
+      "SortBy": {
+        "Values": {
+          "AZ": "A-Z",
+          "DueDateAscending": "Förfallodatum: Stigande",
+          "DueDateDescending": "Förfallodatum: Fallande",
+          "ProgressMost": "Framsteg: Mest",
+          "ProgressLeast": "Framsteg: Minst",
+          "CreateDateNewest": "Skapat datum: Nyaste",
+          "CreateDateOldest": "Skapat datum: Äldsta"
+        },
+        "Label": "Sortera efter"
+      }
+    },
+    "Statuses": {
+      "OnTrack": "I fas",
+      "Behind": "Bakom",
+      "AtRisk": "I riskzon"
+    }
+  }
+}

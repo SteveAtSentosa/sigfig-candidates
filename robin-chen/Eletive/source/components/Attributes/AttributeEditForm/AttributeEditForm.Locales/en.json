@@ -1,0 +1,29 @@
+{
+  "name": "AttributeEditForm",
+  "translations": {
+    "Fields": {
+      "Name": {
+        "Label": "Name"
+      },
+      "SegmentReportMembers": {
+        "Label": "Segment report members",
+        "Tooltip": "Activate this function if the employees in the segments for this attribute should be able to see the segment report which they are a member of."
+      },
+      "AllowFilter": {
+        "Label": "Allow filter",
+        "Tooltip": "Allows users to filter on this attribute"
+      }
+    },
+    "SaveButton": {
+      "Text": "Save"
+    },
+    "CancelButton": {
+      "Text": "Cancel"
+    },
+    "DeleteConfirmationDialog": {
+      "Title": "Delete the attribute %{attributeName}?",
+      "Content": "This will permanently delete the attribute <strong>%{attributeName}</strong> and all the segments in it. This CANNOT be undone.",
+      "ActionText": "Please, type in <strong>DELETE</strong> in the input box below to unlock delete button"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Starten Sie Ihre Umfrage",
+      "Immediate": "Sofortiger Start",
+      "Scheduled": "Geplanter Start",
+      "Separator": "oder"
+    },
+    "Launched": {
+      "Title": "Umfrage geplant",
+      "Description": "Ihre Umfrage ist geplant und wird am gestartet"
+    },
+    "ScheduleForm": {
+      "Title": "Geplanter Start",
+      "LaunchButton": {
+        "Text": "Einführung"
+      }
+    }
+  }
+}

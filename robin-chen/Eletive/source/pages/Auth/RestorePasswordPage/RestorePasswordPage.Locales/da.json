@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "Gendan adgangskode",
+    "Fields": {
+      "Email": {
+        "Label": "E-mail"
+      }
+    },
+    "SubmitButton": {
+      "Text": "Gendan adgangskode"
+    },
+    "SigninPageLink": {
+      "Text": "Tilbage til Log ind"
+    },
+    "SuccessMessage": {
+      "Title": "Færdig!",
+      "Description": "Vi har sendt dig en e-mail med instruktionerne. Tjek venligst din indbakke. Hvis du ikke kan finde det efter at have ventet et par minutter, skal du tjekke din spam-mappe."
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "Virkede ikke",
+      "EmailWrongFormat": "E-mail er ikke gyldig"
+    }
+  }
+}

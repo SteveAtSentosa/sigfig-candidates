@@ -1,0 +1,16 @@
+{
+  "name": "Attributes/ChoicesSubform",
+  "translations": {
+    "Filter": {
+      "Placeholder": "קטעי חיפוש"
+    },
+    "Fields": {
+      "Name": {
+        "Placeholder": "קטע"
+      }
+    },
+    "CreateButton": {
+      "Text": "הוסף %{attributeName}"
+    }
+  }
+}

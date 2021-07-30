@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Immediate": "Omedelbart utskick",
+      "Scheduled": "Schemalagt utskick",
+      "Separator": "eller",
+      "Title": "Starta din undersökning"
+    },
+    "Launched": {
+      "Title": "Undersökning schemalagd",
+      "Description": "Din undersökning är schemalagd och kommer att skickas"
+    },
+    "ScheduleForm": {
+      "Title": "Schemalagt utskick",
+      "LaunchButton": {
+        "Text": "Skicka"
+      }
+    }
+  }
+}

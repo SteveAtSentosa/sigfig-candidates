@@ -1,0 +1,25 @@
+{
+  "name": "RestorePasswordPage",
+  "translations": {
+    "Title": "กู้คืนรหัสผ่าน",
+    "Fields": {
+      "Email": {
+        "Label": "อีเมล์"
+      }
+    },
+    "SubmitButton": {
+      "Text": "กู้คืนรหัสผ่าน"
+    },
+    "SigninPageLink": {
+      "Text": "กลับสู่การลงชื่อเข้าใช้"
+    },
+    "SuccessMessage": {
+      "Title": "ทำ!",
+      "Description": "เราได้ส่งอีเมลพร้อมคำแนะนำให้คุณ กรุณาตรวจสอบกล่องจดหมายของคุณ หากคุณไม่พบหลังจากรอสองสามนาทีโปรดตรวจสอบโฟลเดอร์สแปมของคุณ"
+    },
+    "ErrorMessages": {
+      "EmailNotExist": "ไม่ทำงาน",
+      "EmailWrongFormat": "อีเมลไม่ถูกต้อง"
+    }
+  }
+}

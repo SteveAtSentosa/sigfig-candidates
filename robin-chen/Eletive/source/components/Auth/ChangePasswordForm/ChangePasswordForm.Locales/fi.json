@@ -1,0 +1,37 @@
+{
+  "name": "Auth/ChangePasswordForm",
+  "translations": {
+    "Fields": {
+      "CurrentPassword": {
+        "Label": "Nykyinen salasana"
+      },
+      "Password": {
+        "Label": "Uusi salasana"
+      },
+      "RepeatPassword": {
+        "Label": "Toista salasana"
+      }
+    },
+    "ShowPasswordButton": {
+      "Text": "Show"
+    },
+    "HidePasswordButton": {
+      "Text": "Piilottaa"
+    },
+    "PasswordStrength": {
+      "NoPassword": "Ei salasanaa",
+      "VeryWeak": "Erittäin heikko",
+      "Weak": "Heikko",
+      "Medium": "Medium",
+      "Strong": "Vahva",
+      "VeryStrong": "Erittäin vahva"
+    },
+    "SubmitButton": {
+      "Text": "Vaihda salasana"
+    },
+    "ErrorMessages": {
+      "PasswordsNotMatch": "Salasanat eivät täsmää",
+      "PasswordTooShort": "Salasanan on oltava vähintään 6 merkkiä pitkä"
+    }
+  }
+}

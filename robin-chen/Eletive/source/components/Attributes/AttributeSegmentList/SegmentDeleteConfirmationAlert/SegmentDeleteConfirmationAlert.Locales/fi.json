@@ -1,0 +1,12 @@
+{
+  "name": "SegmentDeleteConfirmationAlert",
+  "translations": {
+    "Text": "Haluatko varmasti poistaa segmentin <b>%{segmentName}</b>? Sitä ei voi peruuttaa",
+    "ConfirmButton": {
+      "Text": "Kyllä"
+    },
+    "CancelButton": {
+      "Text": "Ei"
+    }
+  }
+}

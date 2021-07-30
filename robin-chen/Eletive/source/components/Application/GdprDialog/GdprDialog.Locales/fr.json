@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Bienvenue !",
+    "Button": {
+      "Text": "J'accepte"
+    },
+    "Content": "Pour continuer à utiliser Eletive, vous devez accepter notre <a href=\"/privacy\" target=\"_blank\">politique de confidentialité</a> . Vous acceptez en cliquant sur \"J'accepte\""
+  }
+}

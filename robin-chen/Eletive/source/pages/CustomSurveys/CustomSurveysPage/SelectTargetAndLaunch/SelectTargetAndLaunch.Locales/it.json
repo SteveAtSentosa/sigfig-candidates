@@ -1,0 +1,21 @@
+{
+  "name": "CustomSurvey/SelectTargetAndLaunch",
+  "translations": {
+    "Launch": {
+      "Title": "Avvia il tuo sondaggio",
+      "Immediate": "Lancio immediato",
+      "Scheduled": "Lancio programmato",
+      "Separator": "o"
+    },
+    "Launched": {
+      "Title": "Sondaggio programmato",
+      "Description": "Il tuo sondaggio è programmato e verrà avviato il"
+    },
+    "ScheduleForm": {
+      "Title": "Lancio programmato",
+      "LaunchButton": {
+        "Text": "Lanciare"
+      }
+    }
+  }
+}

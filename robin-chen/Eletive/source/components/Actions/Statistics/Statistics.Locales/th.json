@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "สถานะวัตถุประสงค์",
+      "EmployeesWithObjectives": "พนักงานที่มีวัตถุประสงค์",
+      "ObjectAlignment": "การจัดตำแหน่งวัตถุประสงค์",
+      "SegmentsWithObjectives": "กลุ่มที่มีวัตถุประสงค์"
+    },
+    "Legend": {
+      "OnTrack": "ในการติดตาม",
+      "Behind": "หลัง",
+      "AtRisk": "มีความเสี่ยง",
+      "NoStatus": "ไม่มีสถานะ",
+      "With": "กับ",
+      "Without": "ไม่มี",
+      "Aligned": "ชิด",
+      "NotAligned": "ไม่ได้จัดแนว"
+    },
+    "NoObjectives": "ไม่มีวัตถุประสงค์",
+    "NoEmployees": "ไม่มีพนักงานที่มีวัตถุประสงค์",
+    "NoSegments": "ไม่มีส่วนที่มีวัตถุประสงค์"
+  }
+}

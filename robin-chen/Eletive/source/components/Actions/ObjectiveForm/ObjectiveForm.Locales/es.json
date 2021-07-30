@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Pública",
+      "Description": {
+        "Organization": "Use esto si los segmentos y los empleados deben poder alinearse con este objetivo.",
+        "Segment": "Use esto si los empleados y los subsegmentos deben poder alinearse con este objetivo.",
+        "User": "Úselo si desea alinear el objetivo con los objetivos del equipo u organización. También se puede usar para compartir sus objetivos con su gerente."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Privado",
+      "Description": {
+        "Organization": "Si el objetivo debe ser privado y solo accesible para las personas con acceso a la organización, utilícelo.",
+        "Segment": "Si el objetivo debe ser privado y solo accesible para las personas con acceso al segmento, utilícelo.",
+        "User": "Si el objetivo debe ser privado y solo accesible por usted mismo, úselo."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Ingrese su objetivo aquí",
+      "Label": "Cual es el objetivo?"
+    },
+    "TextArea": {
+      "Placeholder": "Ingrese su objetivo aquí",
+      "Label": "Descripción"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Padre para alinearse con"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Objetivo principal para alinearse con"
+    },
+    "SelectDriver": {
+      "Label": "Conexión del conductor"
+    },
+    "SelectQuarter": {
+      "Label": "Objetivo inicio y fin"
+    },
+    "AddKeyResultButton": {
+      "Text": "Agregar otro resultado clave"
+    },
+    "KeyResults": {
+      "Tittle": "Resultados clave"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Borrar"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Cancelar"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Crear"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Guardar"
+    },
+    "CreateObjectiveTitle": "Crea un nuevo objetivo",
+    "EditObjectiveTitle": "Editar objetivo"
+  }
+}

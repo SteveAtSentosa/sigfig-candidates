@@ -1,0 +1,24 @@
+{
+  "name": "Statistics",
+  "translations": {
+    "Header": {
+      "ObjectiveStatus": "Målstatus",
+      "EmployeesWithObjectives": "Medarbetare med mål",
+      "ObjectAlignment": "Målkoppling",
+      "SegmentsWithObjectives": "Segment med mål"
+    },
+    "Legend": {
+      "OnTrack": "I fas",
+      "Behind": "Bakom",
+      "AtRisk": "I riskzon",
+      "NoStatus": "Ingen status",
+      "With": "Med",
+      "Without": "Utan",
+      "Aligned": "Kopplat",
+      "NotAligned": "Inte kopplat"
+    },
+    "NoObjectives": "Inga mål",
+    "NoEmployees": "Inga medarbetare med mål",
+    "NoSegments": "Inga segment med mål"
+  }
+}

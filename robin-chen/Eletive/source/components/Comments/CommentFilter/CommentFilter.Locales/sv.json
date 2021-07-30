@@ -1,0 +1,47 @@
+{
+  "name": "CommentFilter",
+  "translations": {
+    "TargetTitle": "Filter",
+    "Buttons": {
+      "Apply": "Tillämpa"
+    },
+    "DateRange": {
+      "Title": "Datumintervall"
+    },
+    "Acknowledge": {
+      "Title": "Bekräfta filter",
+      "Values": {
+        "Yes": "Ja",
+        "No": "Nej",
+        "All": "Alla"
+      }
+    },
+    "Reply": {
+      "Title": "Svara",
+      "Values": {
+        "All": "Alla",
+        "Replied": "Svarade",
+        "RepliedByMe": "Svarat av mig",
+        "Unreplied": "Obesvarade"
+      }
+    },
+    "Read": {
+      "Title": "Läsa",
+      "Values": {
+        "All": "Alla",
+        "Read": "Läst",
+        "Unread": "Olästa"
+      }
+    },
+    "Labels": {
+      "Title": "Etiketter",
+      "Values": {
+        "All": "Alla",
+        "Important": "Viktig",
+        "FollowUp": "Uppföljning",
+        "Idea": "Ide",
+        "NoLabel": "Ingen etikett"
+      }
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Comments",
+  "translations": {
+    "PageTitle": "Comentarios",
+    "Breadcrumbs": {
+      "Individual": "Me",
+      "Segments": "Segmentos",
+      "Organization": "Organización"
+    },
+    "NoComment": "No hay comentarios",
+    "MatchingComment": "%{commentCount} coincidente ${commentCount:comentario:comentarios}",
+    "Search": "Buscar",
+    "SortBy": {
+      "Label": "Ordenar por",
+      "Options": {
+        "Unread": "No leído",
+        "Newest": "El más nuevo",
+        "Oldest": "Más antiguo"
+      }
+    },
+    "AcknowledgedMessage": "Admitido"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Comments",
+  "translations": {
+    "PageTitle": "Kommentarer",
+    "Breadcrumbs": {
+      "Individual": "Jag",
+      "Segments": "Segment",
+      "Organization": "Organisation"
+    },
+    "NoComment": "Det finns inga kommentarer",
+    "MatchingComment": "%{commentCount} matchande ${commentCount:kommentar:kommentarer}",
+    "Search": "Sök",
+    "SortBy": {
+      "Label": "Sortera",
+      "Options": {
+        "Unread": "Olästa",
+        "Newest": "Nyaste",
+        "Oldest": "Äldsta"
+      }
+    },
+    "AcknowledgedMessage": "Bekräftat"
+  }
+}

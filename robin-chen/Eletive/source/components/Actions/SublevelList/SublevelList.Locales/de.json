@@ -1,0 +1,31 @@
+{
+  "name": "SublevelList",
+  "translations": {
+    "ListPanel": {
+      "ExpandButton": {
+        "Text": "Alle erweitern Alle reduzieren"
+      },
+      "AttributeFilter": {
+        "Label": "Attribut",
+        "Values": {
+          "All": "Alles"
+        }
+      },
+      "HaveObjectiveFilter": {
+        "Label": "Ziel haben",
+        "Values": {
+          "All": "Alles",
+          "Yes": "Ja",
+          "No": "Keine"
+        }
+      },
+      "SortBy": {
+        "Label": "Sortieren nach",
+        "Values": {
+          "ObjectivesMost": "Ziele: Die meisten",
+          "ObjectivesLeast": "Ziele: Am wenigsten"
+        }
+      }
+    }
+  }
+}

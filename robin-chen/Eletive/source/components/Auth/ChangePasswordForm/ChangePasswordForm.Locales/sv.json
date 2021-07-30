@@ -1,0 +1,38 @@
+{
+  "name": "Auth/ChangePasswordForm",
+  "translations": {
+    "Fields": {
+      "CurrentPassword": {
+        "Label": "Nuvarande lösenord"
+      },
+      "Password": {
+        "Label": "Nytt lösenord"
+      },
+      "RepeatPassword": {
+        "Label": "Repetera lösenord"
+      }
+    },
+    "ShowPasswordButton": {
+      "Text": "Visa"
+    },
+    "HidePasswordButton": {
+      "Text": "Dölj"
+    },
+    "PasswordStrength": {
+      "NoPassword": "Inget lösenord",
+      "VeryWeak": "Väldigt svagt",
+      "Weak": "Svagt",
+      "Medium": "Medium",
+      "Strong": "Starkt",
+      "VeryStrong": "Väldigt starkt"
+    },
+    "SubmitButton": {
+      "Text": "Ändra lösenord"
+    },
+    "ErrorMessages": {
+      "PasswordsNotMatch": "Lösenorden matchar inte",
+      "PasswordTooShort": "Lösenordet måste vara minst 6 tecken långt",
+      "CurrentPasswordRequired": "Nuvarande lösenord krävs"
+    }
+  }
+}

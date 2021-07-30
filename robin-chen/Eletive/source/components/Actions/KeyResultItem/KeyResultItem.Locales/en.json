@@ -1,0 +1,19 @@
+{
+  "name": "KeyResultItem",
+  "translations": {
+    "KeyResultNameInput": {
+      "Placeholder": "Name"
+    },
+    "StartValue": "Start",
+    "TargetValue": "Target",
+    "KeyResultTypes": {
+      "Percent": "Percent",
+      "Currency": "Currency",
+      "Number": "Number",
+      "Complete": "Completed / Not completed"
+    },
+    "ErrorMessages": {
+      "EmptyKeyName": "Please enter a name to continue"
+    }
+  }
+}

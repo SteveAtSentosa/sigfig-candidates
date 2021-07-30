@@ -1,0 +1,13 @@
+{
+  "name": "Common/DeleteConfirmationDialog",
+  "translations": {
+    "Description": "Please, type in **%{checkWord}** in the input box below to unlock delete button",
+    "CheckWord": "DELETE",
+    "CancelButton": {
+      "Text": "No"
+    },
+    "ConfirmButton": {
+      "Text": "Yes"
+    }
+  }
+}

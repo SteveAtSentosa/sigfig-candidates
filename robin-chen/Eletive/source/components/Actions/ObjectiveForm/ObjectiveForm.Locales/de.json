@@ -1,0 +1,61 @@
+{
+  "name": "ObjectiveForm",
+  "translations": {
+    "ActionPublic": {
+      "Text": "Öffentlichkeit",
+      "Description": {
+        "Organization": "Verwenden Sie diese Option, wenn Segmente und Mitarbeiter in der Lage sein sollen, sich an diesem Ziel auszurichten.",
+        "Segment": "Verwenden Sie diese Option, wenn Mitarbeiter und Teilsegmente in der Lage sein sollen, sich an diesem Ziel auszurichten.",
+        "User": "Verwenden Sie diese Option, wenn Sie das Ziel an den Team- oder Organisationszielen ausrichten möchten. Es kann auch verwendet werden, um Ihre Ziele mit Ihrem Manager zu teilen."
+      }
+    },
+    "ActionPrivate": {
+      "Text": "Privat",
+      "Description": {
+        "Organization": "Wenn das Ziel privat und nur für Personen mit Zugriff auf die Organisation zugänglich sein soll, verwenden Sie dies.",
+        "Segment": "Wenn das Ziel privat und nur für Personen mit Zugang zum Segment zugänglich sein soll, verwenden Sie dies.",
+        "User": "Wenn das Ziel privat und nur für Sie zugänglich sein soll, verwenden Sie dies."
+      }
+    },
+    "InputName": {
+      "Placeholder": "Geben Sie hier Ihr Ziel ein",
+      "Label": "Was ist das Ziel?"
+    },
+    "TextArea": {
+      "Placeholder": "Geben Sie hier Ihr Ziel ein",
+      "Label": "Beschreibung"
+    },
+    "SelectParentToAlignWith": {
+      "Text": "Übergeordnetes Element zum Ausrichten"
+    },
+    "SelectParentObjectiveToAlignWith": {
+      "Text": "Übergeordnetes Ziel, an dem ausgerichtet werden soll"
+    },
+    "SelectDriver": {
+      "Label": "Treiberverbindung"
+    },
+    "SelectQuarter": {
+      "Label": "Objektiver Start und Ziel"
+    },
+    "AddKeyResultButton": {
+      "Text": "Fügen Sie ein weiteres Schlüsselergebnis hinzu"
+    },
+    "KeyResults": {
+      "Tittle": "Wichtige Ergebnisse"
+    },
+    "DeleteObjectiveButton": {
+      "Text": "Löschen"
+    },
+    "CancelObjectiveButton": {
+      "Text": "Kündigen"
+    },
+    "CreateObjectiveButton": {
+      "Text": "Schaffen"
+    },
+    "SaveObjectiveButton": {
+      "Text": "Speichern"
+    },
+    "CreateObjectiveTitle": "Erstellen Sie ein neues Ziel",
+    "EditObjectiveTitle": "Ziel bearbeiten"
+  }
+}

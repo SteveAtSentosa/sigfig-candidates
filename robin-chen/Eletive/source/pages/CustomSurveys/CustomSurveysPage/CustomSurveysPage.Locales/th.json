@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "แบบสำรวจที่กำหนดเอง",
+    "StartMessage": "เริ่มเพิ่มคำถามในแบบสำรวจของคุณ",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "เพิ่มคำถาม",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "คำถาม 1-5 ปกติจาก“ 1: ไม่เห็นด้วยอย่างยิ่ง” ถึง“ 5: เห็นด้วยอย่างยิ่ง”"
+          },
+          "MultipleChoice": {
+            "Title": "ปรนัย",
+            "Description": "คำถามปรนัยที่มีอิสระในการรวบรวมข้อมูลประเภทต่างๆ"
+          },
+          "Text": {
+            "Title": "ข้อความ",
+            "Description": "รวบรวมคำตอบข้อความฟรีด้วยคำถามปลายเปิดกับประเภทคำถามนี้"
+          },
+          "NPS": {
+            "Title": "กรมอุทยานฯ",
+            "Description": "คำถามที่มีคะแนนโปรโมเตอร์สุทธิคำตอบและผลลัพธ์"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "บันทึกเป็นร่าง"
+      },
+      "CreateButton": {
+        "Text": "ดำเนินการต่อ"
+      },
+      "CancelButton": {
+        "Text": "ยกเลิก"
+      },
+      "BackButton": {
+        "Text": "กลับ"
+      },
+      "LaunchButton": {
+        "Text": "เปิด"
+      }
+    }
+  }
+}

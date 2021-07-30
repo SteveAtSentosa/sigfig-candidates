@@ -1,0 +1,37 @@
+{
+  "name": "Auth/ChangePasswordForm",
+  "translations": {
+    "Fields": {
+      "CurrentPassword": {
+        "Label": "当前密码"
+      },
+      "Password": {
+        "Label": "新密码"
+      },
+      "RepeatPassword": {
+        "Label": "重复输入密码"
+      }
+    },
+    "ShowPasswordButton": {
+      "Text": "节目"
+    },
+    "HidePasswordButton": {
+      "Text": "隐藏"
+    },
+    "PasswordStrength": {
+      "NoPassword": "没有密码",
+      "VeryWeak": "非常弱",
+      "Weak": "弱",
+      "Medium": "介质",
+      "Strong": "强大",
+      "VeryStrong": "非常强壮"
+    },
+    "SubmitButton": {
+      "Text": "更改密码"
+    },
+    "ErrorMessages": {
+      "PasswordsNotMatch": "密码不匹配",
+      "PasswordTooShort": "密码长度至少为6个字符"
+    }
+  }
+}

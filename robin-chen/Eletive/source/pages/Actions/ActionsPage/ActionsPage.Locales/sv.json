@@ -1,0 +1,37 @@
+{
+  "name": "OrganizationActions",
+  "translations": {
+    "PageTitle": "Handlingsplaner",
+    "StartMessage": "Skapa nytt mål för din lista",
+    "ActionButtons": {
+      "CreateObjective": "Skapa nytt mål"
+    },
+    "Breadcrumbs": {
+      "Organization": "Organisation",
+      "Actions": "Handlingsplaner",
+      "Individual": "Jag",
+      "Segments": "Segment"
+    },
+    "Tabs": {
+      "Objectives": "Mål",
+      "Segments": "Segment",
+      "Statistics": "Statistik",
+      "Employees": "Medarbetare"
+    },
+    "Filter": {
+      "ObjectiveDate": {
+        "Label": "Mål aktivt"
+      },
+      "Status": {
+        "Label": "Status"
+      },
+      "Statuses": {
+        "all": "Visa allt",
+        "NoStatus": "Ingen status",
+        "onTrack": "I fas",
+        "Behind": "Bakom",
+        "AtRisk": "I riskzon"
+      }
+    }
+  }
+}

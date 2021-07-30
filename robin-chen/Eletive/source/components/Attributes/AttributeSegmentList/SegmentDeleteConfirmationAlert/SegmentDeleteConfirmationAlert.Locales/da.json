@@ -1,0 +1,12 @@
+{
+  "name": "SegmentDeleteConfirmationAlert",
+  "translations": {
+    "Text": "Er du sikker på, at du vil slette segmentet <b>%{segmentName}</b>? Det kan ikke fortrydes",
+    "ConfirmButton": {
+      "Text": "Ja"
+    },
+    "CancelButton": {
+      "Text": "Ingen"
+    }
+  }
+}

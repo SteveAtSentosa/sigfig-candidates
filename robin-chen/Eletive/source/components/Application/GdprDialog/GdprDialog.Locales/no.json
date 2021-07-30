@@ -1,0 +1,10 @@
+{
+  "name": "Application/GdprDialog",
+  "translations": {
+    "Title": "Velkommen!",
+    "Button": {
+      "Text": "Jeg godtar"
+    },
+    "Content": "For å fortsette å bruke Eletive må du godta våre <a href=\"/privacy\" target=\"_blank\">retningslinjer for personvern </a>. Du godtar ved å trykke på \"jeg godtar\""
+  }
+}

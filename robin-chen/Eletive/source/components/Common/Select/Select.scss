@@ -1,0 +1,23 @@
+.select {
+  position: relative;
+
+  &__popover {
+    width: 100%;
+
+    &--minimal {
+      transform: scale(1) translateY(3px) !important;
+
+      :global(.bp3-popover-content) {
+        padding: 3px;
+      }
+
+      :global(.bp3-popover-content .bp3-menu) {
+        padding: 2px;
+      }
+    }
+  }
+
+  &__portal-container {
+    position: relative;
+  }
+}

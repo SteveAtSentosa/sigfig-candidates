@@ -1,0 +1,45 @@
+{
+  "name": "CustomSurveysPage",
+  "translations": {
+    "PageTitle": "סקרים בהתאמה אישית",
+    "StartMessage": "התחל להוסיף שאלות לסקר שלך",
+    "ActionButtons": {
+      "AddQuestion": {
+        "Text": "הוסף שאלה",
+        "QuestionTypes": {
+          "OneToFive": {
+            "Title": "1-5",
+            "Description": "שאלה רגילה 1-5 מ \"1: מסכים מאוד\" ל \"5: מסכים מאוד\"."
+          },
+          "MultipleChoice": {
+            "Title": "בחירה מרובה",
+            "Description": "שאלה מרובת בחירות עם חופש לאסוף סוגים שונים של מידע."
+          },
+          "Text": {
+            "Title": "טקסט",
+            "Description": "אסוף תשובות טקסט חופשיות עם שאלות פתוחות בסוג שאלה זה."
+          },
+          "NPS": {
+            "Title": "NPS",
+            "Description": "שאלות עם תשובה ותוצאה של ציון מקדם נטו"
+          }
+        }
+      },
+      "SaveDraftButton": {
+        "Text": "לשמור כטיוטה"
+      },
+      "CreateButton": {
+        "Text": "המשך"
+      },
+      "CancelButton": {
+        "Text": "בטל"
+      },
+      "BackButton": {
+        "Text": "בחזרה"
+      },
+      "LaunchButton": {
+        "Text": "השקה"
+      }
+    }
+  }
+}

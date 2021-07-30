@@ -1,0 +1,9 @@
+{
+  "name": "DemoModeHeader",
+  "translations": {
+    "Label": "Viser demonstrasjonspanel",
+    "BackToOrganizationButton": {
+      "Text": "Til organisering"
+    }
+  }
+}

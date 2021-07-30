@@ -1,0 +1,35 @@
+{
+  "name": "UserList",
+  "translations": {
+    "CreateButton": {
+      "Text": "Neuen Benutzer hinzufügen"
+    },
+    "BatchButton": {
+      "Text": "Massenbearbeitung"
+    },
+    "DeleteButton": {
+      "Text": "Löschen"
+    },
+    "Filter": {
+      "Placeholder": "Benutzer suchen",
+      "Options": {
+        "Default": "Filtern ...",
+        "BounceEmails": "E-Mail-Bounce"
+      }
+    },
+    "UserCount": "%{totalUserCount} ${totalUserCount:Benutzer:Benutzer} (%{loadedUserCount} gezeigt)",
+    "EmptyList": {
+      "Text": "Benutzerliste ist leer",
+      "CreateLink": {
+        "Text": "Erstelle ein neues"
+      }
+    },
+    "Columns": {
+      "Name": "Name",
+      "Last survey finished": "Letzte Umfrage beendet",
+      "Last sign in": "Letzte Anmeldung",
+      "Role": "Rolle"
+    },
+    "EmptyDate": "Nie"
+  }
+}
