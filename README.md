@@ -21,6 +21,9 @@ Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my Reac
 * [Liekly.ai](https://app.likely.ai/) (AI as a service)
 * [code sample](/Users/steve/.notes/sigfig/candidates/pedro-manfroi/Trivia/src/components/quiz/Results.tsx) (Trivia App)
 
+`CV`
+* [LinkedIn](https://www.linkedin.com/in/pedro-manfroi/)
+* [Resume]()
 
 # Robin Chen
 
