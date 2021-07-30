@@ -19,7 +19,7 @@ Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my Reac
 `Work Samples`
 * [Story Teller](https://www.youtube.com/watch?v=SURIcIwmS48) (crowdfunding)
 * [Liekly.ai](https://app.likely.ai/) (AI as a service)
-* [code sample](/Users/steve/.notes/sigfig/candidates/pedro-manfroi/Trivia/src/components/quiz/Results.tsx) (Trivia App)
+* [code sample](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/pedro-manfroi/Trivia/src/components/quiz) (Trivia App)
 
 
 # Robin Chen
