@@ -88,7 +88,7 @@ Wayne was very pleasant to speak with, and answered My React questions quite wel
 * [Teledentistry](https://www.mouthwatch.com/)
 * [On Line Yoga Classes](https://omstars.com)
 * [Task Managment](https://hitask.com/)
-* [Code Samples]()
+* [Code Samples](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/wayne-liu/mouthwatch-web/src/components)
 
 `CV`
 * [LinkedIn](https://www.linkedin.com/in/wayne-liu-797101205/)
