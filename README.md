@@ -53,7 +53,7 @@ I really enjoyed speaking with Robin.  His answers for my React questions were s
 
 `Resume`
 * [LinkedIn](https://www.linkedin.com/in/robin-chen-390528216/)
-* [Resume]()
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/robin-chen/sentosa-resume-robin.chen.pdf)
 
 
 
