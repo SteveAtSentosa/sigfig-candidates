@@ -92,13 +92,7 @@ Wayne was very pleasant to speak with, and answered My React questions quite wel
 
 `CV`
 * [LinkedIn](https://www.linkedin.com/in/wayne-liu-797101205/)
-* [Resume]()
-
-
-
-
-
-
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/wayne-liu/sentosa-resume-wayne-liu.pdf)
 
 
 # Gabe Klein
