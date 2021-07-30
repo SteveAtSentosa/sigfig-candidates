@@ -205,3 +205,7 @@ Gabe is looking for an architectural role, where he can help develop new project
 
 # What can we do next to be helpful?
 
+Simple react coding challange
+Simple backend codling challange (sigfig will provide)
+Ask all candidate about IE11 compatiability experience (linked search for IE11 as well)
+Sentosa will provide all equipement
