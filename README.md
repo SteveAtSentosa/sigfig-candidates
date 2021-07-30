@@ -134,7 +134,7 @@ Experience with cross border payment platforms.
 
 `CV`
 * [Github](https://github.com/LuckyBrand521)
-* [Resume]()
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/david-jake/sentosa-resume-david-jake.pdf)
 
 # Gabe Klein
 
