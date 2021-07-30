@@ -20,7 +20,7 @@ Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my Reac
 * Location: Brazil (4 hours ahead of Pacific Time, flexible on working hours)
 * Language: English is very clear
 * Rate: $95/hr (seems like a little bit of room for negotiation)
-* Requires 2 weeks notice
+* Availble within 2 weeks of accepting position
 
 `Bottom Line`
 * One of my favorite candidates
