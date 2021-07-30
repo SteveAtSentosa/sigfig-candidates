@@ -1,0 +1,16 @@
+@import 'static/styles/colors';
+
+.inviteToPatientPortalLink {
+  font-size: 16px;
+  
+  .statusInactive, .statusInvited {
+    cursor: pointer;
+    font-weight: 600;
+    color: $color-blue;
+    transition: color 200ms;
+
+    &:hover {
+      color: $color-dark-blue;
+    }
+  }
+}

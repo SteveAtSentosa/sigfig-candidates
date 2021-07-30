@@ -1,0 +1,24 @@
+$chat-avatar-default: 0;
+$chat-avatar-thumbnail: 1;
+$chat-avatar-indicator: 2;
+$avatar-edit-link: 2;
+$tab-menu-mobile: 10;
+
+$messenger-toolbar: 950;
+
+/*
+  This ensures that the sidebarWrapper class appears OVER the chat field when open
+  and BELOW the chat field when closed.
+  See commits for work done in MW-3042 for an explanation.
+  tl;dr -- we render the chat field in the global header at mobile width to make
+  sure it renders above the status bar on iOS devices
+*/
+$toolbar-z-index: 999;
+$global-header-mobile: 1001;
+$sidebar-wrapper-open-mobile: 1002;
+$sidebar-wrapper-closed-mobile: 1000;
+
+$datepicker-calendar: 999;
+
+$bootstrap-modal-backdrop: 1202;
+$bootstrap-modal: 1203;

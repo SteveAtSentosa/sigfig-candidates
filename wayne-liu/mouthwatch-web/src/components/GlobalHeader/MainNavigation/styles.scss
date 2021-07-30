@@ -1,0 +1,306 @@
+@import 'static/styles/colors';
+@import 'static/styles/variables';
+@import 'static/styles/breakpoints';
+@import 'static/styles/zindexes';
+
+.header {
+  z-index: 11;
+  width: 200px;
+  height: 100vh;
+  position: fixed;
+  min-width: 50px;
+  padding-top: 20px;
+  will-change: width;
+  padding-bottom: 20px;
+  transition: width 0.25s;
+  background: $color-dark-blue-black;
+  @include box-shadow($nav-box-shadow);
+
+  .headerContent {
+    overflow-y: scroll;
+    display: flex;
+    flex-flow: column nowrap;
+    height: 100%;
+  }
+
+  .toggle {
+    top: 75px;
+    left: 185px;
+    width: 25px;
+    height: 25px;
+    padding: 4px;
+    outline: none;
+    font-size: 1em;
+    cursor: pointer;
+    position: fixed;
+    color: $color-blue;
+    border-radius: 50%;
+    text-align: center;
+    transition: left 0.25s;
+    background: $color-white;
+    box-shadow: 0px 3px 6px #00000029;
+  }
+
+  img {
+    max-width: 100%;
+    height: auto;
+    -filter: contrast(0%) brightness(200%);
+    -webkit-filter: contrast(0%) brightness(200%);
+  }
+
+  a {
+    color: $color-white;
+  }
+
+  .main {
+    flex-grow: 1;
+  }
+
+  .logo, .secondary {
+    flex-grow: 0;
+  }
+
+  .secondary {
+    width: 100%;
+
+    button[title='Create'], button[title='Menu'] {
+      display: none;
+    }
+  }
+
+  &.isClosed {
+    width: 60px;
+    transition: width 0.25s;
+
+    .toggle {
+      left: 45px;
+    }
+
+    .text {
+      display: none;
+    }
+  }
+
+  @media (max-width: $breakpoint-bs-sm) {
+    flex-flow: row nowrap;
+    width: 100vw;
+    height: 75px;
+    bottom: 0;
+    justify-content: space-between;
+    z-index: $global-header-mobile;
+
+    .headerContent {
+      flex-flow: row nowrap;
+      min-height: inherit;
+      overflow: hidden;
+    }
+
+    button[title='Dashboard'], button[title='Patients'], button[title='Appointments'],
+    button[title='Tasks'], button[title='Messaging'], button[title='Admin'], button[title='Help'],
+    button[title='My Account'], button[title='Logout'] {
+      display: none;
+    }
+
+    .toggle {
+      display: none;
+    }
+
+    .logo {
+      display: flex;
+      align-items: center;
+      margin-left: 16px;
+      flex: 1 1 20%;
+    }
+
+    .main, .secondary {
+      .menuContent {
+        display: flex;
+        justify-content: space-between;
+      }
+    }
+
+    .main {
+      display: none;
+    }
+
+    .secondary {
+      flex-flow: row nowrap;
+      flex: 2 1 80%;
+      width: 100%;
+      margin-right: 16px;
+
+      button[title='Create'], button[title='Menu'] {
+        display: inline-block;
+      }
+
+      .navItem {
+        flex-grow: 1;
+        align-items: center;
+        flex-flow: column nowrap;
+      }
+    }
+
+    .text {
+      display: none;
+    }
+
+    &.isClosed {
+      width: 100vw;
+
+      .text {
+        display: none;
+      }
+    }
+  }
+}
+
+.navItem {
+  padding: 0;
+  width: 100%;
+  border: none;
+  text-align: left;
+  min-height: 40px;
+  color: $color-white;
+  background: transparent;
+
+  &.isActive {
+    color: $color-blue;
+    
+    a {
+      color: $color-blue
+    }
+  }
+
+  a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 8px 10px;
+    &:hover {
+      color: $color-blue;
+    }
+  }
+
+  .icon {
+    font-size: 1.25em;
+    width: 25px;
+    display: inline-block;
+    flex: 0 0 35px;
+    text-align: center;
+  }
+
+  .avatar {
+    font-size: 0.75em;
+    color: $color-black;
+  }
+
+  .text {
+    padding-left: 12px;
+    white-space: nowrap;
+  }
+
+  @media (max-width: $breakpoint-bs-sm) {
+    .icon {
+      flex: none;
+    }
+  }
+
+}
+
+.logo {
+  max-width: 215px;
+  padding: 10px 0;
+
+  .icon {
+    width: 35px;
+  }
+
+  .text {
+    width: 120px;
+  }
+}
+
+
+
+.searchResults {
+  text-align: left;
+
+  .section {
+    padding-bottom: 18px;
+
+    .searchItem {
+      a {
+        display: block;
+        padding: 3px 6px;
+      }
+    }
+  }
+
+  .sectionHeader {
+    background: $color-dark-gray;
+    margin-bottom: 6px;
+    padding: 0 6px;
+    display: flex;
+
+    .title {
+      flex-grow: 1;
+      padding-right: 24px;
+    }
+
+    .viewAll {
+      font-size: 0.85em;
+      flex-grow: 0;
+      cursor: pointer;
+    }
+  }
+}
+
+.no_results {
+  font-size: 0.85em;
+  padding-left: 8px;
+}
+
+.globalHeaderAvatar {
+  margin: auto;
+}
+
+.quick_add_options {
+
+  li {
+    cursor: pointer;
+    padding: 4px 0;
+    border-bottom: 1px solid $color-dark-gray;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+
+    &:hover {
+      color: $color-blue;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &.disabled {
+      color: $color-disabled-gray;
+      width: 100px;
+
+      &:hover {
+        color: $color-disabled-gray;
+      }
+    }
+  }
+}
+
+.chatfieldContainer {
+  display: none;
+  @media (max-width: $breakpoint-bs-sm) {
+    left: 45px;
+    width: 90%;
+    display: block;
+    position: absolute;
+    bottom: 75px;
+  }
+}

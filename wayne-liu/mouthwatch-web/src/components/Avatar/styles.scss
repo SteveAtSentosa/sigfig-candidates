@@ -1,0 +1,121 @@
+@import 'static/styles/colors';
+@import 'static/styles/breakpoints';
+@import 'styles/zindexes';
+
+.avatar_default {
+  text-align: center;
+  font-size: 45px;
+  background: lightgray;
+  display: flex;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  @media (max-width: $breakpoint-bs-lg) {
+    width: 90px;
+    height: 90px;
+  }
+}
+
+.avatar_image_wrapper {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 50%;
+  @media (max-width: $breakpoint-bs-lg) {
+    width: 90px;
+    height: 90px;
+  }
+  .avatar_image {
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
+}
+.thumbnail, .defaultAvatar {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.thumbnail {
+  z-index: $chat-avatar-thumbnail;
+}
+.defaultAvatar {
+  z-index: $chat-avatar-default;
+}
+
+.avatarUploader {
+  .editLinkOpen {
+    display: inline-block;
+  }
+
+  .editLink {
+    width: 100%;
+    height: 100%;
+    display: none;
+  }
+
+  &:hover {
+    .editLink {
+      display: inline-block;
+    }
+  }
+
+  .editLink, .uploadImages, .editLinkOpen {
+    button {
+      background: none;
+      border: none;
+      color: $color-blue;
+      outline: none;
+    }
+
+    ul {
+      margin: -10px;
+
+      li {
+        button {
+          color: $color-black;
+          padding: 10px 30px 10px 15px;
+          text-align: left;
+          width: 100%;
+
+          &:hover {
+            background-color: $color-gray;
+          }
+        }
+      }
+    }
+  }
+
+  .uploadImages {
+    display: inline-block;
+
+    input {
+      display: none;
+    }
+  }
+}
+
+.editIcon {
+  top: 0;
+  left: 75px;
+  cursor: pointer;
+  position: absolute;
+  padding: 0 20px 20px;
+  z-index: $avatar-edit-link;
+
+  i {
+    color: $color-darkest-gray;
+    position: absolute;
+  }
+
+  i:first-child {
+    top: -3px;
+    left: 5px;
+    font-size: 16px;
+  }
+}

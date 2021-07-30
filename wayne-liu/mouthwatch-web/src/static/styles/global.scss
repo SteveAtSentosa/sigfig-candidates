@@ -1,0 +1,178 @@
+@import 'colors';
+@import 'fonts';
+@import 'breakpoints';
+@import 'variables';
+@import 'zindexes';
+
+:global {
+  html, body {
+    color: $color-black;
+    font-family: $font-family-default;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  * {
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    &::-webkit-scrollbar { /* WebKit */
+         width: 0;
+         height: 0;
+     }
+  }
+
+  body {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  button {
+    color: inherit;
+    cursor: pointer;
+  }
+
+  label {
+    @include form-labels;
+  }
+
+  #root .page {
+    display: flex;
+    flex-direction: column;
+
+    &:global(.topLevelPage) {
+      display: flex;
+      flex-flow: row nowrap;
+      overflow-y: hidden;
+    }
+  }
+
+  .modal {
+    z-index: $bootstrap-modal;
+  }
+
+  .modal-backdrop {
+    z-index: $bootstrap-modal-backdrop;
+  }
+
+  .splash_loading {
+    align-items: center;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    position: absolute;
+    width: 100%;
+  }
+
+  div:not(.react-datepicker__portal) > .react-datepicker {
+    &__navigation--next--with-time {
+      right: 100px !important;
+    }
+    &__time-container {
+      width: 94px !important;
+    }
+    &__time-box {
+      width: 93px !important;
+    }
+  }
+
+  .container {
+    margin-left: 60px;
+    max-width: 1440px;
+    position: relative;
+    background-color: #FFF;
+    padding-left: $container-padding;
+    padding-right: $container-padding;
+
+    &.grow {
+      flex-grow: 1;
+    }
+
+    &.flex {
+      display: flex;
+    }
+
+    &.fullWidth {
+      padding-left: 0;
+      padding-right: 0;
+      max-width: 100vw;
+      @include fullWidthNavBarFix;
+    }
+
+    &.patientHeader {
+      width: 100vw;
+      margin-left: 0;
+
+      @media (max-width: $breakpoint-bs-md) {
+        top: 70px;
+        // height: calc(100% - 70px);
+      }
+    }
+
+    @media (max-width: $breakpoint-bs-md) {
+      padding-left: $container-padding / 2;
+      padding-right: $container-padding / 2;
+    }
+
+    @media (max-width: $breakpoint-bs-sm) {
+      margin-left: 0;
+    }
+  }
+
+  .h100 {
+    height: 100%;
+  }
+
+  a, a:not([href]):not([tabindex]) {
+    cursor: pointer;
+    text-decoration: none;
+    color: $color-dark-blue;
+
+    &:hover {
+      color: $color-button-hover;
+      text-decoration: none;
+    }
+
+    &:focus {
+      color: $color-dark-blue;
+      text-decoration: none;
+    }
+
+    &.disabled {
+      color: $color-button-disabled;
+      text-decoration: none;
+    }
+  }
+
+  section {
+    padding: 20px;
+  }
+
+
+  input[disabled] {
+    color: $color-dark-gray;
+    opacity: 0.6;
+  }
+
+  textarea {
+    @include input-styles;
+    display: block;
+    width: 100%;
+    resize: none;
+    height: 240px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  .hide-responsive {
+    @include hide-max-width($breakpoint-bs-sm);
+  }
+
+  .hide {
+    display: none;
+  }
+  /* so that date is visible in react-select dropdown */
+  .mw__option--is-selected .react-datepicker-wrapper, .mw__option--is-selected .react-datepicker__input-container {
+    color: $color-black;
+  }
+}

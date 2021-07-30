@@ -1,0 +1,175 @@
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'styles/fonts';
+
+.messages {
+  height: 100%;
+  flex-grow: 1;
+  padding: 0 50px;
+  overflow-x: hidden;
+  scrollbar-width: auto; /* Firefox */
+  -ms-overflow-style: auto;  /* Internet Explorer 10+ */
+  
+  &::-webkit-scrollbar { /* WebKit */
+    width: 8px;
+  }
+
+  /* Track */
+  &::-webkit-scrollbar-thumb {
+    border-radius: 4px;
+    background: #aaa; 
+  }
+
+  @media (max-width: $breakpoint-bs-sm) {
+    padding: 10px 15px 10vh 10px;
+  }
+
+  .dateContainer {
+    display: flex;
+    margin: 0 0 20px 0;
+    flex-direction: row;
+    .dateDivider {
+      height: 1px;
+      flex: 1;
+      margin: auto 0;
+      background-color: $color-darker-gray;
+    }
+    .dateLabel {
+      font-size: 12px;
+      line-height: 18px;
+      color: $color-darker-gray;
+      margin: 0 20px;
+    }
+  }
+  .messageData {
+    display: flex;
+    flex-direction: column;
+
+    .videoMessage {
+
+      .videoIcon {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 46px;
+        width: 46px;
+        color: $color-blue;
+        border: 1px solid $color-blue;
+        border-radius: 50%;
+        font-size: 20px;
+        float: left;
+        margin-right: 10px;
+      }
+    }
+
+      .videoText {
+        float: left;
+        padding-top: 8px;
+      }
+
+      .videoLogin {
+        float: left;
+        cursor: pointer;
+        font-size: 14px;
+        span {
+          font-weight: bold;
+          color: $color-blue
+        }
+    }
+
+
+    .attachmentsPreview {
+      display: flex;
+      flex-wrap: wrap;
+      margin-top: 10px;
+      min-height: 180px;
+      overflow-x: scroll;
+      flex-direction: row;
+      max-width: calc(100% - 20px);
+    }
+
+    .viewAttachments {
+      color: $color-blue;
+      font-size: 16px;
+      cursor: pointer;
+      &:hover {
+        color: $color-dark-blue;
+      }
+    }
+  }
+
+  .message {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid $color-blue;
+    border-radius: 8px;
+    min-height: 100px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    padding: 20px;
+    padding-top: 10px;
+    max-width: 80%;
+    font-family: $font-family-default;
+
+    @media (max-width: $breakpoint-bs-sm) {
+      padding: 17px;
+      padding-top: 10px;
+    }
+
+    &.otherUsers {
+      background: $color-dark-gray;
+      margin-right: 20%;
+    }
+
+    &.loggedInUser {
+      margin-left: 20%;
+    }
+
+    :global .avatar-inner {
+      @media (max-width: $breakpoint-bs-sm) {
+        width: 30px !important;
+        height: 30px !important;
+      }
+    }
+
+    .messageContainer {
+      flex-grow: 1;
+      padding-top: 5px;
+      padding-left: 5px;
+      width: 100%;
+
+      .name {
+        font-weight: bold;
+        font-size: 18px;
+        margin-right: 10px;
+        @media (max-width: $breakpoint-bs-sm) {
+          font-size: 15px;
+          margin-right: 7px;
+        }
+      }
+
+      .time {
+        font-size: 18px;
+        font-weight: 300;
+        @media (max-width: $breakpoint-bs-sm) {
+          font-size: 12px;
+        }
+      }
+
+      .messageData {
+        font-family: $font-family-default !important;
+        font-size: 16px;
+        font-weight: 100;
+        margin: 0;
+        padding: 0;
+        @media (max-width: $breakpoint-bs-sm) {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  &:first-child {
+    padding-top: 15px;
+  }
+}

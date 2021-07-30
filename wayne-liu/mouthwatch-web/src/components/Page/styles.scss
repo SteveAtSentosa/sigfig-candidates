@@ -1,0 +1,11 @@
+@import 'styles/breakpoints';
+
+.page {
+  position: relative;
+  background: transparent;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    /* needed to make sure address bar doesn't cover top of the page on iOS */
+    padding-top: 0;
+  }
+}

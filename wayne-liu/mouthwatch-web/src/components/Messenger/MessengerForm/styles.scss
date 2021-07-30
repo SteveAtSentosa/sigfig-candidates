@@ -1,0 +1,89 @@
+@import 'styles/colors';
+@import 'styles/variables';
+
+.messengerForm {
+  padding: 0 40px;
+  padding-bottom: 0px;
+  margin: 0;
+
+  .chatDisconnected {
+    left: 15px;
+    bottom: 45px;
+    padding-right: 15px;
+    position: relative;
+  }
+
+  @media (max-width: $breakpoint-bs-sm) {
+    padding: 0;
+  }
+
+  .textarea {
+    border: 1px solid $color-blue;
+    padding-right: 120px;
+    border-radius: 8px;
+    font-size: 16px;
+    height: 100px;
+  }
+
+  .withAttachments {
+    height: 204px;
+    padding-bottom: 150px;
+  }
+
+  .messageActions {
+    position: absolute;
+    height: 30px;
+    top: 15px;
+    right: 45px;
+    color: $color-blue;
+    font-size: 16px;
+    @media (max-width: $breakpoint-bs-sm) {
+      top: initial;
+      bottom: 0px;
+      right: 15px;
+    }
+
+    svg {
+      cursor: pointer;
+      margin-right: 10px;
+    }
+  }
+
+  .attachments {
+    position: absolute;
+    top: 50%;
+    left: 50px;
+    background: white;
+    width: calc(100% - 96px);
+    height: $messages-chatbox-attachments-height;
+    padding-top: 10px;
+    overflow-x: scroll;
+
+    .attachmentThumbnails {
+      display: flex;
+      flex-direction: row;
+    }
+
+    h5 {
+      font-size: 12px;
+      font-weight: bolder;
+      letter-spacing: 1.2px;
+      text-transform: uppercase;
+      color: $color-dark-blue;
+    }
+  }
+}
+
+
+.disabled {
+  color: $color-disabled-gray;
+  pointer-events: none;
+  cursor: not-allowed;
+  svg {
+    color:$color-disabled-gray
+  }
+}
+
+.overlayLoader {
+  color: $color-blue;
+}

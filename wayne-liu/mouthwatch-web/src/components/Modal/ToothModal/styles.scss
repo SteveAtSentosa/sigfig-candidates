@@ -1,0 +1,48 @@
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.tooth_chart{
+  width: 32%;
+  margin: 0 auto;
+  background: $color-lightest-blue;
+}
+
+.tooth {
+  -webkit-transition:fill .25s;
+  transition:fill .25s;
+  cursor: pointer;
+
+  &:hover {
+    fill: #dddddd;
+  }
+}
+
+.numbers, .letters {
+  pointer-events: none;
+}
+
+.tooth_modal_body {
+  height: 620px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background: $color-lightest-blue;
+}
+
+.button.button.button {
+  display: inline-block;
+  & > button {
+    padding: 5px;
+  }
+
+  &:first-child {
+    margin-right: 10px;
+  }
+}
+
+.heading {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  color: $color-dark-blue;
+}

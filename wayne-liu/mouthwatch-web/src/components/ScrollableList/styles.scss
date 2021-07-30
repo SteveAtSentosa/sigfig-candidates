@@ -1,0 +1,39 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+
+.list {
+  overflow-y: scroll;
+  height: 100%;
+
+  ul {
+    margin: 0;
+    padding: 0;
+
+    li {
+      list-style-type: none;
+    }
+  }
+  @media (max-width: $breakpoint-bs-sm) {
+    padding-bottom: 20vh;
+  }
+}
+
+.divider {
+  display: flex;
+  height: 28px;
+  font-size: 12px;
+  background: $color-white;
+  border: 1px solid $color-dark-blue;
+  border-bottom: none;
+  color: $color-dark-blue;
+  text-transform: uppercase;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  p {
+    padding-top: 15px;
+    padding-left: 15px;
+    display: inline-block;
+    letter-spacing: 1px;
+  }
+}

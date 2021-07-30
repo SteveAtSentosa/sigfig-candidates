@@ -1,0 +1,42 @@
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": ".",
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "lib": [
+      "dom",
+      "es2017"
+    ],
+    "module": "esnext",
+    "moduleResolution": "node",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "paths": {
+      "#/*": [ "./src/*" ],
+      "shared-components/*": [ "./node_modules/@m***/library" ],
+      "shared-utils/*": [ "./node_modules/@m***/library" ],
+      "shared-types/*": [ "./node_modules/@m***/library" ]
+    },
+    "preserveConstEnums": true,
+    "removeComments": false,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "target": "esnext",
+    "typeRoots": [
+      "src/customTypings",
+      "node_modules/@types"
+    ],
+    "types": ["node", "dom-mediacapture-record"]
+  },
+  "exclude": [
+    "dist/",
+    "webpack.common.js",
+    "webpack.plugins.js",
+    "webpack.dev.js",
+    "webpack.prod.js",
+    "postcss.config.js"
+  ]
+}

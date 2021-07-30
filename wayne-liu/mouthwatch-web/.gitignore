@@ -1,0 +1,9 @@
+dist
+node_modules
+src/static/images/samples/*
+m***-web-library
+npm-debug.log*
+stats.json
+.DS_STORE
+*.swp
+.vscode

@@ -1,0 +1,70 @@
+@import 'styles/colors';
+@import 'styles/zindexes';
+@import 'styles/variables';
+
+.toolbar {
+  background-color: $color-lightest-blue;
+  padding: 5px 2px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  min-height: $toolbar-height;
+  position: sticky;
+  top: 0px;
+  /* make sure this appears above Collected Images in Treatment Plan Builder */
+  z-index: $toolbar-z-index;
+
+  .upgradeBadge {
+    position: relative;
+    top: 5px;
+  }
+
+  @media (min-width: $breakpoint-bs-md) {
+    margin-bottom: 24px;
+  }
+
+  .backButton {
+    flex-grow: 1;
+    flex-basis: 33%;
+  }
+
+  .title {
+    flex-grow: 1;
+    flex-basis: 33%;
+  }
+
+  .grow {
+    flex-grow: 1;
+    flex-basis: 33%;
+  }
+
+  .messagePatient, .more {
+    cursor: pointer;
+    align-self: center;
+  }
+
+  .messagePatient {
+    color: $color-blue;
+    transition: color 200ms;
+    font-weight: 600;
+
+    &:hover {
+      color: $color-dark-blue;
+    }
+
+    svg {
+      margin-left: 10px;
+    }
+  }
+
+
+  .more {
+    padding-right: 15px;
+    padding-left: 15px;
+    color: $color-dark-blue;
+  }
+}
+
+.archivePatient {
+  cursor: pointer;
+}

@@ -1,0 +1,49 @@
+@import 'styles/colors';
+@import 'styles/variables';
+
+.ppRegister {
+  flex-grow: 1;
+  padding: 15px;
+  justify-content: center;
+  background: $color-white;
+
+  .logoHolder {
+    margin: 0 auto 5px;
+    padding-top: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    .teledentLogo {
+      margin: auto;
+      width: 250px;
+    }
+  }
+
+  .container {
+    padding: 0;
+    margin: auto;
+    background-color: transparent;
+  }
+
+  .haveAccount {
+    display: flex;
+    margin: 20px 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    p {
+      margin: auto 10px;
+    }
+
+    .loginBtn {
+      button {
+        padding: 0;
+        margin: 0;
+        min-width: 85px;
+        height: 35px;
+      }
+    }
+  }
+}

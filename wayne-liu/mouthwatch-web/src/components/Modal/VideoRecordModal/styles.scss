@@ -1,0 +1,7 @@
+.body {
+  display: flex;
+  overflow-y: scroll;
+  flex-direction: column;
+  /* fix for modal sizing issues */
+  min-height: 550px !important;
+}

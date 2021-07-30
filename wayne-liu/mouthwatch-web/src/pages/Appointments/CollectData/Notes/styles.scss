@@ -1,0 +1,36 @@
+@import 'static/styles/colors';
+@import 'static/styles/breakpoints';
+@import 'static/styles/variables';
+
+.addNoteButton {
+  color: $color-dark-blue;
+  font-size: 1em;
+  cursor: pointer;
+  &:hover {
+    color: $color-blue;
+  }
+  svg {
+    color: inherit;
+    padding: 0;
+    vertical-align: middle;
+    display: inline;
+  }
+  span {
+    display: inline;
+    vertical-align: middle;
+
+  }
+
+  .title {
+    margin-left: 4px;
+  }
+}
+
+.modalContentContainer {
+  padding: 24px;
+
+  :global(.react-datepicker__input-container input) {
+    background: url('/static/images/icon_small_calendar.png') no-repeat 96% center $color-white;
+    @include input-styles;
+  }
+}

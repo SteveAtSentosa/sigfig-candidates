@@ -1,0 +1,6 @@
+export * from './Modal'
+export { default as AddNewMessageModal } from './NewMessageModal'
+export { default as ArchiveModal } from './ArchiveModal'
+export { default as VideoRecordingModal } from './VideoRecordModal'
+export { default as ChatDisconnectModal } from './ChatDisconnectModal'
+export { default as GroupConsentPolicyModal } from './GroupConsentPolicyModal'

@@ -1,0 +1,82 @@
+@import 'styles/colors';
+
+.heading {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.closeModal {
+  cursor: pointer
+}
+
+.addNewMessageModal {
+  .icon {
+    cursor: pointer;
+  }
+
+  .options {
+    position: relative;
+  }
+
+  .body {
+    padding-top: 25px;
+    padding-left: 35px;
+    padding-right: 35px;
+
+    h6 {
+      color: $color-darkest-gray;
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 12px;
+    }
+    form {
+      display: flex;
+      flex-direction: row;
+
+      & > div {
+        width: 100%;
+        padding-right: 20px;
+        margin: 0;
+
+        :global(.mw__multi-value__label) {
+          padding-top: 10px;
+          padding-left: 10px;
+        }
+
+        :global(.mw__option) {
+          display: flex;
+          flex-direction: row;
+        }
+
+        :global(.mw__option--is-focused) {
+          background-color: $color-gray;
+        }
+
+        :global(.mw__menu-list) {
+          height: 200px;
+        }
+
+        :global(.mw__menu) {
+          .label {
+            padding-left: 10px;
+            padding-top: 7px;
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.multiValue {
+  display: inline-block;
+  padding: 2px;
+  padding-right: 0;
+}
+
+.modalAvatar {
+  position: relative;
+  left: 5px;
+  width: auto;
+  padding: 5px;
+}

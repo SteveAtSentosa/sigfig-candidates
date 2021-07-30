@@ -1,0 +1,43 @@
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.selectCaptureType {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  align-items: center;
+  margin: 0 auto 20px;
+  justify-content: center;
+
+  button {
+    box-shadow: none;
+    border: none;
+    outline: none;
+    background: $color-white;
+
+    div {
+      position: relative;
+      background-color: $color-dark-gray;
+      border-radius: 50%;
+      height: 55px;
+      width: 55px;
+      color: $color-white;
+      padding: 0;
+
+      svg {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 24px;
+      }
+    }
+
+    &.selected {
+      div {
+        background-color: $color-blue;
+      }
+    }
+  }
+
+}

@@ -1,0 +1,149 @@
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.button {
+  &.skinnyBtn {
+    button {
+      height: 40px;
+      padding: 0 !important;
+    }
+  }
+
+  &.primary {
+    button {
+      @include primaryButton($color-blue);
+
+      &:hover {
+        @include primaryButton($color-button-hover);
+      }
+
+      &:focus {
+        @include primaryButton($color-dark-blue);
+        outline: 0;
+      }
+    }
+
+    &.disabled {
+      button {
+        @include primaryButton($color-button-disabled);
+      }
+    }
+  }
+
+  &.secondary {
+    button {
+      @include secondaryButton($color-blue);
+
+      &:hover {
+        @include secondaryButton($color-dark-blue);
+      }
+
+      &:focus {
+        @include secondaryButton($color-darkest-blue);
+        outline: 0;
+      }
+    }
+
+    &.disabled {
+      button {
+        @include secondaryButton($color-button-disabled);
+      }
+    }
+  }
+
+  &.noOutline {
+    button {
+      @include noOutline($color-darkest-blue);
+
+      &:hover {
+        @include noOutline($color-blue);
+      }
+
+      &:focus {
+        @include noOutline($color-dark-blue);
+        outline: 0;
+      }
+    }
+
+    &.disabled {
+      button {
+        @include noOutline($color-button-disabled);
+      }
+    }
+  }
+
+  &.inline {
+    display: inline-block;
+  }
+
+  &.transparent {
+    button {
+      background: transparent;
+    }
+  }
+
+  &.forToolbar {
+    button {
+      @include forToolbar($color-dark-blue);
+
+      &:hover {
+        @include forToolbar($color-blue);
+      }
+
+      &:focus {
+        @include forToolbar($color-dark-blue);
+        outline: 0;
+      }
+    }
+
+    &.disabled {
+      button {
+        @include forToolbar($color-button-disabled);
+      }
+    }
+  }
+}
+
+.btn {
+  margin-left: 10px;
+  margin-right: 10px;
+  min-width: 212px;
+
+  @media screen and (max-width: $breakpoint-small) {
+    margin-bottom: 12px;
+  }
+
+  .googleLogo {
+    position: absolute;
+    left: 10px;
+    display: inline-block;
+    height: 32px;
+    width: 32px;
+    background: url('/static/images/glogo.png');
+    background-size: 80%;
+    background-position: 50%;
+    background-repeat: no-repeat;
+  }
+
+  button {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 10px;
+
+    height: 47px;
+
+    .facebookLogo {
+      position: absolute;
+      font-size: 30px;
+      left: 15px;
+    }
+
+    .btnText {
+      position: absolute;
+      right: 15px;
+    }
+  }
+}

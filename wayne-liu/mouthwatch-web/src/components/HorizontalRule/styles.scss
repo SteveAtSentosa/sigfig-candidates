@@ -1,0 +1,22 @@
+@import 'styles/colors';
+
+.horizontalRule {
+  margin: 40px auto;
+  display: flex;
+  align-items: center;
+  div {
+    display: inline-block;
+    width: 42.5%;
+    height: 1px;
+    background: $color-disabled-gray;
+  }
+  span {
+    display: inline-block;
+    width: 15%;
+    text-align: center;
+    color: $color-darkest-blue;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}

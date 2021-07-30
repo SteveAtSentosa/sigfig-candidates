@@ -1,0 +1,41 @@
+.body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+}
+
+.btn {
+  margin-right: 10px;
+  margin-top: 15px;
+}
+
+
+.sendTreatmentPlanModal {
+  form {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    & > div  {
+      margin-top: 20px
+    }
+  }
+}
+
+.email {
+  display: inline-block;
+}
+
+.btnEmail {
+  padding: 0;
+  & > button {
+    padding: 0 !important;
+    height: 35px;
+    min-width: 70px !important;
+    width: 50px;
+  }
+}

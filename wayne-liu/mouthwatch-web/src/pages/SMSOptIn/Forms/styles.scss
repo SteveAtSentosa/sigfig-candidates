@@ -1,0 +1,100 @@
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+:global(#register) {
+  .section {
+    @include datepicker-input-styles;
+  }
+}
+
+.errorMessage {
+  color: $color-accent-red;
+}
+
+.register {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: $color-gray;
+  min-height: 440px;
+  max-width: 557px;
+  box-shadow: 0px 0px 15px transparentize($color-black, 0.7);
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+
+  .success {
+    width: 60%;
+    text-align: center;
+
+    button {
+      width: 66%;
+    }
+  }
+
+  .linkAccounts {
+    text-align: center;
+    width: 60%;
+  }
+
+  @media screen and (max-width: $breakpoint-small) {
+    .linkAccounts, .success {
+      width: 80%;
+    }
+
+    .socialBtns {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+    }
+  }
+
+  h2 {
+    color: $color-dark-blue-black;
+    text-align: center;
+    padding: 0;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+
+  .registerFormContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    @media screen and (max-width: $breakpoint-small) {
+      width: 85%;
+      text-align: center;
+
+      button {
+        max-width: 66%;
+      }
+    }
+
+    label, label + div  {
+      text-align: left;
+    }
+
+    .confirmRegister {
+      p {
+        text-align: center;
+      }
+    }
+  }
+}
+
+.checkboxContainer {
+  text-align: left;
+  display: inline-block;
+
+  .field {
+    margin-bottom: 10px;
+  }
+}
+
+.checkbox {
+  position: absolute;
+}

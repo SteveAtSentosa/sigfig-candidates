@@ -1,0 +1,50 @@
+@import 'styles/variables';
+
+.badgeWrapper {
+  position: relative;
+}
+
+.badgeContent {
+  border-radius: 2px;
+  color: white;
+  padding: 2px 8px;
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.absolute {
+  position: absolute;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.left {
+  left: 0;
+}
+
+.right {
+  right: 0;
+}
+
+.top {
+  top: 0;
+}
+
+.bottom {
+  bottom: 0;
+}
+
+.upgradeLink {
+  cursor: pointer;
+  @include altLinkColors;
+
+  &.right {
+    float: right;
+  }
+
+  &.left {
+    float: left;
+  }
+}

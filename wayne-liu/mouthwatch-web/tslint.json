@@ -1,0 +1,9 @@
+{
+  "extends": "tslint-config-standard",
+  "rules": {
+    "no-console": [true, "log"],
+    "variable-name": {
+      "options": ["allow-snake-case", "allow-pascal-case", "allow-leading-underscore"]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+@import 'styles/variables';
+
+.loading {
+  color: $color-blue;
+  display: flex;
+  justify-content: center;
+  padding: 15px 25px;
+}
+
+.preloader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 15px 25px;
+  flex-flow: column nowrap;
+  height: 100vh;
+  width: 100vw;
+}
+
+.loadingText {
+  color: $color-blue;
+  text-align: center;
+}
+
+.loader {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: $color-white;
+
+  &.transparent {
+    background-color: transparentize($color-white, .5);
+  }
+}

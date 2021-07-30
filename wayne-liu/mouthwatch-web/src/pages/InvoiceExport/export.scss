@@ -1,0 +1,13 @@
+.downloadLink {
+  position: absolute;
+  bottom: 50px;
+  right: 175px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-flow: row wrap;
+  .button {
+    margin: 4px;
+  }
+}

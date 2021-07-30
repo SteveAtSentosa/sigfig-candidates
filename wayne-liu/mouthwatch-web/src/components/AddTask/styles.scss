@@ -1,0 +1,58 @@
+@import 'styles/colors';
+@import 'styles/variables';
+
+.add {
+  padding: 20px;
+  margin-bottom: 36px;
+  background-color: $color-lightest-blue;
+}
+
+.contentContainer {
+  @include date-picker;
+}
+
+.newTaskSection {
+
+  .sectionTitle {
+    font-size: 0.85em;
+    margin-bottom: 12px;
+  }
+
+  .priorityLow, .priorityMedium, .priorityHigh {
+    display: block;
+  }
+  .priorityLow, .priorityMedium, .priorityHigh,
+  input[value='low'], input[value='medium'], input[value='high'] {
+    padding: 12px 10px 0 0;
+    text-transform: uppercase;
+    font-size: 0.75em;
+    font-weight: bold;
+  }
+  .priorityLow, input[value='low'] {
+    color: $color-accent-green;
+  }
+  .priorityMedium, input[value='medium'] {
+    color: $color-accent-dark-yellow;
+  }
+  .priorityHigh, input[value='high'] {
+    color: $color-accent-red;
+  }
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  textarea {
+    @include input-styles;
+    display: block;
+    width: 100%;
+    resize: none;
+    height: 240px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  :global(.react-datepicker__input-container input) {
+    background: url('/static/images/icon_small_calendar.png') no-repeat 96% center $color-white;
+    @include input-styles;
+  }
+}

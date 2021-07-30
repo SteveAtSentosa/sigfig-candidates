@@ -1,0 +1,114 @@
+@import 'static/styles/colors';
+@import 'static/styles/breakpoints';
+@import 'static/styles/variables';
+
+.upcomingApptsWidget {
+
+  :global {
+    .react-datepicker-wrapper {
+      display: block;
+    }
+    .react-datepicker__input-container {
+      display: block;
+      input {
+        width: 100%;
+        cursor: pointer;
+        background: url('/static/images/icon_small_calendar.png') no-repeat 96% center $color-lightest-blue;
+        padding: 12px 24px;
+        position: relative;
+        border: none;
+
+        &:focus {
+          outline: none;
+        }
+      }
+    }
+  }
+
+  .DatePicker {
+    background-color: $color-lightest-blue;
+    padding: $dashboard-widget-padding;
+    position: relative;
+
+    .icon {
+      position: absolute;
+      right: 0;
+      margin-right: 24px;
+    }
+  }
+
+  .empty {
+    padding: $dashboard-widget-padding;
+  }
+
+  .Appointment {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: $dashboard-widget-padding;
+    border: 1px solid transparent;
+
+    div {
+
+    }
+    .apptTime {
+      flex-basis: 75px;
+    }
+
+    .apptImage {
+      text-align: right;
+    }
+    .apptName, .apptTitle {
+      text-align: left;
+      padding-left: 12px;
+      flex-grow: 1;
+      flex-basis: 275px;
+      @include truncated-text;
+    }
+    .icon {
+      text-align: right;
+    }
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      &:nth-child(odd) {
+        background-color: $color-gray;
+      }
+    }
+  }
+
+  a {
+    color: $color-black;
+
+    &:hover>.Appointment {
+      border: 1px solid $color-blue;
+      box-shadow: $box-shadow;
+      transition: all 0.3s;
+    }
+    &:active>.Appointment {
+      border: 1px solid $color-blue;
+      background-color: $color-blue;
+      box-shadow: $box-shadow;
+      color: $color-white;
+      transition: all 0.3s;
+    }
+  }
+
+  .timeOfDay {
+    font-weight: normal;
+    font-size: $font-size-slightly-small;
+    display: block;
+    padding: 24px 0 8px 24px;
+    border-bottom: 1px solid $color-dark-gray;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+  }
+
+
+
+}

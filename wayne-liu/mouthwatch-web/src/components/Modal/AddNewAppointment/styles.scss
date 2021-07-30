@@ -1,0 +1,10 @@
+@import 'styles/breakpoints';
+@import 'src/components/Modal/styles';
+
+.addNewAppointmentModalBody {
+  min-height: 350px;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    min-height: 370px;
+  }
+}

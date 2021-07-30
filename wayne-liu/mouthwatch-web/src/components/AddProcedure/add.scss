@@ -1,0 +1,27 @@
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.add {
+  background-color: $color-lightest-blue;
+
+  :global(.mw__placeholder) {
+    line-height: 1;
+  }
+}
+.launchModal {
+  background: transparent;
+  border: none;
+}
+
+@media (max-width: $breakpoint-bs-sm) {
+  .row3 {
+    .radioContainer {
+      display: flex;
+      flex-wrap: wrap;
+      div {
+        flex-grow: 1;
+      }
+    }
+  }
+}

@@ -1,0 +1,14 @@
+@import 'components/GlobalHeader/MainNavigation/styles';
+@import 'static/styles/colors';
+
+.searchInput {
+  margin-top: 12px;
+  margin-bottom: 18px;
+}
+
+.searchResults {
+  overflow-y: scroll;
+  @media (max-width: $breakpoint-bs-sm) {
+    padding-bottom: 80px;
+  }
+}

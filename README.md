@@ -64,6 +64,43 @@ I really enjoyed speaking with Robin.  His answers for my React questions were s
 
 
 
+
+# Wayne Liu
+
+Wayne was very pleasant to speak with, and answered My React questions quite well.  He has both front end and back end development experience, working in a variety of application domains
+
+`Summary`
+* Senior full stack developer: Backend Java/nodejs/Laravel: 6 years, React 6 years
+* Application domains: various: dentistry, online instruction, it management, etc
+* Pleasant personality
+* Location: San Diego
+* Language: English is reasonable
+* Rate: $95/hr (some room for negotiation)
+* Available immediately
+
+`Bottom Line`
+* A very pleasant gentlemen with strong React knowledge.
+* His sample portfolio looks great
+* Also backend experience including Java/Laravel
+* I recommend moving forward with Wayne
+
+`Work Samples`
+* [Teledentistry](https://www.mouthwatch.com/)
+* [On Line Yoga Classes](https://omstars.com)
+* [Task Managment](https://hitask.com/)
+* [Code Samples]()
+
+`CV`
+* [LinkedIn](https://www.linkedin.com/in/wayne-liu-797101205/)
+* [Resume]()
+
+
+
+
+
+
+
+
 # Gabe Klein
 
 Gabe is an extraordinarily passionate React architect and developer.  He has spent the last 4 months working on a React MVC/Styling frameworks, and he is just oozing with enthusiam when he talks about it.
@@ -71,7 +108,7 @@ Gabe is an extraordinarily passionate React architect and developer.  He has spe
 Gabe is looking for an architectural role, where he can help develop new project infrastructure, and bring innovative approaches and tools to the task.
 
 `Summary`
-* Senior front end developer: Front end dev: 8 years, React: 6 years
+* Senior front end developer: Front end dev: 11 years, React: 7 years
 * Application domains: cable, aviation, React Frameworks
 * Very energetic
 * Location: Denver
@@ -81,8 +118,8 @@ Gabe is looking for an architectural role, where he can help develop new project
 
 `Bottom Line`
 * A very passionate React Architect
-* Good fit for a high impact, architectural level role
-* I am bit hesitant, especially if not in the correct role
+* Good fit for a high impact, architectural level role, otherwise probably not a good fit
+* If you are looking for an architect, I would suggest references as next step
 
 `Work Samples`
 * [Expressive MVC](https://github.com/gabeklein/expressive-mvc) React app frameworks
@@ -95,11 +132,9 @@ Gabe is looking for an architectural role, where he can help develop new project
 
 
 
-
 ```
 David Jake
 Benjamin Xu
-Wayne Liu
 Dustin Henning
 Aditee Varhadi
 ```

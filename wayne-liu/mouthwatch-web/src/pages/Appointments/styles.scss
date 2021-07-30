@@ -1,0 +1,367 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+@import 'styles/variables';
+
+.appointments {
+  padding-top: 20px;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    padding-top: 10vh;
+    padding-bottom: 20vh;
+    margin: auto;
+  }
+
+  .appointmentsContainer {
+    font-size: 0.95em;
+    padding-right: 65px;
+    padding-bottom: 85px;
+
+    @media (max-width: $breakpoint-bs-md) {
+      font-size: 0.85em;
+
+      :global(.material-icons) {
+        font-size: 1.25em;
+      }
+    }
+
+    @media (max-width: $breakpoint-bs-sm) {
+      padding-right: 0;
+    }
+
+    header {
+      display: flex;
+      flex-wrap: wrap;
+
+      .heading {
+        flex: 1 0 10%;
+        margin-bottom: 10px;
+      }
+
+      .button {
+        flex: 0 0 15%;
+        vertical-align: middle;
+      }
+    }
+  }
+}
+
+.appointmentDetails {
+  padding-bottom: 75px;
+
+  .appointmentDetailNav {
+    ul {
+      margin: 0;
+      flex-wrap: nowrap;
+      align-items: center;
+      justify-content: flex-start;
+      border-bottom: 1px solid $color-dark-gray;
+
+      li {
+        &:first-child::before {
+          content: '1';
+          border: 1px solid $color-dark-blue;
+          padding: 2px 8px;
+          border-radius: 16px;
+          margin-right: 8px;
+          color: inherit;
+        }
+        &:nth-child(2)::before {
+          content: '2';
+          border: 1px solid $color-dark-blue;
+          padding: 2px 8px;
+          border-radius: 16px;
+          margin-right: 8px;
+          color: inherit;
+        }
+        &:nth-child(3)::before {
+          content: '3';
+          border: 1px solid $color-dark-blue;
+          padding: 2px 8px;
+          border-radius: 16px;
+          margin-right: 8px;
+          color: inherit;
+        }
+        &:nth-child(4)::before {
+          content: '4';
+          border: 1px solid $color-dark-blue;
+          padding: 2px 8px;
+          border-radius: 16px;
+          margin-right: 8px;
+          color: inherit;
+        }
+
+        a {
+          display: inline-block;
+          margin: 1rem 0;
+        }
+      }
+    }
+  }
+
+  .appointmentDetailMobileNav {
+    height: 64px;
+    padding: 0 20px;
+
+    ul {
+      width: 25em;
+    }
+  }
+
+  .tab {
+    min-width: 15%;
+    padding: 0 8px;
+    font-weight: 200;
+    display: inline-block;
+    list-style-type: none;
+    box-sizing: border-box;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid $color-dark-gray;
+    border-left: 1px solid $color-dark-gray;
+    border-right: 1px solid $color-dark-gray;
+    color: $color-dark-blue;
+
+    a {
+      padding:0;
+    }
+  }
+
+  .tabActive {
+    border-bottom: 1px solid $color-white;
+    border-top: 4px solid $color-blue;
+    border-left: 1px solid $color-dark-gray;
+    border-right: 1px solid $color-dark-gray;
+    background: $color-white;
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+
+    &:first-child::before, &:nth-child(2)::before, &:nth-child(3)::before {
+      color: $color-blue;
+      border-color: $color-blue;
+    }
+  }
+
+  .tabMobile {
+    margin-top: $tab-pane-padding;
+    margin-bottom: $tab-pane-padding;
+
+    a {
+      color: $color-black;
+      font-weight: normal;
+      &.active {
+        font-weight: 600;
+        color: $color-blue;
+      }
+    }
+  }
+
+  .tabMobileActive {
+    color: $color-blue;
+    margin-bottom: -1px;
+    padding-bottom: 1px;
+    background: $color-white;
+    border-bottom: solid 4px $color-blue;
+  }
+}
+
+.toolbar {
+  background-color: $color-lightest-blue;
+  padding: 5px 2px;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+
+  span:first-child {
+    flex-grow: 1;
+  }
+}
+
+.header {
+  color: $color-black;
+  margin-top: 10px;
+  padding-bottom: $tab-pane-padding;
+
+  button {
+    background: none;
+    border: none;
+    color: $color-blue;
+    outline: none;
+  }
+
+  .editLink {
+    button {
+      background: none;
+      border: none;
+      color: $color-blue;
+      outline: none;
+    }
+    ul {
+      margin: -10px;
+
+      li {
+        button {
+          color: $color-black;
+          padding: 10px 30px 10px 15px;
+          text-align: left;
+          width: 100%;
+
+          &:hover {
+            background-color: $color-gray;
+          }
+        }
+      }
+    }
+  }
+
+  .container {
+    &:after {
+      content: "";
+      display: block;
+      margin: 0 auto;
+      width: 100%;
+      padding-top: 20px;
+      border-bottom: 1px solid $color-dark-gray;
+    }
+    padding-left: 40px;
+    padding-right: 40px;
+    display: flex;
+    flex-flow: row wrap;
+  }
+
+  .avatarContainer {
+    position: relative;
+    margin-right: 40px;
+    min-height: 100px;
+
+    &:hover {
+      .editLink {
+        display: inline-block;
+      }
+    }
+  }
+
+  .avatar {
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 140px;
+    width: 100%;
+  }
+
+  .title {
+    line-height: 48px;
+  }
+
+  .details {
+    flex-grow: 1;
+  }
+
+  .propertyRow {
+    display: flex;
+  }
+
+  .property {
+    margin: 2px 0;
+    padding-right: 12px;
+    flex-grow: 1;
+    flex-basis: 25%;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: baseline;
+    overflow: hidden;
+
+    label {
+      color: #888;
+      font-size: 12px;
+      letter-spacing: 1px;
+      margin-right: 5px;
+      text-transform: uppercase;
+      display: inline-block;
+      white-space: nowrap;
+
+      &:after {
+        content: ':';
+      }
+
+      @media (max-width: $breakpoint-medium) {
+        display: block;
+      }
+
+    }
+
+    span {
+      font-size: 15px;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    &.location {
+      flex-basis: 50%;
+    }
+  }
+
+  .editLink {
+    display: none;
+
+    a {
+      color: $color-dark-blue;
+    }
+
+    button {
+      background: none;
+      border: none;
+      color: $color-blue;
+      outline: none;
+    }
+
+    ul {
+      margin: -10px;
+
+      li {
+        button {
+          color: $color-black;
+          padding: 10px 30px 10px 15px;
+          text-align: left;
+          width: 100%;
+
+          &:hover {
+            background-color: $color-gray;
+          }
+        }
+      }
+    }
+  }
+}
+
+.edit_icon {
+  cursor: pointer;
+  top: 0;
+  left: 100px;
+  position: absolute;
+  i {
+    color: $color-darkest-gray;
+    position: absolute;
+  }
+  i:first-child {
+    top: -3px;
+    left: 5px;
+    font-size: 16px;
+  }
+
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.archive_delete {
+  padding: 12px 24px;
+  background: $color-white;
+  border: 1px solid $color-dark-gray;
+  display: flex;
+  justify-content: center;
+
+  span {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}

@@ -1,0 +1,297 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+@import 'styles/variables';
+@import 'styles/bootstrap/dropdown';
+
+.add {
+  padding: 20px;
+  background-color: $color-lightest-blue;
+}
+.taskWrapper {}
+
+.filterTask {
+  display: flex;
+
+  .filterButton {
+    display: flex;
+    align-items: center;
+    color: $color-dark-blue;
+    border-bottom: 1px solid darken($color-lightest-blue, 5%);
+    font-size: 1.125em;
+    padding: 20px;
+    margin-bottom: 16px;
+    cursor: pointer;
+    &:hover {
+
+    }
+
+    .title, .filters, .results {
+
+      padding-left: 12px;
+      padding-right: 12px;
+    }
+    .filters {
+      font-size: 0.85em;
+    }
+    .results {
+      color: $color-darkest-gray;
+      font-size: 0.85em;
+
+    }
+  }
+}
+
+
+.task {
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  @media (max-width: $breakpoint-bs-md) {
+    flex-wrap: wrap;
+  }
+
+  .date {
+    flex-basis: 120px;
+    line-height: 1.25em;
+    @media (max-width: $breakpoint-bs-md) {
+      flex-basis: auto;
+      flex-grow: 1;
+    }
+  }
+  .checkbox {
+    flex-basis: 50px;
+  }
+  .name, .provider {
+    flex-grow: 1;
+  }
+  .priority {
+    flex-basis: 7.5%;
+    @media (max-width: $breakpoint-bs-md) {
+      flex-basis: auto;
+      flex-grow: 1;
+    }
+    span {
+      padding: 8px 12px;
+      border-radius: 16px;
+      font-size: 0.65em;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    :global {
+      #low {
+        background-color: $color-accent-green;
+        color: $color-white;
+      }
+      #medium {
+        background-color: $color-accent-dark-yellow;
+        color: $color-white;
+      }
+      #high {
+        background-color: $color-accent-red;
+        color: $color-white;
+      }
+    }
+  }
+  .provider {
+    .providerDetails {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      .label, .edit {
+        flex-grow: 1;
+      }
+    }
+  }
+  .status {
+    text-transform: uppercase;
+    span {
+      padding: 8px 12px;
+      border-radius: 16px;
+      font-size: 0.65em;
+      letter-spacing: 1px;
+    }
+    :global {
+      #proposed {
+        background-color: transparent;
+        border: 1px solid $color-darkest-blue;
+        color: $color-darkest-blue;
+      }
+      #completed {
+        background-color: $color-darkest-blue;
+        color: $color-white;
+      }
+      #started {
+        background-color: transparent;
+        border: 1px solid $color-darkest-blue;
+        color: $color-darkest-blue;
+      }
+    }
+  }
+  .action {
+    i {
+      font-size: 2em;
+    }
+    @media (max-width: $breakpoint-bs-md) {
+      flex-basis: auto;
+      flex-grow: 1;
+    }
+
+  }
+}
+
+.collapsible {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  @media (max-width: $breakpoint-bs-sm) {
+    flex-wrap: wrap;
+  }
+
+  :global(input[disabled]) {
+    opacity: 1;
+    color: $color-black;
+  }
+
+  &.view {
+    margin-top: 24px;
+  }
+
+  &.opened {
+    display: flex;
+  }
+  &.closed {
+    display: none;
+  }
+
+  .tooth, .surface, .area {
+    flex-basis: 12.5%;
+    .field {
+      padding: 0 10px 20px 0;
+    }
+    @media (max-width: $breakpoint-bs-sm) {
+      flex-basis: 30%;
+      flex-grow: 1;
+    }
+  }
+  .empty {
+    flex-grow: 1;
+    @media (max-width: $breakpoint-bs-sm) {
+      flex-grow: 0;
+    }
+  }
+  .edit {
+    display: flex;
+    @media (max-width: $breakpoint-bs-sm) {
+      flex: 1 100%;
+    }
+  }
+}
+
+.contentContainer {
+  display: flex;
+  flex-flow: row wrap;
+
+  .type, .priority, .advanced, .submit {
+    flex: 1 100%;
+  }
+  .assignee, .date, .patient {
+    flex: 1 0 0;
+  }
+  .submit {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  :global(.react-datepicker__input-container input) {
+    background: url('/static/images/icon_small_calendar.png') no-repeat 96% center $color-white;
+    @include input-styles;
+  }
+}
+
+label { display: block }
+
+.gridWrapper {
+  margin-top: 36px;
+}
+
+.newTaskSection {
+  padding-top: 12px;
+  padding-bottom: 12px;
+
+  .sectionTitle {
+    font-size: 0.85em;
+    margin-bottom: 12px;
+  }
+
+  label {
+    display: inline-block;
+  }
+  .priorityLow, .priorityMedium, .priorityHigh,
+  input[value='low'], input[value='medium'], input[value='high'] {
+    padding: 5px 10px 8px;
+    text-transform: uppercase;
+    font-size: 0.85em;
+    font-weight: 600;
+  }
+  .priorityLow, input[value='low'] {
+    color: $color-accent-green;
+  }
+  .priorityMedium, input[value='medium'] {
+    color: $color-accent-dark-yellow;
+  }
+  .priorityHigh, input[value='high'] {
+    color: $color-accent-red;
+  }
+  input[type="radio"] {
+    margin-right: 5px;
+  }
+  textarea {
+    @include input-styles;
+    display: block;
+    width: 100%;
+    resize: none;
+    height: 240px;
+
+    &:focus {
+      outline: none;
+    }
+  }
+  :global(.react-datepicker__input-container input) {
+    background: url('/static/images/icon_small_calendar.png') no-repeat 96% center $color-white;
+    @include input-styles;
+  }
+}
+
+.formWrapper {
+  padding: 6px 6px 12px 24px;
+  @include list-hover-styles($box-shadow, $color-dark-gray);
+  &:hover {
+    @include list-hover-styles($box-shadow, $color-dark-blue)
+  }
+}
+
+.toolbar {
+  background-color: $color-lightest-blue;
+  text-align: right;
+  padding: 5px 2px;
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+.archive_delete {
+  padding: 12px 24px;
+  background: $color-white;
+  border: 1px solid $color-dark-gray;
+  display: flex;
+  justify-content: center;
+
+  span {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+.assignee, .dueDate, .type, .status {}

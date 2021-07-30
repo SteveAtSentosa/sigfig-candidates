@@ -1,0 +1,103 @@
+image: node:14
+definitions:
+    steps:
+        - step: &Test
+            name: Test
+            script:
+                - npm install
+                - npm run test
+            artifacts:
+                - node_modules/**
+        - step: &Build
+            name: Build
+            script:
+                - npm run build
+            artifacts:
+                - dist/**
+        - step: &Veracode-Static-Scan
+            image: atlassian/default-image:2
+            name: Veracode static scan
+            script:
+        - step:
+            name: &Mabl-Regression-Test
+            script:
+                - pipe: 
+                  variables:
+                      MABL_API_KEY: ""
+                      MABL_APPLICATION_ID: ""
+                      MABL_ENVIRONMENT_ID: ""
+                      MABL_LABELS: "regression"
+pipelines:
+    custom:
+        mabl:
+            - step: &Mabl-Regression-Test
+    branches:
+        develop:
+            - step: *Test
+            - step: *Build
+            - step:
+                name: Deploy
+                services:
+                    - docker
+                script:
+                    - pipe: 
+                      variables:
+                          AWS_ACCESS_KEY_ID: 
+                          AWS_SECRET_ACCESS_KEY: 
+                          AWS_DEFAULT_REGION: 
+                          S3_BUCKET: ""
+                          DELETE_FLAG: "true"
+                          ACL: "public-read"
+                          LOCAL_PATH: "dist"
+                artifacts:
+                    - dist/static/vmsg.wasm
+            - step:
+                name: Cleanup
+                script:
+        staging:
+            - step: *Test
+            - step: *Veracode-Static-Scan
+            - step: *Build
+            - step:
+                name: Deploy
+                services:
+                    - docker
+                script:
+                    - pipe: 
+                      variables:
+                          AWS_ACCESS_KEY_ID: 
+                          AWS_SECRET_ACCESS_KEY: 
+                          AWS_DEFAULT_REGION: us-east-1
+                          S3_BUCKET: ""
+                          DELETE_FLAG: "true"
+                          ACL: "public-read"
+                          LOCAL_PATH: "dist"
+                artifacts:
+                    - dist/static/vmsg.wasm
+            - step:
+                name: Cleanup
+                script:
+        master:
+            - step: *Test
+            - step: *Build
+            - step:
+                name: Deploy
+                services:
+                    - docker
+                script:
+                    - pipe: 
+                      variables:
+                          AWS_ACCESS_KEY_ID: 
+                          AWS_SECRET_ACCESS_KEY: 
+                          AWS_DEFAULT_REGION: us-east-1
+                          S3_BUCKET: ""
+                          DELETE_FLAG: "true"
+                          ACL: "public-read"
+                          LOCAL_PATH: "dist"
+                artifacts:
+                    - dist/static/vmsg.wasm
+            - step:
+                name: Cleanup
+                script:
+        default:
+            - step: *Test

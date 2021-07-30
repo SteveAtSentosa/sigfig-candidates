@@ -1,0 +1,61 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+@import 'styles/variables';
+
+.paginationContainer {
+  padding-top: 24px;
+  padding-bottom: 48px;
+
+  .pages {
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    .buttonContainer {
+      display: flex;
+      flex-direction: row;
+      max-width: 100%;
+      box-shadow: $box-shadow;
+
+      :global(li.disabled a) {
+        color: $color-button-disabled !important;
+        cursor: default;
+        &:hover {
+          font-weight: normal !important;
+          background-color: $color-dark-blue !important;
+        }
+      }
+
+      a {
+        outline: none;
+        padding: 16px 12px;
+        color: $color-white;
+        background-color: $color-dark-blue;
+
+        &:hover, &.currentPage {
+          background-color: $color-blue;
+        }
+        &.currentPage {
+          cursor: default;
+        }
+        @media (max-width: $breakpoint-bs-sm) {
+          padding: 16px 8px;
+        }
+
+      }
+    }
+
+  }
+
+  :global(.material-icons) {
+    @media (max-width: $breakpoint-bs-sm) {
+      font-size: 20px !important;
+    }
+  }
+}
+
+.disabled {
+  display: none;
+}

@@ -1,0 +1,29 @@
+@import 'static/styles/colors';
+@import 'static/styles/variables';
+
+.sso {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+
+  .error {
+    p {
+      color: $color-accent-red;
+    }
+  }
+
+  .loading {
+    .spinner {
+      display: flex;
+      justify-content: center;
+    }
+
+    p {
+      margin-top: 1rem;
+      text-align: center;
+    }
+  }
+}

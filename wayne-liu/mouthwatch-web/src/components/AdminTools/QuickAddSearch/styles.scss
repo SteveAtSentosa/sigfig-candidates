@@ -1,0 +1,57 @@
+@import 'static/styles/colors';
+
+/* Edit Practice - PracticeAccountsTable */
+.quickAddProvider {
+  display: flex;
+  flex: 0 0 80%;
+  margin-bottom: 15px;
+
+  .quickAddProviderLabel {
+    margin: auto;
+    flex: 0 0 18%;
+  }
+
+  .quickAddInput {
+    float: right;
+    flex: 1 0 30%;
+    display: flex;
+    margin-right: 10px;
+
+    input {
+      width: 100%;
+      transition: all;
+      font-size: 16px;
+      padding: 8px 14px;
+      line-height: 20px;
+      border-radius: 4px;
+      background-color: $color-white;
+      border: 1px solid $color-dark-gray;
+      transition-timing-function: ease-out;
+
+      &:focus {
+        outline: 0;
+      }
+    }
+  }
+
+  .quickAddCopy {
+    margin: auto;
+    flex: 1 0 30%;
+  }
+}
+
+.searchResults {
+  width: 380px;
+  text-align: left;
+
+  .section {
+    .searchItem {
+      padding: 8px;
+      display: block;
+      cursor: pointer;
+      &:hover {
+        background-color: $color-lightest-blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,60 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+
+.banner {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  border: 2px solid $color-accent-turquoise;
+  border-radius: 4px;
+  padding: 8px 30px 8px 24px;
+  position: relative;
+
+  .message {
+    font-size: 16px;
+    line-height: 25px;
+    color: black;
+    margin-right: 65px;
+  }
+
+  .actions {
+    padding: 4px 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+  
+  .learnMore {
+    display: inline-block;
+    border: 1px solid $color-accent-turquoise;
+    border-radius: 3px;
+    color: $color-accent-turquoise;
+    font-size: 10px;
+    width: 65px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    margin-right: 10px;
+  }
+  
+  .upgradeBadge {
+    display: inline-block;
+    height: 20px;
+    text-transform: capitalize;
+  }
+  
+  .closeButton {
+    color: $color-accent-turquoise;
+    cursor: pointer;
+    position: absolute;
+    right: 0;
+    padding: 15px;
+  }
+
+  @media (max-width: 820px) {
+    .message {
+      margin-right: 0;
+    }
+  }
+}

@@ -1,0 +1,76 @@
+
+@import 'styles/colors';
+@import 'styles/variables';
+
+
+.chatbox {
+  margin: 0;
+  display: flex;
+  box-sizing: border-box;
+  padding-bottom: 10px;
+  flex-direction: column;
+  height: $messages-chatbox-height;
+  min-height: $messages-chatbox-height;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    /*height: 100%;*/
+    height: $messages-chatbox-height-sm;
+    min-height: $messages-chatbox-height-sm;
+  }
+
+  &.hasAttachments {
+    height: $messages-chatbox-height-with-attachments;
+    min-height: $messages-chatbox-height-with-attachments;
+  }
+}
+
+.chatFieldContainer  {
+  display: block;
+  @media (max-width: $breakpoint-bs-sm) {
+    display: none;
+  }
+
+  &.forPatient {
+    @media (max-width: $breakpoint-bs-sm) {
+      bottom: 0;
+      width: 100%;
+      z-index: 100;
+      position: absolute;
+      display: inline-block;
+    }
+  }
+}
+
+.inactiveChannelText {
+  text-align: center;
+  flex-grow: 1;
+
+  .text {
+    padding-left: 8px;
+  }
+}
+
+.slideOutMenu {
+  padding-top: 11%;
+}
+
+.emptyChannel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+  height: 100%;
+}
+
+.messenger {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: all 400ms ease-in-out;
+  overflow: hidden;
+
+}
+
+.slideoutOpen {
+  width: 65%;
+}

@@ -1,0 +1,41 @@
+@import 'styles/breakpoints';
+
+.logoTitle, .profileTitle {
+  display: flex;
+  margin-top: 15px;
+  margin-bottom: 20px;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+}
+
+.logoTitle {
+  .picture {
+    flex: 0 0 8%;
+    min-width: 90px;
+    margin-right: 10px;
+  }
+  .title {
+    display: flex;
+    flex: 1 0 90%;
+  }
+}
+
+.profileTitle {
+  .picture {
+    flex: 0 0 110px;
+    min-height: 90px;
+    position: relative;
+  }
+
+  .title {
+    margin: auto;
+    flex: 1 0 300px;
+  }
+}
+
+.withImage {
+  height: 100px;
+}

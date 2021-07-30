@@ -1,0 +1,11 @@
+@import 'styles/colors';
+
+.loginForm {
+  label, p {
+    text-align: left;
+  }
+  a {
+    font-weight: bolder;
+    color: $color-blue;
+  }
+}

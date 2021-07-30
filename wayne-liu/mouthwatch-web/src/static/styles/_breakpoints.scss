@@ -1,0 +1,23 @@
+$breakpoint-xlarge: 1400px;
+$breakpoint-large: 1200px;
+$breakpoint-medium: 992px;
+$breakpoint-small: 768px;
+
+$breakpoint-bs-sm: 576px;
+$breakpoint-bs-md: 768px;
+$breakpoint-bs-lg: 992px;
+$breakpoint-bs-xl: 1200px;
+
+$container-padding: 36px;
+
+@mixin hide-max-width ($breakpoint) {
+  @media (max-width: $breakpoint) {
+    display: none;
+  }
+}
+
+@mixin hide-min-width ($breakpoint) {
+  @media (min-width: $breakpoint) {
+    display: none;
+  }
+}

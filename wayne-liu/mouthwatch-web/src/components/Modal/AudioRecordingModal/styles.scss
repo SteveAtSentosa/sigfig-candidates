@@ -1,0 +1,70 @@
+@import 'styles/colors';
+@import 'styles/variables';
+
+.audioRecordingModal {
+  header {
+    height: 45px;
+  }
+  
+  .recordButton {
+    display: inline-block;
+    width: 150px;
+    margin-right: 20px;
+    button, button:hover, button:focus {
+      padding: 0;
+      height: 47px;
+    }
+
+    svg {
+      margin-right: 5px;
+    }
+  }
+
+  .playPause {
+    width: auto;
+    margin-left: 10px;
+
+    button, button:focus, button:hover {
+      padding: 0;
+      min-width: 0;
+    }
+  }
+
+  .duration {
+    font-size: 16px;
+  }
+
+  .recordingContainer {
+    margin-top: 30px;
+    padding-right: 24px;
+    padding-left: 24px;
+  }
+
+  .recording {
+    animation: pulse 1.5s ease-in-out infinite;
+  }
+
+  label {
+    font-size: 16px;
+  }
+  
+  .title {
+    margin-top: 20px;
+  }
+
+  .buttons {
+    margin-top: 47px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cancel {
+    margin-right: 20px;
+  }
+
+  .heading {
+    padding-top: 5px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}

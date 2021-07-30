@@ -1,0 +1,41 @@
+@import 'styles/colors';
+@import 'styles/variables';
+
+.quick_edit {
+  text-align: left;
+  padding: 10;
+  h3 {
+    margin-top: 0;
+    color: $color-dark-blue;
+  }
+
+  .input_row {
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+
+    @include date-picker;
+  }
+  .input_row > div {
+    padding: 0;
+    flex: 1;
+    margin-right: 5px;
+  }
+  .input_row > input,
+  .input_row > span {
+    margin-right: 5px;
+    flex: 1;
+  }
+  .labels {
+    margin-right: 10px;
+    input {
+      margin-right: 5px;
+    }
+  }
+  .quick_edit_footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+  }
+}

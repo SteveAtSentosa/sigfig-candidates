@@ -1,0 +1,48 @@
+@import 'styles/colors';
+@import 'styles/variables';
+
+.advancedSearch {
+  .leftCol {
+    margin-right: 5%;
+
+    .filter_heading {
+      margin-bottom: 15px;
+    }
+  }
+
+  .rightCol {
+    margin-left: 5%;
+  }
+
+  .section {
+
+    .sectionTitle {
+      font-size: 0.85em;
+      margin-bottom: 12px;
+    }
+
+    label {
+      display: inline-block;
+
+      &:after {
+        content: ':';
+      }
+    }
+
+    @include datepicker-input-styles;
+  }
+
+  .archived {
+    display: inline-block;
+    font-size: 0.85em;
+    font-weight: 600;
+    padding: 5px 10px 0px;
+    text-transform: uppercase;
+
+    label {
+      &:after {
+        content: '';
+      }
+    }
+  }
+}

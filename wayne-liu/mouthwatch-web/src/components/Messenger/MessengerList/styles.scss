@@ -1,0 +1,275 @@
+@import 'styles/variables';
+
+@keyframes blink {
+  from {
+    background-color: $color-darkest-blue;
+  }
+
+  to {
+    background-color: lighten($color-darkest-blue, 3%);
+  }
+}
+
+.messengerList {
+  background-color: $color-darkest-blue;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  height: 100%;
+  overflow: hidden;
+
+  .searchBar {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 25px 12px 20px 25px;
+
+    a {
+      color: $color-white;
+      cursor: pointer;
+      display: block;
+      font-size: 13px;
+      font-weight: 200;
+      opacity: 0.8;
+      padding-top: 15px;
+      
+      &:hover {
+        opacity: 1;
+      }
+    }
+
+  }
+
+  .addNewMessageContainer {
+    position: relative;
+    z-index: 10;
+    max-height: 55px;
+
+
+    .newMessage {
+      background-color: $color-darkest-blue;
+      border: none;
+      padding: 15px 20px;
+      transition: all;
+      transition-duration: 150ms;
+      transition-timing-function: ease-out;
+      width: 100%;
+      font-weight: 600;
+      font-size: 16px;
+
+      span {
+        color: $color-white;
+        display: block;
+        font-size: 16px;
+      }
+
+      .plus {
+        margin-right: 10px;
+      }
+
+      &:hover {
+        background-color: lighten($color-darkest-blue, 3%);
+      }
+      &:focus {
+        outline: none;
+      }
+    }
+  }
+
+
+  .channelItem {
+    position: relative;
+    display: flex;
+    align-items: center;
+    color: $color-white;
+    background-color: $color-darkest-blue;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: none;
+    transition: all;
+    transition-duration: 150ms;
+    transition-timing-function: ease-out;
+    max-height: 60px;
+    cursor: pointer;
+
+    .archiveButton {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      right: 20px;
+      color: $color-dark-gray;
+      opacity: 0;
+      font-size:  15px;
+      font-weight: 100;
+      transition: opacity background-color;
+      transition-duration: 150ms;
+      transition-timing-function: ease-in;
+      pointer-events: none;
+    }
+
+    &:hover {
+      background-color: lighten($color-darkest-blue, 3%);
+
+      .archiveButton {
+        opacity: 1;
+        pointer-events: all;
+      }
+    }
+
+    &.activeChannel {
+      background-color: $color-blue;
+      font-weight: bold;
+
+      &:hover {
+        .closeChannel {
+          opacity: 1;
+          pointer-events: all;
+        }
+      }
+    }
+
+    &.unreadChannel {
+      font-weight: bolder;
+      animation-name: blink;
+      animation-duration: 300ms;
+      animation-iteration-count: infinite;
+      animation-direction: alternate;
+    }
+
+    &.readOnly {
+      &::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        background-color: transparentize($color-disabled-gray, .6);
+
+      }
+
+    }
+
+    .modalAvatar {
+      position: relative;
+      left: 5px;
+      width: auto;
+      padding: 5px;
+    }
+  }
+
+  .avatarsContainer {
+    min-height: 55px;
+    min-width: 80px;
+    :global(.thumbnail) {
+      min-width: 25px;
+      min-height: 25px;
+    }
+
+    :global(.avatar-inner) {
+      max-width: 25px;
+      max-height: 25px;
+    }
+
+    &.directMessage {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      position: relative;
+
+      :global(.avatar-inner) {
+        max-width: 30px;
+        max-height: 30px;
+      }
+
+      :global(.thumbnail) {
+        min-width: 30px;
+        min-height: 30px;
+      }
+    }
+
+    &.groupMessageTwo,
+    &.groupMessageThree,
+    &.groupMessageMax {
+      position: relative;
+      font-size: 10px !important;
+
+      & > div {
+        position: absolute;
+      }
+
+    }
+
+    &.groupMessageTwo {
+      & > div:first-of-type {
+        top: 25%;
+        left: 45%;
+      }
+
+      & > div:nth-of-type(2){
+        top: 10%;
+        left: 30%;
+      }
+    }
+
+    &.groupMessageThree {
+      & > div:first-of-type {
+        top: 33.5%;
+        left: 45%;
+      }
+
+      & > div:nth-of-type(2){
+        left: 30%;
+      }
+
+      & > div:nth-of-type(3){
+        top: 33.5%;
+        left: 16%;
+      }
+    }
+
+    &.groupMessageMax {
+      & > div:first-of-type {
+        top: 0;
+        left: 16%;
+      }
+
+      & > div:nth-of-type(2){
+        left: 45%;
+      }
+
+      & > div:nth-of-type(3){
+        top: 36.5%;
+        left: 16%;
+      }
+
+      & > div:nth-of-type(4){
+        top: 36.5%;
+        left: 45%;
+      }
+
+      & > div:nth-of-type(1n+5) {
+        display: none;
+      }
+
+      .plusUser {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: $color-dark-gray;
+        color: $color-black;
+        margin: 5px;
+        width: 25px;
+        height: 25px;
+        border-radius: 12.5px;
+        font-size: 14px;
+      }
+    }
+
+  }
+
+  .userNames {
+    font-size: 18px;
+    padding-left: 10px;
+    padding-right: 53.5px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }
+
+}

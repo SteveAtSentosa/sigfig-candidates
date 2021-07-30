@@ -1,0 +1,21 @@
+.body {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  p {
+    margin-top: 37px;
+    margin-bottom: 43px;
+  }
+}
+
+.chatDisconnectModal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 684px;
+  height: 254px;
+}

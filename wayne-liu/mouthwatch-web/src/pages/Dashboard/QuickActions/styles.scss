@@ -1,0 +1,93 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+@import 'styles/variables';
+
+.quickActionsWidget {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  .actionWrapper {
+    width: 25%;
+    height: 10vh;
+    max-height: 250px;
+    min-height: 160px;
+
+    @media
+      (max-width: $breakpoint-bs-sm),
+      (max-width: $breakpoint-medium) and (min-width: $breakpoint-small) {
+      width: 50%;
+      min-height: 120px;
+    }
+
+    .action {
+
+      button {
+
+        width: 100%;
+        height: 100%;
+        background-color: $color-white;
+        border: 1px solid $color-dark-gray;
+        color: $color-dark-blue;
+
+        &:focus {
+          outline: 0;
+        }
+
+        &:active {
+          outline: 0;
+          background-color: $color-blue;
+          color: $color-white;
+
+          img {
+            -filter: contrast(0%) brightness(200%);
+            -webkit-filter: contrast(0%) brightness(200%);
+          }
+        }
+
+        &:hover {
+          box-shadow: $box-shadow;
+          border: 1px solid $color-blue;
+          transition: all 0.3s;
+
+        }
+
+        .icon {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          overflow: hidden;
+          height: 52px;
+          font-size: 3.25em;
+        }
+
+        .label {
+          white-space: pre-wrap;
+          padding-top: 25px;
+          font-size: $font-size-large;
+          line-height: 20px;
+        }
+
+        @media (max-width: $breakpoint-large) {
+          .label {
+            font-size: 1em;
+          }
+        }
+
+        @media
+          (max-width: $breakpoint-bs-sm),
+          (max-width: $breakpoint-medium) and (min-width: $breakpoint-small) {
+          .icon {
+            height: 36px;
+            font-size: 2em;
+          }
+
+          .label {
+            padding-top: 12px;
+          }
+        }
+      }
+    }
+
+  }
+}

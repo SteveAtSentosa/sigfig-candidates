@@ -1,0 +1,325 @@
+@import 'styles/colors';
+@import 'styles/zindexes';
+@import 'styles/variables';
+
+.backdrop {
+  opacity: 1 !important;
+  background-color: rgba($color-blue, 0.75);
+}
+
+.header {
+  align-items: center;
+  background: $color-dark-blue;
+  color: $color-white;
+  font-size: 16px;
+  justify-content: space-between;
+  padding: 16px 24px 12px;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+
+  div:first-child {
+    flex-grow: 1;
+  }
+
+  .headerButton {
+    cursor: pointer;
+    font-size: 0.85rem;
+    margin-left: 12px;
+    flex: 0 75px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    div:first-child {
+      padding-right: 6px;
+    }
+  }
+}
+
+.body {
+  padding: 12px 24px;
+}
+
+
+.dialog {
+  :global(.modal-content) {
+    position: absolute;
+    border: none;
+    @media (max-width: $breakpoint-bs-sm) {
+      overflow: scroll;
+    }
+  }
+
+  &.sm {
+    width: 500px;
+    max-width: 500px;
+    max-height: 300px;
+
+    .footer {
+      button {
+        min-width: 120px;
+        padding: 10px 16px;
+      }
+    }
+  }
+
+  &.md {
+    max-width: 750px;
+    width: 750px;
+    max-height: 640px;
+    .modalContentContainer {
+      max-height: 450px;
+    }
+  }
+
+  &.lg {
+    max-width: 960px;
+    width: 960px;
+    max-height: 680px;
+
+    .modalContentContainer {
+      max-height: 500px;
+    }
+  }
+
+  @media (max-width: $breakpoint-bs-lg) {
+    &.sm, &.md, &.lg {
+      max-width: 80vw;
+    }
+  }
+
+  @media (max-width: $breakpoint-bs-sm) {
+    /*
+      This value for `top` is to accommodate the mobile nav
+    */
+    /* top: 70px; */
+    margin: .5rem auto;
+    max-height: 80vh;
+    &.sm, &.md, &.lg {
+      :global(.modal-content) {
+        max-height: 80vh;
+      }
+    }
+  }
+
+  :global(.modal-footer) {
+    >:not(:first-child) {
+      margin-left: 8px;
+    }
+
+    >:not(:last-child) {
+      margin-right: 8px;
+    }
+  }
+}
+
+.footer {
+  flex: 1 0 auto;
+  border: none;
+  flex-wrap: wrap-reverse;
+  padding: 10px 0 20px;
+  justify-content: center;
+
+  > * {
+    margin: 0 8px;
+  }
+}
+
+.modalContentContainer {
+  height: 100%;
+  overflow-wrap: break-word;
+}
+
+/* Custom Modal Styles */
+.addNewTaskModalBody {
+  @media (max-width: $breakpoint-bs-sm) {
+    min-height: 640px;
+  }
+}
+
+.resetPasswordModalBody {
+  height: 300px;
+  padding: 24px;
+}
+
+.groupConsentPolicyModalBody {
+  overflow-y: scroll;
+}
+
+.fieldRow {
+  display: flex;
+}
+
+.fieldSection {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  flex-grow: 1;
+  flex-basis: 33%;
+
+  @include datepicker-input-styles;
+
+}
+
+.fieldEmailSection {
+  padding-top: 12px;
+  padding-bottom: 0;
+  flex-grow: 0;
+  flex-basis: 50%;
+
+  @include datepicker-input-styles;
+
+}
+
+.fieldSubSection {
+  padding: 0 0 12px 12px;
+}
+
+.filterButton {
+  background-color: $color-white;
+  color: $color-dark-blue;
+  border-bottom: 1px solid darken($color-lightest-blue, 5%);
+  border-top: 1px solid transparent;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  font-size: 1.125em;
+  padding: 12px;
+  cursor: pointer;
+  &:hover {
+    @include list-hover-styles($box-shadow, $color-blue);
+  }
+  i {
+    background-color: $color-blue;
+    color: $color-white;
+    border-radius: 50%;
+    padding: 1.25%;
+    vertical-align: middle;
+  }
+  span {
+    display: inline-block;
+    vertical-align: middle;
+
+  }
+
+  .title {
+    margin-left: 12px;
+  }
+  .results {
+    color: $color-darkest-gray;
+    font-size: 0.85em;
+    margin-left: 40%;
+
+    @media (max-width: $breakpoint-large) {
+      margin-left: 30%;
+    }
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+.headerButton {
+  flex-grow: 100;
+  text-align: right;
+  justify-self: center;
+
+  .menuEllipsis {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  ul {
+    margin: -10px;
+
+    li {
+      display: block;
+      margin: 0;
+
+      button {
+        background: none;
+        border: none;
+        color: $color-black;
+        outline: none;
+        padding: 10px 30px 10px 15px;
+        text-align: left;
+        width: 100%;
+
+        &:hover {
+          background-color: $color-gray;
+        }
+
+        > a {
+          color: $color-black;
+        }
+      }
+    }
+  }
+}
+
+.viewNoteBody {
+  overflow: auto;
+  margin-top: 20px;
+}
+
+.noteBodyTextArea {
+  textarea {
+    resize: none;
+    height: 120px;
+    max-height: 320px;
+  }
+}
+
+.textarea {
+  height: 100px;
+}
+
+.formSection {
+  &:first-child {
+    width: 40%;
+  }
+  &:nth-child(2) {
+    display: inline-block;
+    width: 60%;
+  }
+  &:nth-child(3) {
+    display: inline-block;
+    width: 40%;
+  }
+  &:nth-child(4) {
+    display: inline-block;
+    width: 33%;
+  }
+}
+
+.appointment_start, .duration {
+  width: 33.33%;
+  display: inline-block;
+}
+
+.date_picker {
+  & > div:first-child, :global(.react-datepicker__input-container) {
+    width: 100%;
+  }
+}
+
+/* make sure datepicker calendar shows over modal */
+:global(.react-datepicker-popper) {
+  z-index: $datepicker-calendar;
+}
+
+.filterByLang {
+  display: inline-block;
+  margin-right: 16px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  color: black;
+
+  &.selected {
+    color: #49A6FF;
+    font-weight: 600;
+    border-bottom: 3px solid #4EA3FF;
+  }
+}
+

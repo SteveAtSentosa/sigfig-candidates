@@ -1,0 +1,122 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+
+.myAccount {
+  margin: 0 auto;
+  padding: 0 10px 96px;
+  width: calc(1080px/2);
+
+  @media (max-width: $breakpoint-bs-sm) {
+    padding: 0 20px 30vh;
+  }
+
+  .header {
+    display: flex;
+    padding: 20px 20px 20px 0;
+
+    .avatarWithEditPhoto {
+      flex: 0 0 20%;
+    }
+
+    .profileHeader {
+      flex: 1 0 80%;
+      padding-left: 10px;
+
+      h3 {
+        margin-top: 30px;
+      }
+
+      a {
+        color: $color-blue;
+      }
+    }
+  }
+
+  .save_button_area {
+    right: 40px;
+    bottom: 20px;
+    display: flex;
+    position: fixed;
+    border-radius: 5px;
+    flex-direction: row;
+    box-shadow: 0px 3px 3px 3px transparentize($color: $color-black, $amount: .85);
+
+    @media (max-width: $breakpoint-bs-sm) {
+      bottom: 90px;
+    }
+  }
+}
+
+.menuOverride {
+  position: sticky;
+  top: 0px;
+  display: block !important;
+  background: white;
+  z-index: 10;
+  padding-top: 16px;
+}
+
+.menuOverride ul {
+  margin: 0;
+}
+
+.menuOverride.forPatient {
+  top: 68px;
+}
+
+.editLink {
+  display: flex;
+  justify-content: center;
+
+  button {
+    margin-top: 10px;
+    background: none;
+    border: none;
+    color: $color-blue;
+    outline: none;
+  }
+  ul {
+    margin: -10px;
+
+    li {
+      button {
+        color: $color-black;
+        padding: 10px 30px 10px 15px;
+        text-align: left;
+        width: 100%;
+
+        &:hover {
+          background-color: $color-gray;
+        }
+      }
+    }
+  }
+}
+
+.editProfile {
+  color: $color-blue;
+  &:visted {
+    color: $color-blue;
+  }
+}
+
+
+.profileWrapper {
+  margin: 0 1rem;
+}
+
+.tabs {
+  a {
+    &.active {
+      color: $color-blue;
+    }
+    &:active, &:hover {
+      color: $color-blue;
+    }
+    color: $color-black;
+  }
+}
+
+.activeTab {
+  color: $color-blue;
+}

@@ -1,0 +1,26 @@
+@import 'static/styles/colors';
+@import 'static/styles/variables';
+@import 'static/styles/breakpoints';
+
+.image_selected a div:first-child {
+  border: 4px solid $color-blue;
+}
+
+.menu {
+  top: 0;
+  width: 424px !important;
+  z-index: 9000 !important;
+  @include box-shadow($box-shadow);
+
+  @media (max-width: $breakpoint-bs-sm) {
+    max-width: 100vw;
+  }
+}
+
+.caption_heading {
+  font-weight: 600;
+}
+
+.overlay {
+  pointer-events: none;
+}

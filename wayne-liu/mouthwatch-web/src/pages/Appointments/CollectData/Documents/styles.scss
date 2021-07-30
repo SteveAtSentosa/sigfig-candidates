@@ -1,0 +1,108 @@
+@import 'static/styles/colors';
+@import 'static/styles/breakpoints';
+@import 'static/styles/variables';
+
+.button {
+  color: $color-dark-blue;
+  font-size: 1em;
+  cursor: pointer;
+  &:hover {
+    color: $color-blue;
+  }
+  svg {
+    color: inherit;
+    padding: 0;
+    vertical-align: middle;
+    display: inline;
+  }
+  span {
+    display: inline;
+    vertical-align: middle;
+
+  }
+
+  .title {
+    margin-left: 4px;
+  }
+}
+
+.modalContentContainer {
+  padding: 24px;
+
+  :global(.react-datepicker__input-container input) {
+    background: url('/static/images/icon_small_calendar.png') no-repeat 96% center $color-white;
+    @include input-styles;
+  }
+}
+/*
+.modalContent {
+  position: absolute;
+  top: 10vh;
+  left: 20vw;
+  right: 20vw;
+  bottom: 10vh;
+  border: none;
+  background: #fff;
+  overflow: auto;
+  -webkit-overflow-scrolling: touch;
+  border-radius: 4px;
+  outline: none;
+  padding: 0;
+}
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba($color-blue, 0.75);
+}
+.modalHeader {
+  background: $color-dark-blue;
+  color: $color-white;
+  padding: 16px 24px 12px;
+
+  .modalHeaderTitle {
+    display: inline-block;
+  }
+
+  .filterReset {
+    display: inline-block;
+    font-size: 0.85em;
+    vertical-align: middle;
+    margin-left: 12px;
+    cursor: pointer;
+  }
+  :global(.material-icons) {
+    vertical-align: middle;
+  }
+}
+
+.modalContentContainer {
+  padding: 24px;
+
+  :global(.react-datepicker__input-container input) {
+    background: url('/static/images/icon_small_calendar.png') no-repeat 96% center $color-white;
+    @include input-styles;
+  }
+}
+
+.submitButton {
+
+}
+
+.filterSection {
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+.filterSubmitButtons {
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  align-items: center;
+  span {
+    margin: 6px;
+  }
+}
+*/

@@ -1,0 +1,26 @@
+.change_password_form {
+  flex: 1;
+}
+
+.change_password_modal {
+  > div {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  footer {
+    .action_buttons {
+      flex: 1;
+      flex-direction: row;
+      display: flex;
+      span {
+        flex: 1;
+        margin: 0 24px 24px 24px;
+      }
+    }
+  }
+}
+
+.resetPasswordModalBody {
+  padding: 12px;
+}

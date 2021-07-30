@@ -1,0 +1,93 @@
+@import 'styles/zindexes';
+@import 'styles/variables';
+
+.menu {
+  display: inline;
+
+  /* hide on small screens */
+  @media (max-width: $breakpoint-bs-md) {
+    display: none;
+  }
+
+  ul {
+    padding: 0;
+    display: flex;
+    margin: 0 1rem;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+
+    li {
+      display: inline;
+      list-style-type: none;
+
+      a {
+        display: inline-block;
+        margin: 0 0;
+        padding-bottom: .9rem;
+      }
+    }
+  }
+
+  .active {
+      color: $color-blue;
+      border-bottom: solid 4px $color-blue;
+  }
+}
+
+.mobileMenu {
+  /* tabMenu should appear below toolbar */
+  width: 100%;
+  /* make sure this appears above Collected Images in Treatment Plan Builder */
+  height: 48px;
+  display: none;
+  position: sticky;
+  overflow-x: scroll;
+  top: $toolbar-height;
+  z-index: $tab-menu-mobile;
+  padding-top: 5px !important;
+  background-color: $color-white;
+
+  /* display on small screens */
+  @media (max-width: $breakpoint-bs-md) {
+    display: block;
+  }
+
+  ul {
+    padding: 0;
+    display: flex;
+    text-align: justify;
+    border-bottom: 1px solid #E8E8E8;
+
+    li {
+      flex-grow: 1;
+      margin-right: 20px;
+      list-style-type: none;
+
+      a {
+        margin: 0 0;
+        font-size: 16px;
+        color: $color-black;
+        display: inline-block;
+        padding-bottom: .9rem;
+      }
+    }
+
+    &:after {
+      content: '';
+      display: inline-block;
+    }
+  }
+
+  .active {
+      font-weight: 500;
+      color: $color-blue;
+      border-bottom: solid 4px $color-blue;
+  }
+}
+
+.proBadge { 
+  left: 4px;
+  top: -12px;
+  position: relative;
+}

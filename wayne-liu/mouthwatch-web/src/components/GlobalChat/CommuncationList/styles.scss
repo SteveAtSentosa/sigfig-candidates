@@ -1,0 +1,37 @@
+@import 'styles/colors';
+@import 'styles/variables';
+
+.communicationList {
+  position: relative;
+  height: $message-box-height-lg;
+  width: $message-box-width;
+}
+
+.ellipseIcon {
+  font-size: 16px;
+}
+
+.notificationCount {
+  position: relative;
+  display: inline-block;
+  background-color: $color-accent-red;
+  height: 14px;
+  width: 14px;
+  border-radius: 50%;
+  color: $color-white;
+  font-size: 8px;
+  vertical-align: middle;
+  text-align: center;
+  margin-left: 5px;
+
+  p {
+    position: absolute;
+    display: block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-49%, -84%);
+    margin: 0px;
+    height: 8px;
+    width: 8px;
+  }
+}

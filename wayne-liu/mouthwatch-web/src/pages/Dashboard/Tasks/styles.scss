@@ -1,0 +1,114 @@
+@import 'static/styles/colors';
+@import 'static/styles/breakpoints';
+@import 'static/styles/variables';
+
+.headerBar {
+  background-color: $color-lightest-blue;
+  font-size: 16px;
+  padding: 12px 24px;
+
+  button {
+    border: none;
+    background: transparent;
+    margin: 0;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+  }
+
+  .sortDropdown {
+    display: none;
+    &>div { padding-left: 0 }
+
+    @media (max-width: $breakpoint-bs-sm) {
+      display: block;
+    }
+  }
+
+  .priority, .due, .summary, .assignee {
+    display: block;
+
+    @media (max-width: $breakpoint-bs-sm) {
+      display: none;
+    }
+  }
+
+}
+
+.tasksWidget {
+  :global(.action.action.action) {
+    flex: 1 0 15%;
+  }
+
+  .taskPriority {
+    div {
+      @include format-status-priority(60px);
+      &.High {
+        background-color: $color-accent-red;
+        color: $color-white;
+      }
+      &.Medium {
+        background-color: $color-accent-light-yellow;
+      }
+      &.Low {
+        background-color: $color-accent-blue;
+      }
+    }
+  }
+  .taskDue, .taskSummary {
+    text-align: left;
+  }
+  .taskImage, .icon {
+    text-align: right;
+  }
+  .icon i {
+    cursor: pointer;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    li {
+      &:nth-child(odd) {
+        background-color: $color-gray;
+      }
+    }
+  }
+
+  a {
+    color: $color-black;
+  }
+
+  .avatar {
+    min-height: 40px;
+    min-width: 40px;
+    max-height: 40px;
+    max-width: 40px;
+    font-size: 16px;
+  }
+
+  .taskAssignee {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    span {
+      padding-left: 8px;
+    }
+  }
+}
+
+.thumbnail_override {
+  margin: 0;
+}
+
+.menu {
+  font-size: 14px;
+
+  a:hover, span:hover {
+    cursor: pointer;
+    color: $color-black;
+    font-weight: bold;
+  }
+}

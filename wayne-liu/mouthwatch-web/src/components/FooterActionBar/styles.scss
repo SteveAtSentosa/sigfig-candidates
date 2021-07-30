@@ -1,0 +1,100 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+
+.actionBar {
+  display: flex;
+  flex-direction: column;
+  background-color: $color-white;
+  box-shadow: 0px 0px 20px 5px rgba(0, 0, 0, 0.15);
+  border-radius: 1px;
+  bottom: 0;
+  padding: 12px;
+  position: fixed;
+  right: 0;
+  z-index: 3;
+
+  & > span:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: $breakpoint-bs-sm) {
+    bottom: 75px;
+  }
+
+}
+
+$action-button-size: 59px;
+
+.action {
+  margin: 5px;
+
+  &.upgradeOnly {
+    button {
+      background-color: $color-accent-turquoise;
+    }
+  }
+
+  button {
+    background-color: $color-dark-blue;
+    border: none;
+    border-radius: 50%;
+    height: $action-button-size;
+    position: relative;
+    width: $action-button-size;
+
+    &:focus {
+      background-color: $color-darkest-blue;
+      outline: 0;
+    }
+
+    &:hover {
+      background-color: $color-darkest-blue;
+    }
+
+    .icon {
+      bottom: 26px;
+      left: 0;
+      position: absolute;
+      right: 0;
+    }
+
+    .label {
+      color: $color-white;
+      font-size: 9.6px;
+      left: 0;
+      letter-spacing: 0.8px;
+      position: absolute;
+      right: 0;
+      text-transform: uppercase;
+      bottom: 12px;
+    }
+  }
+}
+
+.whiteIcon {
+  filter: brightness(0.1) invert(1);
+}
+
+.chatIcon {
+  img {
+    @extend .whiteIcon;
+    position: relative;
+    top: -2px;
+  }
+}
+
+.videoIcon {
+  img {
+    @extend .whiteIcon;
+    position: relative;
+    top: -3px;
+  }
+}
+
+.audioIcon {
+  img {
+    @extend .whiteIcon;
+    position: relative;
+    top: -1px;
+  }
+}

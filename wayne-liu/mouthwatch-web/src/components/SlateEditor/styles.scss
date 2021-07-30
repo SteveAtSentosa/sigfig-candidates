@@ -1,0 +1,28 @@
+@import 'static/styles/colors';
+@import 'static/styles/breakpoints';
+
+.editorWrapper {
+  margin-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 24px;
+  padding-bottom: 10px;
+  border: 1px solid #E4E4E4;
+  border-radius: 3px;
+}
+
+.toolbar {
+  padding-left: 5px;
+  padding-right: 5px;
+  margin-bottom: 37px;
+
+  & > * {
+    display: inline-block;
+    padding-right: 8px;
+    cursor: pointer;
+  }
+
+  & > * + * {
+    padding-left: 8px;
+  }
+}

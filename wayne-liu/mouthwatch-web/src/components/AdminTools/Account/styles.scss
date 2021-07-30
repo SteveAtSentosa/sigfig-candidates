@@ -1,0 +1,40 @@
+@import 'styles/colors';
+
+.logoUpload, .logo {
+  img {
+    width: 85.2px;
+  }
+
+  a {
+    cursor: pointer;
+    margin-top: 15px;
+    font-weight: bold;
+    display: inline-block;
+    color: $color-dark-blue !important;
+
+    &:hover {
+      text-decoration: none;
+      color: $color-button-hover !important;
+    }
+  }
+}
+
+.tableLogo {
+   img {
+     width: 37.5px;
+     max-height: 30px;
+     object-fit: cover;
+   }
+}
+
+/* GroupEditPreview - Group section at the top of PracticesTable */
+.groupEditPreview {
+  display: flex;
+  .groupLogo {
+    flex: 0 0 5%;
+    margin-right: 20px;
+  }
+  .groupName {
+    flex: 1 0 95%;
+  }
+}

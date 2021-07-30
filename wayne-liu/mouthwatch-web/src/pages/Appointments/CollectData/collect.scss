@@ -1,0 +1,262 @@
+@import 'styles/colors';
+@import 'styles/breakpoints';
+@import 'styles/variables';
+
+.collectData {
+
+  .intraoralMedia {
+    @include box-shadow($box-shadow);
+    border: 1px solid $color-gray;
+    margin: 1.75rem 0;
+
+    header {
+      display: flex;
+      justify-content: flex-start;
+      flex-direction: row;
+      padding: 20px;
+      border-bottom: 1px solid $color-gray;
+
+      .title {
+        font-weight: 700;
+      }
+      .upload {
+        flex-grow: 1;
+        text-align: right;
+        color: $color-dark-blue;
+      }
+    }
+
+    .mediaHolder {
+      position: relative;
+      overflow-x: scroll;
+      scrollbar-width: thin;
+    }
+
+    .loading {
+      min-height: 425px;
+      padding: 20px;
+    }
+
+    .mediaPreview {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap-reverse;
+      width: 100%;
+
+      .largeImage {
+        width: 50%;
+
+        img {
+          height: auto;
+          width: 100%;
+        }
+      }
+
+      .metadata {
+        background-color: $color-lightest-blue;
+        flex-grow: 1;
+        padding: 24px;
+
+        .filename {
+          color: $color-dark-blue;
+          font-size: 1.5em;
+          font-weight: bold;
+        }
+
+        .property {
+          margin: 12px 0 14px;
+
+          label {
+            color: #888;
+            font-size: 0.9em;
+            margin-right: 5px;
+            text-transform: uppercase;
+            display: inline-block;
+
+            &:after {
+              content: ':';
+            }
+
+            @media (max-width: $breakpoint-medium) {
+              display: block;
+            }
+
+          }
+
+          span {
+            font-size: 1em;
+          }
+
+          .type {
+            text-transform: capitalize;
+          }
+
+          .notesViewAdd {
+            display: inline-block;
+            margin-left: 12px;
+          }
+        }
+      }
+    }
+
+    section {
+      overflow-x: scroll;
+      display: flex;
+      flex-direction: row;
+
+      a {
+        color: $color-blue;
+
+        &:hover {
+          color: $color-dark-blue;
+        }
+        
+        &:active {
+          color: $color-blue;
+        }
+      }
+
+      .capture {
+        margin-right: 16px;
+        position: relative;
+
+        &::before {
+          content: '';
+          display: block;
+          top: 50%;
+          left: 50%;
+          width: 50%;
+          height: 50%;
+          position: absolute;
+          background: $color-blue;
+          transform: translate(-50%, -50%);
+          mix-blend-mode: lighten;
+          pointer-events: none;
+        }
+
+        .imageWrapper {
+          border: 1px solid $color-dark-gray;
+          height: 181px;
+          width: 181px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 4em !important;
+        }
+        .caption {
+          font-size: 0.85em;
+          color: inherit;
+          padding-top: 8px;
+        }
+      }
+
+      .imageContainer {
+        margin-right: 16px;
+        position: relative;
+
+        .more {
+          position: absolute;
+          top: 8px;
+          right: 8px;
+          z-index: 9;
+
+          #moreButton {
+            padding: 0px;
+            text-align: center;
+            border: none;
+            outline: none !important;
+            background: transparent;
+            color: $color-dark-blue;
+            text-shadow: 1px 1px 3px $color-black;
+
+            &:focus, &:hover, &:active {
+              background: transparent;
+              box-shadow: none;
+              color: $color-white;
+            }
+
+            i {
+              line-height: 0.45em;
+            }
+          }
+        }
+
+        .imageWrapper {
+          background: $color-dark-gray;
+          height: 181px;
+          width: 181px;
+          position: relative;
+
+          @media (max-width: $breakpoint-bs-sm) {
+            width: 100%;
+            height: auto;
+          }
+
+          .playButton {
+            position: absolute;
+            top: 40%;
+            left: 40%;
+          }
+
+          img {
+            max-width: 100%;
+            max-height: 100%;
+          }
+
+        }
+
+        .caption {
+          font-size: 0.85em;
+          color: inherit;
+          padding-top: 8px;
+
+        }
+
+        &.selected {
+          .imageWrapper {
+            border: 4px solid $color-blue;
+            @include box-shadow($image-box-shadow);
+          }
+        }
+      }
+    }
+  }
+
+}
+
+.section {
+  margin-bottom: 25px;
+}
+
+
+.archive_delete {
+  padding: 12px 24px;
+  background: $color-white;
+  border: 1px solid $color-dark-gray;
+  display: flex;
+  justify-content: center;
+
+  span {
+    margin-left: 6px;
+    margin-right: 6px;
+  }
+}
+
+.loader {
+  height: 181px;
+  min-width: 209px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 16px;
+}
+
+.loading_media {
+  background-color: $color-dark-gray;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 181px;
+  width: 181px;
+  position: relative;
+}

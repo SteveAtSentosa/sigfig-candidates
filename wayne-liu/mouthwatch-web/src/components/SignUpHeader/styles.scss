@@ -1,0 +1,44 @@
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.siteHeader {
+  width: 100vw;
+  height: 70px;
+  position: sticky;
+  padding: 12px 0;
+  background-color: $color-white;
+  z-index: 1;
+  display: flex;
+  flex-flow: row wrap;
+  @include box-shadow($preview-box-shadow);
+
+  .logoLink {
+    flex-grow: 1;
+  }
+
+  .authLink {
+    flex-grow: 0;
+    padding: 0 20px;
+  }
+
+  a {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+}
+
+.logo {
+  flex: 0 25%;
+  max-width: 175px;
+  padding: 0 12px;
+
+  img {
+    max-width: 100%;
+  }
+  @media (max-width: $breakpoint-bs-sm) {
+    flex: 0 50%;
+  }
+}

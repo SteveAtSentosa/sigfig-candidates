@@ -1,0 +1,51 @@
+@import 'static/styles/colors';
+
+$border-radius: 5px;
+
+.noPadding {
+  padding: 0;
+}
+
+.collapsible {
+  box-shadow: 0px 2px 30px -5px rgba(0, 0, 0, 0.15);
+
+  &.disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: $color-dark-blue;
+    border-top-left-radius: $border-radius;
+    border-top-right-radius: $border-radius;
+    color: $color-white;
+    padding: 0.8rem 1rem;
+
+    .title {
+      font-weight: 600;
+    }
+
+    .close {
+      button {
+        background: transparent;
+        border: none;
+      }
+    }
+  }
+  .body {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom-left-radius: $border-radius;
+    border-bottom-right-radius: $border-radius;
+    padding: 0.8rem 1rem;
+
+    &.opened {
+      display: block;
+    }
+    &.closed {
+      display: none;
+    }
+  }
+}

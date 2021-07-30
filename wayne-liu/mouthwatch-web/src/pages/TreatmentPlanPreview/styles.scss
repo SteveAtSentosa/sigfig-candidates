@@ -1,0 +1,17 @@
+@import 'static/styles/colors';
+@import 'static/styles/variables';
+@import 'static/styles/breakpoints';
+
+.treatment_plan_preview {
+  flex: 1;
+  padding: 0 40px;
+  min-width: 650px;
+  border: 1px solid $color-dark-gray;
+  -webkit-box-shadow: 0 16px 35px -18px #848a8d;
+  box-shadow: 0 16px 35px -18px #848a8d;
+  background: $color-white;
+
+  .section {
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,52 @@
+@import 'styles/breakpoints';
+
+.row {
+  display: flex;
+  flex-direction: row;
+
+  .state {
+    flex: 0 0 10%;
+  }
+
+  .zip {
+    flex: 0 0 15%;
+  }
+
+  @media all and (min-width: $breakpoint-xlarge) {
+    .address1, .address2 {
+      flex: 0 0 50%;
+    }
+
+    .city, .phone {
+      flex: 0 0 40%;
+    }
+  }
+
+  @media all and (max-width: $breakpoint-xlarge) {
+    .address1, .address2 {
+      flex: 0 0 45%;
+    }
+
+    .city, .phone {
+      flex: 0 0 35%;
+    }
+  }
+
+  @media all and (max-width: $breakpoint-medium) {
+    .address1, .address2 {
+      flex: 0 0 100%;
+    }
+
+    .city, .phone {
+      flex: 0 0 60%;
+    }
+
+    .state {
+      flex: 0 0 15%;
+    }
+
+    .zip {
+      flex: 0 0 25%;
+    }
+  }
+}

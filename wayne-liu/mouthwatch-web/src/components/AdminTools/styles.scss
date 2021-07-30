@@ -1,0 +1,300 @@
+@import 'styles/variables';
+
+/* Manage components */
+.manageTable {
+  overflow-x: hidden;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    margin-bottom: 140px;
+  }
+}
+
+.content {
+  .header {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 15px;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+    justify-content: space-between;
+
+    .pageTitle {
+      flex: 1 0 40%;
+    }
+
+    .buttonHolder {
+      flex: 0 1 10%;
+    }
+
+    @media (max-width: $breakpoint-bs-sm) {
+      .pageTitle {
+        flex: 1 0 100%;
+      }
+
+      .buttonHolder {
+        margin-top: 10px;
+      }
+    }
+  }
+
+  .pageInfo {
+    max-width: 50%;
+  }
+
+  .licenseInfo {
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
+
+.editAccount {
+  margin-bottom: 80px;
+}
+
+.disabledRow {
+  color: $color-disabled-gray;
+}
+
+.actionLink {
+  font-weight: 600;
+}
+
+/* Create & Edit components */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.pagination {
+  flex: 1 0 85%;
+  justify-content: center;
+}
+
+.showInactiveAccounts {
+  margin-top: 22px;
+}
+
+.totalResults {
+  flex: 0 0 15%;
+  margin-top: 20px;
+  text-align: right;
+}
+
+.createButton {
+  display: flex;
+}
+
+.createBtnDetails {
+  max-width: 420px;
+  margin-top: 10px;
+}
+
+.bottomSpacing {
+  margin-bottom: 96px;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    margin-bottom: 180px;
+  }
+}
+
+.sectionTitle {
+  margin-top: 20px;
+  font-weight: 600;
+}
+
+.sectionDetails{
+  padding: 5px 25px;
+}
+
+.stickyButtonFooter {
+  right: 5%;
+  float: right;
+  bottom: 100px;
+  position: fixed;
+  flex-direction: row;
+
+  @media (max-width: $breakpoint-bs-sm) {
+    bottom: 180px;
+  }
+
+  button {
+    animation: fadein 2s;
+  }
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+/* Form Styles */
+.form {
+  .sectionDetails {
+    .row {
+      .totalAccounts, .licensesCount {
+        padding: 5px 0;
+        label {
+          font-size: 12pt;
+          font-weight: bold;
+          margin-right: 10px;
+          display: inline-block;
+        }
+      }
+
+      .state, .licensesCountInput {
+        flex: 0 0 10%;
+      }
+
+      .zip {
+        flex: 0 0 15%;
+      }
+
+      .passwordResetLink {
+        a {
+          font-weight: 600;
+        }
+      }
+
+      .accountRoles {
+        > div {
+          padding-left: 25px;
+        }
+        > div > div {
+          display: flex;
+          flex-direction: column;
+          span {
+            margin-left: 15px;
+          }
+        }
+      }
+
+      .canVideoConference {
+        flex: 0 0 40%;
+        display: flex;
+        flex-wrap: wrap;
+
+        .videoConferenceLabel {
+          flex: 0 0 100%;
+        }
+
+        div {
+          flex: 0 0 100%;
+
+          input.canVideoInput {
+            margin-right: 15px;
+            display: inline-block;
+          }
+          label {
+            font-size: 16px;
+            display: inline-block;
+          }
+        }
+
+      }
+
+      .group, .groups, .practice, .practices, .username, .email, .password, .phone, .website {
+        flex: 0 0 40%;
+      }
+      .firstName, .lastName, .specialty {
+        flex: 0 0 30%;
+      }
+      .prefix, .suffix {
+        flex: 0 0 10%
+      }
+
+      .groupName, .practiceName, .locationName {
+        flex: 0 0 50%;
+      }
+
+      .city {
+        flex: 0 0 40%;
+      }
+
+      .groupPractice {
+        display: flex;
+        flex: 0 0 80%;
+      }
+
+      .accountPhone, .timeZone {
+        flex: 0 0 20%;
+      }
+
+      @media all and (max-width: $breakpoint-xlarge) {
+        .groupName, .practiceName, .locationName {
+          flex: 0 0 45%;
+        }
+
+        .city, .phone {
+          flex: 0 0 35%;
+        }
+
+        .group, .practice, .username, .email, .password, .phone, .website {
+          flex: 0 0 80%;
+        }
+
+        .firstName, .lastName, .specialty {
+          flex: 0 0 65%;
+        }
+
+        .prefix, .suffix {
+          flex: 0 0 15%
+        }
+
+        .accountPhone, .timeZone {
+          flex: 0 0 30%;
+        }
+      }
+
+      @media all and (max-width: $breakpoint-medium) {
+        .groupName, .practiceName, .locationName {
+          flex: 0 0 100%;
+        }
+
+        .city, .phone, .website {
+          flex: 0 0 60%;
+        }
+
+        .state, .licensesCountInput {
+          flex: 0 0 15%;
+        }
+
+        .zip {
+          flex: 0 0 25%;
+        }
+        .accountPhone, .timeZone {
+          flex: 0 0 40%;
+        }
+      }
+    }
+  }
+}
+
+.hr {
+  width: 100%;
+  margin-right: 5%;
+  margin-bottom: 30px;
+  border: 2px solid #F3F3F3;
+}
+
+.policySpacer {
+  margin-bottom: 60px;
+}
+
+.titleInBlue {
+  color: #003558
+}
+
+.policyPage {
+  height: 100%;
+}
+
+.consentPolicyTitle {
+  width: 50%;
+}
+
+.disabledConsentPolicyForm {
+  opacity: 0.4;
+  pointer-events: none;
+}

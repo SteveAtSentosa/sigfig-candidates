@@ -1,0 +1,128 @@
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'styles/breakpoints';
+
+.instructionalCopy, .errorMessage {
+  font-size: 16px;
+  text-align: center;
+  padding: 0 25px 20px;
+
+  .submitButton {
+    display: flex;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+
+    button {
+      width: 70%;
+
+      &:hover {
+        width: 70%;
+      }
+    }
+  }
+}
+
+.errorMessage {
+  color: $color-accent-red;
+}
+
+
+.forgotPassword {
+  justify-content: center;
+  background: $color-lightest-blue;
+
+  .logoHolder {
+    margin: 20px auto 30px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+
+    .teledentLogo {
+      max-width: 355px;
+      margin: auto;
+
+      img {
+        width: 100%;
+      }
+    }
+  }
+
+  .container {
+    padding: 0;
+    background-color: transparent;
+
+    @media (max-width: $breakpoint-bs-sm) {
+      padding: 0 10px;
+    }
+
+    .forgot {
+      display: flex;
+      margin: 0 auto;
+      padding: 25px 12px;
+      max-width: 355px;
+      min-height: 300px;
+      border-radius: 5px;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+      background-color: $color-white;
+      box-shadow: 0px 0px 15px transparentize($color-black, 0.7);
+
+      h2 {
+        font-size: 24px;
+        font-weight: 300;
+        padding-top: 15px;
+        text-align: center;
+        margin-bottom: 20px;
+        color: $color-dark-blue-black;
+      }
+
+      .success {
+        width: 60%;
+        text-align: center;
+
+        button {
+          width: 66%;
+        }
+      }
+    }
+
+    .forgotPasswordForm {
+      width: 100%;
+
+      .submitButton {
+        display: flex;
+        margin-top: 30px;
+        align-items: center;
+        justify-content: center;
+
+        button {
+          width: 70%;
+        }
+      }
+    }
+  }
+
+  .haveAccount {
+    display: flex;
+    margin: 20px 0 0;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+
+    p {
+      margin: auto 10px;
+    }
+
+    .loginBtn {
+      button {
+        padding: 0;
+        margin: 0;
+        min-width: 85px;
+        height: 35px;
+      }
+    }
+  }
+}

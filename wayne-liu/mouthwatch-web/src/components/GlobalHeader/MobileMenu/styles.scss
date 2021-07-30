@@ -1,0 +1,68 @@
+@import 'components/GlobalHeader/MainNavigation/styles';
+@import 'static/styles/colors';
+
+.menuClassName {
+  background: $color-dark-blue-black;
+  z-index: 12;
+}
+
+.mobileMenu {
+  display: flex;
+  flex-flow: column nowrap;
+  padding-top: 0;
+  padding-bottom: 100px;
+  position: relative;
+  height: auto;
+  box-shadow: none;
+  flex-flow: column nowrap;
+
+  img {
+    max-width: 100%;
+    height: auto;
+    -filter: contrast(0%) brightness(200%);
+    -webkit-filter: contrast(0%) brightness(200%);
+  }
+
+  a {
+    color: $color-white;
+  }
+
+  .main {
+    display: flex;
+    flex-flow: column nowrap;
+    flex-grow: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .logo {
+    flex-grow: 1;
+  }
+}
+
+.logo {
+  max-width: 100%;
+  padding: 10px 0;
+  display: flex;
+  flex-flow: row nowrap;
+
+  .icon {
+    flex: 1 0 25%;
+    width: auto;
+  }
+
+  .text {
+    flex: 1 0 70%;
+    width: auto;
+  }
+}
+
+.navItem {
+  &.hidden {
+    display: none;
+  }
+
+  .text {
+    padding-left: 16px;
+  }
+}

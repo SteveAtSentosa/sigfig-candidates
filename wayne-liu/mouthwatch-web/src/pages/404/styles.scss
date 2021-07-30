@@ -1,0 +1,32 @@
+@import 'static/styles/colors';
+
+.notFound {
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  
+  .errorCode {
+    font-size: 120px;
+    font-weight: 300;
+    color: $color-blue;
+  }
+
+  .errorMessage {
+    font-size: 22px;
+    color: $color-darkest-blue;
+  }
+
+  .message {
+    font-size: 0.95rem;
+    a {
+      font-weight: 600;
+      color: $color-blue;
+
+      &:hover {
+        color: $color-darkest-blue;
+      }
+    }
+  }
+}

@@ -1,0 +1,42 @@
+@import 'styles/colors';
+
+.wrapper {
+  padding: 12px 15px;
+  min-width: 250px;
+
+  .content {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+    margin-bottom: 27px;
+    color: #4E575C;
+
+    strong {
+      font-weight: bold;
+    }
+  }
+
+  .learnMore {
+    display: inline-block;
+    border: 1px solid $color-accent-turquoise;
+    border-radius: 3px;
+    color: $color-accent-turquoise;
+    font-size: 10px;
+    width: 65px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+  }
+}
+
+.trigger {
+  opacity: 0.6;
+
+  * {
+    color: $color-accent-turquoise;
+  }
+
+  &:hover {
+    opacity: 1;
+  }
+}

@@ -1,0 +1,34 @@
+@import 'styles/variables';
+
+$conversation-margin: 30px;
+
+.globalChat  {
+  position: absolute;
+  bottom: 0;
+  width: 100vw;
+  z-index: 1337;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  padding-left: 30vw;
+  padding-right: 15px;
+  pointer-events: none;
+
+  & > * {
+    pointer-events: all;
+  }
+
+  .conversations {
+    position: absolute;
+    bottom: 0;
+    right: $message-box-width + $conversation-margin + 10;
+    height: $message-box-height-md;
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+
+    & > div {
+      margin-left: $conversation-margin;
+    }
+  }
+}

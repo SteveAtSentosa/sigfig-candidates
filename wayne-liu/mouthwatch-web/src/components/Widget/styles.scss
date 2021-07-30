@@ -1,0 +1,38 @@
+@import 'static/styles/colors';
+@import 'static/styles/breakpoints';
+@import 'static/styles/variables';
+
+:global {
+  .widget {
+    background-color: $color-white;
+    box-shadow: $box-shadow;
+    border-radius: 1px;
+  }
+}
+
+.widgetWrapper {
+  margin-bottom: 60px;
+
+  .disabled {
+    opacity: 0.4;
+    pointer-events: none;
+  }
+}
+
+
+.title {
+  border-bottom: 1px solid $color-dark-gray;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+  .heading {
+    font-weight: bold;
+  }
+
+  .submenu {
+
+  }
+}

@@ -1,0 +1,118 @@
+@import 'styles/colors';
+@import 'styles/variables';
+@import 'styles/zindexes';
+
+.accountAvatar {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: 200;
+  
+
+  .thumbnail, .avatar {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .thumbnail {
+    z-index: $chat-avatar-thumbnail;
+  }
+  .avatar {
+    z-index: $chat-avatar-default;
+  }
+
+  &:hover, &:visited, &:active {
+    color: $color-blue;
+    text-decoration: none;
+  }
+
+  .first_name, .last_name {
+    font-size: 1.2em;
+    display: inline-block;
+    color: $color-blue;
+  }
+
+  .first_name {
+    margin: 4px;
+  }
+
+  .avatar {
+    font-size: 100%;
+    border-radius: 50%;
+    min-width: auto;
+    max-width: auto;
+    min-height: auto;
+    max-height: auto;
+    width: 100%;
+    height: 100%;
+
+    @media (max-width: $breakpoint-bs-sm) {
+      font-size: 90%;
+    }
+  }
+
+  .indicator {
+    position: absolute;
+    height: 25%;
+    width: 25%;
+    top: 0%;
+    right: 0%;
+    border-radius: 100%;
+    z-index: $chat-avatar-indicator;
+  }
+
+  .online {
+    background: $color-online;
+  }
+
+  .offline {
+    background: $color-offline;
+  }
+
+  .idle {
+    background: $color-idle;
+  }
+
+  :global(.thumbnail) {
+    border-radius: 50%;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.avatarUpload {
+  .uploadAvatarLink {
+    cursor: pointer;
+    color: $color-dark-blue !important;
+
+    &:hover {
+      text-decoration: none;
+      color: $color-button-hover !important;
+    }
+  }
+
+  .avatarContainer {
+    width: 70px;
+    margin: auto;
+    height: 70px;
+
+    .avatarPlaceholder, .avatar {
+      width: 100%;
+      height: 100%;
+      font-size: 100%;
+      min-width: auto;
+      max-width: auto;
+      min-height: auto;
+      max-height: auto;
+      object-fit: cover;
+      border-radius: 50%;
+      background-color: #CCCED0;
+    }
+  }
+}
