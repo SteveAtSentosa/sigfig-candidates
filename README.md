@@ -1,3 +1,7 @@
+## TODO:
+add education
+add contact info
+
 **The Sentosa Way**
 ```
 Developers that are
@@ -62,9 +66,6 @@ I really enjoyed speaking with Robin.  His answers for my React questions were s
 * [LinkedIn](https://www.linkedin.com/in/robin-chen-390528216/)
 * [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/robin-chen/sentosa-resume-robin.chen.pdf)
 
-
-
-
 # Wayne Liu
 
 Wayne was very pleasant to speak with, and answered My React questions quite well.  He has both front end and back end development experience, working in a variety of application domains
@@ -82,7 +83,7 @@ Wayne was very pleasant to speak with, and answered My React questions quite wel
 * A very pleasant gentlemen with strong React knowledge.
 * His sample portfolio looks great
 * Also backend experience including Java/Laravel
-* I recommend moving forward with Wayne
+* I recommend moving forward quickly with Wayne
 
 `Work Samples`
 * [Teledentistry](https://www.mouthwatch.com/)
@@ -94,6 +95,37 @@ Wayne was very pleasant to speak with, and answered My React questions quite wel
 * [LinkedIn](https://www.linkedin.com/in/wayne-liu-797101205/)
 * [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/wayne-liu/sentosa-resume-wayne-liu.pdf)
 
+# David Jake
+
+David was very pleasant to speak with, and he did well on the React questions, although his english is a bit rough.
+
+Experience with cross border payment platforms.
+
+`Summary`
+* Senior full stack developer: 7 years experience PHP/mysql/Laravel/React/Vue
+* Project management experience
+* Application domains: payment, health coaching app, IOT apps, etc
+* Very Pleasant
+* Location: Toronto Canada
+* Language: English is somewhat rough
+* Rate: $65/hr
+* Available immediately
+
+`Bottom Line`
+* A pleasant personality, but his english is a bit rough
+* His sample work looks great
+* Very reasonable rate
+* Given his rate, and experience I reccomend moving forward with David
+
+
+`Work Samples`
+[Bisu](https://www.bisu.bio/) health coaching app
+[Andean Wide](https://andeanwide.com/) cross border payment platform
+[Code Sample] (https://github.com/LuckyBrand521/andeanwide-react-native/blob/master/src/navigation/Navigation.js) React Native
+
+`CV`
+* [Github](https://github.com/LuckyBrand521)
+* [Resume]()
 
 # Gabe Klein
 
@@ -125,10 +157,29 @@ Gabe is looking for an architectural role, where he can help develop new project
 * [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/gabe-klein/sentosa-resume-gabe-klein.pdf)
 
 
+# Others to consider
+`Siva Mani`
+* Good friend of mine, he worked for me for several years
+* Architect / Senior Developer very experienced with Scala/mysql
+* Working at Comcat data collection and analysis
+* He wants to work for me again, but he is highly compensated to Comcast
+* Cost: $150 hour (not much room for negotiation)
 
-```
-David Jake
-Benjamin Xu
-Dustin Henning
-Aditee Varhadi
-```
+`Dustin Henning`
+ * 6 Years React experience, 3 years Java backend
+ * english was pretty difficult to understand (Native Chinese speaker I think)
+ * $95/hr (negotiable)
+
+`Benjamin Xu`
+ * 6 Years React experience, 3 years Java backend
+ * Very pleasant, his code samples looked good
+ * english was pretty difficult to understand (Native Chinese speaker I think)
+ * $75/hr (negotiable)
+
+`Aditee Varhadi`
+ * Entry level, 2 years experience
+ * Very pleasant
+ * Here answers answers to my react questions were OK, but not great
+ * Low cost, might be good candidate if you are looking for entry level
+ * $55/hr (negotiable)
+
