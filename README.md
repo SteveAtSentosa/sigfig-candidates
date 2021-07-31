@@ -19,7 +19,7 @@ Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my Reac
 * Very pleasant personality
 * Location: Brazil (4 hours ahead of Pacific Time, flexible on working hours)
 * Language: English is very clear
-* Rate: $95/hr (seems like a little bit of room for negotiation)
+* Rate to Sigfig: $95/hr (seems like a little bit of room for negotiation)
 * Availble within 2 weeks of accepting position
 
 `Bottom Line`
@@ -50,7 +50,7 @@ I really enjoyed speaking with Robin.  His answers for my React questions were s
 * Very pleasant personality
 * Location: Dallas
 * Language: English is reasonable
-* Rate: $95/hr (seems like there is some room for negotiation)
+* Rate to Sigfig: $95/hr (seems like there is some room for negotiation)
 * Available immediately
 
 `Bottom Line`
@@ -82,7 +82,7 @@ Wayne was very pleasant to speak with, and answered My React questions quite wel
 * Pleasant personality
 * Location: San Diego
 * Language: English is reasonable
-* Rate: $95/hr (some room for negotiation)
+* Rate to Sigfig: $95/hr (some room for negotiation)
 * Available immediately
 
 `Bottom Line`
@@ -117,7 +117,7 @@ Experience with cross border payment platforms.
 * Very Pleasant
 * Location: Toronto Canada
 * Language: English is somewhat rough
-* Rate: $65/hr
+* Rate to Sigfig: $65/hr
 * Available immediately
 
 `Bottom Line`
@@ -151,7 +151,7 @@ Gabe is looking for an architectural role, where he can help develop new project
 * Very energetic
 * Location: Denver
 * Language: Native English speaker
-* Rate: $120/hr (probably not much room for negotiation)
+* Rate to Sigfig: $120/hr (probably not much room for negotiation)
 * Available immediately
 
 `Bottom Line`
@@ -183,25 +183,26 @@ Gabe is looking for an architectural role, where he can help develop new project
 * Architect / Senior Developer very experienced with Scala/mysql
 * Currently Working at Comcat doing data mass collection and analysis
 * He wants to work for me again, he is highly compensated at Comcast
-* Cost: $150 hour (not much room for negotiation)
+* Rate to Sigfig without discount: $150 hour (not much room for negotiation)
+* If several devlopers from Sentosa are brought on, I am totally open to provide a discount for Siva (because I want to work with him again)
 
 `Benjamin Xu`
  * 6 Years React experience, 3 years Java backend
  * Very pleasant, his code samples looked good
  * english was pretty difficult to understand (Native Chinese speaker I think)
- * $75/hr (negotiable)
+ * $75/hr to sigfig (negotiable)
 
 `Aditee Varhadi`
  * Entry level, 2 years experience
  * Very pleasant
  * Here answers answers to my react questions were OK, but not great
  * Low cost, might be good candidate if you are looking for entry level
- * $55/hr (negotiable)
+ * $55/hr to sigfig (negotiable)
 
 `Dustin Henning`
  * 6 Years React experience, 3 years Java backend
  * english was pretty difficult to understand (Native Chinese speaker I think)
- * $95/hr (negotiable)
+ * $95/hr to sigfig (negotiable)
 
 # What can we do next to be helpful?
 
