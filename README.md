@@ -181,10 +181,10 @@ Gabe is looking for an architectural role, where he can help develop new project
 * Good friend of mine, he worked for me for several years
 * Completely easy to work with, and always gets the job done
 * Architect / Senior Developer very experienced with Scala/mysql
-* Currently Working at Comcat doing mass data collection and analytics
+* Currently Working at Comcast doing mass data collection and analytics
 * He wants to work for me again, he is highly compensated at Comcast
 * Rate to Sigfig without discount: $150 hour (not much room for negotiation)
-* If several devlopers from Sentosa are brought on, I am totally open to provide a discount for Siva (because I want to work with him again)
+* If several devlopers from Sentosa are brought on, I am totally open to provide a discount for Siva (because I want to work with him again!)
 
 `Benjamin Xu`
  * 6 Years React experience, 3 years Java backend
