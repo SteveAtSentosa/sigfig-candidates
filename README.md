@@ -171,6 +171,8 @@ Gabe is looking for an architectural role, where he can help develop new project
 
 # Others to consider
 
+Scott S (and co-worker)
+
 `Me (Steve) :)`
 * I love web dev, my favorite kind of development
 * Lots of full stack dev experience (nodejs/mysql/mongo/react)
