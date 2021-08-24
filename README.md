@@ -31,7 +31,7 @@ Wayne Liu
 * Raja looks like a great candidate, if we can get the rates to work out.
 
 `CV`
-* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/raja-natesan)
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/raja-natesan/sentosa-resume-raja-natesan.docx)
 
 
 # US Based React Candidates
