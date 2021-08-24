@@ -6,200 +6,132 @@ Developers that are
 - Low Drama
 ```
 
-# Pedro Manfroi
+**Pending From Round 1**
+```
+Pedro Manfroi (heads up, Pedro is in discussion with other companies)
+Wayne Liu
+```
 
-pedrometal@gmail.com
+**Round 2 Candidates Below**
 
-Pedro was extraordinarily pleasant to speak with.  Pedro answered all of my React and front end development questions clearly and correctly.  He has plenty of backend Java development experience as well.
+# US Based Scala Candidates
 
-`Summary`
-* Senior full stack developer: Java/PostgresSQL: 15 years, React: 6 years
-* BS Information Systems, Sun certified Java progreammer
-* Application domains: ERP, Digital Fund Raising
-* Very pleasant personality
-* Location: Brazil (4 hours ahead of Pacific Time, flexible on working hours)
-* Language: English is very clear
-* Rate: $95/hr (seems like a little bit of room for negotiation)
-* Requires 2 weeks notice
-
-`Bottom Line`
-* One of my favorite candidates
-* Both front end and backend experience
-* I think Pedro would be a great addition to your team
-* I recommend moving forward with an interview with Pedro
-
-`Work Samples`
-* [Story Teller](https://www.youtube.com/watch?v=SURIcIwmS48) (crowdfunding)
-* [Liekly.ai](https://app.likely.ai/) (AI as a service)
-* [Code samples](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/pedro-manfroi/Trivia/src/components/quiz) (Trivia App)
-
-`CV`
-* [LinkedIn](https://www.linkedin.com/in/pedro-manfroi/)
-* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/pedro-manfroi/sentosa-resume-pedro-manfroi.pdf)
-
-# Robin Chen
-
-snowind122@gmail.com
-
-I really enjoyed speaking with Robin.  His answers for my React questions were spot on, and he also has experience with financial management platform development (cryptocurrency)
+## Raja Natesan
 
 `Summary`
-* Senior front end developer: Front end dev: 8 years, React: 6 years
-* BS Computer and Information Sciences
-* Application domains: crypto currency portfolio management, company culture optimization
-* Very pleasant personality
-* Location: Dallas
-* Language: English is reasonable
-* Rate: $95/hr (seems like there is some room for negotiation)
-* Available immediately
+* Senior scala Developer, with team lead experience
+* Heavy Experience with financial platforms (Goldman Sachs, Bank of America, etc)
+* Education: MS Computer Science, MS Math
+* Location: New Jersey
+* Bill rate to SigFig ~ $130/hr
+* Might be some flexibility in rate, and I can be flexible on my margin as well
+* I want to verify rate before I proceed with an interview
 
 `Bottom Line`
-* Also a great candidate
-* Very relevant financial portfolio management experience
-* I think Robin would be a great addition to your team
-* I recommend moving forward with an interview with Robin
-
-
-`Work Samples`
-* [Eletive Portal](https://eletive.com/) (analyze and optimzing company culture)
-* [Alpha Homora](https://homora.alphafinance.io/) (leveraged crypto yield farming platform)
-* [Code Samples](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/robin-chen/Eletive/source/components)
+* Raja looks like a great candidate, if we can get the rates to work out.
 
 `CV`
-* [LinkedIn](https://www.linkedin.com/in/robin-chen-390528216/)
-* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/robin-chen/sentosa-resume-robin.chen.pdf)
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/raja-natesan/sentosa-resume-raja-natesan.docx)
 
-# Wayne Liu
 
-wayne.liu.work@gmail.com
+# US Based React Candidates
 
-Wayne was very pleasant to speak with, and answered My React questions quite well.  He has both front end and back end development experience, working in a variety of application domains
+## Jimmy Lee
 
 `Summary`
-* Senior full stack developer: Backend Java/nodejs/Laravel: 6 years, React 6 years
-* BS Computer Science
-* Application domains: various: dentistry, online instruction, it management, etc
-* Pleasant personality
-* Location: San Diego
-* Language: English is reasonable
-* Rate: $95/hr (some room for negotiation)
-* Available immediately
-
-`Bottom Line`
-* A very pleasant gentlemen with strong React knowledge.
-* His sample portfolio looks great
-* Also backend experience including Java/Laravel
-* I recommend moving forward with an interview with Wayne
+* React developer with 5 years experience (also 3 years Laravel/MySql)
+* Application domains: video streaming, energy optimization, web scrapers
+* Education: MS Computer engineering.
+* Location: New York
+* English skills: reasonably understandable
+* He did quite well on my react coding interview
+* Bill rate to SigFig ~ $60/hr
 
 `Work Samples`
-* [Teledentistry](https://www.mouthwatch.com/)
-* [On Line Yoga Classes](https://omstars.com)
-* [Task Management](https://hitask.com/)
-* [Code Samples](https://github.com/SteveAtSentosa/sigfig-candidates/tree/master/wayne-liu/mouthwatch-web/src/components)
+* [Freescreen]()
+* [Code Sample]()
+
+`Bottom Line`
+* Excellent rate for a developer that looks to be quite good, and has been very enthusiastic
 
 `CV`
-* [LinkedIn](https://www.linkedin.com/in/wayne-liu-797101205/)
-* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/wayne-liu/sentosa-resume-wayne-liu.pdf)
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/jimmy-lee/sentosa-resume-jimmy-lee.pdf)
 
-# David Jake
 
-luckybrand521@gmail.com
+# Asia Based Scala Candidates
 
-David was very pleasant to speak with, and he did well on the React questions, although his english is a bit rough.
-
-Experience with cross border payment platforms.
+## Vijay Vaswani
 
 `Summary`
-* Senior full stack developer: 7 years experience PHP/mysql/Laravel/React/Vue
-* BA Computer Science (3.7 GPA)
-* Project management experience
-* Application domains: payment, health coaching app, IOT apps, etc
-* Very Pleasant
-* Location: Toronto Canada
-* Language: English is somewhat rough
-* Rate: $65/hr
-* Available immediately
+* Scala backend developer, 4+ years scala, 8+ years Java
+* Application domains: Insurance, Banking
+* He has been pleasant to interact with
+* Tarun has interviewed Vijay
 
 `Bottom Line`
-* A pleasant personality, but his english is a bit rough
-* His sample work looks great
-* Very reasonable rate
-* Given his rate, and experience I recommend moving forward with David
-
-
-`Work Samples`
-* [Bisu](https://www.bisu.bio/) health coaching app
-* [Andean Wide](https://andeanwide.com/) cross border payment platform
-* [Code Sample](https://github.com/LuckyBrand521/andeanwide-react-native/blob/master/src/navigation/Navigation.js) React Native
+* I am interested in Tarun's thoughts after his interview
 
 `CV`
-* [Github](https://github.com/LuckyBrand521)
+* [Linkedin](https://www.linkedin.com/in/vijay-vaswani-2107/)
 * [Resume]()
 
-# Gabe Klein
-
-hi@gabeklein.dev
-
-Gabe is an extraordinarily passionate React architect and developer.  He has spent the last 4 months working on a React MVC/Styling frameworks, and he is just oozing with enthusiasm when he talks about it.
-
-Gabe is looking for an architectural role, where he can help develop new project infrastructure, and bring innovative approaches and tools to the task.
+## Satendar Kumar
 
 `Summary`
-* Senior front end developer: Front end dev: 11 years, React: 7 years
-* Self taught
-* Application domains: cable, aviation, React Frameworks
-* Very energetic
-* Location: Denver
-* Language: Native English speaker
-* Rate: $120/hr (probably not much room for negotiation)
-* Available immediately
+* Scala developer with 5+ years experience, including team lead experience
+* Application domains: Financial Risk Management, Big Data Analytics
+* Education: BS Computer engineering.
+* Location: India
+* He is currently working on Roger's code challenge
+* Satendar has been very responsive, and a pleasure to work with
+* Bill rate: he said "what ever works for you", so should be some flexibility
+
+`Code Challange`
+* [Run Time Encoder]()
+* Playing Cards: in progress
 
 `Bottom Line`
-* A very passionate React Architect
-* Good fit for a high impact, architectural level role, otherwise probably not a good fit
-* If you are looking for an architect, I would suggest references as next step
-
-`Work Samples`
-* [Expressive MVC](https://github.com/gabeklein/expressive-mvc) React app frameworks
-* [Expressive JSX](https://github.com/gabeklein/expressive-jsx) React styling library
-* [Meal Mentor](https://apps.apple.com/us/app/meal-mentor-vegan-meal-plan/id1439825363) Meal planning app
+* Very relevant background, very easy to work with, rate is flexible
 
 `CV`
-* [Github](https://github.com/gabeklein)
-* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/gabe-klein/sentosa-resume-gabe-klein.pdf)
+* [Linkedin](https://in.linkedin.com/in/satendrakumar06)
+* [Resume]()
 
 
-# Others to consider
+# Asia Based React Candidates
 
-`Me` :)
-* I love web dev, my favorite kind of development
-* Lots of full stack dev experience (nodejs/mysql/mongo/react)
-* Lots of project management / team lead experience
-* May be free in October
+## Jacob Liu
+* React developer with 5+ years of experience (nodejs/mysql backend asa well)
+* Application Domains:
+* Location: China
+* Has worked Pacific Time zone hours in the past, and is willing to do so again
+* English: was very understandable to me
+* Did very well on my react interview (I did a live slack coding interview)
+* Was very pleasant, and had great attitude during the interview
+* Bill rate to SigFig would be $60/hr
 
-`Siva Mani`
-* Good friend of mine, he worked for me for several years
-* Completely easy to work with, and always gets the job done
-* Architect / Senior Developer very experienced with Scala/mysql
-* Currently Working at Comcat doing data mass collection and analysis
-* He wants to work for me again, he is highly compensated at Comcast
-* Cost: $150 hour (not much room for negotiation)
+`Work Samples`
+* [Code Sample](https://github.com/jacob-liu-g/withpulp-upload-form-assessment)
 
-`Benjamin Xu`
- * 6 Years React experience, 3 years Java backend
- * Very pleasant, his code samples looked good
- * english was pretty difficult to understand (Native Chinese speaker I think)
- * $75/hr (negotiable)
+`Bottom Line`
+* Jacob seemed VERY sharp to me, if Asia based react developers work for Sigfig, could be an excellent candidate
 
-`Aditee Varhadi`
- * Entry level, 2 years experience
- * Very pleasant
- * Here answers answers to my react questions were OK, but not great
- * Low cost, might be good candidate if you are looking for entry level
- * $55/hr (negotiable)
+`CV`
+[Linkedin](linkedin.com/in/jacob-liu-g)
+[Resume]()
 
-`Dustin Henning`
- * 6 Years React experience, 3 years Java backend
- * english was pretty difficult to understand (Native Chinese speaker I think)
- * $95/hr (negotiable)
+# Junaid Choudhary
+
+* Location: India
+* English: was very understandable to me
+* Did well on my react interview
+* Bill rate to SigFig would be $90/hr
+  His asking rate to me seemed a bit high for an Indian resource, but I will let you judge
+* Resume
+  https://docs.google.com/document/d/1j2WUgTCgqhP5LnB6z4iFAcrElFzEiFrqCY75qm_HTkI/edit
+* Video presenting some of his work
+  https://www.loom.com/oauth-callback?created=true&login_success=true&provider=slack-openid-connect&redir=https%3A%2F%2Fwww.loom.com%2Fshare%2Fdddf79dca1a94056bc4ee902796d469d&user_role=client
+
+
+
 
