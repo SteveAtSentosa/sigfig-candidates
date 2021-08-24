@@ -73,7 +73,7 @@ Wayne Liu
 
 `CV`
 * [Linkedin](https://www.linkedin.com/in/vijay-vaswani-2107/)
-* [Resume]()
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/vijay-vaswani/sentosa-resume-vijay-vaswani.pdf)
 
 ## Satendar Kumar
 
