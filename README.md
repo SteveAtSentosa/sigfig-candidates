@@ -110,6 +110,10 @@ Wayne Liu
 * Was very pleasant, and had great attitude during the interview
 * Bill rate to SigFig would be $60/hr
 
+`Work Samples`
+[Portfolio](https://docs.google.com/document/d/19sXu8iQ7z-Sd3pF329cCISSLl3Th_lqDZrekYHWdLYk/edit)
+[Code Sample](https://github.com/jacob-liu-g/withpulp-upload-form-assessment)
+
 `Bottom Line`
 * Jacob seemed VERY sharp to me, if Asia based react developers work for sigfig, could be an excellent candidate
 
