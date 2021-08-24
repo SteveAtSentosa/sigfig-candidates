@@ -48,7 +48,7 @@ Wayne Liu
 * Bill rate to SigFig ~ $60/hr
 
 `Work Samples`
-* [Freescreen]()
+* [Freescreen](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/jimmy-lee/free-tv-screen-shot.png)
 * [Code Sample]()
 
 `Bottom Line`
