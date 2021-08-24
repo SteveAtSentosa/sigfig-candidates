@@ -49,7 +49,7 @@ Wayne Liu
 
 `Work Samples`
 * [Freescreen](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/jimmy-lee/free-tv-screen-shot.png)
-* [Code Sample]()
+* [Code Sample](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/jimmy-lee/Search.js)
 
 `Bottom Line`
 * Excellent rate for a developer that looks to be quite good, and has been very enthusiastic
