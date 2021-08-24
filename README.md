@@ -110,18 +110,10 @@ Wayne Liu
 * Was very pleasant, and had great attitude during the interview
 * Bill rate to SigFig would be $60/hr
 
-`Work Samples`
-* [Code Sample](https://github.com/jacob-liu-g/withpulp-upload-form-assessment)
-
 `Bottom Line`
-* Jacob seemed VERY sharp to me, if Asia based react developers work for Sigfig, could be an excellent candidate
-
-`CV`
-[Linkedin](linkedin.com/in/jacob-liu-g)
-[Resume]()
+* Jacob seemed VERY sharp to me, if Asia based react developers work for sigfig, could be an excellent candidate
 
 # Junaid Choudhary
-
 * Location: India
 * English: was very understandable to me
 * Did well on my react interview
@@ -131,7 +123,5 @@ Wayne Liu
   https://docs.google.com/document/d/1j2WUgTCgqhP5LnB6z4iFAcrElFzEiFrqCY75qm_HTkI/edit
 * Video presenting some of his work
   https://www.loom.com/oauth-callback?created=true&login_success=true&provider=slack-openid-connect&redir=https%3A%2F%2Fwww.loom.com%2Fshare%2Fdddf79dca1a94056bc4ee902796d469d&user_role=client
-
-
 
 
