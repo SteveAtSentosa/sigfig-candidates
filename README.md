@@ -100,22 +100,6 @@ Wayne Liu
 
 # Asia Based React Candidates
 
-## Jacob Liu
-* React developer with 5+ years of experience (nodejs/mysql backend asa well)
-* Application Domains:
-* Location: China
-* Has worked Pacific Time zone hours in the past, and is willing to do so again
-* English: was very understandable to me
-* Did very well on my react interview (I did a live slack coding interview)
-* Was very pleasant, and had great attitude during the interview
-* Bill rate to SigFig would be $60/hr
-
-`Work Samples`
-[Portfolio](https://docs.google.com/document/d/19sXu8iQ7z-Sd3pF329cCISSLl3Th_lqDZrekYHWdLYk/edit)
-[Code Sample](https://github.com/jacob-liu-g/withpulp-upload-form-assessment)
-
-`Bottom Line`
-* Jacob seemed VERY sharp to me, if Asia based react developers work for sigfig, could be an excellent candidate
 
 # Junaid Choudhary
 * Location: India
@@ -129,3 +113,9 @@ Wayne Liu
   https://www.loom.com/oauth-callback?created=true&login_success=true&provider=slack-openid-connect&redir=https%3A%2F%2Fwww.loom.com%2Fshare%2Fdddf79dca1a94056bc4ee902796d469d&user_role=client
 
 
+## ShengYou Jin (late breaking)
+* React developer with 8+ years of experience
+* Location: Singapore
+* He did very well on my live slack react interview
+* Bill rate to SigFig would be $60/hr
+* [Resume]()
