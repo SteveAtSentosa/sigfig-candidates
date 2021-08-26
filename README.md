@@ -117,5 +117,5 @@ Wayne Liu
 * React developer with 8+ years of experience
 * Location: Singapore
 * He did very well on my live slack react interview
-* Bill rate to SigFig would be $60/hr
+* Bill rate to SigFig would be $63/hr
 * [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/shengyou-jin/sentosa-resume-jhengyou-jin.pdf)
