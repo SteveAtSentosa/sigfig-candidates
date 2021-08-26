@@ -95,7 +95,7 @@ Wayne Liu
 
 `CV`
 * [Linkedin](https://in.linkedin.com/in/satendrakumar06)
-* [Resume]()
+* [Resume](https://github.com/SteveAtSentosa/sigfig-candidates/blob/master/satendar-kumar/sentosa-resume-satendra-kumar.pdf)
 
 
 # Asia Based React Candidates
